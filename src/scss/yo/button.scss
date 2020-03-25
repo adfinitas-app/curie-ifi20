@@ -1,0 +1,42 @@
+.button {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: $primary;
+  border: 1px solid $primary;
+  text-decoration: none !important;
+  transition: 200ms all ease-out;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase; 
+
+  &.secondary {
+    border-color: $secondary;
+    background-color: $secondary;
+  }
+
+  &:hover {
+    background-color: #fff;
+    &.primary {
+      color:$primary;
+    }
+    &.secondary {
+      color:$secondary;
+    }
+  }
+
+}
+  
+
+a.anchor {
+  & > * { pointer-events: none; }
+}
+
+
+a[href*='tel'] {
+  font-weight: bold;
+  color: $secondary;
+}
