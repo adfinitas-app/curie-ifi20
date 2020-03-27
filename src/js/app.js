@@ -80,9 +80,6 @@ UI FUNCTIONS
       //
       if (t=='ifi') $('#ir').addClass('hide');
       if (t=='ir')  $('#ifi').addClass('hide');
-      //
-      console.log(mobilecheck());
-      if ( !mobilecheck() ) $('html, body').animate( { scrollTop: $('#bloc-calcul-'+t).offset().top-115 }, 333 );
     }
 
     calculate_ifi () {
@@ -91,13 +88,15 @@ UI FUNCTIONS
           ifi_max     = 0,
           ifi_reduc   = 0;
       //
+      if (!ifi_give) ifi_give = 0;
+      //
       ifi_max   = Math.round(ifi_estime * 1.33332);
       ifi_reduc = Math.round(ifi_estime - ( ifi_give * 0.75));
 
       $('#ifi-give-max').val(app.format_number(ifi_max));
       $('#ifi-estime-reduced').val(app.format_number(ifi_reduc));
-      $('#my-give-ifi').attr('href', $('#my-give-ifi').attr('url-give') + ifi_give).find('span').html('de ' + app.format_number(ifi_give) + '€');
-        console.log('reduc IFI =', ifi_reduc,'€');
+      $('#my-give-ifi').attr('href', $('#my-give-ifi').attr('url-give') + ifi_give + '00').find('span').html('de ' + app.format_number(ifi_give) + '€');
+      console.log(ifi_give, ' -> reduc IFI =', ifi_reduc,'€');
     }
 
     calculate_ir () {
@@ -110,7 +109,7 @@ UI FUNCTIONS
       //
       $('#ir-deduc').val(app.format_number(ir_deduc ) );
       $('#ir-give-cost').val(app.format_number(ir_cost ) );
-      $('#my-give-ir').attr('href', $('#my-give-ir').attr('url-give') + ir_give).find('span').html('de ' + app.format_number(ir_give) + '€');
+      $('#my-give-ir').attr('href', $('#my-give-ir').attr('url-give') + ir_give + '00').find('span').html('de ' + app.format_number(ir_give) + '€');
       console.log('reduc IR =', ir_reduc, '€')
     }
 
