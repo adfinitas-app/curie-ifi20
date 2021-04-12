@@ -4754,6 +4754,7 @@ a[href*='tel'] {
         #actions .desc .testimony p .author {
           font-style: normal !important;
           color: #FF6600;
+            text-align: right;
           float: right; }
 
 /* **************************************************************
@@ -4973,6 +4974,24 @@ header {
 /* **************************************************************
  RESPONSIVE SMALL
 ************************************************************** */
+
+@media screen and (max-width: 39.99875em) {
+    .show-for-medium {
+        display: none !important; } }
+
+@media screen and (max-width: 63.99875em) {
+    .show-for-large {
+        display: none !important; } }
+
+@media screen and (max-width: 0em), screen and (min-width: 40em) {
+    .show-for-small-only {
+        display: none !important; } }
+
+@media screen and (max-width: 39.99875em), screen and (min-width: 64em) {
+    .show-for-medium-only {
+        display: none !important; } }
+
+
 @media (max-width: 767.98px) {
   .burger {
     display: -webkit-flex !important;
