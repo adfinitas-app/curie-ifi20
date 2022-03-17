@@ -1,0 +1,5 @@
+# Jetbrains config folder
+.idea
+
+# Vscode config folder
+.vscode

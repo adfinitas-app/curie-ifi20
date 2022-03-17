@@ -5337,7 +5337,9 @@ section {
           justify-content: center; }
 
 .elsa {
-  max-width: 200px; }
+    max-width: 200px;
+    border-radius: 50%;
+}
 
 .ico-ifi {
   max-width: 100px;
