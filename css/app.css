@@ -4711,8 +4711,8 @@ a[href*='tel'] {
         line-height: 1.1rem;
         text-align: center; }
         #actions .desc .head .badge .circle {
-          width: 105px;
-          height: 105px;
+          width: 110px;
+          height: 110px;
           background-color: #9B999B;
           border-radius: 50%; }
         #actions .desc .head .badge .text {

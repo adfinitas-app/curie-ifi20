@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="733b93f2-05ae-47f1-9332-2017db190ebc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/Curie_bulletin_de_soutien_IFI2022.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Curie_guidefiscal_IFI2022.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/visuel-contact.jpg" afterDir="false" />
+    <list default="true" id="81bc13b0-a4c7-4499-90ee-1f153ad6527b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Curie_bulletin_de_soutien_IFI2020.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Curie_guidefiscal_IFI2021.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Curie_rapport_annuel_2019.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ElsaOliveira.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -52,13 +46,15 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="733b93f2-05ae-47f1-9332-2017db190ebc" name="Changes" comment="" />
+      <changelist id="81bc13b0-a4c7-4499-90ee-1f153ad6527b" name="Changes" comment="" />
       <created>1647467449343</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647467449343</updated>
       <workItem from="1647467451231" duration="993000" />
       <workItem from="1647528282123" duration="3047000" />
+      <workItem from="1648045569082" duration="639000" />
+      <workItem from="1648074810580" duration="1306000" />
     </task>
     <servers />
   </component>
