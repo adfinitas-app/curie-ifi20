@@ -235,7 +235,11 @@ var App = function () {
       //
       if (!ifi_give) ifi_give = 0;
       //
-      ifi_max = Math.round(ifi_estime * 1.33332);
+      if (ifi_estime > "50000") {
+        ifi_max = 66667;
+      } else {
+        ifi_max = Math.round(ifi_estime * 1.33332);
+      }
       ifi_reduc = Math.round(ifi_estime - ifi_give * 0.75);
 
       (0, _jquery2.default)('#ifi-give-max').val(app.format_number(ifi_max));
