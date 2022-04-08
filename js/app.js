@@ -235,7 +235,7 @@ var App = function () {
       //
       if (!ifi_give) ifi_give = 0;
       //
-      if (ifi_estime > "50000") {
+      if (parseInt(ifi_estime) > 50000) {
         ifi_max = 66667;
       } else {
         ifi_max = Math.round(ifi_estime * 1.33332);
