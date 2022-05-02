@@ -241,10 +241,14 @@ var App = function () {
       if (buffer > 50000)
         buffer = 50000;
       ifi_reduc = Math.round(ifi_estime - buffer);
-      if (ifi_reduc < 0) ifi_reduc = "";
+      if (ifi_reduc < 0) ifi_reduc = 0;
       (0, _jquery2.default)('#ifi-give-max').val(ifi_estime ? app.format_number(ifi_max) : "");
       (0, _jquery2.default)('#ifi-estime-reduced').val(ifi_give ? app.format_number(ifi_reduc) : "");
-      (0, _jquery2.default)('#my-give-ifi').attr('href', (0, _jquery2.default)('#my-give-ifi').attr('url-give') + ifi_give + '00').find('span').html('de ' + ifi_give + '&nbsp;€');
+      if (ifi_give && ifi_give > 0) {
+        (0, _jquery2.default)('#my-give-ifi').attr('href', (0, _jquery2.default)('#my-give-ifi').attr('url-give') + ifi_give + '00').find('span').html('de ' + ifi_give + '&nbsp;€');
+      } else {
+        (0, _jquery2.default)('#my-give-ifi').attr('href', (0, _jquery2.default)('#my-give-ifi').attr('url-give') + '00').find('span').html('');
+      }
     }
   }, {
     key: 'calculate_ir',
