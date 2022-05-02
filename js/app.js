@@ -237,7 +237,10 @@ var App = function () {
       } else {
         ifi_max = Math.round(ifi_estime * 1.33332);
       }
-      ifi_reduc = Math.round(ifi_estime - ifi_give * 0.75);
+      let buffer = Math.round(ifi_give * 0.75);
+      if (buffer > 50000)
+        buffer = 50000;
+      ifi_reduc = Math.round(ifi_estime - buffer);
       if (ifi_reduc < 0) ifi_reduc = "";
       (0, _jquery2.default)('#ifi-give-max').val(ifi_estime ? app.format_number(ifi_max) : "");
       (0, _jquery2.default)('#ifi-estime-reduced').val(ifi_give ? app.format_number(ifi_reduc) : "");
