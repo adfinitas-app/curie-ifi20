@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="81bc13b0-a4c7-4499-90ee-1f153ad6527b" name="Changes" comment="fix: last update for calculator" />
+    <list default="true" id="81bc13b0-a4c7-4499-90ee-1f153ad6527b" name="Changes" comment="fix: last update for calculator">
+      <change afterPath="$PROJECT_DIR$/images/CURIE-Depliant fiscal 2023.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Rapport_annuel_2021.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bottom-hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/don-300.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/don-3000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/effigy-project-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/effigy-project-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/effigy-project-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/picto-projet-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/picto-projet-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/picto-projet-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Curie_guidefiscal_IFI2022.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Curie_rapport_annuel_2020.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/don-1500.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/don-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/effigy-project-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/effigy-project-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/effigy-project-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hero-project-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/hero-project-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hero-project-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/hero-project-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hero-project-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/hero-project-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hero-smile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +39,13 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="ifi21" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="lw9ugw6i" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -28,6 +60,12 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ifi23&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/paulgervais/WebstormProjects/curie-ifi20/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -64,6 +102,9 @@
       <workItem from="1651492350782" duration="779000" />
       <workItem from="1651493555245" duration="127000" />
       <workItem from="1651494513613" duration="791000" />
+      <workItem from="1680625036258" duration="8020000" />
+      <workItem from="1680637482467" duration="2937000" />
+      <workItem from="1680644471288" duration="1584000" />
     </task>
     <task id="LOCAL-00001" summary="feat: fix calculator and update header">
       <created>1651485636711</created>
