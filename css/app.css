@@ -370,6 +370,46 @@ template {
     display: none !important;
 }
 
+.donation-btn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+    margin-right: 10px;
+}
+
+.donation-btn-desc {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.donation-btn-desc > div:nth-child(2) {
+    font-size: 10px;
+    line-height: 11px;
+}
+
+@media (max-width: 767px) {
+    .donation-btn-container {
+        margin-top: 4px;
+        column-gap: 10px;
+        margin-right: 10px;
+    }
+
+    .donation-btn-desc {
+        width: 130px;
+        height: 40px;
+    }
+
+    .donation-btn-desc > div:nth-child(2) {
+        font-size: 8px;
+        line-height: 8px;
+    }
+}
+
 .img-fluid {
     max-width: 100%;
     height: auto;

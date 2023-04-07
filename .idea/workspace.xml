@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81bc13b0-a4c7-4499-90ee-1f153ad6527b" name="Changes" comment="fix: calendar and download links">
-      <change afterPath="$PROJECT_DIR$/images/CURIE-Bulletin WEB-IFI-2023-23WEBIS.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/IFI-2023.png" afterDir="false" />
+    <list default="true" id="81bc13b0-a4c7-4499-90ee-1f153ad6527b" name="Changes" comment="fix: retours">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Curie_bulletin_de_soutien_IFI2022.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/IFI-2023.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +87,8 @@
       <workItem from="1680690194930" duration="2015000" />
       <workItem from="1680701140250" duration="1240000" />
       <workItem from="1680794390313" duration="113000" />
-      <workItem from="1680807317680" duration="3190000" />
+      <workItem from="1680807317680" duration="3485000" />
+      <workItem from="1680853687500" duration="2024000" />
     </task>
     <task id="LOCAL-00001" summary="feat: fix calculator and update header">
       <created>1651485636711</created>
@@ -148,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680703077220</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix: retours">
+      <created>1680810799087</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680810799087</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +178,7 @@
     <MESSAGE value="feat: updates" />
     <MESSAGE value="feat: last fixes" />
     <MESSAGE value="fix: calendar and download links" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: calendar and download links" />
+    <MESSAGE value="fix: retours" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: retours" />
   </component>
 </project>
