@@ -245,7 +245,7 @@ var App = function () {
       (0, _jquery2.default)('#ifi-give-max').val(ifi_estime ? app.format_number(ifi_max) : "");
       (0, _jquery2.default)('#ifi-estime-reduced').val(ifi_give ? app.format_number(ifi_reduc) : "");
       if (ifi_give && ifi_give > 0) {
-        (0, _jquery2.default)('#my-give-ifi').attr('href', (0, _jquery2.default)('#my-give-ifi').attr('url-give') + ifi_give + '00').find('span').html('de ' + ifi_give + '&nbsp;€');
+        (0, _jquery2.default)('#my-give-ifi').attr('href', (0, _jquery2.default)('#my-give-ifi').attr('url-give') + ifi_give + '00').find('span').html('de ' + app.format_number(ifi_give) + '&nbsp;€');
       } else {
         (0, _jquery2.default)('#my-give-ifi').attr('href', (0, _jquery2.default)('#my-give-ifi').attr('url-give') + '00').find('span').html('');
       }

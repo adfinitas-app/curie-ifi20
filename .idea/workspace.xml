@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="81bc13b0-a4c7-4499-90ee-1f153ad6527b" name="Changes" comment="fix: retours">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,8 @@
       <workItem from="1680701140250" duration="1240000" />
       <workItem from="1680794390313" duration="113000" />
       <workItem from="1680807317680" duration="3485000" />
-      <workItem from="1680853687500" duration="2024000" />
+      <workItem from="1680853687500" duration="2454000" />
+      <workItem from="1680862216686" duration="583000" />
     </task>
     <task id="LOCAL-00001" summary="feat: fix calculator and update header">
       <created>1651485636711</created>
@@ -153,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680810799087</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix: retours">
+      <created>1680855743982</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680855743982</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
