@@ -141,32 +141,6 @@ var App = function () {
       map['reductionfiscale'] = 'defiscalise';
       map['contact'] = 'contact';
       map['documents'] = 'documents';
-      console.log('>>', map[hash]);
-      if (map[hash] != undefined) {
-        console.log('iii');
-        (0, _jquery2.default)('html, body').animate({ scrollTop: (0, _jquery2.default)('#' + map[hash]).offset().top - 100 }, 333);
-      }
-      if (hash == 'calculatrice' || hash == 'calendrier') {
-        setTimeout(function () {
-          (0, _jquery2.default)('body').addClass('has-popin');
-          (0, _jquery2.default)('.calcul').removeClass('active');
-          (0, _jquery2.default)('.popins, .popin[popin-name=' + hash + ']').addClass('open');
-        }, 500);
-      } else if (hash == 'projet2') {
-        setTimeout(function () {
-          (0, _jquery2.default)('.card, .desc').removeClass('active');
-          (0, _jquery2.default)('.card[card-id=2]').addClass('active');
-          (0, _jquery2.default)('.desc[desc-id=2]').addClass('active');
-          (0, _jquery2.default)('html, body').animate({ scrollTop: (0, _jquery2.default)('#actions').offset().top - (0, _jquery2.default)('header').height() }, 333);
-        }, 500);
-      } else if (hash == 'projet3') {
-        setTimeout(function () {
-          (0, _jquery2.default)('.card, .desc').removeClass('active');
-          (0, _jquery2.default)('.card[card-id=3]').addClass('active');
-          (0, _jquery2.default)('.desc[desc-id=3]').addClass('active');
-          (0, _jquery2.default)('html, body').animate({ scrollTop: (0, _jquery2.default)('#actions').offset().top - (0, _jquery2.default)('header').height() }, 333);
-        }, 500);
-      }
       //
       //POPIN open
       (0, _jquery2.default)('.button-popin').on('click', function (event) {
@@ -187,6 +161,29 @@ var App = function () {
         (0, _jquery2.default)('body').removeClass('has-popin');
         (0, _jquery2.default)('.popins, .popin').removeClass('open');
       });
+      if (map[hash] != undefined) {
+        console.log('iii');
+        (0, _jquery2.default)('html, body').animate({ scrollTop: (0, _jquery2.default)('#' + map[hash]).offset().top - 100 }, 333);
+      }
+      if (hash == 'calculatrice' || hash == 'calendrier') {
+        setTimeout(function () {
+          (0, _jquery2.default)('.button-popin[popin-name=' + hash + ']').trigger('click');
+        }, 500);
+      } else if (hash == 'projet2') {
+        setTimeout(function () {
+          (0, _jquery2.default)('.card, .desc').removeClass('active');
+          (0, _jquery2.default)('.card[card-id=2]').addClass('active');
+          (0, _jquery2.default)('.desc[desc-id=2]').addClass('active');
+          (0, _jquery2.default)('html, body').animate({ scrollTop: (0, _jquery2.default)('#actions').offset().top - (0, _jquery2.default)('header').height() }, 333);
+        }, 500);
+      } else if (hash == 'projet3') {
+        setTimeout(function () {
+          (0, _jquery2.default)('.card, .desc').removeClass('active');
+          (0, _jquery2.default)('.card[card-id=3]').addClass('active');
+          (0, _jquery2.default)('.desc[desc-id=3]').addClass('active');
+          (0, _jquery2.default)('html, body').animate({ scrollTop: (0, _jquery2.default)('#actions').offset().top - (0, _jquery2.default)('header').height() }, 333);
+        }, 500);
+      }
       //CARD
       (0, _jquery2.default)('.card').on('click', function (event) {
         (0, _jquery2.default)('.card, .desc').removeClass('active');
