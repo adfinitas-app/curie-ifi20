@@ -33,6 +33,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"aos": "^2.3.4",
 		"firebase": "^9.17.1",
 		"svelte-carousel": "^1.0.25"
 	}
