@@ -18,7 +18,7 @@
     {/if}
     {#if bottomDivVisible}
         <div in:fly={{x:0, duration:500}}  class="purple-polygone lg:h-[45rem] xl:h-[60rem] absolute -bottom-60 bg-[#4D54D6]/60 backdrop-blur-md z-10"/>
-        <p in:fly={{y: -200, duration:300, delay:1000}} style="line-height: 3rem" class="lg:text-2xl xl:text-[44px] font-Raleway font-black text-white absolute text-center lg:bottom-20  xl:bottom-40 uppercase z-10">
+        <p in:fly={{y: -200, duration:300, delay:1000}} class="lg:text-[30px] 2xl:text-[44px] 2xl:leading-[3rem] font-Raleway font-black text-white absolute text-center lg:bottom-20  xl:bottom-40 uppercase z-10">
             Votre don ouvre de <span class="underline-red ">nouvelles perspectives</span><br/>
             de guérison aux patients.
             <br>
