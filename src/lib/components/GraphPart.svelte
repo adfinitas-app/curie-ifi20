@@ -2,13 +2,13 @@
     let poppOpened = false;
 </script>
 
-<div id="Intro" class="w-screen relative flex items-center justify-center ">
-    <div class="lg:top-[15rem] xl:top-[22rem] absolute flex flex-col items-center justify-center gap-5">
+<div id="Intro" class="w-screen relative flex flex-col items-center justify-center gap-5 backdrop-blur-3xl bg-transparent">
+    <div class="mt-60 bg-white">
         <p class="-z-10 text-center uppercase font-bold font-Raleway lg:text-2xl xl:text-4xl text-[#505050]">
             Contre le cancer, réduisez vos impôts<br>
             En finançant des projets porteurs d’espoir
         </p>
-        <div class="-z-10 bg-[#FF6600] w-[5rem] h-1 rounded-2xl"/>
+        <div class=" bg-[#FF6600] w-[5rem] h-1 rounded-2xl absolute left-0 right-0 mx-auto"/>
         <div class="flex flex-row items-center justify-center gap-10 xl:gap-20  mt-10">
             <div class="flex flex-col text-center items-center text-[#505050] relative justify-center h-[35rem] xl:w-[50%] xl:h-[45rem]  rounded-2xl gap-5 p-5" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.1);">
                 <p class=" font-Raleway font-bold text-2xl xl:text-4xl">
@@ -50,7 +50,7 @@
         </div>
     </div>
 </div>
-<div on:click={()=> poppOpened = true} class="lg:mt-[65rem] xl:mt-[85rem] font-Lato font-bold text-3xl text-center text-[#505050] underline cursor-pointer">
+<div on:click={()=> poppOpened = true} class="lg:mt-[5rem] xl:mt-[10rem] font-Lato font-bold text-3xl text-center text-[#505050] underline cursor-pointer">
     <p>Je souhaite faire un don déductible de l’Impôt sur les Sociétés</p>
 </div>
 

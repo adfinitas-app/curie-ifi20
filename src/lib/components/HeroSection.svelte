@@ -17,15 +17,15 @@
         <StickyBanner/>
     {/if}
     {#if bottomDivVisible}
-        <div in:fly={{x:0, duration:500}} class="purple-polygone lg:h-[45rem] xl:h-[60rem] absolute -bottom-60 bg-[#4D54D6]/60 backdrop-blur-md z-10"/>
-        <p in:fly={{y: -200, duration:300, delay:1000}} class="lg:text-2xl xl:text-4xl font-Raleway font-black text-white absolute text-center lg:bottom-20  xl:bottom-40 uppercase z-10">
+        <div in:fly={{x:0, duration:500}}  class="purple-polygone lg:h-[45rem] xl:h-[60rem] absolute -bottom-60 bg-[#4D54D6]/60 backdrop-blur-md z-10"/>
+        <p in:fly={{y: -200, duration:300, delay:1000}} style="line-height: 3rem" class="lg:text-2xl xl:text-[44px] font-Raleway font-black text-white absolute text-center lg:bottom-20  xl:bottom-40 uppercase z-10">
             Votre don ouvre de <span class="underline-red ">nouvelles perspectives</span><br/>
             de guérison aux patients.
             <br>
         </p>
         {#if StickyBannerVisible}
-            <div in:fade class="absolute lg:bottom-5 xl:bottom-10 flex flex-col items-center justify-center gap-3 xl:gap-6 z-10">
-                <p class="text-white lg:text-xl xl:text-3xl">Contre le cancer, investissez votre impôt dans l’innovation.</p>
+            <div in:fade class="absolute bg-transparent lg:bottom-5 xl:bottom-10 flex flex-col items-center justify-center gap-3 xl:gap-6 z-10">
+                <p class="text-white lg:text-xl xl:text-[36px] font-Raleway font-semibold">Contre le cancer, investissez votre impôt dans l’innovation.</p>
                 <a href="#Intro">
                     <svg  xmlns="http://www.w3.org/2000/svg" width="94.94" height="21.854" viewBox="0 0 94.94 21.854">
                         <g id="Group_577" data-name="Group 577" transform="translate(-955.802 -686.267)">
@@ -40,9 +40,9 @@
                         </g>
                     </svg>
                 </a>
-                <p class="text-white text-xl xl:text-2xl 2xl:text-3xl absolute lg:top-[5rem] xl:top-[8rem] text-center lg:w-[40rem] xl:w-[60rem] 2xl:w-[80rem]">
-                    Équipements innovants, prise en charge personnalisée, amélioration des traitements…<br/>
-                    En soutenant l’Institut Curie avec un don déductible de votre impôt, vous financez des projets qui ouvrent de nouvelles perspectives de guérison pour chaque patient.
+                <p class="font-Lato text-white text-xl xl:text-2xl 2xl:text-[30px] absolute lg:top-[5rem] xl:top-[8rem] text-center lg:w-[40rem] xl:w-[60rem] 2xl:w-[80rem]">
+                    <b>Équipements innovants, prise en charge personnalisée, amélioration des traitements…<br/></b>
+                    En soutenant l’Institut Curie avec un don déductible de votre impôt, vous financez des projets qui ouvrent de <b>nouvelles perspectives de guérison</b> pour chaque patient.
                 </p>
             </div>
         {/if}

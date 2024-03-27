@@ -40,7 +40,7 @@
                                     <p class="text-2xl xl:text-4xl font-bold font-Raleway text-[#505050] text-center">
                                         22 Mai
                                     </p>
-                                    <p class="text-3xl font-Raleway text-center">
+                                    <p class="text-3xl font-Raleway text-center font-light">
                                         Date limite en papier
                                     </p>
                                 </div>
@@ -60,7 +60,7 @@
                                     <p class="text-2xl xl:text-4xl font-bold font-Raleway text-[#505050] ">
                                         23 Mai
                                     </p>
-                                    <p class="text-xl xl:text-3xl font-Raleway ">
+                                    <p class="text-xl xl:text-3xl font-Raleway text-[#505050] font-light">
                                         Date limite en ligne<br/>
                                         Zone 1
                                     </p>
@@ -85,7 +85,7 @@
                                     <p class="text-2xl xl:text-4xl font-bold font-Raleway text-[#505050] ">
                                         30 Mai
                                     </p>
-                                    <p class="text-xl xl:text-3xl font-Raleway ">
+                                    <p class="text-xl xl:text-3xl font-Raleway text-[#505050] font-light">
                                         Date limite en ligne<br/>
                                         Zone 2
                                     </p>
@@ -110,7 +110,7 @@
                                     <p class="text-2xl xl:text-4xl font-bold font-Raleway text-[#505050] ">
                                         6 juin
                                     </p>
-                                    <p class="text-xl xl:text-3xl font-Raleway ">
+                                    <p class="text-xl xl:text-3xl font-Raleway text-[#505050] font-light">
                                         Date limite en ligne<br/>
                                         Zone 3
                                     </p>
@@ -129,14 +129,14 @@
         </div>
     </div>
     <div class="absolute top-[70rem] xl:top-[80rem] flex flex-col items-center justify-center">
-        <div class="2xl:w-[70rem] rounded-2xl flex flex-row gap-4 xl:gap-8 2xl:gap-14 items-center justify-center p-6 2xl:px-20 2xl:py-8" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);">
+        <div class=" rounded-2xl flex flex-row gap-4 xl:gap-8 2xl:gap-14 items-center justify-center p-6 2xl:px-8 2xl:py-8" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);">
             <img src="/signature-desktop.png" alt="pic of the chieffe" class="mr-10 w-60 2xl:w-[310px]"/>
             <div class="flex flex-col gap-3">
                 <p class="uppercase font-Raleway font-black text-3xl 2xl:text-4xl text-[#505050]">
                     Contact
                 </p>
-                <p class="font-Raleway  text-2xl text-[#505050]">
-                    Héloïse Desazars de Montgailhard se tient à votre<br/>
+                <p class="font-Lato  text-2xl text-[#505050]">
+                    <b>Héloïse Desazars de Montgailhard</b> se tient à votre<br/>
                     disposition pour vous donner toutes les informations<br/>
                     nécessaires. N’hésitez pas à la contacter.
                 </p>
