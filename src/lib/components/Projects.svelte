@@ -2,7 +2,7 @@
     let projectIndex = 0;
 </script>
 
-<div class="flex items-center justify-center w-screen mt-10">
+<div class="flex items-center justify-center w-screen mt-10 z-30">
     <div class="w-[90%]  2xl:w-[80%] flex flex-col items-center justify-center  bg-[#F1F2FC] rounded-3xl py-10">
         <p class="text-center lg:text-xl xl:text-3xl font-bold font-Raleway text-[#505050]">
             Contre le cancer,<br/>
@@ -59,7 +59,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="w-1/2 flex flex-col gap-[4.3rem] xl:gap-10 relative">
+                <div class="w-1/2 flex flex-col gap-[4.3rem] xl:gap-14 2xl:gap-10 relative">
                     <p class="text-xl xl:text-3xl font-Lato font-bold text-[#4D54D6] underline uppercase">
                         L’innovation
                     </p>
@@ -152,12 +152,23 @@
                         </p>
                     </div>
                 </div>
-                <button on:click={()=> projectIndex = 2} class="absolute right-20 -bottom-10 2xl:bottom-0  hover:scale-110 transition-all">
+                <button on:click={()=> projectIndex = 2} class="absolute right-20 lg:-bottom-10 xl:-bottom-4 2xl:bottom-0  hover:scale-110 transition-all">
                     <svg xmlns="http://www.w3.org/2000/svg" width="155.576" height="37.935" viewBox="0 0 155.576 37.935">
                         <g id="Component_16_2" data-name="Component 16 – 2" transform="translate(0 0.935)">
                             <text id="SUIVANT" transform="translate(0 24)" fill="#505050" font-size="25" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">SUIVANT</tspan></text>
                             <path id="Path_631" data-name="Path 631" d="M1431,1408l11.076,13.826-5.538,6.913-5.538,6.913" transform="translate(-1288 -1406.826)" fill="none" stroke="#505050" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
                             <line id="Line_10" data-name="Line 10" x2="29" transform="translate(39.5 35.5)" fill="none" stroke="#505050" stroke-linecap="round" stroke-width="3"/>
+                        </g>
+                    </svg>
+                </button>
+                <button on:click={()=> projectIndex = 0} class="absolute left-20 lg:-bottom-10 xl:-bottom-4 2xl:bottom-0  hover:scale-110 transition-all">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="170.5" height="37.935" viewBox="0 0 170.5 37.935">
+                        <g id="Group_719" data-name="Group 719" transform="translate(-1571.924 -4495.565)">
+                            <g id="Component_16_3" data-name="Component 16 – 3" transform="translate(1573.424 4496.5)">
+                                <text id="PRECEDENT" transform="translate(22 24)" fill="#505050" font-size="25" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">PRECEDENT</tspan></text>
+                                <path id="Path_631" data-name="Path 631" d="M1442.076,1408,1431,1421.826l11.076,13.826" transform="translate(-1431 -1406.826)" fill="none" stroke="#505050" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                <line id="Line_10" data-name="Line 10" x2="29" transform="translate(61.5 35.5)" fill="none" stroke="#505050" stroke-linecap="round" stroke-width="3"/>
+                            </g>
                         </g>
                     </svg>
                 </button>
@@ -232,12 +243,14 @@
                         </p>
                     </div>
                 </div>
-                <button on:click={()=> projectIndex = 1} class="absolute right-20 bottom-0 hover:scale-110 transition-all">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="155.576" height="37.935" viewBox="0 0 155.576 37.935">
-                        <g id="Component_16_2" data-name="Component 16 – 2" transform="translate(0 0.935)">
-                            <text id="SUIVANT" transform="translate(0 24)" fill="#505050" font-size="25" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">SUIVANT</tspan></text>
-                            <path id="Path_631" data-name="Path 631" d="M1431,1408l11.076,13.826-5.538,6.913-5.538,6.913" transform="translate(-1288 -1406.826)" fill="none" stroke="#505050" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-                            <line id="Line_10" data-name="Line 10" x2="29" transform="translate(39.5 35.5)" fill="none" stroke="#505050" stroke-linecap="round" stroke-width="3"/>
+                <button on:click={()=> projectIndex = 1} class="absolute left-20 bottom-2 hover:scale-110 transition-all">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="170.5" height="37.935" viewBox="0 0 170.5 37.935">
+                        <g id="Group_719" data-name="Group 719" transform="translate(-1571.924 -4495.565)">
+                            <g id="Component_16_3" data-name="Component 16 – 3" transform="translate(1573.424 4496.5)">
+                                <text id="PRECEDENT" transform="translate(22 24)" fill="#505050" font-size="25" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">PRECEDENT</tspan></text>
+                                <path id="Path_631" data-name="Path 631" d="M1442.076,1408,1431,1421.826l11.076,13.826" transform="translate(-1431 -1406.826)" fill="none" stroke="#505050" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                <line id="Line_10" data-name="Line 10" x2="29" transform="translate(61.5 35.5)" fill="none" stroke="#505050" stroke-linecap="round" stroke-width="3"/>
+                            </g>
                         </g>
                     </svg>
                 </button>

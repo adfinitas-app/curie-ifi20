@@ -8,7 +8,7 @@
     let isInputFocused = 0;
 </script>
 
-<div in:fade class="fixed top-0 bg-[#4D54D6]/60 backdrop-blur-sm flex flex-row items-center justify-center w-screen lg:gap-5 xl:gap-4 2xl:gap-10 py-6 lg:h-[6rem] xl:h-[10rem] z-20">
+<div in:fade class="fixed top-0 bg-[#4D54D6]/60 backdrop-blur-sm flex flex-row items-center justify-center w-screen lg:gap-5 xl:gap-8 2xl:gap-10 py-6 lg:h-[6rem] xl:h-[10rem] z-20">
     <img src="/logo_curie.png" class="lg:w-[10rem] xl:w-[16rem] lg:ml-2 2xl:mr-20" alt="curie"/>
     <button on:mouseenter={()=> isHoveringText = true} on:mouseleave={()=> isHoveringText = false} class="flex flex-col items-center justify-center">
         <span class="text-white font-Raleway font-bold text-xl">
@@ -51,7 +51,7 @@
                 </button>
                 {#if activeTab === 1}
                     <div class=" rounded-t-3xl bg-[#FF6600] w-full lg:h-[1rem] 2xl:h-[2rem]"/>
-                    <div class="flex flex-col items-center justify-center 2xl:p-4">
+                    <div class=" input-focus-orange flex flex-col items-center justify-center 2xl:p-4">
                         <p class="text-center text-xl 2xl:text-4xl font-Raleway font-black text-[#FF6600]">
                             JE CALCULE<br>
                             MA DÉDUCTION FISCALE IFI
@@ -99,7 +99,7 @@
                     </div>
                 {:else if activeTab === 2}
                     <div class=" rounded-t-3xl bg-[#4D54D6] w-full h-[2rem]"/>
-                    <div class="flex flex-col items-center justify-center p-4">
+                    <div class="input-focus-violet flex flex-col items-center justify-center p-4">
                         <p class="text-center text-4xl font-Raleway font-black text-[#4D54D6]">
                             JE CALCULE<br>
                             MA DÉDUCTION FISCALE IR
@@ -113,12 +113,12 @@
                             </div>
                         </div>
                         <div class="flex flex-row items-center justify-between w-[70%] mt-3 xl:mt-6 2xl:mt-10">
-                            <p class={`text-xl 2xl:text-2xl font-Raleway font-bold ${isInputFocused === 2 ? 'text-[#4D54D6]' : ''}`}>
+                            <p class={`text-xl 2xl:text-2xl font-Raleway font-bold  ${isInputFocused === 2 ? 'text-[#4D54D6]' : ''}`}>
                                 Montant de votre don<br/>
                                 pour réduire votre IR au maximum
                             </p>
                             <div class="input-container font-Raleway text-[#4D54D6] text-xl 2xl:text-2xl font-bold">
-                                <input type="number" class="bg-white rounded-3xl border-2 text-center py-2 border-gray-500" on:focus={() => isInputFocused = 2} on:blur={() => isInputFocused = 0}/>
+                                <input type="number" class="bg-white rounded-3xl border-2 text-center py-2 border-gray-500 input-focus-violet" on:focus={() => isInputFocused = 2} on:blur={() => isInputFocused = 0}/>
                             </div>
                         </div>
                         <div class="flex flex-row items-center justify-between w-[70%] mt-3 xl:mt-6 2xl:mt-10">
@@ -168,10 +168,16 @@
         -moz-appearance: textfield;
     }
 
-    input[type=number]:focus {
+    .input-focus-orange input[type=number]:focus {
         border-color: #FF6600;
         outline: none;
     }
+
+    .input-focus-violet:focus {
+        border-color: #4D54D6;
+        outline: none;
+    }
+
 
     .input-container {
         position: relative;

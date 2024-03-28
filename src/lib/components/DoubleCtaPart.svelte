@@ -2,7 +2,7 @@
     import Footer from "$lib/components/Footer.svelte";
 </script>
 
-<div class="w-screen relative flex items-center justify-center">
+<div class="w-screen relative flex items-center justify-center ">
     <div class="gray-polygone lg:h-[45rem] xl:h-[60rem] bg-[#707070] bg-opacity-10 absolute top-0"/>
     <div class="absolute top-20 xl:top-28 flex flex-col items-center justify-center gap-5">
         <p class="font-Raleway font-black text-2xl xl:text-4xl text-[#505050]">
