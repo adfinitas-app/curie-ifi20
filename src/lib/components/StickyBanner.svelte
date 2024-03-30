@@ -11,12 +11,12 @@
     let isOpen = false;
 </script>
 
-<div in:fade class="hidden fixed top-0 bg-[#4D54D6] bg-opacity-80 backdrop-blur-sm md:flex flex-row items-center justify-center w-screen lg:gap-5 xl:gap-8 2xl:gap-10 py-6 lg:h-[3rem] xl:h-[7rem] 2xl:h-[9rem] z-20">
+<div in:fade class="hidden fixed top-0 bg-[#4D54D6] bg-opacity-80 backdrop-blur-sm md:flex flex-row items-center justify-center w-screen lg:gap-5 xl:gap-8 2xl:gap-10 py-6 lg:h-[5rem] xl:h-[7rem] 2xl:h-[9rem] z-20">
     <img src="/logo_curie.png" class="lg:w-[10rem] xl:w-[16rem] lg:ml-2 2xl:mr-20" alt="curie"/>
     <button on:mouseenter={()=> isHoveringText = true} on:mouseleave={()=> isHoveringText = false} class="flex flex-col items-center justify-center">
-        <span class="text-white font-Raleway font-bold text-xl">
+        <a href="#Projects" class="text-white font-Raleway font-bold text-xl">
             Les projets soutenus
-        </span>
+        </a>
         <span class={`h-0.5 bg-white rounded-3xl transition-width ${isHoveringText ? 'w-[10rem]' : 'w-[3rem]'}`}/>
     </button>
     <button on:click={() => isPopupVisible = !isPopupVisible} on:mouseenter={()=> isHoveringText2 = true} on:mouseleave={()=> isHoveringText2 = false} class="flex flex-col items-center justify-center">
@@ -183,9 +183,9 @@
     {#if isOpen}
         <div class="w-screen flex flex-col items-center justify-center gap-y-3 p-2">
             <button on:mouseenter={()=> isHoveringText = true} on:mouseleave={()=> isHoveringText = false} class="flex flex-col items-center justify-center">
-                <span class="text-white font-Raleway font-bold text-xl ml-2">
+                <a href="#Projects" class="text-white font-Raleway font-bold text-xl ml-2">
                     Les projets soutenus
-                </span>
+                </a>
             </button>
             <button on:click={() => isPopupVisibleMobile = !isPopupVisibleMobile} on:mouseenter={()=> isHoveringText = true} on:mouseleave={()=> isHoveringText = false} class="flex flex-col items-center justify-center">
                 <span class="text-white font-Raleway font-bold text-xl ml-2">

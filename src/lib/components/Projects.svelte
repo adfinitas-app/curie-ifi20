@@ -2,7 +2,7 @@
     let projectIndex = 0;
 </script>
 
-<div class="flex items-center justify-center w-screen mt-10 z-30">
+<div id="Projects" class="flex items-center justify-center w-screen mt-10 z-30">
     <div class="w-[90%]  2xl:w-[80%] flex flex-col items-center justify-center  bg-[#F1F2FC] rounded-3xl py-4 2xl:py-10">
         <p class="text-center lg:text-xl 2xl:text-3xl font-bold font-Raleway text-[#505050]">
             Contre le cancer,<br/>
