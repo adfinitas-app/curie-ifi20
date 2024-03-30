@@ -3,45 +3,44 @@
 </script>
 
 <div id="Intro" class="w-screen relative flex flex-col items-center justify-center gap-5 backdrop-blur-3xl bg-transparent">
-    <div class="mt-60 bg-white">
-        <p class="-z-10 text-center uppercase font-bold font-Raleway lg:text-2xl xl:text-4xl text-[#505050]">
-            Contre le cancer, réduisez vos impôts<br>
+    <div class="mt-[20rem] md:mt-52 2xl:mt-60 bg-white">
+        <p class="-z-10 text-center uppercase font-bold font-Raleway text-[20px] px-5 md:px-0 lg:text-2xl 2xl:text-4xl text-[#505050]">
+            Contre le cancer, réduisez vos impôts<br class="hidden md:block">
             En finançant des projets porteurs d’espoir
         </p>
-        <div class=" bg-[#FF6600] w-[5rem] h-1 rounded-2xl absolute left-0 right-0 mx-auto"/>
-        <div class="flex flex-row items-center justify-center gap-10 xl:gap-20  mt-10">
-            <div class="flex flex-col text-center items-center text-[#505050] relative justify-center h-[35rem] xl:w-[50%] xl:h-[45rem]  rounded-2xl gap-5 p-5" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.1);">
-                <p class=" font-Raleway font-bold text-2xl xl:text-4xl">
+        <div class=" bg-[#FF6600] w-[5rem] h-1 rounded-2xl absolute left-0 right-0 mx-auto mt-2 md:mt-0"/>
+        <div class="flex flex-col md:flex-row items-center justify-center md:gap-10 xl:gap-20 mt-10 md:mt-3 2xl:mt-10">
+            <div class="py-5 flex flex-col text-center items-center text-[#505050] relative justify-center w-[95%] md:w-auto md:h-[35rem] xl:h-[29rem]  xl:w-[25rem] 2xl:h-[45rem]  rounded-2xl gap-5 md:gap-2 2xl:gap-5  2xl:p-5" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.1);">
+                <p class=" font-Raleway font-bold text-[20px] md:text-2xl 2xl:text-4xl">
                     Impôt<br/>
                     sur la Fortune Immobilière
                 </p>
-                <p class="font-bold text-2xl font-Lato">
+                <p class="font-bold text-[18px] 2xl:text-2xl font-Lato">
                     <span class="text-[#FF6600]">75 % du montant de votre don est <br/>déductible de votre lFI</span>, <br/>dans la limite de 50 000 €.
                 </p>
-                <p class="text-2xl">
+                <p class="2xl:text-2xl">
                     Par exemple :
                 </p>
-                <img src="/graph1.png" class="w-[20rem] xl:w-[30rem]"/>
-                <button class="bg-[#FF6600] text-sm xl:text-xl text-white lg:p-2 xl:py-3 xl:px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-14  xl:-bottom-20">
+                <img src="/graph1.png" class="w-[311px] md:w-[20rem] xl:w-[17rem] 2xl:w-[30rem]"/>
+                <button class="bg-[#FF6600] w-[268px] text-[16px] md:text-sm 2xl:text-xl text-white lg:p-2 xl:py-2 xl:px-7 2xl:py-3 2xl:px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-14 xl:-bottom-16  2xl:-bottom-20">
                     JE FAIS UN DON<br/>
                     Déductible de<br/>
                     <span class="font-black">l’IFI</span>
                 </button>
             </div>
-            <div class="flex flex-col text-center items-center text-[#505050] justify-center h-[35rem] xl:w-[50%] xl:h-[45rem]  rounded-2xl gap-5 p-5" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.1);">
-                <p class=" font-Raleway font-bold text-2xl xl:text-4xl">
+            <div class="py-5 mt-20  flex flex-col text-center items-center text-[#505050] relative justify-center w-[95%] md:w-auto md:h-[35rem] xl:h-[29rem]  xl:w-[25rem] 2xl:h-[45rem]  rounded-2xl gap-5 md:gap-2 2xl:gap-5  2xl:p-5" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.1);">
+                <p class=" font-Raleway font-bold text-[20px] md:text-2xl 2xl:text-4xl">
                     Impôt<br/>
                     sur le Revenu
                 </p>
-                <p class="font-bold text-2xl font-Lato">
-                    <span class="text-[#4D54D6]">66 % du montant de votre don est <br/>déductible de votre lR</span>, <br/>dans la limite
-                    de 20 % <br/>de votre revenu net imposable.
+                <p class="font-bold text-[18px] 2xl:text-2xl font-Lato">
+                    <span class="text-[#4D54D6]">66 % du montant de votre don est<br/> déductible de votre lR</span>,<br/> dans la limite de 20 % de<br/> votre revenu net imposable.
                 </p>
-                <p class="text-2xl">
+                <p class="2xl:text-2xl">
                     Par exemple :
                 </p>
-                <img src="/graph2.png" class="w-[20rem] xl:w-[30rem]"/>
-                <button class="bg-[#4D54D6] text-sm xl:text-xl text-white lg:p-2 xl:py-3 xl:px-16 font-Raleway font-bold transition-all hover:px-20 absolute -bottom-14  xl:-bottom-20">
+                <img src="/graph2.png" class="w-[311px] md:w-[20rem] xl:w-[17rem] 2xl:w-[30rem]"/>
+                <button class="bg-[#4D54D6] w-[268px] text-[16px] md:text-sm 2xl:text-xl text-white lg:p-2 xl:py-2 xl:px-7 2xl:py-3 2xl:px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-14 xl:-bottom-16  2xl:-bottom-20">
                     JE FAIS UN DON<br/>
                     Déductible de<br/>
                     <span class="font-black">L’impôt sur le revenu</span>
@@ -50,14 +49,21 @@
         </div>
     </div>
 </div>
-<div on:click={()=> poppOpened = true} class="lg:mt-[5rem] xl:mt-[10rem] font-Lato font-bold text-3xl text-center text-[#505050] underline cursor-pointer">
+<div on:click={()=> poppOpened = true} class="hidden md:block lg:mt-[5rem] xl:mt-[10rem] font-Lato font-bold text-3xl text-center text-[#505050] underline cursor-pointer">
     <p>Je souhaite faire un don déductible de l’Impôt sur les Sociétés</p>
+</div>
+
+<div class="mt-20 w-screen flex items-center justify-center">
+    <button on:click={()=> poppOpened = true} class="font-bold font-Lato text-[16px] py-4 px-3 w-[80%] cursor-pointer bg-white border-2 border-[#505050] text-[#505050]">
+        Je souhaite faire un don déductible
+        de l’Impôt sur les Sociétés
+    </button>
 </div>
 
 
 {#if poppOpened}
-    <div class="fixed top-0 left-0 w-screen h-screen z-[70] backdrop-blur-xl bg-opacity-50 flex items-center justify-center">
-        <button  class="absolute right-[14rem] top-10 xl:right-[20rem] 2xl:top-32 hover:scale-125 transition-all" on:click={()=> poppOpened = false}>
+    <div class="fixed top-0 left-0 w-screen h-screen z-[70] backdrop-blur-xl bg-opacity-50 flex items-center justify-center" on:click={()=> poppOpened = false}>
+        <button class="hidden md:block absolute right-[14rem] top-10 xl:right-[20rem] 2xl:top-32 hover:scale-125 transition-all" on:click={()=> poppOpened = false}>
             <svg xmlns="http://www.w3.org/2000/svg" width="25.979" height="25.979" viewBox="0 0 25.979 25.979">
                 <g id="Group_620" data-name="Group 620" transform="translate(-1219.086 -100.935)">
                     <line id="Line_1" data-name="Line 1" x2="23.151" y2="23.151" transform="translate(1220.5 102.349)" fill="black" stroke="#fff" stroke-width="4"/>
@@ -65,7 +71,7 @@
                 </g>
             </svg>
         </button>
-        <div class="bg-white flex flex-col items-center justify-center text-center rounded-2xl p-6 xl:p-10 gap-3 xl:gap-5 relative">
+        <div class="bg-white flex flex-col items-center justify-center text-center rounded-2xl p-6 xl:p-10 gap-3 xl:gap-5 relative" on:click|stopPropagation>
             <p class="font-Raleway font-bold text-2xl xl:text-4xl">
                 Impôt<br/>
                 sur les Sociétés
@@ -77,7 +83,7 @@
                 Par exemple :
             </p>
             <img src="/graph3.png" class="w-[20rem] xl:w-[30rem]"/>
-            <button class="bg-[#34B3C5] text-sm 2xl:text-xl text-white lg:p-2 xl:px-5 xl:py-2 2xl:py-3 2xl:px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-14  2xl:-bottom-20">
+            <button class="bg-[#34B3C5] w-[268px] text-[16px] md:text-sm 2xl:text-xl text-white lg:p-2 xl:py-2 xl:px-7 2xl:py-3 2xl:px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-14 xl:-bottom-16  2xl:-bottom-20">
                 JE FAIS UN DON<br/>
                 Déductible de<br/>
                 <span class="font-black">L’impôt sur les Sociétés</span>

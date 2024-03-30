@@ -7,5 +7,9 @@
 
 <HeroSection/>
 <GraphPart/>
-<Projects/>
-<DoubleCtaPart/>
+<!--done in mobile-->
+<!--<Projects/>-->
+
+
+<!--done in mobile-->
+<!--<DoubleCtaPart/>-->

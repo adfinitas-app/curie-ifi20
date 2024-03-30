@@ -12,20 +12,58 @@
     }, 2000);
 </script>
 
-<div class="bg-[url('/Header-bg.png')] bg-fixed bg-cover bg-no-repeat h-screen w-screen relative flex items-center justify-center z-10 ">
+<div class="bg-[url('/bg-mobile.png')] bg-cover bg-no-repeat bg-fixed w-screen h-screen md:hidden relative">
+    {#if StickyBannerVisible}
+        <StickyBanner/>
+    {/if}
+    <div style="clip-path: polygon(0 28%, 100% 6%, 100% 83%, 0 100%);" class="w-full bg-[#4D54D6]/60 backdrop-blur-md z-10 h-[45rem] absolute -bottom-72"/>
+    {#if bottomDivVisible}
+        <div in:fly={{y: -200, duration:300, delay:1000}} class="absolute text-center flex flex-col items-center justify-center bottom-10 gap-y-3 uppercase z-10 w-full text-white">
+            <p class="text-[25px] font-Raleway font-black">
+                Votre don ouvre <br/>
+                de <span class="underline-red ">nouvelles perspectives</span><br/>
+                de guérison aux patients.
+                <br>
+            </p>
+            <p class="font-semibold font-Raleway text-[20px] mt-5">
+                Contre le cancer, investissez votre impôt dans l’innovation.
+            </p>
+            <svg xmlns="http://www.w3.org/2000/svg"  width="54.235" height="13.962" viewBox="0 0 54.235 13.962">
+                <g id="Group_577" data-name="Group 577" transform="translate(-955.802 -686.268)">
+                    <g id="Group_115" data-name="Group 115" transform="translate(956.534 688.129)">
+                        <g id="Group_116" data-name="Group 116" transform="translate(0 0)">
+                            <g id="Group_498" data-name="Group 498">
+                                <path id="Path_277" data-name="Path 277" d="M26.483,10.231,13.4,5.082,0,0" transform="translate(26.483 10.231) rotate(180)" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="4"/>
+                                <path id="Path_278" data-name="Path 278" d="M26.483,0,13.4,5.149,0,10.231" transform="translate(26.288 0)" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="4"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+        </div>
+        <div class="absolute -bottom-40 z-10 ">
+            <p class="font-Lato text-white px-4  text-center">
+                <b>Équipements innovants, programmes de recherche de pointe, amélioration des traitements…<br/></b>
+                En soutenant l’Institut Curie avec un don déductible de votre impôt, vous financez des projets qui ouvrent de <b>nouvelles perspectives de guérison</b> pour chaque patient.
+            </p>
+        </div>
+    {/if}
+</div>
+
+<div class="bg-[url('/Header-bg.png')] hidden bg-fixed bg-cover bg-no-repeat h-screen w-screen relative md:flex items-center justify-center z-10 ">
     {#if StickyBannerVisible}
         <StickyBanner/>
     {/if}
     {#if bottomDivVisible}
-        <div in:fly={{x:0, duration:500}}  class="purple-polygone lg:h-[45rem] xl:h-[60rem] absolute -bottom-60 bg-[#4D54D6]/60 backdrop-blur-md z-10"/>
-        <p in:fly={{y: -200, duration:300, delay:1000}} class="lg:text-[30px] 2xl:text-[44px] 2xl:leading-[3rem] font-Raleway font-black text-white absolute text-center lg:bottom-20  xl:bottom-40 uppercase z-10">
+        <div in:fly={{x:0, duration:500}}  class="purple-polygone lg:h-[45rem] xl:h-[50rem] 2xl:h-[60rem] absolute -bottom-60 bg-[#4D54D6]/60 backdrop-blur-md z-10"/>
+        <p in:fly={{y: -200, duration:300, delay:1000}} class="lg:text-[30px] xl:text-[35px] 2xl:text-[44px] 2xl:leading-[3rem] font-Raleway font-black text-white absolute text-center lg:bottom-20  2xl:bottom-40 uppercase z-10">
             Votre don ouvre de <span class="underline-red ">nouvelles perspectives</span><br/>
             de guérison aux patients.
             <br>
         </p>
         {#if StickyBannerVisible}
-            <div in:fade class="absolute bg-transparent lg:bottom-5 xl:bottom-10 flex flex-col items-center justify-center gap-3 xl:gap-6 z-10">
-                <p class="text-white lg:text-xl xl:text-[36px] font-Raleway font-semibold">Contre le cancer, investissez votre impôt dans l’innovation.</p>
+            <div in:fade class="absolute bg-transparent lg:bottom-5 xl:bottom-5 2xl:bottom-10 flex flex-col items-center justify-center gap-3 2xl:gap-6 z-10">
+                <p class="text-white lg:text-xl 2xl:text-[36px] font-Raleway font-semibold">Contre le cancer, investissez votre impôt dans l’innovation.</p>
                 <a href="#Intro">
                     <svg  xmlns="http://www.w3.org/2000/svg" width="94.94" height="21.854" viewBox="0 0 94.94 21.854">
                         <g id="Group_577" data-name="Group 577" transform="translate(-955.802 -686.267)">
@@ -40,8 +78,8 @@
                         </g>
                     </svg>
                 </a>
-                <p class="font-Lato text-white text-xl xl:text-2xl 2xl:text-[30px] absolute lg:top-[5rem] xl:top-[8rem] text-center lg:w-[40rem] xl:w-[60rem] 2xl:w-[80rem]">
-                    <b>Équipements innovants, prise en charge personnalisée, amélioration des traitements…<br/></b>
+                <p class="font-Lato text-white text-xl  2xl:text-[30px] absolute lg:top-[5rem] xl:top-[8rem] text-center lg:w-[40rem] xl:w-[60rem] 2xl:w-[80rem]">
+                    <b>Équipements innovants, programmes de recherche de pointe, amélioration des traitements…<br/></b>
                     En soutenant l’Institut Curie avec un don déductible de votre impôt, vous financez des projets qui ouvrent de <b>nouvelles perspectives de guérison</b> pour chaque patient.
                 </p>
             </div>

@@ -1,0 +1,13 @@
+<svg id="Group_450" data-name="Group 450" xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 2xl:w-40 2xl:h-40" viewBox="0 0 138 138">
+    <circle id="Ellipse_22" data-name="Ellipse 22" cx="69" cy="69" r="69" fill="#9b999b"/>
+    <g id="Group_417" data-name="Group 417" transform="translate(13.275 14.284)">
+        <circle id="Ellipse_10" data-name="Ellipse 10" cx="56.648" cy="56.648" r="56.648" transform="translate(0 0)" fill="#505050"/>
+        <g id="Group_416" data-name="Group 416" transform="translate(32.432 26.811)">
+            <path id="Path_312" data-name="Path 312" d="M958.478,228H915.655a2.8,2.8,0,0,0-2.8,2.8v54.068a2.8,2.8,0,0,0,2.8,2.8h29.484l16.144-16.144V230.8A2.8,2.8,0,0,0,958.478,228Z" transform="translate(-912.85 -228)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            <path id="Path_313" data-name="Path 313" d="M935.034,274.052l16.144-16.144H937.838a2.8,2.8,0,0,0-2.8,2.8Z" transform="translate(-902.746 -214.378)" fill="#f60" stroke="#f60" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+    </g>
+    <g id="Group_446" data-name="Group 446" transform="translate(53.621 47.383)">
+        <text id="_" data-name="€" transform="translate(14 34)" fill="#f60" font-size="36" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="-14.367" y="0">€</tspan></text>
+    </g>
+</svg>

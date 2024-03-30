@@ -3,41 +3,36 @@
 </script>
 
 <div class="flex items-center justify-center w-screen mt-10 z-30">
-    <div class="w-[90%]  2xl:w-[80%] flex flex-col items-center justify-center  bg-[#F1F2FC] rounded-3xl py-10">
-        <p class="text-center lg:text-xl xl:text-3xl font-bold font-Raleway text-[#505050]">
+    <div class="w-[90%]  2xl:w-[80%] flex flex-col items-center justify-center  bg-[#F1F2FC] rounded-3xl py-4 2xl:py-10">
+        <p class="text-center lg:text-xl 2xl:text-3xl font-bold font-Raleway text-[#505050]">
             Contre le cancer,<br/>
             investissez votre impôt dans l’innovation
         </p>
         <div class=" bg-[#FF6600] w-[5rem] h-1 rounded-2xl mt-2"/>
-        <div class="flex flex-row mt-10">
-            <button on:click={()=> projectIndex = 0} class:selectedButton={projectIndex === 0} class=" py-2 xl:py-4 px-3 xl:px-5 font-Raleway text-xl xl:text-2xl font-bold text-center text-[#505050] border-r-2 border-[#505050]">
-                Acquérir <span class="underline decoration-[#FF6600] ">les équipements</span><br/>
-                pour développer les<br/>
-                traitements de demain
+        <div class="flex flex-row mt-5 2xl:mt-10">
+            <button on:click={()=> projectIndex = 0} class:selectedButton={projectIndex === 0} class=" py-2 xl:py-4 px-3 xl:px-5 font-Raleway text-xl 2xl:text-2xl font-bold text-center text-[#505050] border-r-2 border-[#505050]">
+                Accélérer la recherche grâce<br/> à deux<span class="underline decoration-[#FF6600] "> équipements</span>
             </button>
-            <button on:click={()=> projectIndex = 1} class:selectedButton={projectIndex === 1} class=" py-2 xl:py-4 px-3 xl:px-5 font-Raleway text-xl xl:text-2xl font-bold text-center text-[#505050] border-r-2 border-[#505050]">
-                Encourager le développement<br/>
-                des projets de<br/>
-                <span class="underline decoration-[#FF6600] ">chercheurs prometteurs</span>
+            <button on:click={()=> projectIndex = 1} class:selectedButton={projectIndex === 1} class=" py-2 xl:py-4 px-3 xl:px-5 font-Raleway text-xl 2xl:text-2xl font-bold text-center text-[#505050] border-r-2 border-[#505050]">
+                Attirer les<br/><span class="underline decoration-[#FF6600] "> meilleurs talents</span>
             </button>
-            <button on:click={()=> projectIndex = 2} class:selectedButton={projectIndex === 2} class=" py-2 xl:py-4 px-3 xl:px-5 font-Raleway text-xl xl:text-2xl font-bold text-center text-[#505050]">
-                Miser sur la <span class="underline decoration-[#FF6600] ">thérapie<br/>
-                cellulaire</span> ou comment<br/>
-                la cellule devient médicament
+            <button on:click={()=> projectIndex = 2} class:selectedButton={projectIndex === 2} class=" py-2 xl:py-4 px-3 xl:px-5 font-Raleway text-xl 2xl:text-2xl font-bold text-center text-[#505050]">
+                Développer des<br/> <span class="underline decoration-[#FF6600] ">immunothérapies</span> inédites
             </button>
         </div>
         {#if projectIndex === 0}
-            <div class="bg-[url('/project-1-bg-desktop.png')] bg-cover bg-no-repeat relative w-full h-[25rem] xl:h-[39rem]">
-                <p class="font-Raleway text-xl xl:text-3xl font-black absolute bottom-5 xl:bottom-10 text-center text-white left-0 right-0 mx-auto">
-                    <span class="underline decoration-[#FF6600] ">2 équipements de pointe</span> pour révolutionner les traitements de<br/> demain contre les cancers grâce à des vaccins personnalisés
+            <div class="bg-[url('/project-1-bg.png')] bg-cover bg-no-repeat relative w-full h-[22rem] 2xl:h-[39rem]">
+                <div class="bg-[#4D54D6]/60 backdrop-blur-md purple-project absolute w-full  bottom-0 h-[20rem] 2xl:h-[25rem]"/>
+                <p class="font-Raleway text-xl 2xl:text-3xl font-black absolute bottom-5 2xl:bottom-10 text-center text-white left-0 right-0 mx-auto">
+                    <span class="underline decoration-[#FF6600] ">2 équipements de pointe</span> pour révolutionner les traitements de<br/> demain contre les cancers grâce à des vaccins thérapeutiques
                 </p>
             </div>
-            <div class="flex flex-row items-center justify-center w-full xl:mt-5 px-5 xl:px-10 py-5 xl:py-10 gap-5 relative">
-                <div class="w-1/2 flex flex-col gap-5 mt-4">
+            <div class="flex flex-row items-center justify-center w-full xl:mt-5 px-5 xl:px-10 py-2 2xl:py-10 gap-5 relative">
+                <div class="w-1/2 flex flex-col gap-5 2xl:mt-4">
                     <p class="text-xl xl:text-3xl font-Lato font-bold text-[#4D54D6] underline uppercase">
                         L’Enjeu
                     </p>
-                    <p class="text-[#505050] font-Lato text-base xl:text-xl">
+                    <p class="text-[#505050] font-Lato text-base 2xl:text-xl">
                         Chaque tumeur possède un antigène qui lui est propre. Le vaccin à ARNm consiste à injecter dans le corps du patient un ARNm, fabriqué en laboratoire, qui contient le code nécessaire à la fabrication de cet antigène. Il force ainsi le système immunitaire du patient à reconnaître ces antigènes et à produire les anticorps correspondants.
                         <b>L’efficacité du vaccin à ARNm réside donc dans la capacité des chercheurs à identifier la séquence génétique permettant de coder des antigènes spécifiques de cellules tumorales à partir d’échantillons de tumeurs.</b>
                         <br/><br/>
@@ -48,22 +43,22 @@
                         <c class="underline">pour</c> les patients
                     </p>
                     <ul>
-                        <li class="text-[#505050] text-base xl:text-xl font-Lato font-bold">
+                        <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold">
                             Un délai de fabrication de vaccin raccourci de plusieurs mois.
                         </li>
-                        <li class="text-[#505050] text-base xl:text-xl font-Lato font-bold mt-3">
+                        <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold mt-3">
                             Une avancée dans la médecine de précision pour chaque patient.
                         </li>
-                        <li class="text-[#505050] text-base xl:text-xl font-Lato font-bold mt-3">
+                        <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold mt-3">
                             Un espoir de solution thérapeutique pour les cancers où la chimiothérapie ou la radiothérapie restent encore inefficaces.
                         </li>
                     </ul>
                 </div>
-                <div class="w-1/2 flex flex-col gap-[4.3rem] xl:gap-14 2xl:gap-10 relative">
+                <div class="w-1/2 flex flex-col gap-[4.3rem] xl:gap-6 2xl:gap-10 relative">
                     <p class="text-xl xl:text-3xl font-Lato font-bold text-[#4D54D6] underline uppercase">
                         L’innovation
                     </p>
-                    <p class="text-[#505050] font-Lato text-base xl:text-xl">
+                    <p class="text-[#505050] font-Lato text-base 2xl:text-xl">
                         Les vaccins à ARN messager sont particulièrement prometteurs et leur développement ouvre de nouvelles perspectives de guérison pour les patients.
                         <b>L’Institut Curie souhaite donc acquérir 2 équipements de pointe indispensables à l’élaboration de ce type de vaccins : un purificateur de peptides et un spectromètre de masse.</b>
                     </p>
@@ -72,15 +67,15 @@
                     </p>
                     <div class="flex flex-row bg-[#4D54D6] items-center justify-center gap-3">
                         <img src="/pic-project-1.png" alt="Dr Antonin Morillon" class="w-[40%] h-full">
-                        <p class="text-white text-sm 2xl:text-xl font-Raleway  2xl:p-4">
+                        <p class="text-white text-sm 2xl:text-xl font-Raleway p-2  2xl:p-4">
                             <span class="text-xl 2xl:text-2xl font-bold">
                                 Dr Antonin Morillon<br/>
                             </span>
                             Chef de l’équipe de recherche ARN non codant, épigénétique et fluidité des génomes à l’Institut Curie
                         </p>
                     </div>
-                    <div class="text-center bg-white font-Raleway font-bold py-3 xl:py-5 2xl:mt-0">
-                        <p class="text-2xl xl:text-3xl text-[#4D54D6]">
+                    <div class="text-center bg-white font-Raleway font-bold py-3 2xl:py-5 2xl:mt-0">
+                        <p class="text-2xl 2xl:text-3xl text-[#4D54D6]">
                             Coût de ces 2 équipements<br/>
                             <span class="underline">1,4 millions €</span>
                         </p>
@@ -97,8 +92,9 @@
                 </button>
             </div>
         {:else if projectIndex === 1}
-            <div class="bg-[url('/bg-project-2-dekstop.png')] bg-cover bg-no-repeat relative w-full h-[25rem] xl:h-[39rem]">
-                <p class="font-Raleway text-xl xl:text-3xl font-black absolute bottom-5 xl:bottom-10 text-center text-white left-0 right-0 mx-auto">
+            <div class="bg-[url('/project-2-bg.png')] bg-cover bg-no-repeat relative w-full h-[22rem] 2xl:h-[39rem]">
+                <div class="bg-[#4D54D6]/60 backdrop-blur-md purple-project absolute w-full  bottom-0 h-[20rem] 2xl:h-[25rem]"/>
+                <p class="font-Raleway text-xl 2xl:text-3xl font-black absolute bottom-5 2xl:bottom-10 text-center text-white left-0 right-0 mx-auto">
                     <span class="underline decoration-[#FF6600] ">Une équipe renforcée</span> pour mieux comprendre le<br/> développement des tumeurs qui touchent les enfants
                 </p>
             </div>
@@ -107,19 +103,19 @@
                     <p class="text-xl xl:text-3xl font-Lato font-bold text-[#4D54D6] underline uppercase ">
                         L’Enjeu
                     </p>
-                    <p class="text-[#505050] font-Lato text-base xl:text-xl">
+                    <p class="text-[#505050] font-Lato text-base 2xl:text-xl">
                         Contrairement aux cancers de l’adulte qui résultent principalement du vieillissement et de l'exposition à des mutagènes, les cancers pédiatriques émergent de la dérégulation des programmes génétiques qui gouvernent le développement normal des cellules.
                         Les cancers pédiatriques nécessitent donc des recherches spécifiques et adaptées.
                     </p>
-                    <p class="text-xl xl:text-3xl font-Lato font-bold text-[#4D54D6] uppercase mt-40">
+                    <p class="text-xl xl:text-3xl font-Lato font-bold text-[#4D54D6] uppercase">
                         Les nouvelles perspectives<br/>
                         <c class="underline">pour</c> les patients
                     </p>
                     <ul>
-                        <li class="text-[#505050] text-base xl:text-xl font-Lato font-bold">
+                        <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold">
                             se basant sur les précédents travaux du Dr Saulnier qui ont permis d’identifier un type cellulaire présent uniquement lors du développement fœtal du cerveau et à l’origine du médulloblastome, son équipe cherchera à étendre la ces résultats prometteurs à plusieurs types de cancers pédiatriques
                         </li>
-                        <li class="text-[#505050] text-base xl:text-xl font-Lato font-bold mt-3">
+                        <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold mt-3">
                             à terme, prévenir la maladie chez les enfants, avant même qu’elle ne se développe
                         </li>
                     </ul>
@@ -128,7 +124,7 @@
                     <p class="text-xl xl:text-3xl font-Lato font-bold text-[#4D54D6] underline uppercase">
                         L’innovation
                     </p>
-                    <p class="text-[#505050] font-Lato text-base xl:text-xl">
+                    <p class="text-[#505050] font-Lato text-base 2xl:text-xl">
                         L’unité Cancer, hétérogénéité, instabilité et plasticité de l’Institut Curie, dirigée par le Docteur Olivier Delattre, a été renforcée avec l’arrivée d’un jeune chercheur, le Docteur Olivier Saulnier, à la tête d’une nouvelle équipe “Génomique et développement des cancers de l’enfant”.
                         <br/><br/>
                         Avec son équipe, le Docteur Olivier Saulnier étudie des programmes de transcription au cours du développement embryonnaire et leurs implications dans la genèse des cellules cancéreuses. En utilisant des techniques de génomique à l’échelle de la cellule unique, leur objectif est d’identifier les origines des cancers pédiatriques à la fois dans l’espace et dans le temps.
@@ -174,24 +170,25 @@
                 </button>
             </div>
             {:else if projectIndex === 2}
-            <div class="bg-[url('/bg-project-3-desktop.png')] bg-cover bg-no-repeat relative w-full h-[25rem] xl:h-[39rem]">
-                <p class="font-Raleway  text-xl xl:text-3xl font-black absolute bottom-5 xl:bottom-10 text-center text-white left-0 right-0 mx-auto">
-                    Évaluation de la combinaison de <span class="underline decoration-[#FF6600] ">2 thérapies cellulaires</span> <br>innovantes avec le projet EPCART
+            <div class="bg-[url('bg-project-4.png')] bg-cover bg-no-repeat relative w-full h-[22rem] 2xl:h-[39rem]">
+                <div class="bg-[#4D54D6]/60 backdrop-blur-md purple-project absolute w-full  bottom-0 h-[20rem] 2xl:h-[25rem]"/>
+                <p class="font-Raleway text-xl 2xl:text-3xl font-black absolute bottom-5 2xl:bottom-10 text-center text-white left-0 right-0 mx-auto">
+                    Évaluation de la combinaison de<br/> <span class="underline decoration-[#FF6600] ">2 thérapies cellulaires</span> innovantes avec le projet EPCART
                 </p>
             </div>
-            <div class="flex flex-row items-center justify-center w-full xl:mt-5 px-5 xl:px-10 py-5 xl:py-10 gap-5 relative">
-                <div class="w-1/2 flex flex-col  mt-4 h-[60rem] gap-10">
+            <div class="flex flex-row items-center justify-center w-full xl:mt-5 px-5 2xl:px-10 py-5 2xl:py-10 gap-5 relative">
+                <div class="w-1/2 flex flex-col  mt-4 h-[50rem] 2xl:h-[60rem] gap-10">
                     <p class="text-xl xl:text-3xl font-Lato font-bold text-[#4D54D6] underline uppercase">
                         L’Enjeu
                     </p>
-                    <p class="text-[#505050] font-Lato text-base xl:text-xl">
+                    <p class="text-[#505050] font-Lato text-base 2xl:text-xl">
                         20 ans après l’émergence de l’immunothérapie et après 10 ans de recherches fondamentales, les équipes de l’Institut Curie franchissent une nouvelle étape contre les tumeurs difficiles à traiter. Elles ont conçu de nouvelles thérapies cellulaires révolutionnaires qui reposent sur la combinaison :
                     </p>
                     <ul>
-                        <li class="text-[#505050] text-base xl:text-xl font-Lato">
+                        <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold">
                             des thérapies CAR-T qui constituent une nouvelle forme d’immunothérapie reposant sur la modification génétique des lymphocytes T d’un patient. Une fois modifiés, ces lymphocytes T devenus « cellules CAR-T » sont réinjectés au patient afin que ceux-ci soient en mesure de reconnaître et détruire ses cellules cancéreuses.
                         </li>
-                        <li class="text-[#505050] text-base xl:text-xl font-Lato">
+                        <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold">
                             de l’immuno-épigénétique qui permet de « reprogrammer » ces cellules CAR-T pour augmenter leur efficacité face à la tumeur.
                         </li>
                     </ul>
@@ -200,19 +197,19 @@
                         <c class="underline">pour</c> les patients
                     </p>
                     <ul>
-                        <li class="text-[#505050] text-base xl:text-xl font-Lato font-bold">
+                        <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold">
                             Développer des essais cliniques innovants
                         </li>
-                        <li class="text-[#505050] text-base xl:text-xl font-Lato font-bold mt-3">
+                        <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold">
                             Offrir un véritable espoir aux patients qui luttent contre des tumeurs particulièrement difficiles à traiter, pour lesquelles les immunothérapies actuelles ne fonctionnent pas, comme les cancers du sein triple négatif, ou les cancers du poumon.
                         </li>
                     </ul>
                 </div>
-                <div class="w-1/2 flex flex-col gap-[4.3rem] xl:gap-10 relative h-[60rem]">
+                <div class="w-1/2 flex flex-col gap-[4.3rem] xl:gap-10 relative h-[50rem] 2xl:h-[60rem]">
                     <p class="text-xl xl:text-3xl font-Lato font-bold text-[#4D54D6] underline uppercase">
                         L’innovation
                     </p>
-                    <p class="text-[#505050] font-Lato text-base xl:text-xl">
+                    <p class="text-[#505050] font-Lato text-base 2xl:text-xl">
                         Les vaccins à ARN messager sont particulièrement prometteurs et leur développement ouvre de nouvelles perspectives de guérison pour les patients.
                         <b>L’Institut Curie souhaite donc acquérir 2 équipements de pointe indispensables à l’élaboration de ce type de vaccins : un purificateur de peptides et un spectromètre de masse.</b>
                     </p>
@@ -288,5 +285,9 @@
         text-decoration-color: #505050;
         text-decoration-thickness: 3px;
         text-underline-offset: 2px;
+    }
+
+    .purple-project {
+        clip-path: polygon(0 74%, 100% 55%, 100% 100%, 0% 100%);
     }
 </style>

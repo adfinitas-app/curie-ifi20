@@ -1,0 +1,32 @@
+<svg id="Group_635" data-name="Group 635" xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 2xl:w-40 2xl:h-40" viewBox="0 0 138 138">
+    <g id="Group_581" data-name="Group 581">
+        <circle id="Ellipse_23" data-name="Ellipse 23" cx="69" cy="69" r="69" fill="#9b999b"/>
+        <g id="Group_447" data-name="Group 447" transform="translate(12.358 12.359)">
+            <ellipse id="Ellipse_10" data-name="Ellipse 10" cx="56.642" cy="56.642" rx="56.642" ry="56.642" fill="#505050"/>
+            <g id="Group_416" data-name="Group 416" transform="translate(33.289 28.74)">
+                <path id="Path_312" data-name="Path 312" d="M958.473,228H915.654a2.8,2.8,0,0,0-2.8,2.8v54.062a2.8,2.8,0,0,0,2.8,2.8h29.481l16.142-16.142V230.8A2.8,2.8,0,0,0,958.473,228Z" transform="translate(-912.85 -228)" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                <path id="Path_313" data-name="Path 313" d="M935.034,274.05l16.143-16.142H937.837a2.8,2.8,0,0,0-2.8,2.8Z" transform="translate(-902.749 -214.383)" fill="#f60" stroke="#f60" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+            </g>
+        </g>
+        <g id="Rectangle_528" data-name="Rectangle 528" transform="translate(49.136 48.634)" fill="#fff" stroke="#f60" stroke-width="1">
+            <rect width="41.818" height="8.364" rx="1" stroke="none"/>
+            <rect x="0.5" y="0.5" width="40.818" height="7.364" rx="0.5" fill="none"/>
+        </g>
+        <g id="Rectangle_531" data-name="Rectangle 531" transform="translate(49.136 72.679)" fill="#fff" stroke="#f60" stroke-width="1">
+            <rect width="41.818" height="8.364" rx="1" stroke="none"/>
+            <rect x="0.5" y="0.5" width="40.818" height="7.364" rx="0.5" fill="none"/>
+        </g>
+        <g id="Rectangle_532" data-name="Rectangle 532" transform="translate(49.136 85.225)" fill="#fff" stroke="#f60" stroke-width="1">
+            <rect width="18.818" height="8.364" rx="1" stroke="none"/>
+            <rect x="0.5" y="0.5" width="17.818" height="7.364" rx="0.5" fill="none"/>
+        </g>
+        <g id="Rectangle_529" data-name="Rectangle 529" transform="translate(49.136 61.179)" fill="#fff" stroke="#f60" stroke-width="1">
+            <rect width="18.818" height="8.364" rx="1" stroke="none"/>
+            <rect x="0.5" y="0.5" width="17.818" height="7.364" rx="0.5" fill="none"/>
+        </g>
+        <g id="Rectangle_530" data-name="Rectangle 530" transform="translate(72.136 61.179)" fill="#fff" stroke="#f60" stroke-width="1">
+            <rect width="18.818" height="8.364" rx="1" stroke="none"/>
+            <rect x="0.5" y="0.5" width="17.818" height="7.364" rx="0.5" fill="none"/>
+        </g>
+    </g>
+</svg>
