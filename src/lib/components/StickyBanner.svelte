@@ -26,7 +26,7 @@
         <span class={`h-0.5 bg-white rounded-3xl transition-width ${isHoveringText2 ? 'w-[10rem]' : 'w-[3rem]'}`}/>
     </button>
 
-    <button class="bg-[#FF6600] text-xs xl:text-xl text-white lg:px-4 lg:py-2 2xl:py-3 2xl:px-16 font-Raleway font-bold hover:border-2 hover:border-white transition-all relative">
+    <button class="bg-[#FF6600] text-xs xl:text-xl text-white lg:px-2 lg:py-2 2xl:py-3 2xl:px-16 font-Raleway font-bold hover:border-2 hover:border-white transition-all relative">
         JE FAIS UN DON<br/>
         Déductible de<br/>
         <span class="font-black">l’IFI</span>
@@ -95,16 +95,16 @@
                                 <input type="number" class="bg-white rounded-3xl border-2 text-center py-2 border-gray-500" on:focus={() => isInputFocused = 4} on:blur={() => isInputFocused = 0}/>
                             </div>
                         </div>
-                        <button class="bg-[#FF6600] text-xl text-white py-3 px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-10">
+                        <button class="bg-[#FF6600] xl:text-xl text-white py-2 xl:py-3 px-10 xl:px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-5 xl:-bottom-10">
                             JE FAIS UN DON<br/>
-                            Déductible de<br/>
+                            Déductible de<br class="hidden xl:block"/>
                             <span class="font-black">l’IFI</span>
                         </button>
                     </div>
                 {:else if activeTab === 2}
-                    <div class=" rounded-t-3xl bg-[#4D54D6] w-full h-[2rem]"/>
-                    <div class="input-focus-violet flex flex-col items-center justify-center p-4">
-                        <p class="text-center text-4xl font-Raleway font-black text-[#4D54D6]">
+                    <div class=" rounded-t-3xl bg-[#4D54D6] w-full lg:h-[1rem] 2xl:h-[2rem]"/>
+                    <div class="input-focus-violet flex flex-col items-center justify-center 2xl:p-4">
+                        <p class="text-center text-xl 2xl:text-4xl font-Raleway font-black text-[#4D54D6]">
                             JE CALCULE<br>
                             MA DÉDUCTION FISCALE IR
                         </p>
@@ -304,7 +304,6 @@
             </div>
         {/if}
     {/if}
-
 </div>
 
 

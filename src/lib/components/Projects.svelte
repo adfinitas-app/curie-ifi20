@@ -11,7 +11,7 @@
         <div class=" bg-[#FF6600] w-[5rem] h-1 rounded-2xl mt-2"/>
         <div class="flex flex-row mt-5 2xl:mt-10">
             <button on:click={()=> projectIndex = 0} class:selectedButton={projectIndex === 0} class=" py-2 xl:py-4 px-3 xl:px-5 font-Raleway text-xl 2xl:text-2xl font-bold text-center text-[#505050] border-r-2 border-[#505050]">
-                Accélérer la recherche grâce<br/> à deux<span class="underline decoration-[#FF6600] "> équipements</span>
+                Accélérer la recherche grâce<br/> à deux<span class="underline decoration-[#FF6600] "> &nbsp;équipements</span>
             </button>
             <button on:click={()=> projectIndex = 1} class:selectedButton={projectIndex === 1} class=" py-2 xl:py-4 px-3 xl:px-5 font-Raleway text-xl 2xl:text-2xl font-bold text-center text-[#505050] border-r-2 border-[#505050]">
                 Attirer les<br/><span class="underline decoration-[#FF6600] "> meilleurs talents</span>
@@ -27,8 +27,8 @@
                     <span class="underline decoration-[#FF6600] ">2 équipements de pointe</span> pour révolutionner les traitements de<br/> demain contre les cancers grâce à des vaccins thérapeutiques
                 </p>
             </div>
-            <div class="flex flex-row items-center justify-center w-full xl:mt-5 px-5 xl:px-10 py-2 2xl:py-10 gap-5 relative">
-                <div class="w-1/2 flex flex-col gap-5 2xl:mt-4">
+            <div class="flex flex-row items-center justify-center w-full xl:mt-5 px-5 xl:px-10 py-2 2xl:py-10 gap-5 relative h-[50rem] xl:h-[40rem] 2xl:h-[50rem]">
+                <div class="w-1/2 flex flex-col h-full gap-5 2xl:mt-4">
                     <p class="text-xl xl:text-3xl font-Lato font-bold text-[#4D54D6] underline uppercase">
                         L’Enjeu
                     </p>
@@ -54,7 +54,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="w-1/2 flex flex-col gap-[4.3rem] xl:gap-6 2xl:gap-10 relative">
+                <div class="w-1/2 flex flex-col gap-20 h-full xl:gap-6 2xl:gap-10 relative">
                     <p class="text-xl xl:text-3xl font-Lato font-bold text-[#4D54D6] underline uppercase">
                         L’innovation
                     </p>
@@ -62,7 +62,7 @@
                         Les vaccins à ARN messager sont particulièrement prometteurs et leur développement ouvre de nouvelles perspectives de guérison pour les patients.
                         <b>L’Institut Curie souhaite donc acquérir 2 équipements de pointe indispensables à l’élaboration de ce type de vaccins : un purificateur de peptides et un spectromètre de masse.</b>
                     </p>
-                    <p class="text-3xl font-Lato font-bold text-[#4D54D6] underline uppercase 2xl:mt-0">
+                    <p class="text-xl 2xl:text-3xl font-Lato font-bold text-[#4D54D6] underline uppercase 2xl:mt-0">
                         Le porteur du projet
                     </p>
                     <div class="flex flex-row bg-[#4D54D6] items-center justify-center gap-3">
@@ -98,8 +98,8 @@
                     <span class="underline decoration-[#FF6600] ">Une équipe renforcée</span> pour mieux comprendre le<br/> développement des tumeurs qui touchent les enfants
                 </p>
             </div>
-            <div class="flex flex-row items-center justify-center w-full xl:mt-5 px-5 xl:px-10 py-5 xl:py-10 gap-5 relative">
-                <div class="w-1/2 flex flex-col relative h-[53rem] xl:gap-10">
+            <div class="flex flex-row items-center justify-center  h-[53rem] 2xl:h-[60rem]  w-full xl:mt-5 px-5 xl:px-10 py-5 xl:py-10 gap-5 relative">
+                <div class="w-1/2 flex flex-col relative h-full gap-10">
                     <p class="text-xl xl:text-3xl font-Lato font-bold text-[#4D54D6] underline uppercase ">
                         L’Enjeu
                     </p>
@@ -120,7 +120,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="w-1/2 flex flex-col gap-[4.3rem] xl:gap-10 relative h-[53rem]">
+                <div class="w-1/2 flex flex-col gap-10 relative h-full">
                     <p class="text-xl xl:text-3xl font-Lato font-bold text-[#4D54D6] underline uppercase">
                         L’innovation
                     </p>
@@ -129,7 +129,7 @@
                         <br/><br/>
                         Avec son équipe, le Docteur Olivier Saulnier étudie des programmes de transcription au cours du développement embryonnaire et leurs implications dans la genèse des cellules cancéreuses. En utilisant des techniques de génomique à l’échelle de la cellule unique, leur objectif est d’identifier les origines des cancers pédiatriques à la fois dans l’espace et dans le temps.
                     </p>
-                    <p class="text-3xl font-Lato font-bold text-[#4D54D6] underline uppercase 2xl:mt-0">
+                    <p class="text-xl 2xl:text-3xl font-Lato font-bold text-[#4D54D6] underline uppercase 2xl:mt-0">
                         Le porteur du projet
                     </p>
                     <div class="flex flex-row bg-[#4D54D6] items-center justify-center gap-3">
@@ -148,7 +148,7 @@
                         </p>
                     </div>
                 </div>
-                <button on:click={()=> projectIndex = 2} class="absolute right-20 lg:-bottom-10 xl:-bottom-4 2xl:bottom-0  hover:scale-110 transition-all">
+                <button on:click={()=> projectIndex = 2} class="absolute right-20 lg:-bottom-2 xl:-bottom-4 2xl:bottom-0  hover:scale-110 transition-all">
                     <svg xmlns="http://www.w3.org/2000/svg" width="155.576" height="37.935" viewBox="0 0 155.576 37.935">
                         <g id="Component_16_2" data-name="Component 16 – 2" transform="translate(0 0.935)">
                             <text id="SUIVANT" transform="translate(0 24)" fill="#505050" font-size="25" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">SUIVANT</tspan></text>
@@ -157,7 +157,7 @@
                         </g>
                     </svg>
                 </button>
-                <button on:click={()=> projectIndex = 0} class="absolute left-20 lg:-bottom-10 xl:-bottom-4 2xl:bottom-0  hover:scale-110 transition-all">
+                <button on:click={()=> projectIndex = 0} class="absolute left-20 lg:-bottom-2 xl:-bottom-4 2xl:bottom-0  hover:scale-110 transition-all">
                     <svg xmlns="http://www.w3.org/2000/svg" width="170.5" height="37.935" viewBox="0 0 170.5 37.935">
                         <g id="Group_719" data-name="Group 719" transform="translate(-1571.924 -4495.565)">
                             <g id="Component_16_3" data-name="Component 16 – 3" transform="translate(1573.424 4496.5)">
@@ -176,8 +176,8 @@
                     Évaluation de la combinaison de<br/> <span class="underline decoration-[#FF6600] ">2 thérapies cellulaires</span> innovantes avec le projet EPCART
                 </p>
             </div>
-            <div class="flex flex-row items-center justify-center w-full xl:mt-5 px-5 2xl:px-10 py-5 2xl:py-10 gap-5 relative">
-                <div class="w-1/2 flex flex-col  mt-4 h-[50rem] 2xl:h-[60rem] gap-10">
+            <div class="flex flex-row items-center justify-center w-full relative h-[55rem] 2xl:h-[65rem]  px-5 xl:px-10 py-5 xl:py-10 gap-5">
+                <div class="w-1/2 flex flex-col h-full gap-10">
                     <p class="text-xl xl:text-3xl font-Lato font-bold text-[#4D54D6] underline uppercase">
                         L’Enjeu
                     </p>
@@ -205,7 +205,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="w-1/2 flex flex-col gap-[4.3rem] xl:gap-10 relative h-[50rem] 2xl:h-[60rem]">
+                <div class="w-1/2 flex flex-col gap-10 relative h-full 2xl:h-[60rem]">
                     <p class="text-xl xl:text-3xl font-Lato font-bold text-[#4D54D6] underline uppercase">
                         L’innovation
                     </p>
@@ -213,22 +213,22 @@
                         Les vaccins à ARN messager sont particulièrement prometteurs et leur développement ouvre de nouvelles perspectives de guérison pour les patients.
                         <b>L’Institut Curie souhaite donc acquérir 2 équipements de pointe indispensables à l’élaboration de ce type de vaccins : un purificateur de peptides et un spectromètre de masse.</b>
                     </p>
-                    <p class="text-3xl font-Lato font-bold text-[#4D54D6] underline uppercase 2xl:mt-0">
+                    <p class="text-xl 2xl:text-3xl font-Lato font-bold text-[#4D54D6] underline uppercase 2xl:mt-0">
                         Le porteur du projet
                     </p>
                     <div class="flex flex-row bg-[#4D54D6]">
-                        <img src="/pic-project-3-desktop.png" class="w-[200px] h-[300px] 2xl:w-[303px] 2xl:h-[405px]">
+                        <img src="/pic-project-3-desktop.png" class="w-[150px] h-[250px] xl:w-[200px] xl:h-[300px] 2xl:w-[303px] 2xl:h-[405px]">
                         <div class="flex flex-col p-2 gap-2">
-                            <p class="text-white text-base 2xl:text-xl font-bold font-Raleway">
+                            <p class="text-white text-xs xl:text-base 2xl:text-xl font-bold font-Raleway">
                                 Dr Sebastian Amugorena
                             </p>
-                            <p class="font-Lato text-base 2xl:text-xl text-white">
+                            <p class="font-Lato text-xs xl:text-base 2xl:text-xl text-white">
                                 Chef de l’équipe Réponses Immunitaires et Cancer à l’Institut Curie et coordinateur du projet EpCART.
                             </p>
                             <svg xmlns="http://www.w3.org/2000/svg" width="300.489" height="20.341" viewBox="0 0 423.489 20.341">
                                 <path id="Path_634" data-name="Path 634" d="M9314.057,6613.376h65.183v17.207l20.658-17.207h337.648" transform="translate(-9314.057 -6612.376)" fill="none" stroke="#fff" stroke-width="2"/>
                             </svg>
-                            <p class="font-Lato text-white italic text-base 2xl:text-xl">
+                            <p class="font-Lato text-white italic text-sm xl:text-base 2xl:text-xl">
                                 « Dans 20 ans, j’aspire à ce que ces thérapies de rupture aient prouvées leur efficacité contre différents types de cancers et en particulier des tumeurs solides, un défi de taille à relever car beaucoup plus difficiles d’accès pour ces cellules CAR-T »
                             </p>
                         </div>
