@@ -83,7 +83,7 @@
                 Par exemple :
             </p>
             <img src="/graph3.png" class="w-[20rem] xl:w-[30rem]"/>
-            <button class="bg-[#34B3C5] w-[268px] text-[16px] md:text-sm 2xl:text-xl text-white lg:p-2 xl:py-2 xl:px-7 2xl:py-3 2xl:px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-14 xl:-bottom-16  2xl:-bottom-20">
+            <button class="bg-[#34B3C5] w-[268px] 2xl:w-auto text-[16px] md:text-sm 2xl:text-xl text-white lg:px-2 xl:py-2 xl:px-7 2xl:py-3 2xl:px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-10 xl:-bottom-12  2xl:-bottom-20">
                 JE FAIS UN DON<br/>
                 Déductible de<br/>
                 <span class="font-black">L’impôt sur les Sociétés</span>
