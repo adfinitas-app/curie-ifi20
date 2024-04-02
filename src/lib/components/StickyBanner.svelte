@@ -8,6 +8,10 @@
     let isInputFocused = 0;
     let isPopupVisibleMobile = false;
 
+    let montantIfi = undefined;
+    let montant2 = undefined;
+    let montantIr = undefined;
+
     let isOpen = false;
 </script>
 
@@ -51,7 +55,6 @@
                             <line id="Line_2" data-name="Line 2" x1="23.151" y2="23.151" transform="translate(1220.5 102.349)" fill="none" stroke="#000" stroke-width="4"/>
                         </g>
                     </svg>
-
                 </button>
                 {#if activeTab === 1}
                     <div class=" rounded-t-3xl bg-[#FF6600] w-full lg:h-[1rem] 2xl:h-[2rem]"/>
@@ -61,38 +64,42 @@
                             MA DÉDUCTION FISCALE IFI
                         </p>
                         <div class="flex flex-row items-center justify-between w-[70%] mt-3 xl:mt-6 2xl:mt-10">
-                            <p class={`text-xl 2xl:text-2xl font-Raleway font-bold ${isInputFocused === 1 ? 'text-[#FF6600]' : ''}`}>
+                            <p class={`text-xl 2xl:text-2xl font-Raleway font-bold w-auto ${isInputFocused === 1 ? 'text-[#FF6600]' : ''}`}>
                                 Montant de votre IFI
                             </p>
                             <div class="input-container font-Raleway text-[#FF6600] text-xl 2xl:text-2xl font-bold">
-                                <input type="number" class="bg-white rounded-3xl border-2 text-center py-2 border-gray-500" on:focus={() => isInputFocused = 1} on:blur={() => isInputFocused = 0}/>
+                                <input type="number" bind:value={montantIfi} class="bg-white rounded-3xl border-2 text-center w-[25vh] h-[5vh] border-gray-500" on:focus={() => isInputFocused = 1} on:blur={() => isInputFocused = 0}/>
                             </div>
                         </div>
                         <div class="flex flex-row items-center justify-between w-[70%] mt-3 xl:mt-6 2xl:mt-10">
-                            <p class={`text-xl 2xl:text-2xl font-Raleway font-bold ${isInputFocused === 2 ? 'text-[#FF6600]' : ''}`}>
+                            <p class={`text-xl 2xl:text-2xl font-Raleway w-auto font-bold ${isInputFocused === 2 ? 'text-[#FF6600]' : ''}`}>
                                 Montant de votre don<br/>
                                 pour réduire votre IFI au maximum
                             </p>
-                            <div class="input-container font-Raleway text-[#FF6600] text-xl 2xl:text-2xl font-bold">
-                                <input type="number" class="bg-white rounded-3xl border-2 text-center py-2 border-gray-500" on:focus={() => isInputFocused = 2} on:blur={() => isInputFocused = 0}/>
+                            <div class="input-container rounded-3xl border-2 text-center pt-2 border-gray-500 w-[25vh] h-[5vh] font-Raleway text-[#FF6600] text-xl 2xl:text-2xl font-bold">
+                                {#if montantIfi !== undefined}
+                                    {Math.round(montantIfi * 1.33)}
+                                {/if}
                             </div>
                         </div>
                         <div class="flex flex-row items-center justify-between w-[70%] mt-3 xl:mt-6 2xl:mt-10">
-                            <p class={`text-xl 2xl:text-2xl font-Raleway font-bold ${isInputFocused === 3 ? 'text-[#FF6600]' : ''}`}>
+                            <p class={`text-xl 2xl:text-2xl font-Raleway w-auto font-bold ${isInputFocused === 3 ? 'text-[#FF6600]' : ''}`}>
                                 Montant du don<br/>
                                 que vous souhaitez effectuer
                             </p>
                             <div class="input-container font-Raleway text-[#FF6600] text-xl 2xl:text-2xl font-bold">
-                                <input type="number" class="bg-white rounded-3xl border-2 text-center py-2 border-gray-500" on:focus={() => isInputFocused = 3} on:blur={() => isInputFocused = 0}/>
+                                <input type="number" bind:value={montant2} class="bg-white rounded-3xl border-2 text-center w-[25vh] h-[5vh] border-gray-500" on:focus={() => isInputFocused = 3} on:blur={() => isInputFocused = 0}/>
                             </div>
                         </div>
                         <div class="flex flex-row items-center justify-between w-[70%] mt-3 xl:mt-6 2xl:mt-10">
                             <p class={`text-xl 2xl:text-2xl font-Raleway font-bold ${isInputFocused === 4 ? 'text-[#FF6600]' : ''}`}>
-                                Montant du don<br/>
-                                que vous souhaitez effectuer
+                                Estimation de votre IFI<br/>
+                                après déduction de 75 % de votre don
                             </p>
-                            <div class="input-container font-Raleway text-[#FF6600] text-xl 2xl:text-2xl font-bold">
-                                <input type="number" class="bg-white rounded-3xl border-2 text-center py-2 border-gray-500" on:focus={() => isInputFocused = 4} on:blur={() => isInputFocused = 0}/>
+                            <div class="input-container rounded-3xl border-2 text-center pt-2 border-gray-500 w-[25vh] h-[5vh] font-Raleway text-[#FF6600] text-xl 2xl:text-2xl font-bold">
+                                {#if montant2 !== undefined}
+                                    {Math.round(montant2 * 0.25)}
+                                {/if}
                             </div>
                         </div>
                         <button class="bg-[#FF6600] xl:text-xl text-white py-2 xl:py-3 px-10 xl:px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-5 xl:-bottom-10">
@@ -110,39 +117,34 @@
                         </p>
                         <div class="flex flex-row items-center justify-between w-[70%] mt-3 xl:mt-6 2xl:mt-10">
                             <p class={`text-xl 2xl:text-2xl font-Raleway font-bold ${isInputFocused === 1 ? 'text-[#4D54D6]' : ''}`}>
-                                Montant de votre IR
+                                Montant du don que vous souhaitez effectuer
                             </p>
                             <div class="input-container font-Raleway text-[#4D54D6] text-xl 2xl:text-2xl font-bold">
-                                <input type="number" class="bg-white rounded-3xl border-2 text-center py-2 border-gray-500" on:focus={() => isInputFocused = 1} on:blur={() => isInputFocused = 0}/>
+                                <input bind:value={montantIr} type="number" class="bg-white rounded-3xl border-2 text-center py-2 border-gray-500" on:focus={() => isInputFocused = 1} on:blur={() => isInputFocused = 0}/>
                             </div>
                         </div>
                         <div class="flex flex-row items-center justify-between w-[70%] mt-3 xl:mt-6 2xl:mt-10">
                             <p class={`text-xl 2xl:text-2xl font-Raleway font-bold  ${isInputFocused === 2 ? 'text-[#4D54D6]' : ''}`}>
-                                Montant de votre don<br/>
-                                pour réduire votre IR au maximum
+                                Montant déductible de votre Impôt sur le Revenu
                             </p>
-                            <div class="input-container font-Raleway text-[#4D54D6] text-xl 2xl:text-2xl font-bold">
-                                <input type="number" class="bg-white rounded-3xl border-2 text-center py-2 border-gray-500 input-focus-violet" on:focus={() => isInputFocused = 2} on:blur={() => isInputFocused = 0}/>
+                            <div class="input-container rounded-3xl border-2 text-center pt-2 border-gray-500 w-[25vh] h-[5vh] font-Raleway text-[#4D54D6] text-xl 2xl:text-2xl font-bold">
+                                {#if montantIr !== undefined}
+                                    {Math.round(montantIr * 0.67)}
+                                {/if}
                             </div>
                         </div>
+
                         <div class="flex flex-row items-center justify-between w-[70%] mt-3 xl:mt-6 2xl:mt-10">
-                            <p class={`text-xl 2xl:text-2xl font-Raleway font-bold ${isInputFocused === 3 ? 'text-[#4D54D6]' : ''}`}>
-                                Montant du don<br/>
-                                que vous souhaitez effectuer
+                            <p class={`text-xl 2xl:text-2xl font-Raleway font-bold  ${isInputFocused === 2 ? 'text-[#4D54D6]' : ''}`}>
+                                Coût réel de votre don après déduction fiscale de 66 %
                             </p>
-                            <div class="input-container font-Raleway text-[#4D54D6] text-xl 2xl:text-2xl font-bold">
-                                <input type="number" class="bg-white rounded-3xl border-2 text-center py-2 border-gray-500" on:focus={() => isInputFocused = 3} on:blur={() => isInputFocused = 0}/>
+                            <div class="input-container rounded-3xl border-2 text-center pt-2 border-gray-500 w-[25vh] h-[5vh] font-Raleway text-[#4D54D6] text-xl 2xl:text-2xl font-bold">
+                                {#if montantIr !== undefined}
+                                    {Math.round(montantIr * 0.34)}
+                                {/if}
                             </div>
                         </div>
-                        <div class="flex flex-row items-center justify-between w-[70%] mt-3 xl:mt-6 2xl:mt-10">
-                            <p class={`text-xl 2xl:text-2xl font-Raleway font-bold ${isInputFocused === 4 ? 'text-[#4D54D6]' : ''}`}>
-                                Montant du don<br/>
-                                que vous souhaitez effectuer
-                            </p>
-                            <div class="input-container font-Raleway text-[#4D54D6] text-xl 2xl:text-2xl font-bold">
-                                <input type="number" class="bg-white rounded-3xl border-2 text-center py-2 border-gray-500" on:focus={() => isInputFocused = 4} on:blur={() => isInputFocused = 0}/>
-                            </div>
-                        </div>
+
                         <button class="bg-[#4D54D6] text-xl text-white py-3 px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-10">
                             JE FAIS UN DON<br/>
                             Déductible de<br/>
@@ -208,7 +210,7 @@
                 <div class="backdrop-blur-xl w-[98%] bg-white rounded-r-3xl transition-colors rounded-l-3xl rounded-b-3xl pb-5">
                     {#if activeTab === 1}
                         <div class="rounded-t-3xl bg-[#FF6600] w-full h-[1rem]"/>
-                        <div class="input-focus-violet flex flex-col items-center justify-center relative">
+                        <div class="input-focus-orange flex flex-col items-center justify-center relative">
                             <p class="text-center text-[20px] font-Raleway font-black text-[#FF6600]">
                                 JE CALCULE<br>
                                 MA DÉDUCTION FISCALE IFI
@@ -233,16 +235,20 @@
                                 </div>
                                 <div class="flex flex-col   w-[50%] relative">
                                     <div class="input-container font-Raleway text-[#FF6600] text-[2vh] absolute top-0 font-bold">
-                                        <input type="number" class="bg-white rounded-3xl border-2 text-center py-2 border-gray-500" on:focus={() => isInputFocused = 1} on:blur={() => isInputFocused = 0}/>
+                                        <input type="number" bind:value={montantIfi} class="bg-white rounded-3xl border-2 text-center py-2 border-gray-500" on:focus={() => isInputFocused = 1} on:blur={() => isInputFocused = 0}>
                                     </div>
-                                    <div class="input-container font-Raleway text-[#FF6600] text-[2vh] absolute top-[10%] font-bold">
-                                        <input type="number" class="bg-white rounded-3xl border-2 text-center py-2 border-gray-500" on:focus={() => isInputFocused = 2} on:blur={() => isInputFocused = 0}/>
+                                    <div class="input-container rounded-3xl border-2 text-center pt-2 mt-6 border-gray-500 w-[22vh] h-[5vh] font-Raleway text-[#FF6600] text-xl 2xl:text-2xl font-bold">
+                                        {#if montantIfi !== undefined}
+                                            {Math.round(montantIfi * 1.33)}
+                                        {/if}
                                     </div>
                                     <div class="input-container font-Raleway text-[#FF6600] text-[2vh] absolute top-[20%] font-bold">
-                                        <input type="number" class="bg-white rounded-3xl border-2 text-center py-2 border-gray-500" on:focus={() => isInputFocused = 3} on:blur={() => isInputFocused = 0}/>
+                                        <input type="number" bind:value={montant2}  class="bg-white rounded-3xl border-2 text-center py-2 border-gray-500" on:focus={() => isInputFocused = 3} on:blur={() => isInputFocused = 0}/>
                                     </div>
-                                    <div class="input-container font-Raleway text-[#FF6600] text-[2vh] absolute top-[30%] font-bold">
-                                        <input type="number" class="bg-white rounded-3xl border-2 text-center py-2 border-gray-500" on:focus={() => isInputFocused = 4} on:blur={() => isInputFocused = 0}/>
+                                    <div class="input-container rounded-3xl border-2 text-center pt-2 mt-32 border-gray-500 w-[22vh] h-[5vh] font-Raleway text-[#FF6600] text-xl 2xl:text-2xl font-bold">
+                                        {#if montant2 !== undefined}
+                                            {Math.round(montant2 * 0.25)}
+                                        {/if}
                                     </div>
                                 </div>
                             </div>
@@ -261,35 +267,30 @@
                                 MA DÉDUCTION FISCALE IR
                             </p>
                             <div class="flex flex-row w-full">
-                                <div class="flex flex-col   w-[50%] gap-y-3 p-3">
+                                <div class="flex flex-col w-[50%] gap-y-3 p-3">
                                     <p class={`text-[2vh] font-Raleway font-bold ${isInputFocused === 1 ? 'text-[#4D54D6]' : ''}`}>
-                                        Montant de votre IR
+                                        Montant du don que vous souhaitez effectuer
                                     </p>
                                     <p class={`text-[2vh] font-Raleway font-bold ${isInputFocused === 2 ? 'text-[#4D54D6]' : ''}`}>
-                                        Montant de votre don
-                                        pour réduire votre IR au maximum
+                                        Montant déductible de votre Impôt sur le Revenu
                                     </p>
                                     <p class={`text-[2vh] font-Raleway font-bold ${isInputFocused === 3 ? 'text-[#4D54D6]' : ''}`}>
-                                        Montant du don
-                                        que vous souhaitez effectuer
-                                    </p>
-                                    <p class={`text-[2vh] font-Raleway font-bold ${isInputFocused === 4 ? 'text-[#4D54D6]' : ''}`}>
-                                        Montant du don
-                                        que vous souhaitez effectuer
+                                        Coût réel de votre don après déduction fiscale de 66 %
                                     </p>
                                 </div>
-                                <div class="flex flex-col   w-[50%] relative">
-                                    <div class="input-container font-Raleway text-[#4D54D6] text-[2vh] absolute top-0 font-bold">
-                                        <input type="number" class="bg-white rounded-3xl border-2 text-center py-2 border-gray-500 input-focus-violet" on:focus={() => isInputFocused = 1} on:blur={() => isInputFocused = 0}/>
+                                <div class="flex flex-col w-[50%] relative">
+                                    <div class="input-container font-Raleway text-[#4D54D6] text-[2vh] absolute top-5 font-bold">
+                                        <input type="number" bind:value={montantIr} class="bg-white rounded-3xl border-2 text-center py-2 border-gray-500" on:focus={() => isInputFocused = 1} on:blur={() => isInputFocused = 0}>
                                     </div>
-                                    <div class="input-container font-Raleway text-[#4D54D6] text-[2vh] absolute top-[10%] font-bold">
-                                        <input type="number" class="bg-white rounded-3xl border-2 text-center py-2 border-gray-500 input-focus-violet" on:focus={() => isInputFocused = 2} on:blur={() => isInputFocused = 0}/>
+                                    <div class="input-container rounded-3xl border-2 text-center mt-16 border-gray-500 w-[22vh] h-[5vh] font-Raleway text-[#4D54D6] text-xl 2xl:text-2xl font-bold">
+                                        {#if montantIr !== undefined}
+                                            {Math.round(montantIr * 0.67)}
+                                        {/if}
                                     </div>
-                                    <div class="input-container font-Raleway text-[#4D54D6] text-[2vh] absolute top-[20%] font-bold">
-                                        <input type="number" class="bg-white rounded-3xl border-2 text-center py-2 border-gray-500 input-focus-violet" on:focus={() => isInputFocused = 3} on:blur={() => isInputFocused = 0}/>
-                                    </div>
-                                    <div class="input-container font-Raleway text-[#4D54D6] text-[2vh] absolute top-[30%] font-bold">
-                                        <input type="number" class="bg-white rounded-3xl border-2 text-center py-2 border-gray-500 input-focus-violet" on:focus={() => isInputFocused = 4} on:blur={() => isInputFocused = 0}/>
+                                    <div class="input-container rounded-3xl border-2 text-center mt-16 border-gray-500 w-[22vh] h-[5vh] font-Raleway text-[#4D54D6] text-xl 2xl:text-2xl font-bold">
+                                        {#if montantIr !== undefined}
+                                            {Math.round(montantIr * 0.32)}
+                                        {/if}
                                     </div>
                                 </div>
                             </div>
@@ -321,6 +322,11 @@
 
     .input-focus-orange input[type=number]:focus {
         border-color: #FF6600;
+        outline: none;
+    }
+
+    .input-focus-violet input[type=number]:focus {
+        border-color: #4D54D6;
         outline: none;
     }
 
