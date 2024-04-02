@@ -3,20 +3,20 @@
 </script>
 
 <div id="ProjectsDesktop" class="flex items-center justify-center w-screen mt-10 z-30">
-    <div class="w-[90%]  2xl:w-[80%] flex flex-col items-center justify-center  bg-[#F1F2FC] rounded-3xl py-4 2xl:py-10">
-        <p class="text-center lg:text-xl 2xl:text-3xl font-bold font-Raleway text-[#505050]">
+    <div style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);" class="w-[90%] 2xl:w-[80%] flex flex-col items-center justify-center bg-[#F1F2FC] rounded-3xl py-4 2xl:py-10">
+        <p class="text-center lg:text-2xl 2xl:text-4xl uppercase font-bold font-Raleway text-[#505050]">
             Contre le cancer,<br/>
             investissez votre impôt dans l’innovation
         </p>
         <div class=" bg-[#FF6600] w-[5rem] h-1 rounded-2xl mt-2"/>
-        <div class="flex flex-row mt-5 2xl:mt-10">
-            <button on:click={()=> projectIndex = 0} class:selectedButton={projectIndex === 0} class=" py-2 xl:py-4 px-3 xl:px-5 font-Raleway text-xl 2xl:text-2xl font-bold text-center text-[#505050] border-r-2 border-[#505050]">
+        <div class="flex flex-row mt-5 2xl:mt-10 w-full items-center justify-center">
+            <button on:click={()=> projectIndex = 0} class:selectedButton={projectIndex === 0} class=" uppercase w-[30%] py-2 font-Raleway text-xl 2xl:text-2xl font-bold text-center text-[#505050] border-r-2 border-[#505050]">
                 Accélérer la recherche grâce<br/> à deux<span class="underline decoration-[#FF6600] "> &nbsp;équipements</span>
             </button>
-            <button on:click={()=> projectIndex = 1} class:selectedButton={projectIndex === 1} class=" py-2 xl:py-4 px-3 xl:px-5 font-Raleway text-xl 2xl:text-2xl font-bold text-center text-[#505050] border-r-2 border-[#505050]">
+            <button on:click={()=> projectIndex = 1} class:selectedButton={projectIndex === 1} class=" uppercase w-[30%] py-2 font-Raleway text-xl 2xl:text-2xl font-bold text-center text-[#505050] border-r-2 border-[#505050]">
                 Attirer les<br/><span class="underline decoration-[#FF6600] "> meilleurs talents</span>
             </button>
-            <button on:click={()=> projectIndex = 2} class:selectedButton={projectIndex === 2} class=" py-2 xl:py-4 px-3 xl:px-5 font-Raleway text-xl 2xl:text-2xl font-bold text-center text-[#505050]">
+            <button on:click={()=> projectIndex = 2} class:selectedButton={projectIndex === 2} class=" uppercase w-[30%] py-2 font-Raleway text-xl 2xl:text-2xl font-bold text-center text-[#505050]">
                 Développer des<br/> <span class="underline decoration-[#FF6600] ">immunothérapies</span> inédites
             </button>
         </div>
@@ -50,7 +50,7 @@
                             Une avancée dans la médecine de précision pour chaque patient.
                         </li>
                         <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold mt-3">
-                            Un espoir de solution thérapeutique pour les cancers où la chimiothérapie ou la radiothérapie restent encore inefficaces.
+                            Un espoir de solution thérapeutique pour les cancers où la chimiothérapie <br/><span class="ml-8">ou la radiothérapie restent encore inefficaces.</span>
                         </li>
                     </ul>
                 </div>
@@ -74,10 +74,10 @@
                             Chef de l’équipe de recherche ARN non codant, épigénétique et fluidité des génomes à l’Institut Curie
                         </p>
                     </div>
-                    <div class="text-center bg-white font-Raleway font-bold py-3 2xl:py-5 2xl:mt-0">
-                        <p class="text-2xl 2xl:text-3xl text-[#4D54D6]">
+                    <div class="text-center bg-white font-Raleway font-bold py-3 xl:py-5 2xl:mt-0">
+                        <p class="text-xl px-5 text-[#4D54D6]">
                             Coût de ces 2 équipements<br/>
-                            <span class="underline">1,4 millions €</span>
+                            <span class="underline text-2xl">1,4 millions €</span>
                         </p>
                     </div>
                 </div>
@@ -113,10 +113,15 @@
                     </p>
                     <ul>
                         <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold">
-                            se basant sur les précédents travaux du Dr Saulnier qui ont permis d’identifier un type cellulaire présent uniquement lors du développement fœtal du cerveau et à l’origine du médulloblastome, son équipe cherchera à étendre la ces résultats prometteurs à plusieurs types de cancers pédiatriques
+                            Se basant sur les précédents travaux du Dr Saulnier qui ont permis<br/>
+                            <span class="ml-8">d’identifier un type cellulaire présent uniquement lors du <br/></span>
+                            <span class="ml-8">développement fœtal du cerveau et à l’origine du médulloblastome,<br/></span>
+                            <span class="ml-8">son équipe cherchera à étendre la ces résultats prometteurs à plusieurs<br/></span>
+                            <span class="ml-8">types de cancers pédiatriques</span>
                         </li>
                         <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold mt-3">
-                            à terme, prévenir la maladie chez les enfants, avant même qu’elle ne se développe
+                            <span class="uppercase">à</span> terme, prévenir la maladie chez les<br/>
+                            <span class="ml-8">enfants, avant même qu’elle ne se développe</span>
                         </li>
                     </ul>
                 </div>
@@ -148,7 +153,7 @@
                         </p>
                     </div>
                 </div>
-                <button on:click={()=> projectIndex = 2} class="absolute right-20 lg:-bottom-2 xl:-bottom-4 2xl:bottom-0  hover:scale-110 transition-all">
+                <button on:click={()=> projectIndex = 2} class="absolute right-20 lg:-bottom-2 xl:bottom-2 2xl:bottom-0  hover:scale-110 transition-all">
                     <svg xmlns="http://www.w3.org/2000/svg" width="155.576" height="37.935" viewBox="0 0 155.576 37.935">
                         <g id="Component_16_2" data-name="Component 16 – 2" transform="translate(0 0.935)">
                             <text id="SUIVANT" transform="translate(0 24)" fill="#505050" font-size="25" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">SUIVANT</tspan></text>
@@ -157,13 +162,15 @@
                         </g>
                     </svg>
                 </button>
-                <button on:click={()=> projectIndex = 0} class="absolute left-20 lg:-bottom-2 xl:-bottom-4 2xl:bottom-0  hover:scale-110 transition-all">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="170.5" height="37.935" viewBox="0 0 170.5 37.935">
-                        <g id="Group_719" data-name="Group 719" transform="translate(-1571.924 -4495.565)">
-                            <g id="Component_16_3" data-name="Component 16 – 3" transform="translate(1573.424 4496.5)">
-                                <text id="PRECEDENT" transform="translate(22 24)" fill="#505050" font-size="25" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">PRECEDENT</tspan></text>
-                                <path id="Path_631" data-name="Path 631" d="M1442.076,1408,1431,1421.826l11.076,13.826" transform="translate(-1431 -1406.826)" fill="none" stroke="#505050" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-                                <line id="Line_10" data-name="Line 10" x2="29" transform="translate(61.5 35.5)" fill="none" stroke="#505050" stroke-linecap="round" stroke-width="3"/>
+                <button on:click={()=> projectIndex = 0} class="absolute left-20 lg:-bottom-2 xl:bottom-2 2xl:bottom-0  hover:scale-110 transition-all">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="195.5" height="37" viewBox="0 0 195.5 37">
+                        <g id="Group_721" data-name="Group 721" transform="translate(-1338 -4329)">
+                            <g id="Component_16_5" data-name="Component 16 – 5" transform="translate(1339.5 4329)">
+                                <g id="Group_720" data-name="Group 720">
+                                    <text id="PRÉCÉDENT" transform="translate(47 24)" fill="#505050" font-size="25" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">PRÉCÉDENT</tspan></text>
+                                    <path id="Path_631" data-name="Path 631" d="M1442.076,1408,1431,1421.826l11.076,13.826" transform="translate(-1431 -1405.652)" fill="none" stroke="#505050" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                </g>
+                                <line id="Line_10" data-name="Line 10" x2="29" transform="translate(86.5 35.5)" fill="none" stroke="#505050" stroke-linecap="round" stroke-width="3"/>
                             </g>
                         </g>
                     </svg>
@@ -186,10 +193,16 @@
                     </p>
                     <ul>
                         <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold">
-                            des thérapies CAR-T qui constituent une nouvelle forme d’immunothérapie reposant sur la modification génétique des lymphocytes T d’un patient. Une fois modifiés, ces lymphocytes T devenus « cellules CAR-T » sont réinjectés au patient afin que ceux-ci soient en mesure de reconnaître et détruire ses cellules cancéreuses.
+                            des thérapies CAR-T qui constituent une nouvelle forme d’immunothérapie<br/>
+                            <span class="ml-8">reposant sur la modification génétique des lymphocytes T <br/></span>
+                            <span class="ml-8">d’un patient. Une fois modifiés, ces lymphocytes T devenus<br/></span>
+                            <span class="ml-8">« cellules CAR-T » sont réinjectés au patient afin <br/></span>
+                            <span class="ml-8">que ceux-ci soient en mesure de reconnaître et détruire<br/></span>
+                            <span class="ml-8">les cellules cancéreuses.</span>
                         </li>
                         <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold">
-                            de l’immuno-épigénétique qui permet de « reprogrammer » ces cellules CAR-T pour augmenter leur efficacité face à la tumeur.
+                            de l’immuno-épigénétique qui permet de « reprogrammer » ces cellules<br/>
+                            <span class="ml-8">CAR-T pour augmenter leur efficacité face à la tumeur.</span>
                         </li>
                     </ul>
                     <p class="text-xl xl:text-3xl font-Lato font-bold text-[#4D54D6] uppercase">
@@ -201,7 +214,10 @@
                             Développer des essais cliniques innovants
                         </li>
                         <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold">
-                            Offrir un véritable espoir aux patients qui luttent contre des tumeurs particulièrement difficiles à traiter, pour lesquelles les immunothérapies actuelles ne fonctionnent pas, comme les cancers du sein triple négatif, ou les cancers du poumon.
+                            Offrir un véritable espoir aux patients qui luttent contre des tumeurs<br/>
+                            <span class="ml-8">particulièrement difficiles à traiter, pour lesquelles les<br/></span>
+                            <span class="ml-8">immunothérapies actuelles ne fonctionnent pas, comme les cancers du<br/></span>
+                            <span class="ml-8">sein triple négatif, ou les cancers du poumon.</span>
                         </li>
                     </ul>
                 </div>
@@ -234,19 +250,21 @@
                         </div>
                     </div>
                     <div class="text-center bg-white font-Raleway font-bold py-3 xl:py-5 2xl:mt-0">
-                        <p class="text-2xl xl:text-3xl text-[#4D54D6]">
-                            Besoin annuel de l’équipe de<br/> Sebastian Amigorena<br/>
-                            <span class="underline">1,3 millions €</span>
+                        <p class="text-xl px-5 text-[#4D54D6]">
+                            Besoin de financement pour les recherches de l’équipe “Génomique et développement des cancers de l’enfant”<br/>
+                            <span class="underline text-2xl">1,3 millions €</span>
                         </p>
                     </div>
                 </div>
                 <button on:click={()=> projectIndex = 1} class="absolute left-20 bottom-2 hover:scale-110 transition-all">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="170.5" height="37.935" viewBox="0 0 170.5 37.935">
-                        <g id="Group_719" data-name="Group 719" transform="translate(-1571.924 -4495.565)">
-                            <g id="Component_16_3" data-name="Component 16 – 3" transform="translate(1573.424 4496.5)">
-                                <text id="PRECEDENT" transform="translate(22 24)" fill="#505050" font-size="25" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">PRECEDENT</tspan></text>
-                                <path id="Path_631" data-name="Path 631" d="M1442.076,1408,1431,1421.826l11.076,13.826" transform="translate(-1431 -1406.826)" fill="none" stroke="#505050" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-                                <line id="Line_10" data-name="Line 10" x2="29" transform="translate(61.5 35.5)" fill="none" stroke="#505050" stroke-linecap="round" stroke-width="3"/>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="195.5" height="37" viewBox="0 0 195.5 37">
+                        <g id="Group_721" data-name="Group 721" transform="translate(-1338 -4329)">
+                            <g id="Component_16_5" data-name="Component 16 – 5" transform="translate(1339.5 4329)">
+                                <g id="Group_720" data-name="Group 720">
+                                    <text id="PRÉCÉDENT" transform="translate(47 24)" fill="#505050" font-size="25" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">PRÉCÉDENT</tspan></text>
+                                    <path id="Path_631" data-name="Path 631" d="M1442.076,1408,1431,1421.826l11.076,13.826" transform="translate(-1431 -1405.652)" fill="none" stroke="#505050" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                </g>
+                                <line id="Line_10" data-name="Line 10" x2="29" transform="translate(86.5 35.5)" fill="none" stroke="#505050" stroke-linecap="round" stroke-width="3"/>
                             </g>
                         </g>
                     </svg>
@@ -265,26 +283,17 @@
         font-weight: normal;
         content: "•";
         color: #4D54D6;
-        font-size: 2rem; /* Taille de la puce */
-        display: inline-block; /* Nécessaire pour ajouter une marge à droite */
-        width: 1rem; /* Largeur de l'espace pour la puce */
-         /* Espace entre la puce et le texte */
+        font-size: 2rem;
+        display: inline-block;
+        width: 1rem;
         margin-right: 1rem;
     }
-
 
     .underline {
         text-decoration-line: underline;
         text-decoration-color: #FF6600;
         text-decoration-thickness: 3px;
         text-underline-offset: 5px;
-    }
-
-    .underline-black {
-        text-decoration-line: underline;
-        text-decoration-color: #505050;
-        text-decoration-thickness: 3px;
-        text-underline-offset: 2px;
     }
 
     .purple-project {

@@ -87,6 +87,7 @@
                         </g>
                     </svg>
                 </a>
+                <div id="Intro" class="absolute -top-10"/>
                 <p class="font-Lato text-white text-xl  2xl:text-[30px] absolute lg:top-[5rem] xl:top-[8rem] text-center lg:w-[40rem] xl:w-[60rem] 2xl:w-[80rem]">
                     <b>Équipements innovants, programmes de recherche de pointe, amélioration des traitements…<br/></b>
                     En soutenant l’Institut Curie avec un don déductible de votre impôt, vous financez des projets qui ouvrent de <b>nouvelles perspectives de guérison</b> pour chaque patient.

@@ -16,12 +16,12 @@
             en finançant des projets comme celui-ci.
         </p>
         <div class="flex flex-col md:flex-row items-center justify-center gap-5 2xl:gap-10">
-            <button class="bg-[#FF6600] text-white text-center w-[17rem] md:w-auto lg:px-10 2xl:px-20 py-3 font-Raleway font-bold ">
+            <button class="uppercase bg-[#FF6600] text-white text-center w-[17rem] hover:w-[19rem] transition-all  py-3 font-Raleway font-bold ">
                 JE FAIS UN DON<br/>
                 Déductible de<br/>
                 <strong>l’IFI</strong>
             </button>
-            <button class="bg-[#4D54D6] text-white text-center w-[17rem] md:w-auto lg:px-10 2xl:px-20 py-3 font-Raleway font-bold ">
+            <button class="uppercase bg-[#4D54D6] text-white text-center w-[17rem] hover:w-[19rem] transition-all  py-3 font-Raleway font-bold ">
                 JE FAIS UN DON<br/>
                 Déductible de<br/>
                 <strong>L’impôt sur le revenu</strong>

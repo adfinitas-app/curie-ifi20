@@ -1,5 +1,5 @@
 <div class="py-6 md:flex flex-col justify-center sm:py-12 absolute top-[22rem] 2xl:top-[30rem] hidden">
-    <p class="font-Raleway font-black text-[#FF6600] text-2xl xl:text-4xl uppercase">
+    <p class="font-Raleway font-black text-[#FF6600] text-2xl xl:text-2xl 2xl:text-4xl uppercase">
         CALENDRIER de déclaration FISCAL <span class="font-Lato">2024</span>
     </p>
     <div class="py-3 sm:max-w-xl sm:mx-auto w-full px-2 sm:px-0 mt-20">
@@ -10,10 +10,10 @@
                     <div class="flex justify-start w-screen mx-auto items-center">
                         <div class="w-[25rem] absolute -left-36">
                             <div class="p-4 bg-white rounded-2xl" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);">
-                                <p class="text-2xl xl:text-4xl font-bold font-Raleway text-[#505050] text-center">
+                                <p class="text-2xl xl:text-2xl 2xl:text-4xl font-bold font-Raleway text-[#505050] text-center">
                                     22 Mai
                                 </p>
-                                <p class="text-2xl 2xl:text-3xl font-Raleway text-center font-light">
+                                <p class="text-xl 2xl:text-3xl font-Raleway text-center font-light">
                                     Date limite en papier
                                 </p>
                             </div>
@@ -30,14 +30,14 @@
                     <div class="flex justify-end w-screen mx-auto items-center">
                         <div class="w-[25rem] absolute -right-36 text-center">
                             <div class="p-4 bg-white rounded-2xl" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);">
-                                <p class="text-2xl xl:text-4xl font-bold font-Raleway text-[#505050] ">
+                                <p class="text-2xl xl:text-2xl 2xl:text-4xl font-bold font-Raleway text-[#505050] ">
                                     23 Mai
                                 </p>
-                                <p class="text-2xl 2xl:text-3xl font-Raleway text-[#505050] font-light">
+                                <p class="text-xl 2xl:text-3xl font-Raleway text-[#505050] font-light">
                                     Date limite en ligne<br/>
                                     Zone 1
                                 </p>
-                                <p class="text-[#FF6600] text-2xl font-Raleway">
+                                <p class="text-[#FF6600] text-xl font-Raleway">
                                     (départements 1 à 19,<br/>
                                     Monaco et non-résidents)
                                 </p>
@@ -55,14 +55,14 @@
                     <div class="flex justify-start w-screen mx-auto items-center">
                         <div class="w-[25rem] absolute -left-36 text-center">
                             <div class="p-4 bg-white rounded-2xl" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);">
-                                <p class="text-2xl xl:text-4xl font-bold font-Raleway text-[#505050] ">
+                                <p class="text-2xl xl:text-2xl 2xl:text-4xl font-bold font-Raleway text-[#505050] ">
                                     30 Mai
                                 </p>
-                                <p class="text-2xl 2xl:text-3xl font-Raleway text-[#505050] font-light">
+                                <p class="text-xl 2xl:text-3xl font-Raleway text-[#505050] font-light">
                                     Date limite en ligne<br/>
                                     Zone 2
                                 </p>
-                                <p class="text-[#FF6600] text-2xl font-Raleway">
+                                <p class="text-[#FF6600] text-xl font-Raleway">
                                     (départements 20 à 59,<br/>
                                     y compris la Corse)
                                 </p>
@@ -80,14 +80,14 @@
                     <div class="flex justify-end w-screen mx-auto items-center">
                         <div class="w-[25rem] absolute -right-36 text-center">
                             <div class="p-4 bg-white rounded-2xl" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);">
-                                <p class="text-2xl xl:text-4xl font-bold font-Raleway text-[#505050] ">
+                                <p class="text-2xl xl:text-2xl 2xl:text-4xl font-bold font-Raleway text-[#505050] ">
                                     6 juin
                                 </p>
-                                <p class="text-2xl 2xl:text-3xl font-Raleway text-[#505050] font-light">
+                                <p class="text-xl 2xl:text-3xl font-Raleway text-[#505050] font-light">
                                     Date limite en ligne<br/>
                                     Zone 3
                                 </p>
-                                <p class="text-[#FF6600] text-2xl font-Raleway">
+                                <p class="text-[#FF6600] text-xl font-Raleway">
                                     (départements 55 à 976)
                                 </p>
                             </div>
@@ -104,12 +104,12 @@
 
 
 <div class="flex flex-col items-center justify-center md:hidden relative top-[35rem] gap-8">
-    <p class="font-Raleway font-black text-[#FF6600] text-2xl xl:text-4xl uppercase text-center">
+    <p class="font-Raleway font-black text-[#FF6600] text-2xl xl:text-2xl 2xl:text-4xl uppercase text-center">
         CALENDRIER de déclaration FISCAL <span class="font-Lato">2024</span>
     </p>
     <div class="absolute w-2 h-[50rem] rounded-2xl bg-[#FF6600] -z-10 top-20" />
     <div class="p-4 bg-white rounded-2xl w-80" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);">
-        <p class="text-2xl xl:text-4xl font-bold font-Raleway text-[#505050] text-center">
+        <p class="text-2xl xl:text-2xl 2xl:text-4xl font-bold font-Raleway text-[#505050] text-center">
             22 Mai
         </p>
         <p class="text-2xl 2xl:text-3xl font-Raleway text-center font-light">
@@ -118,7 +118,7 @@
     </div>
 
     <div class="p-4 bg-white rounded-2xl w-80" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);">
-        <p class="text-2xl xl:text-4xl font-bold font-Raleway text-[#505050] text-center">
+        <p class="text-2xl xl:text-2xl 2xl:text-4xl font-bold font-Raleway text-[#505050] text-center">
             23 Mai
         </p>
         <p class="text-2xl 2xl:text-3xl font-Raleway text-[#505050] font-light text-center">
@@ -132,7 +132,7 @@
     </div>
 
     <div class="p-4 bg-white rounded-2xl w-80" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);">
-        <p class="text-2xl xl:text-4xl font-bold font-Raleway text-[#505050] text-center">
+        <p class="text-2xl xl:text-2xl 2xl:text-4xl font-bold font-Raleway text-[#505050] text-center">
             30 Mai
         </p>
         <p class="text-2xl 2xl:text-3xl font-Raleway text-[#505050] font-light text-center">
@@ -146,7 +146,7 @@
     </div>
 
     <div class="p-4 bg-white rounded-2xl w-80" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);">
-        <p class="text-2xl xl:text-4xl font-bold font-Raleway text-[#505050] text-center">
+        <p class="text-2xl xl:text-2xl 2xl:text-4xl font-bold font-Raleway text-[#505050] text-center">
             6 juin
         </p>
         <p class="text-2xl 2xl:text-3xl font-Raleway text-[#505050] font-light text-center">
