@@ -11,7 +11,7 @@
     let isOpen = false;
 </script>
 
-<div in:fade class="hidden fixed top-0 bg-[#4D54D6] bg-opacity-80 backdrop-blur-sm md:flex flex-row items-center justify-center w-screen lg:gap-5 xl:gap-8 2xl:gap-10 py-6 lg:h-[5rem] xl:h-[7rem] 2xl:h-[9rem] z-20">
+<div in:fade class="hidden fixed top-0 bg-[#4D54D6] bg-opacity-70 backdrop-blur-sm md:flex flex-row items-center justify-center w-screen lg:gap-5 xl:gap-8 2xl:gap-10 py-6 lg:h-[5rem] xl:h-[7rem] 2xl:h-[9rem] z-20">
     <img src="/logo_curie.png" class="lg:w-[10rem] xl:w-[16rem] lg:ml-2 2xl:mr-20" alt="curie"/>
     <button on:mouseenter={()=> isHoveringText = true} on:mouseleave={()=> isHoveringText = false} class="flex flex-col items-center justify-center">
         <a href="#ProjectsDesktop" class="text-white font-Raleway font-bold text-xl">
@@ -153,7 +153,7 @@
             </div>
         </div>
     {/if}
-    <button class="bg-[#4D54D6] text-xs xl:text-xl text-white lg:px-4 lg:py-2 2xl:py-3 2xl:px-16 font-Raleway font-bold hover:border-2 hover:border-white transition-all">
+    <button class="bg-[#4D54D6] uppercase text-xs xl:text-xl text-white lg:px-4 lg:py-2 2xl:py-3 2xl:px-16 font-Raleway font-bold hover:border-2 hover:border-white transition-all">
         JE FAIS UN DON<br/>
         déductible de<br/>
         <span class="font-black">L’impôt sur le revenu</span>
@@ -161,7 +161,7 @@
 </div>
 
 
-<div in:fade class="md:hidden flex flex-col items-center justify-center fixed top-0 bg-[#4D54D6] bg-opacity-80 backdrop-blur-sm w-screen z-50">
+<div in:fade class="md:hidden flex flex-col items-center justify-center fixed top-0 bg-[#4D54D6] bg-opacity-70 backdrop-blur-sm w-screen z-50">
     <div class="flex flex-row items-center justify-center gap-4 p-4">
         <button on:click={()=> isOpen = !isOpen} class="flex flex-col justify-around w-10 h-10 bg-transparent border-none cursor-pointer p-0 z-50 focus:outline-none">
             <div style="border-radius: 10px" class={`h-1 w-8 bg-white transform transition duration-500 ease-in-out ${isOpen ? 'rotate-45 translate-y-3.5' : ''}`}></div>
@@ -174,7 +174,7 @@
             Déductible de
             <span class="font-black">l’IFI</span>
         </button>
-        <button class="bg-[#4D54D6] text-[10px] text-white w-[135px] h-[51px] font-Raleway font-bold hover:border-2 hover:border-white transition-all">
+        <button class="bg-[#4D54D6] uppercase text-[10px] text-white w-[135px] h-[51px] font-Raleway font-bold hover:border-2 hover:border-white transition-all">
             JE FAIS UN DON
             déductible de
             <span class="font-black">L’impôt sur le revenu</span>

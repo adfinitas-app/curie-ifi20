@@ -22,7 +22,7 @@
         </div>
         {#if projectIndex === 0}
             <div class="bg-[url('/project-1-bg.png')] bg-cover bg-no-repeat relative w-full h-[22rem] 2xl:h-[39rem]">
-                <div class="bg-[#4D54D6]/60 backdrop-blur-md purple-project absolute w-full  bottom-0 h-[20rem] 2xl:h-[25rem]"/>
+                <div class="bg-[#4D54D6]/70 backdrop-blur-md purple-project absolute w-full  bottom-0 h-[20rem] 2xl:h-[25rem]"/>
                 <p class="font-Raleway text-xl 2xl:text-3xl font-black absolute bottom-5 2xl:bottom-10 text-center text-white left-0 right-0 mx-auto">
                     <span class="underline decoration-[#FF6600] ">2 équipements de pointe</span> pour révolutionner les traitements de<br/> demain contre les cancers grâce à des vaccins thérapeutiques
                 </p>
@@ -93,7 +93,7 @@
             </div>
         {:else if projectIndex === 1}
             <div class="bg-[url('/project-2-bg.png')] bg-cover bg-no-repeat relative w-full h-[22rem] 2xl:h-[39rem]">
-                <div class="bg-[#4D54D6]/60 backdrop-blur-md purple-project absolute w-full  bottom-0 h-[20rem] 2xl:h-[25rem]"/>
+                <div class="bg-[#4D54D6]/70 backdrop-blur-md purple-project absolute w-full  bottom-0 h-[20rem] 2xl:h-[25rem]"/>
                 <p class="font-Raleway text-xl 2xl:text-3xl font-black absolute bottom-5 2xl:bottom-10 text-center text-white left-0 right-0 mx-auto">
                     <span class="underline decoration-[#FF6600] ">Une équipe renforcée</span> pour mieux comprendre le<br/> développement des tumeurs qui touchent les enfants
                 </p>
@@ -171,7 +171,7 @@
             </div>
             {:else if projectIndex === 2}
             <div class="bg-[url('bg-project-4.png')] bg-cover bg-no-repeat relative w-full h-[22rem] 2xl:h-[39rem]">
-                <div class="bg-[#4D54D6]/60 backdrop-blur-md purple-project absolute w-full  bottom-0 h-[20rem] 2xl:h-[25rem]"/>
+                <div class="bg-[#4D54D6]/70 backdrop-blur-md purple-project absolute w-full  bottom-0 h-[20rem] 2xl:h-[25rem]"/>
                 <p class="font-Raleway text-xl 2xl:text-3xl font-black absolute bottom-5 2xl:bottom-10 text-center text-white left-0 right-0 mx-auto">
                     Évaluation de la combinaison de<br/> <span class="underline decoration-[#FF6600] ">2 thérapies cellulaires</span> innovantes avec le projet EPCART
                 </p>
