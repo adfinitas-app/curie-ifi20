@@ -114,10 +114,10 @@
                     </p>
                     <ul>
                         <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold">
-                            Se basant sur les précédents travaux du Dr Saulnier qui ont permis<br/>
-                            d’identifier un type cellulaire présent uniquement lors du <br/>
-                            développement fœtal du cerveau et à l’origine du médulloblastome,<br/>
-                            son équipe cherchera à étendre la ces résultats prometteurs à plusieurs<br/>
+                            Se basant sur les précédents travaux du Dr Saulnier qui ont permis<br class="hidden 2xl:block"/>
+                            d’identifier un type cellulaire présent uniquement lors du <br class="hidden 2xl:block"/>
+                            développement fœtal du cerveau et à l’origine du médulloblastome,<br class="hidden 2xl:block"/>
+                            son équipe cherchera à étendre la ces résultats prometteurs à plusieurs<br class="hidden 2xl:block"/>
                             types de cancers pédiatriques
                         </li>
                         <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold mt-3">
@@ -177,7 +177,7 @@
                 </button>
             </div>
             {:else if projectIndex === 2}
-            <div class="bg-[url('bg-project-4-test.png')] bg-cover bg-no-repeat relative w-full h-[22rem] 2xl:h-[39rem]">
+            <div class="bg-[url('bg-project-4-test.jpg')] bg-cover bg-no-repeat relative w-full h-[22rem] 2xl:h-[39rem]">
                 <div class="bg-[#4D54D6]/70 backdrop-blur-md purple-project absolute w-full  bottom-0 h-[20rem] 2xl:h-[25rem]"/>
                 <p class="font-Raleway text-xl 2xl:text-3xl font-black absolute bottom-5 2xl:bottom-10 text-center text-white left-0 right-0 mx-auto">
                     Évaluation de la combinaison de<br/> <span class="underline decoration-[#FF6600] ">2 thérapies cellulaires</span> innovantes avec le projet EPCART
@@ -193,15 +193,15 @@
                     </p>
                     <ul>
                         <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold">
-                            des thérapies CAR-T qui constituent une nouvelle forme d’immunothérapie<br/>
-                            reposant sur la modification génétique des lymphocytes T <br/>
-                            d’un patient. Une fois modifiés, ces lymphocytes T devenus<br/>
-                            « cellules CAR-T » sont réinjectés au patient afin <br/>
-                            que ceux-ci soient en mesure de reconnaître et détruire<br/>
+                            des thérapies CAR-T qui constituent une nouvelle forme<br class="hidden 2xl:block"/>
+                            d’immunothérapie reposant sur la modification génétique <br class="hidden 2xl:block"/>
+                            des lymphocytes T d’un patient. Une fois modifiés, ces lymphocytes<br class="hidden 2xl:block"/>
+                            T devenus « cellules CAR-T » sont réinjectés au patient afin <br class="hidden 2xl:block"/>
+                            que ceux-ci soient en mesure de reconnaître et détruire<br class="hidden 2xl:block"/>
                             les cellules cancéreuses.
                         </li>
                         <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold">
-                            de l’immuno-épigénétique qui permet de « reprogrammer » ces cellules<br/>
+                            de l’immuno-épigénétique qui permet de « reprogrammer » ces cellules<br class="hidden 2xl:block"/>
                             CAR-T pour augmenter leur efficacité face à la tumeur.
                         </li>
                     </ul>
