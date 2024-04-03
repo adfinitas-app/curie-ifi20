@@ -50,7 +50,8 @@
                             Une avancée dans la médecine de précision pour chaque patient.
                         </li>
                         <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold mt-3">
-                            Un espoir de solution thérapeutique pour les cancers où la chimiothérapie <br/><span class="ml-8">ou la radiothérapie restent encore inefficaces.</span>
+                            Un espoir de solution thérapeutique pour les cancers où la chimiothérapie <br/>
+                            ou la radiothérapie restent encore inefficaces.
                         </li>
                     </ul>
                 </div>
@@ -62,7 +63,7 @@
                         Les vaccins à ARN messager sont particulièrement prometteurs et leur développement ouvre de nouvelles perspectives de guérison pour les patients.
                         <b>L’Institut Curie souhaite donc acquérir 2 équipements de pointe indispensables à l’élaboration de ce type de vaccins : un purificateur de peptides et un spectromètre de masse.</b>
                     </p>
-                    <p class="text-xl 2xl:text-3xl font-Lato font-bold text-[#4D54D6] underline uppercase 2xl:mt-0">
+                    <p class="text-xl xl:text-3xl  font-Lato font-bold text-[#4D54D6] underline uppercase 2xl:mt-0">
                         Le porteur du projet
                     </p>
                     <div class="flex flex-row bg-[#4D54D6] items-center justify-center gap-3">
@@ -114,14 +115,13 @@
                     <ul>
                         <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold">
                             Se basant sur les précédents travaux du Dr Saulnier qui ont permis<br/>
-                            <span class="ml-8">d’identifier un type cellulaire présent uniquement lors du <br/></span>
-                            <span class="ml-8">développement fœtal du cerveau et à l’origine du médulloblastome,<br/></span>
-                            <span class="ml-8">son équipe cherchera à étendre la ces résultats prometteurs à plusieurs<br/></span>
-                            <span class="ml-8">types de cancers pédiatriques</span>
+                            d’identifier un type cellulaire présent uniquement lors du <br/>
+                            développement fœtal du cerveau et à l’origine du médulloblastome,<br/>
+                            son équipe cherchera à étendre la ces résultats prometteurs à plusieurs<br/>
+                            types de cancers pédiatriques
                         </li>
                         <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold mt-3">
-                            <span class="uppercase">à</span> terme, prévenir la maladie chez les<br/>
-                            <span class="ml-8">enfants, avant même qu’elle ne se développe</span>
+                            <span class="uppercase">à</span> terme, prévenir la maladie chez les enfants,<br/> avant même qu’elle ne se développe
                         </li>
                     </ul>
                 </div>
@@ -134,7 +134,7 @@
                         <br/><br/>
                         Avec son équipe, le Docteur Olivier Saulnier étudie des programmes de transcription au cours du développement embryonnaire et leurs implications dans la genèse des cellules cancéreuses. En utilisant des techniques de génomique à l’échelle de la cellule unique, leur objectif est d’identifier les origines des cancers pédiatriques à la fois dans l’espace et dans le temps.
                     </p>
-                    <p class="text-xl 2xl:text-3xl font-Lato font-bold text-[#4D54D6] underline uppercase 2xl:mt-0">
+                    <p class="text-xl xl:text-3xl  font-Lato font-bold text-[#4D54D6] underline uppercase 2xl:mt-0">
                         Le porteur du projet
                     </p>
                     <div class="flex flex-row bg-[#4D54D6] items-center justify-center gap-3">
@@ -177,7 +177,7 @@
                 </button>
             </div>
             {:else if projectIndex === 2}
-            <div class="bg-[url('bg-project-4.png')] bg-cover bg-no-repeat relative w-full h-[22rem] 2xl:h-[39rem]">
+            <div class="bg-[url('bg-project-4-test.png')] bg-cover bg-no-repeat relative w-full h-[22rem] 2xl:h-[39rem]">
                 <div class="bg-[#4D54D6]/70 backdrop-blur-md purple-project absolute w-full  bottom-0 h-[20rem] 2xl:h-[25rem]"/>
                 <p class="font-Raleway text-xl 2xl:text-3xl font-black absolute bottom-5 2xl:bottom-10 text-center text-white left-0 right-0 mx-auto">
                     Évaluation de la combinaison de<br/> <span class="underline decoration-[#FF6600] ">2 thérapies cellulaires</span> innovantes avec le projet EPCART
@@ -194,15 +194,15 @@
                     <ul>
                         <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold">
                             des thérapies CAR-T qui constituent une nouvelle forme d’immunothérapie<br/>
-                            <span class="ml-8">reposant sur la modification génétique des lymphocytes T <br/></span>
-                            <span class="ml-8">d’un patient. Une fois modifiés, ces lymphocytes T devenus<br/></span>
-                            <span class="ml-8">« cellules CAR-T » sont réinjectés au patient afin <br/></span>
-                            <span class="ml-8">que ceux-ci soient en mesure de reconnaître et détruire<br/></span>
-                            <span class="ml-8">les cellules cancéreuses.</span>
+                            reposant sur la modification génétique des lymphocytes T <br/>
+                            d’un patient. Une fois modifiés, ces lymphocytes T devenus<br/>
+                            « cellules CAR-T » sont réinjectés au patient afin <br/>
+                            que ceux-ci soient en mesure de reconnaître et détruire<br/>
+                            les cellules cancéreuses.
                         </li>
                         <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold">
                             de l’immuno-épigénétique qui permet de « reprogrammer » ces cellules<br/>
-                            <span class="ml-8">CAR-T pour augmenter leur efficacité face à la tumeur.</span>
+                            CAR-T pour augmenter leur efficacité face à la tumeur.
                         </li>
                     </ul>
                     <p class="text-xl xl:text-3xl font-Lato font-bold text-[#4D54D6] uppercase">
@@ -215,9 +215,9 @@
                         </li>
                         <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold">
                             Offrir un véritable espoir aux patients qui luttent contre des tumeurs<br/>
-                            <span class="ml-8">particulièrement difficiles à traiter, pour lesquelles les<br/></span>
-                            <span class="ml-8">immunothérapies actuelles ne fonctionnent pas, comme les cancers du<br/></span>
-                            <span class="ml-8">sein triple négatif, ou les cancers du poumon.</span>
+                            particulièrement difficiles à traiter, pour lesquelles les<br/>
+                            immunothérapies actuelles ne fonctionnent pas, comme les cancers du<br/>
+                            sein triple négatif, ou les cancers du poumon.
                         </li>
                     </ul>
                 </div>
@@ -229,7 +229,7 @@
                         Les vaccins à ARN messager sont particulièrement prometteurs et leur développement ouvre de nouvelles perspectives de guérison pour les patients.
                         <b>L’Institut Curie souhaite donc acquérir 2 équipements de pointe indispensables à l’élaboration de ce type de vaccins : un purificateur de peptides et un spectromètre de masse.</b>
                     </p>
-                    <p class="text-xl 2xl:text-3xl font-Lato font-bold text-[#4D54D6] underline uppercase 2xl:mt-0">
+                    <p class="text-xl xl:text-3xl  font-Lato font-bold text-[#4D54D6] underline uppercase 2xl:mt-0">
                         Le porteur du projet
                     </p>
                     <div class="flex flex-row bg-[#4D54D6]">
@@ -279,14 +279,25 @@
         background-color: #4D54D6;
         color: white;
     }
+    ul {
+        list-style: none; /* Enlève les puces par défaut */
+        padding-left: 0; /* Enlève le padding par défaut */
+    }
+
+    ul li {
+        position: relative; /* Établit un contexte de positionnement */
+        padding-left: 2rem; /* Espace pour le pseudo-élément (bullet point) */
+        /*margin-bottom: 1rem; !* Espacement entre les éléments de la liste *!*/
+        padding-top: 1rem;
+    }
+
     ul li::before {
-        font-weight: normal;
-        content: "•";
-        color: #4D54D6;
-        font-size: 2rem;
-        display: inline-block;
-        width: 1rem;
-        margin-right: 1rem;
+        content: "•"; /* Le bullet point */
+        color: #4D54D6; /* La couleur du bullet */
+        position: absolute; /* Positionne par rapport au li */
+        font-size: 2rem; /* Taille du bullet */
+        left: 0; /* Aligné à gauche du li */
+        top: 1rem; /* Ajustement vertical pour centrer avec la première ligne du texte */
     }
 
     .underline {

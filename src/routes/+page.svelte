@@ -8,7 +8,6 @@
 
 <HeroSection/>
 <GraphPart/>
-<!--done in mobile-->
 <div class="hidden md:block">
     <Projects/>
 </div>
