@@ -17,8 +17,10 @@
     }
 </script>
 
-<div id="ProjectsMobile" class="bg-[#F1F2FC] w-[95%] flex flex-col items-center justify-center rounded-2xl py-5 mt-[3rem]">
-    <p class="text-[#505050] font-Raleway font-bold text-[20px] uppercase text-center">
+<!--<div id="ProjectsMobile" class="-mt-[40rem]"/>-->
+<div class="bg-[#F1F2FC] w-[95%] flex flex-col items-center justify-center rounded-2xl py-5 mt-[3rem] relative">
+    <div id="ProjectsMobile" class="absolute -top-40"/>
+    <p  class="text-[#505050] font-Raleway font-bold text-[20px] uppercase text-center">
         Contre le cancer,<br/>
         investissez votre impôt<br/>
         dans l’innovation

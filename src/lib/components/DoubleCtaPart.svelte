@@ -8,28 +8,28 @@
 <div class="w-screen relative flex items-center justify-center ">
     <div class="gray-polygone  h-[50rem] 2xl:h-[60rem] bg-[#707070] bg-opacity-10 absolute top-0"/>
     <div class="absolute top-20 xl:top-28 flex flex-col items-center justify-center gap-3 2xl:gap-5">
-        <p class="font-Raleway font-black text-xl  2xl:text-4xl text-[#505050]">
+        <p class="font-Raleway font-black lg:text-2xl 2xl:text-4xl text-[#505050]">
             J’INVESTIS DANS L’INNOVATION !
         </p>
         <p class="text-base lg:text-xl 2xl:text-3xl font-Raleway font-semibold text-center text-[#505050]">
             Mon don ouvrira de nouvelles perspectives de guérison pour les patients<br/>
             en finançant des projets comme celui-ci.
         </p>
-        <div class="flex flex-col md:flex-row items-center justify-center gap-5 2xl:gap-10">
-            <button class="uppercase bg-[#FF6600] text-white text-center w-[17rem] hover:w-[19rem] transition-all  py-3 font-Raleway font-bold ">
+        <div class="flex flex-col md:flex-row items-center justify-center gap-5 2xl:gap-20">
+            <a href="https://aider.curie.fr/ifi" class="uppercase bg-[#FF6600] text-white text-center w-[17rem] hover:w-[19rem] transition-all  py-3 font-Raleway font-bold ">
                 JE FAIS UN DON<br/>
                 Déductible de<br/>
                 <strong>l’IFI</strong>
-            </button>
-            <button class="uppercase bg-[#4D54D6] text-white text-center w-[17rem] hover:w-[19rem] transition-all  py-3 font-Raleway font-bold ">
+            </a>
+            <a href="https://aider.curie.fr/don149" class="uppercase bg-[#4D54D6] text-white text-center w-[17rem] hover:w-[19rem] transition-all  py-3 font-Raleway font-bold ">
                 JE FAIS UN DON<br/>
                 Déductible de<br/>
                 <strong>L’impôt sur le revenu</strong>
-            </button>
+            </a>
         </div>
     </div>
     <Timeline/>
-    <div class="absolute top-[70rem] 2xl:top-[80rem] flex flex-col items-center justify-center">
+    <div class="absolute top-[75rem] 2xl:top-[80rem] flex flex-col items-center justify-center">
         <ContactCard/>
         <Infos/>
         <Footer/>

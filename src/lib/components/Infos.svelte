@@ -69,7 +69,7 @@
                 <text id="_" data-name="€" transform="translate(14 34)" fill="#f60" font-size="36" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="-14.367" y="0">€</tspan></text>
             </g>
         </svg>
-        <p class="text-xl 2xl:text-3xl font-Raleway font-bold text-[#505050] text-center">
+        <p class="text-base 2xl:text-2xl font-Raleway font-bold text-[#505050] text-center">
             Je consulte<br/>
             le guide fiscal
         </p>
@@ -86,7 +86,7 @@
             </g>
             <path id="Path_441" data-name="Path 441" d="M13.8,7.452c6.049-11.336,16.931-.889,13.433,6.373S13.8,29.924,13.8,29.924,4.51,22.418.371,13.825,7.075-3.681,13.8,7.452Z" transform="translate(54.596 52.585)" fill="#f60"/>
         </svg>
-        <p class="text-xl 2xl:text-3xl font-Raleway font-bold text-[#505050] text-center">
+        <p class="text-base 2xl:text-2xl font-Raleway font-bold text-[#505050] text-center">
             Je télécharge le<br/>
             bulletin de soutien IFI
         </p>
@@ -124,7 +124,7 @@
                 </g>
             </g>
         </svg>
-        <p class="text-xl 2xl:text-3xl font-Raleway font-bold text-[#505050] text-center">
+        <p class="text-base 2xl:text-2xl font-Raleway font-bold text-[#505050] text-center">
             Je télécharge le RIB<br/>
             pour faire un virement
         </p>
@@ -143,7 +143,7 @@
             <rect id="Rectangle_483" data-name="Rectangle 483" width="7.855" height="17.673" transform="translate(66.043 62.239)" fill="#ffb584"/>
             <rect id="Rectangle_484" data-name="Rectangle 484" width="7.855" height="25.528" transform="translate(78.438 54.154)" fill="#f60"/>
         </svg>
-        <p class="text-xl 2xl:text-3xl font-Raleway font-bold text-[#505050] text-center">
+        <p class="text-base 2xl:text-2xl font-Raleway font-bold text-[#505050] text-center">
             Je consulte<br/>
             le rapport annuel
         </p>
@@ -151,28 +151,28 @@
 </div>
 <div class="md:mt-20 mt-10 bg-infos bg-cover bg-no-repeat w-screen md:h-[30rem] gap-10 md:gap-0 py-20 md:py-0 flex flex-col md:flex-row items-center justify-center">
     <div class="flex flex-col font-Raleway text-white items-center justify-center text-center w-full md:w-1/3">
-        <p class="text-white text-7xl font-black">
+        <p class="text-white text-5xl 2xl:text-7xl font-black">
             88<br/>
         </p>
-        <p class="text-xl 2xl:text-3xl font-extrabold">
+        <p class="text-base 2xl:text-2xl font-extrabold">
             équipes de recherche<br/> mobilisées contre le cancer
         </p>
     </div>
     <div class="flex flex-col font-Raleway text-white items-center justify-center text-center w-full md:w-1/3">
-        <p class="text-white text-7xl font-black">
+        <p class="text-white text-5xl 2xl:text-7xl font-black">
             1<sup>er</sup><br/>
         </p>
-        <p class="text-xl 2xl:text-3xl font-extrabold">
+        <p class="text-base 2xl:text-2xl font-extrabold">
             centre en France de lutte<br/>
             contre le cancer en nombre<br/>
             de patients traités
         </p>
     </div>
     <div class="flex flex-col font-Raleway text-white items-center justify-center text-center w-full md:w-1/3">
-        <p class="text-white text-7xl font-black">
+        <p class="text-white text-5xl 2xl:text-7xl font-black">
             55 000<br/>
         </p>
-        <p class="text-xl 2xl:text-3xl font-extrabold">
+        <p class="text-base 2xl:text-2xl font-extrabold">
             patients traités
             <br/> par an
         </p>

@@ -16,8 +16,8 @@
     {#if StickyBannerVisible}
         <StickyBanner/>
     {/if}
-    <div style="clip-path: polygon(0 28%, 100% 6%, 100% 83%, 0 100%);" class="w-full bg-[#4D54D6]/60 backdrop-blur-md z-10 h-[45rem] absolute -bottom-72"/>
     {#if bottomDivVisible}
+    <div in:fly={{x:-2000, y:100, duration:1000}} style="clip-path: polygon(0 28%, 100% 6%, 100% 83%, 0 100%);" class="w-full bg-[#4D54D6]/60 backdrop-blur-md z-10 h-[45rem] absolute -bottom-72"/>
         <div in:fly={{y: -200, duration:300, delay:1000}} class="absolute text-center flex flex-col items-center justify-center bottom-10 gap-y-3 uppercase z-10 w-full text-white">
             <p class="text-[25px] font-Raleway font-black">
                 Votre don ouvre <br/>
@@ -28,20 +28,23 @@
             <p class="font-semibold font-Raleway text-[20px] mt-5">
                 Contre le cancer, investissez votre impôt dans l’innovation.
             </p>
-            <svg xmlns="http://www.w3.org/2000/svg"  width="54.235" height="13.962" viewBox="0 0 54.235 13.962">
-                <g id="Group_577" data-name="Group 577" transform="translate(-955.802 -686.268)">
-                    <g id="Group_115" data-name="Group 115" transform="translate(956.534 688.129)">
-                        <g id="Group_116" data-name="Group 116" transform="translate(0 0)">
-                            <g id="Group_498" data-name="Group 498">
-                                <path id="Path_277" data-name="Path 277" d="M26.483,10.231,13.4,5.082,0,0" transform="translate(26.483 10.231) rotate(180)" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="4"/>
-                                <path id="Path_278" data-name="Path 278" d="M26.483,0,13.4,5.149,0,10.231" transform="translate(26.288 0)" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="4"/>
+            <a href="#IntroMobile">
+                <svg  xmlns="http://www.w3.org/2000/svg"  width="54.235" height="13.962" viewBox="0 0 54.235 13.962">
+                    <g id="Group_577" data-name="Group 577" transform="translate(-955.802 -686.268)">
+                        <g id="Group_115" data-name="Group 115" transform="translate(956.534 688.129)">
+                            <g id="Group_116" data-name="Group 116" transform="translate(0 0)">
+                                <g id="Group_498" data-name="Group 498">
+                                    <path id="Path_277" data-name="Path 277" d="M26.483,10.231,13.4,5.082,0,0" transform="translate(26.483 10.231) rotate(180)" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="4"/>
+                                    <path id="Path_278" data-name="Path 278" d="M26.483,0,13.4,5.149,0,10.231" transform="translate(26.288 0)" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="4"/>
+                                </g>
                             </g>
                         </g>
                     </g>
-                </g>
-            </svg>
+                </svg>
+            </a>
         </div>
-        <div class="absolute -bottom-40 z-10 ">
+        <div id="IntroMobile" class="absolute bottom-20"/>
+        <div class="absolute -bottom-48 z-10 ">
             <p class="font-Lato text-white px-4  text-center">
                 <b>Équipements innovants, programmes de recherche de pointe, amélioration des traitements…<br/></b>
                 En soutenant l’Institut Curie avec un don déductible de votre impôt, vous financez des projets qui ouvrent de <b>nouvelles perspectives de guérison</b> pour chaque patient.
@@ -55,7 +58,7 @@
         <StickyBanner/>
     {/if}
     {#if bottomDivVisible}
-        <div in:fly={{x:0, duration:500}}  class="purple-polygone lg:h-[45rem] xl:h-[47rem] 2xl:h-[60rem] absolute -bottom-60 bg-[#4D54D6]/60 backdrop-blur-md z-10"/>
+        <div in:fly={{x:-2000, y:100, duration:1000}}  class="purple-polygone lg:h-[45rem] xl:h-[47rem] 2xl:h-[60rem] absolute -bottom-60 bg-[#4D54D6]/60 backdrop-blur-md z-10"/>
         <p in:fly={{y: -200, duration:300, delay:1000}} class="lg:text-[20px] xl:text-[25px] 2xl:text-[44px] 2xl:leading-[3rem] font-Raleway font-black text-white absolute text-center lg:bottom-20  2xl:bottom-40 uppercase z-10">
             Votre don ouvre de <span class="underline-red ">nouvelles perspectives</span><br/>
             de guérison aux patients.

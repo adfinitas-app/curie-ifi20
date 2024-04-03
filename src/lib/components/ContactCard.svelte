@@ -1,10 +1,10 @@
 <div class="hidden md:flex rounded-2xl  flex-row gap-4 xl:gap-8 2xl:gap-14 items-center justify-center p-6 2xl:px-8 2xl:py-8" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);">
     <img src="/signature-desktop.png" alt="pic of the chieffe" class=" w-40 2xl:w-[230px]"/>
     <div class="flex flex-col gap-3">
-        <p class="uppercase font-Raleway font-black text-2xl 2xl:text-4xl text-[#505050]">
+        <p class="uppercase font-Raleway font-black text-xl 2xl:text-4xl text-[#505050]">
             Contact
         </p>
-        <p class="font-Lato  text-xl 2xl:text-2xl text-[#505050]">
+        <p class="font-Lato  text-base 2xl:text-2xl text-[#505050]">
             <b>Héloïse Desazars de Montgailhard</b> se tient à votre<br/>
             disposition pour vous donner toutes les informations<br/>
             nécessaires. N’hésitez pas à la contacter.
