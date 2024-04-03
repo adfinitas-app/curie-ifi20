@@ -16,7 +16,7 @@
 </script>
 
 <div in:fade class="hidden fixed top-0 bg-[#4D54D6] bg-opacity-70 backdrop-blur-sm md:flex flex-row items-center justify-center w-screen lg:gap-5 xl:gap-8 2xl:gap-10 py-6 lg:h-[5rem] xl:h-[7rem] 2xl:h-[9rem] z-20">
-    <img src="/logo_curie.png" class="lg:w-[10rem] xl:w-[16rem] lg:ml-2 2xl:mr-20" alt="curie"/>
+    <img href="https://curie.fr/" src="/logo_curie.png" class="lg:w-[10rem] xl:w-[16rem] lg:ml-2 2xl:mr-20" alt="curie"/>
     <button on:mouseenter={()=> isHoveringText = true} on:mouseleave={()=> isHoveringText = false} class="flex flex-col items-center justify-center">
         <a href="#ProjectsDesktop" class="text-white font-Raleway font-bold text-xl">
             Les projets soutenus
@@ -30,11 +30,11 @@
         <span class={`h-0.5 bg-white rounded-3xl transition-width ${isHoveringText2 ? 'w-[10rem]' : 'w-[3rem]'}`}/>
     </button>
 
-    <button class="bg-[#FF6600] text-xs xl:text-xl text-white lg:px-2 lg:py-2 2xl:py-3 2xl:px-16 font-Raleway font-bold hover:border-2 hover:border-white transition-all relative">
+    <a href="https://aider.curie.fr/ifi" class="bg-[#FF6600] text-center uppercase text-xs xl:text-base 2xl:text-xl text-white w-[15rem] mr-2 2xl:w-[20rem] py-2 font-Raleway font-bold hover:border-2 hover:border-white transition-all relative">
         JE FAIS UN DON<br/>
         Déductible de<br/>
         <span class="font-black">l’IFI</span>
-    </button>
+    </a>
     {#if isPopupVisible}
         <div class="absolute top-full mt-2 left-1/2 transform -translate-x-1/2  bg-transparent flex flex-col items-center justify-center" transition:fade>
             <div class="flex flex-row items-center justify-center gap-10">
@@ -76,7 +76,7 @@
                                 Montant de votre don<br/>
                                 pour réduire votre IFI au maximum
                             </p>
-                            <div class="input-container rounded-3xl border-2 text-center pt-2 border-gray-500 w-[25vh] h-[5vh] font-Raleway text-[#FF6600] text-xl 2xl:text-2xl font-bold">
+                            <div class="input-container rounded-3xl border-2 text-center xl:pt-1 2xl:pt-2 border-gray-500 w-[25vh] h-[5vh] font-Raleway text-[#FF6600] text-xl 2xl:text-2xl font-bold">
                                 {#if montantIfi !== undefined}
                                     {Math.round(montantIfi * 1.33)}
                                 {/if}
@@ -96,13 +96,13 @@
                                 Estimation de votre IFI<br/>
                                 après déduction de 75 % de votre don
                             </p>
-                            <div class="input-container rounded-3xl border-2 text-center pt-2 border-gray-500 w-[25vh] h-[5vh] font-Raleway text-[#FF6600] text-xl 2xl:text-2xl font-bold">
+                            <div class="input-container rounded-3xl border-2 text-center xl:pt-1 2xl:pt-2 border-gray-500 w-[25vh] h-[5vh] font-Raleway text-[#FF6600] text-xl 2xl:text-2xl font-bold">
                                 {#if montant2 !== undefined}
                                     {Math.round(montant2 * 0.25)}
                                 {/if}
                             </div>
                         </div>
-                        <button class="bg-[#FF6600] xl:text-xl text-white py-2 xl:py-3 px-10 xl:px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-5 xl:-bottom-10">
+                        <button class="bg-[#FF6600] uppercase xl:text-xl text-white py-2 xl:py-3 px-10 xl:px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-5 xl:-bottom-10">
                             JE FAIS UN DON<br/>
                             Déductible de<br class="hidden xl:block"/>
                             <span class="font-black">l’IFI</span>
@@ -110,56 +110,55 @@
                     </div>
                 {:else if activeTab === 2}
                     <div class=" rounded-t-3xl bg-[#4D54D6] w-full lg:h-[1rem] 2xl:h-[2rem]"/>
-                    <div class="input-focus-violet flex flex-col items-center justify-center 2xl:p-4">
+                    <div class=" input-focus-violet flex flex-col items-center justify-center 2xl:p-4">
                         <p class="text-center text-xl 2xl:text-4xl font-Raleway font-black text-[#4D54D6]">
                             JE CALCULE<br>
                             MA DÉDUCTION FISCALE IR
                         </p>
                         <div class="flex flex-row items-center justify-between w-[70%] mt-3 xl:mt-6 2xl:mt-10">
-                            <p class={`text-xl 2xl:text-2xl font-Raleway font-bold ${isInputFocused === 1 ? 'text-[#4D54D6]' : ''}`}>
-                                Montant du don que vous souhaitez effectuer
+                            <p class={`text-xl 2xl:text-2xl font-Raleway font-bold w-auto ${isInputFocused === 1 ? 'text-[#4D54D6]' : ''}`}>
+                                Montant du don <br/>
+                                que vous souhaitez effectuer
                             </p>
                             <div class="input-container font-Raleway text-[#4D54D6] text-xl 2xl:text-2xl font-bold">
-                                <input bind:value={montantIr} type="number" class="bg-white rounded-3xl border-2 text-center py-2 border-gray-500" on:focus={() => isInputFocused = 1} on:blur={() => isInputFocused = 0}/>
+                                <input type="number" bind:value={montantIr} class="bg-white rounded-3xl border-2 text-center w-[25vh] h-[5vh] border-gray-500" on:focus={() => isInputFocused = 1} on:blur={() => isInputFocused = 0}/>
                             </div>
                         </div>
                         <div class="flex flex-row items-center justify-between w-[70%] mt-3 xl:mt-6 2xl:mt-10">
-                            <p class={`text-xl 2xl:text-2xl font-Raleway font-bold  ${isInputFocused === 2 ? 'text-[#4D54D6]' : ''}`}>
-                                Montant déductible de votre Impôt sur le Revenu
+                            <p class={`text-xl 2xl:text-2xl font-Raleway w-auto font-bold ${isInputFocused === 2 ? 'text-[#4D54D6]' : ''}`}>
+                                Montant déductible<br/> de votre Impôt sur le Revenu
                             </p>
-                            <div class="input-container rounded-3xl border-2 text-center pt-2 border-gray-500 w-[25vh] h-[5vh] font-Raleway text-[#4D54D6] text-xl 2xl:text-2xl font-bold">
+                            <div class="input-container rounded-3xl border-2 text-center xl:pt-1 2xl:pt-2 border-gray-500 w-[25vh] h-[5vh] font-Raleway text-[#4D54D6] text-xl 2xl:text-2xl font-bold">
                                 {#if montantIr !== undefined}
                                     {Math.round(montantIr * 0.67)}
                                 {/if}
                             </div>
                         </div>
-
                         <div class="flex flex-row items-center justify-between w-[70%] mt-3 xl:mt-6 2xl:mt-10">
-                            <p class={`text-xl 2xl:text-2xl font-Raleway font-bold  ${isInputFocused === 2 ? 'text-[#4D54D6]' : ''}`}>
-                                Coût réel de votre don après déduction fiscale de 66 %
+                            <p class={`text-xl 2xl:text-2xl font-Raleway w-auto font-bold ${isInputFocused === 3 ? 'text-[#4D54D6]' : ''}`}>
+                                Coût réel de votre <br/>don après déduction fiscale de 66 %
                             </p>
-                            <div class="input-container rounded-3xl border-2 text-center pt-2 border-gray-500 w-[25vh] h-[5vh] font-Raleway text-[#4D54D6] text-xl 2xl:text-2xl font-bold">
+                            <div class="input-container rounded-3xl border-2 text-center xl:pt-1 2xl:pt-2 border-gray-500 w-[25vh] h-[5vh] font-Raleway text-[#4D54D6] text-xl 2xl:text-2xl font-bold">
                                 {#if montantIr !== undefined}
                                     {Math.round(montantIr * 0.34)}
                                 {/if}
                             </div>
                         </div>
-
-                        <button class="bg-[#4D54D6] text-xl text-white py-3 px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-10">
+                        <button class="bg-[#4D54D6] uppercase xl:text-xl text-white py-2 xl:py-3 px-10 xl:px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-5 xl:-bottom-10">
                             JE FAIS UN DON<br/>
-                            Déductible de<br/>
-                            <span class="font-black">l’IR</span>
+                            Déductible de<br class="hidden xl:block"/>
+                            <span class="font-black">l’IFI</span>
                         </button>
                     </div>
                 {/if}
             </div>
         </div>
     {/if}
-    <button class="bg-[#4D54D6] uppercase text-xs xl:text-xl text-white lg:px-4 lg:py-2 2xl:py-3 2xl:px-16 font-Raleway font-bold hover:border-2 hover:border-white transition-all">
+    <a href="https://aider.curie.fr/don149" class="bg-[#4D54D6] text-center uppercase text-xs xl:text-base 2xl:text-xl text-white w-[15rem] mr-2 2xl:w-[20rem] py-2 font-Raleway font-bold hover:border-2 hover:border-white transition-all">
         JE FAIS UN DON<br/>
         déductible de<br/>
         <span class="font-black">L’impôt sur le revenu</span>
-    </button>
+    </a>
 </div>
 
 
@@ -170,7 +169,7 @@
             <div style="border-radius: 10px" class={`h-1 w-8 bg-white transition-all duration-500 ease-in-out ${isOpen ? 'opacity-0' : 'opacity-100'}`}></div>
             <div style="border-radius: 10px" class={`h-1 w-8 bg-white transform transition duration-500 ease-in-out ${isOpen ? '-rotate-45 -translate-y-3.5' : ''}`}></div>
         </button>
-        <img src="/logo-curie-mobile.png" class="w-[40px]" alt="curie"/>
+        <img href="https://curie.fr/" src="/logo-curie-mobile.png" class="w-[40px]" alt="curie"/>
         <button class="bg-[#FF6600] text-[10px] text-white w-[135px] h-[51px] font-Raleway font-bold hover:border-2 hover:border-white transition-all relative">
             JE FAIS UN DON
             Déductible de
