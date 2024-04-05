@@ -10,10 +10,10 @@
                     <div class="flex justify-start w-screen mx-auto items-center">
                         <div class="w-[25rem] absolute -left-36">
                             <div class="p-4 bg-white rounded-2xl" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);">
-                                <p class="text-xl xl:text-2xl 2xl:text-4xl font-bold font-Raleway text-[#505050] text-center">
+                                <p class="text-base 2xl:text-2xl font-bold font-Raleway text-[#505050] text-center">
                                     22 Mai
                                 </p>
-                                <p class="text-sm 2xl:text-3xl font-Raleway text-center font-light">
+                                <p class="text-base 2xl:text-xl font-Raleway text-center font-light">
                                     Date limite en papier
                                 </p>
                             </div>
@@ -30,10 +30,10 @@
                     <div class="flex justify-end w-screen mx-auto items-center">
                         <div class="w-[25rem] absolute -right-36 text-center">
                             <div class="p-4 bg-white rounded-2xl" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);">
-                                <p class="text-xl xl:text-2xl 2xl:text-4xl font-bold font-Raleway text-[#505050] ">
+                                <p class="text-base 2xl:text-2xl font-bold font-Raleway text-[#505050] ">
                                     23 Mai
                                 </p>
-                                <p class="text-sm 2xl:text-3xl font-Raleway text-[#505050] font-light">
+                                <p class="text-base 2xl:text-xl font-Raleway text-[#505050] font-light">
                                     Date limite en ligne<br/>
                                     Zone 1
                                 </p>
@@ -55,10 +55,10 @@
                     <div class="flex justify-start w-screen mx-auto items-center">
                         <div class="w-[25rem] absolute -left-36 text-center">
                             <div class="p-4 bg-white rounded-2xl" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);">
-                                <p class="text-xl xl:text-2xl 2xl:text-4xl font-bold font-Raleway text-[#505050] ">
+                                <p class="text-base 2xl:text-2xl font-bold font-Raleway text-[#505050] ">
                                     30 Mai
                                 </p>
-                                <p class="text-sm 2xl:text-3xl font-Raleway text-[#505050] font-light">
+                                <p class="text-base 2xl:text-xl font-Raleway text-[#505050] font-light">
                                     Date limite en ligne<br/>
                                     Zone 2
                                 </p>
@@ -80,10 +80,10 @@
                     <div class="flex justify-end w-screen mx-auto items-center">
                         <div class="w-[25rem] absolute -right-36 text-center">
                             <div class="p-4 bg-white rounded-2xl" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);">
-                                <p class="text-xl xl:text-2xl 2xl:text-4xl font-bold font-Raleway text-[#505050] ">
+                                <p class="text-base 2xl:text-2xl font-bold font-Raleway text-[#505050] ">
                                     6 juin
                                 </p>
-                                <p class="text-sm 2xl:text-3xl font-Raleway text-[#505050] font-light">
+                                <p class="text-base 2xl:text-xl font-Raleway text-[#505050] font-light">
                                     Date limite en ligne<br/>
                                     Zone 3
                                 </p>
