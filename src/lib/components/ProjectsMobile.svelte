@@ -17,8 +17,7 @@
     }
 </script>
 
-<!--<div id="ProjectsMobile" class="-mt-[40rem]"/>-->
-<div class="bg-[#F1F2FC] w-[95%] flex flex-col items-center justify-center rounded-2xl py-5 mt-[3rem] relative">
+<div style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);" class="bg-[#F1F2FC] w-[95%] flex flex-col items-center justify-center rounded-2xl py-5 mt-[3rem] relative">
     <div id="ProjectsMobile" class="absolute -top-40"/>
     <p  class="text-[#505050] font-Raleway font-bold text-[20px] uppercase text-center">
         Contre le cancer,<br/>
@@ -27,11 +26,11 @@
     </p>
     <div class="bg-[#FF6600] w-[10rem] h-1 rounded-3xl"/>
     <div class="bg-[#4D54D6] w-full mt-5 flex flex-col items-center justify-center relative">
-        <div class="flex flex-row items-center justify-center w-full  h-[88px] gap-x-4 py-4">
+        <div on:click={()=> projectSelector = !projectSelector} class="flex flex-row items-center justify-center w-full  h-[88px] gap-x-4 py-4">
             <p class="font-Raleway text-white text-[18px] font-bold uppercase w-[70%]">
                 {@html projectTitle[projectIndex]}
             </p>
-            <button on:click={()=> projectSelector = !projectSelector}>
+            <button>
                 <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
                     <g id="Group_759" data-name="Group 759" transform="translate(-326 -2692)">
                         <circle id="Ellipse_40" data-name="Ellipse 40" cx="17" cy="17" r="17" transform="translate(326 2692)" fill="#fff"/>
@@ -42,12 +41,12 @@
         </div>
         {#if projectSelector}
             <div class="absolute w-full -bottom-[11rem]">
-                <button in:fly on:click={()=> setProjectIndex(1)} class="bg-white text-[#505050] flex items-center  uppercase h-[88px] w-full border-2 border-[#505050] p-5">
+                <button in:fly on:click={()=> setProjectIndex(1)} class="bg-white text-[#505050] text-left  uppercase h-[88px] w-full border-2 border-[#505050] p-5">
                     <p class="font-Raleway font-bold text-[18px] m-0">
                         {@html projectTitle[(projectIndex + 1) % projectTitle.length]}
                     </p>
                 </button>
-                <button in:fly on:click={()=> setProjectIndex(2)} class="bg-white text-[#505050] flex items-center  uppercase h-[88px] w-full border-x-2 border-b-2 border-[#505050] p-5">
+                <button in:fly on:click={()=> setProjectIndex(2)} class="bg-white text-[#505050] text-left  uppercase h-[88px] w-full border-x-2 border-b-2 border-[#505050] p-5">
                     <p class="font-Raleway font-bold text-[18px] m-0">
                         {@html projectTitle[(projectIndex + 2) % projectTitle.length]}
                     </p>
@@ -93,7 +92,8 @@
                     <span class="font-bold">Une avancée dans la médecine de précision pour chaque patient.</span>
                 </li>
                 <li class="text-left font-Lato text-[#505050] text-[16px] mt-5">
-                    <span class="font-bold">Un espoir de solution thérapeutique pour les cancers où la chimiothérapie ou la radiothérapie restent encore inefficaces.</span>
+                    <span class="font-bold">Un espoir de solution thérapeutique pour les cancers où la
+                    chimiothérapie ou la radiothérapie restent encore inefficaces.</span>
                 </li>
             </ul>
             <div class="flex flex-col relative gap-y-5">
@@ -119,7 +119,7 @@
                         <div class="bg-[#FF6600] rounded-3xl w-10 h-1 ml-3"/>
                     </div>
                     <div class="flex flex-col bg-[#4D54D6] text-white font-Lato mb-10 ">
-                        <img src="/pic-project-1.png" class="w-full h-[200px]"/>
+                        <img src="/pic-project-1.png" class="w-full"/>
                         <p class="font-bold text-[18px] p-3 pb-0">
                             Dr Antonin Morillon
                         </p>
@@ -207,7 +207,7 @@
                         <div class="bg-[#FF6600] rounded-3xl w-10 h-1 ml-3"/>
                     </div>
                     <div class="flex flex-col bg-[#4D54D6] text-white font-Lato mb-10 ">
-                        <img src="/pic-project-2-desktop.png" class="w-full h-[200px]"/>
+                        <img src="/pic-project-2-desktop.png" class="w-full"/>
                         <p class="font-bold text-[18px] p-3 pb-0">
                             Dr Olivier Saulnier
                         </p>

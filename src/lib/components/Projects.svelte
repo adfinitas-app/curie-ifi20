@@ -2,7 +2,8 @@
     let projectIndex = 0;
 </script>
 
-<div id="ProjectsDesktop" class="flex items-center justify-center w-screen mt-10 z-30">
+<div class="relative flex items-center justify-center w-screen mt-10 z-0">
+    <div id="ProjectsDesktop" class="absolute -top-40"/>
     <div style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);" class="w-[90%] 2xl:w-[80%] flex flex-col items-center justify-center bg-[#F1F2FC] rounded-3xl py-4 2xl:py-10">
         <p class="text-center lg:text-2xl 2xl:text-4xl uppercase font-bold font-Raleway text-[#505050]">
             Contre le cancer,<br/>
@@ -50,7 +51,7 @@
                             Une avancée dans la médecine de précision pour chaque patient.
                         </li>
                         <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold mt-3">
-                            Un espoir de solution thérapeutique pour les cancers où la chimiothérapie <br/>
+                            Un espoir de solution thérapeutique pour les cancers où la chimiothérapie
                             ou la radiothérapie restent encore inefficaces.
                         </li>
                     </ul>
@@ -83,13 +84,7 @@
                     </div>
                 </div>
                 <button on:click={()=> projectIndex = 1} class="absolute right-20 bottom-0 hover:scale-110 transition-all">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="155.576" height="37.935" viewBox="0 0 155.576 37.935">
-                        <g id="Component_16_2" data-name="Component 16 – 2" transform="translate(0 0.935)">
-                            <text id="SUIVANT" transform="translate(0 24)" fill="#505050" font-size="25" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">SUIVANT</tspan></text>
-                            <path id="Path_631" data-name="Path 631" d="M1431,1408l11.076,13.826-5.538,6.913-5.538,6.913" transform="translate(-1288 -1406.826)" fill="none" stroke="#505050" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-                            <line id="Line_10" data-name="Line 10" x2="29" transform="translate(39.5 35.5)" fill="none" stroke="#505050" stroke-linecap="round" stroke-width="3"/>
-                        </g>
-                    </svg>
+                    <img src="/suivant-btn.png" class="w-[154px]"/>
                 </button>
             </div>
         {:else if projectIndex === 1}
@@ -121,7 +116,7 @@
                             types de cancers pédiatriques
                         </li>
                         <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold mt-3">
-                            <span class="uppercase">à</span> terme, prévenir la maladie chez les enfants,<br/> avant même qu’elle ne se développe
+                            <span class="uppercase">à</span> terme, prévenir la maladie chez les enfants, avant même qu’elle ne se développe
                         </li>
                     </ul>
                 </div>
@@ -154,26 +149,10 @@
                     </div>
                 </div>
                 <button on:click={()=> projectIndex = 2} class="absolute right-20 lg:-bottom-2 xl:bottom-2 2xl:bottom-0  hover:scale-110 transition-all">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="155.576" height="37.935" viewBox="0 0 155.576 37.935">
-                        <g id="Component_16_2" data-name="Component 16 – 2" transform="translate(0 0.935)">
-                            <text id="SUIVANT" transform="translate(0 24)" fill="#505050" font-size="25" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">SUIVANT</tspan></text>
-                            <path id="Path_631" data-name="Path 631" d="M1431,1408l11.076,13.826-5.538,6.913-5.538,6.913" transform="translate(-1288 -1406.826)" fill="none" stroke="#505050" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-                            <line id="Line_10" data-name="Line 10" x2="29" transform="translate(39.5 35.5)" fill="none" stroke="#505050" stroke-linecap="round" stroke-width="3"/>
-                        </g>
-                    </svg>
+                    <img src="/suivant-btn.png" class="w-[154px]"/>
                 </button>
                 <button on:click={()=> projectIndex = 0} class="absolute left-20 lg:-bottom-2 xl:bottom-2 2xl:bottom-0  hover:scale-110 transition-all">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="195.5" height="37" viewBox="0 0 195.5 37">
-                        <g id="Group_721" data-name="Group 721" transform="translate(-1338 -4329)">
-                            <g id="Component_16_5" data-name="Component 16 – 5" transform="translate(1339.5 4329)">
-                                <g id="Group_720" data-name="Group 720">
-                                    <text id="PRÉCÉDENT" transform="translate(47 24)" fill="#505050" font-size="25" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">PRÉCÉDENT</tspan></text>
-                                    <path id="Path_631" data-name="Path 631" d="M1442.076,1408,1431,1421.826l11.076,13.826" transform="translate(-1431 -1405.652)" fill="none" stroke="#505050" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-                                </g>
-                                <line id="Line_10" data-name="Line 10" x2="29" transform="translate(86.5 35.5)" fill="none" stroke="#505050" stroke-linecap="round" stroke-width="3"/>
-                            </g>
-                        </g>
-                    </svg>
+                    <img src="/precedent-btn.png" class="w-[154px]"/>
                 </button>
             </div>
             {:else if projectIndex === 2}
@@ -257,17 +236,7 @@
                     </div>
                 </div>
                 <button on:click={()=> projectIndex = 1} class="absolute left-20 bottom-2 hover:scale-110 transition-all">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="195.5" height="37" viewBox="0 0 195.5 37">
-                        <g id="Group_721" data-name="Group 721" transform="translate(-1338 -4329)">
-                            <g id="Component_16_5" data-name="Component 16 – 5" transform="translate(1339.5 4329)">
-                                <g id="Group_720" data-name="Group 720">
-                                    <text id="PRÉCÉDENT" transform="translate(47 24)" fill="#505050" font-size="25" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">PRÉCÉDENT</tspan></text>
-                                    <path id="Path_631" data-name="Path 631" d="M1442.076,1408,1431,1421.826l11.076,13.826" transform="translate(-1431 -1405.652)" fill="none" stroke="#505050" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-                                </g>
-                                <line id="Line_10" data-name="Line 10" x2="29" transform="translate(86.5 35.5)" fill="none" stroke="#505050" stroke-linecap="round" stroke-width="3"/>
-                            </g>
-                        </g>
-                    </svg>
+                    <img src="/precedent-btn.png" class="w-[154px]"/>
                 </button>
             </div>
         {/if}
@@ -280,24 +249,23 @@
         color: white;
     }
     ul {
-        list-style: none; /* Enlève les puces par défaut */
-        padding-left: 0; /* Enlève le padding par défaut */
+        list-style: none;
+        padding-left: 0;
     }
 
     ul li {
-        position: relative; /* Établit un contexte de positionnement */
-        padding-left: 2rem; /* Espace pour le pseudo-élément (bullet point) */
-        /*margin-bottom: 1rem; !* Espacement entre les éléments de la liste *!*/
+        position: relative;
+        padding-left: 2rem;
         padding-top: 1rem;
     }
 
     ul li::before {
-        content: "•"; /* Le bullet point */
-        color: #4D54D6; /* La couleur du bullet */
-        position: absolute; /* Positionne par rapport au li */
-        font-size: 2rem; /* Taille du bullet */
-        left: 0; /* Aligné à gauche du li */
-        top: 1rem; /* Ajustement vertical pour centrer avec la première ligne du texte */
+        content: "•";
+        color: #4D54D6;
+        position: absolute;
+        font-size: 2rem;
+        left: 0;
+        top: 1rem;
     }
 
     .underline {
