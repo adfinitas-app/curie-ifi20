@@ -84,7 +84,7 @@
                     </div>
                 </div>
                 <button on:click={()=> projectIndex = 1} class="absolute right-20 bottom-0 hover:scale-110 transition-all">
-                    <img src="/suivant-btn.png" class="w-[154px]"/>
+                    <img src="/suivant-btn.png" class="w-[130px]"/>
                 </button>
             </div>
         {:else if projectIndex === 1}
@@ -149,7 +149,7 @@
                     </div>
                 </div>
                 <button on:click={()=> projectIndex = 2} class="absolute right-20 lg:-bottom-2 xl:bottom-2 2xl:bottom-0  hover:scale-110 transition-all">
-                    <img src="/suivant-btn.png" class="w-[154px]"/>
+                    <img src="/suivant-btn.png" class="w-[130px]"/>
                 </button>
                 <button on:click={()=> projectIndex = 0} class="absolute left-20 lg:-bottom-2 xl:bottom-2 2xl:bottom-0  hover:scale-110 transition-all">
                     <img src="/precedent-btn.png" class="w-[154px]"/>
