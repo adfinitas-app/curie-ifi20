@@ -1,6 +1,9 @@
 <script>
     import {onMount} from "svelte";
     let currentIndex = 0;
+    let touchStart = 0;
+    let touchEnd = 0;
+
     const images = ["/infos_svg/info1.svg", "/infos_svg/info2.svg", "/infos_svg/info3.svg", "/infos_svg/info4.svg"];
     const textes = ["Je consulte le guide fiscal", "Je télécharge le bulletin de soutien IFI", "Je télécharge le RIB pour faire un virement", "Je consulte le rapport annuel"];
     function next() {
@@ -10,14 +13,49 @@
     function previous() {
         currentIndex = (currentIndex - 2 + images.length) % images.length;
     }
+
+    function next2() {
+        if (currentIndex > 0) {
+            currentIndex--;
+        }
+    }
+
+
+
+    function previous2() {
+        if (currentIndex < images.length - 1) {
+            currentIndex++;
+        }
+    }
+
+    function handleTouchStart(event) {
+        touchStart = event.touches[0].clientX;
+    }
+
+    // Fonction appelée lorsque l'utilisateur finit de toucher
+    function handleTouchMove(event) {
+        touchEnd = event.touches[0].clientX;
+    }
+
+    // Fonction pour déterminer la direction du glissement et agir en conséquence
+    function handleTouchEnd() {
+        if (touchStart - touchEnd > 75) {
+            next2();
+        } else if (touchStart - touchEnd < -75) {
+            previous2();
+        }
+    }
 </script>
 
 
-<p class="mt-10 2xl:mt-20 font-Raleway font-black text-2xl 2xl:text-4xl text-[#505050] text-center">
+<p class="mt-10 mb-5 md:mb-0 2xl:mt-20 font-Raleway font-black text-2xl 2xl:text-4xl text-[#505050] text-center">
     INFOS PRATIQUES
 </p>
 
-<div class="md:hidden flex justify-center items-center   h-40 relative mt-3">
+<div class="md:hidden flex justify-center items-center   h-40 relative mt-3"
+     on:touchstart={handleTouchStart}
+     on:touchmove={handleTouchMove}
+     on:touchend={handleTouchEnd}>
     {#if currentIndex > 0}
         <button class="absolute left-3 top-0 bottom-0 my-auto" on:click={previous}>
             <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" class="rotate-180">

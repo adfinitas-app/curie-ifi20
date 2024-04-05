@@ -175,13 +175,13 @@
         <a target="_blank" href="https://curie.fr/">
             <img src="/logo-curie-mobile.png" class="w-[40px]" alt="curie"/>
         </a>
-        <a target="_blank" href="https://aider.curie.fr/ifi" class="bg-[#FF6600] uppercase text-[8px] text-white w-[135px] h-[51px] font-Raleway font-bold hover:border-2 hover:border-white transition-all relative">
+        <a target="_blank" href="https://aider.curie.fr/ifi" class="bg-[#FF6600] flex flex-col text-center items-center justify-center uppercase text-[8px] text-white w-[135px] h-[51px] font-Raleway font-bold hover:border-2 hover:border-white transition-all relative">
             JE FAIS UN DON<br/>
             Déductible de
             <span class="font-black">l’IFI</span>
         </a>
-        <a target="_blank" href="https://aider.curie.fr/don149"  class="bg-[#4D54D6] uppercase text-[8px] text-white w-[135px] h-[51px] font-Raleway font-bold hover:border-2 hover:border-white transition-all">
-            JE FAIS UN DON
+        <a target="_blank" href="https://aider.curie.fr/don149"  class="bg-[#4D54D6] flex flex-col text-center items-center justify-center uppercase text-[8px] text-white w-[135px] h-[51px] font-Raleway font-bold hover:border-2 hover:border-white transition-all">
+            JE FAIS UN DON<br/>
             déductible de
             <span class="font-black">L’impôt sur le revenu</span>
         </a>
