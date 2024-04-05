@@ -165,7 +165,7 @@
 </div>
 
 
-<div in:fade class="md:hidden flex flex-col items-center justify-center fixed top-0 bg-[#4D54D6] bg-opacity-70 backdrop-blur-sm w-screen z-50  {isOpen ? '' : 'h-[55px] py-2'}">
+<div in:fade class="md:hidden flex flex-col items-center justify-center fixed top-0 bg-[#4D54D6] bg-opacity-70 w-screen z-50  {isOpen ? '' : 'h-[55px] py-2'}">
     <div class="flex flex-row items-center justify-center gap-4 p-4">
         <button on:click={()=> isOpen = !isOpen} class="flex flex-col justify-around w-10 h-10 bg-transparent border-none cursor-pointer p-0 z-50 focus:outline-none">
             <div style="border-radius: 10px" class={`h-1 w-8 bg-white transform transition duration-500 ease-in-out ${isOpen ? 'rotate-45 translate-y-3.5' : ''}`}></div>
