@@ -40,8 +40,9 @@
         <span class="font-black">L’impôt sur le revenu</span>
     </a>
 </div>
+
 {#if isPopupVisible}
-    <div class="fixed top-0 left-0 w-screen h-screen z-[70] backdrop-blur-xl bg-opacity-50 flex items-center justify-center" on:click={()=> poppOpened = false}>
+    <div class="fixed top-0 left-0 w-screen h-screen z-[70] backdrop-blur-xl bg-opacity-50 flex items-center justify-center">
         <div class="bg-transparent flex flex-col items-center justify-center" transition:fade>
             <div class="flex flex-row items-center justify-center gap-10">
                 <button class={`px-4 py-2 font-Raleway font-bold text-xl transition-colors ${activeTab === 1 ? 'bg-[#FF6600] text-white rounded-t-3xl' : 'text-[#FF6600] bg-white rounded-t-3xl'}`} on:click={() => activeTab = 1}>
@@ -108,7 +109,7 @@
                                 {/if}
                             </div>
                         </div>
-                        <a target="_blank" href="https://aider.curie.fr/ifi" class="text-center bg-[#FF6600] uppercase xl:text-xl text-white py-2 xl:py-3 px-10 xl:px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-5 xl:-bottom-10">
+                        <a target="_blank" href="https://aider.curie.fr/ifi" class="text-center bg-[#FF6600] uppercase xl:text-xl text-white py-2 xl:py-3 px-10 xl:px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-5 2xl:-bottom-10">
                             JE FAIS UN DON<br/>
                             Déductible de<br class="hidden xl:block"/>
                             <span class="font-black">l’IFI</span>
@@ -150,11 +151,11 @@
                                 {/if}
                             </div>
                         </div>
-                        <button target="_blank" href="https://aider.curie.fr/ifi" class="text-center bg-[#4D54D6] uppercase xl:text-xl text-white py-2 xl:py-3 px-10 xl:px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-5 xl:-bottom-10">
+                        <a target="_blank" href="https://aider.curie.fr/ifi" class="text-center bg-[#4D54D6] uppercase xl:text-xl text-white py-2 xl:py-3 px-10 xl:px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-5 xl:-bottom-10">
                             JE FAIS UN DON<br/>
                             Déductible de<br class="hidden xl:block"/>
                             <span class="font-black">l’IR</span>
-                        </button>
+                        </a>
                     </div>
                 {/if}
             </div>
