@@ -151,7 +151,7 @@
                                 {/if}
                             </div>
                         </div>
-                        <a target="_blank" href="https://aider.curie.fr/ifi" class="text-center bg-[#4D54D6] uppercase xl:text-xl text-white py-2 xl:py-3 px-10 xl:px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-5 xl:-bottom-10 2xl:-mb-10" >
+                        <a target="_blank" href="https://aider.curie.fr/ifi" class="text-center bg-[#4D54D6] uppercase xl:text-xl text-white py-2 xl:py-3 px-10 xl:px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-5 xl:-bottom-10 2xl:-mb-0" >
                             JE FAIS UN DON<br/>
                             Déductible de<br class="hidden xl:block"/>
                             <span class="font-black">l’IR</span>
