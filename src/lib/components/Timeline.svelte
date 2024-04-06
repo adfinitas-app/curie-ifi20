@@ -3,7 +3,7 @@
         CALENDRIER de déclaration FISCAL <span class="font-Lato">2024</span>
     </p>
     <div class="py-3 sm:max-w-xl sm:mx-auto w-full px-2 sm:px-0 mt-20">
-        <div class=" text-gray-700 antialiased text-sm font-semibold">
+        <div class="relative text-gray-700 antialiased text-sm font-semibold">
             <div class="hidden sm:block w-1 bg-[#FF6600] absolute h-[35rem] -mt-10 rounded-2xl left-1/2 transform -translate-x-1/2"/>
             <div class="mt-6 sm:mt-0 sm:mb-12">
                 <div class="flex flex-col sm:flex-row items-center">
