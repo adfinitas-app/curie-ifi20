@@ -109,7 +109,7 @@
                                 {/if}
                             </div>
                         </div>
-                        <a target="_blank" href="https://aider.curie.fr/ifi" class="text-center bg-[#FF6600] uppercase xl:text-xl text-white py-2 xl:py-3 px-10 xl:px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-5 xl:-bottom-10 2xl:-bottom-3">
+                        <a target="_blank" href="https://aider.curie.fr/ifi" class="text-center bg-[#FF6600] uppercase xl:text-xl text-white py-2 xl:py-3 px-10 xl:px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-5 xl:-bottom-10 2xl:-bottom-3 exception">
                             JE FAIS UN DON<br/>
                             Déductible de<br class="hidden xl:block"/>
                             <span class="font-black">l’IFI</span>
@@ -151,7 +151,7 @@
                                 {/if}
                             </div>
                         </div>
-                        <a target="_blank" href="https://aider.curie.fr/ifi" class="text-center bg-[#4D54D6] uppercase xl:text-xl text-white py-2 xl:py-3 px-10 xl:px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-5 xl:-bottom-10 2xl:-bottom-3">
+                        <a target="_blank" href="https://aider.curie.fr/ifi" class="text-center bg-[#4D54D6] uppercase xl:text-xl text-white py-2 xl:py-3 px-10 xl:px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-5 xl:-bottom-10 2xl:-bottom-3 exception">
                             JE FAIS UN DON<br/>
                             Déductible de<br class="hidden xl:block"/>
                             <span class="font-black">l’IR</span>
@@ -337,6 +337,12 @@
         outline: none;
     }
 
+
+    @media screen and (width: 1920px) and (height: 1080px) {
+        .exception {
+            bottom: 0;
+        }
+    }
 
     .input-container {
         position: relative;
