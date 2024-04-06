@@ -1,207 +1,98 @@
-<div class="mt-[400px]">
-    <h1>UL timeline cards</h1>
-        <ul>
-            <li style="--accent-color:#41516C">
-                <div class="date">2002</div>
-                <div class="title">Title 1</div>
-                <div class="descr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas itaque hic quibusdam fugiat est numquam harum, accusamus suscipit consequatur laboriosam!</div>
-            </li>
-            <li style="--accent-color:#FBCA3E">
-                <div class="date">2007</div>
-                <div class="title">Title 2</div>
-                <div class="descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos adipisci nobis nostrum vero nihil veniam.</div>
-            </li>
-            <li style="--accent-color:#E24A68">
-                <div class="date">2012</div>
-                <div class="title">Title 3</div>
-                <div class="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minima consequuntur soluta placeat iure totam commodi repellendus ea delectus, libero fugit quod reprehenderit, sequi quo, et dolorum saepe nulla hic.</div>
-            </li>
-            <li style="--accent-color:#1B5F8C">
-                <div class="date">2017</div>
-                <div class="title">Title 4</div>
-                <div class="descr">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, cumque.</div>
-            </li>
-            <li style="--accent-color:#4CADAD">
-                <div class="date">2022</div>
-                <div class="title">Title 5</div>
-                <div class="descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, non.</div>
-            </li>
-        </ul>
-</div>
+
+<section class="md:flex flex-col items-center justify-center w-screen absolute top-[25rem] 2xl:top-[30rem] hidden py-12">
+    <p class="font-Raleway font-black text-[#FF6600] lg:text-2xl 2xl:text-4xl uppercase">
+        CALENDRIER de déclaration FISCAL <span class="font-Lato">2024</span>
+    </p>
+    <div class="timeline mt-20">
+        <div class="timeline-empty">
+        </div>
+        <div class="timeline-middle">
+            <div class="timeline-square left-0 right-0 mx-auto"></div>
+        </div>
+        <div class="timeline-component timeline-content mx-20 relative flex flex-col items-center justify-center px-8 py-4 text-center">
+            <div class="absolute top-1/4 -left-20 rounded-2xl w-[7rem] h-[0.2rem] bg-[#fc6601] "></div>
+            <h3 class="font-Raleway text-[#505050] text-2xl font-bold">22 Mai</h3>
+            <p class="text-xl font-Raleway">Date limite en papier</p>
+        </div>
+        <div class="timeline-component timeline-content mx-20 relative flex flex-col items-center justify-center px-8 py-4 text-center">
+            <div class="absolute top-1/4 -right-20 rounded-2xl w-[7rem] h-[0.2rem] bg-[#fc6601] "></div>
+            <h3 class="font-Raleway text-[#505050] text-2xl font-bold">23 Mai</h3>
+            <p class="text-xl font-Raleway">Date limite en ligne<br/> Zone 1</p>
+            <p class="text-[#FF6600] text-base">
+                (départements 1 à 19,<br/>
+                Monaco et non-résidents)
+            </p>
+        </div>
+        <div class="timeline-middle">
+            <div class="timeline-square left-0 right-0 mx-auto"></div>
+        </div>
+        <div class="timeline-empty">
+        </div>
+
+        <div class="timeline-empty">
+        </div>
+
+        <div class="timeline-middle">
+            <div class="timeline-square left-0 right-0 mx-auto"></div>
+        </div>
+        <div class="timeline-component timeline-content mx-20 relative flex flex-col items-center justify-center px-8 py-4 text-center">
+            <div class="absolute top-1/4 -left-20 rounded-2xl w-[7rem] h-[0.2rem] bg-[#fc6601] "></div>
+            <h3 class="font-Raleway text-[#505050] text-2xl font-bold">30 Mai</h3>
+            <p class="text-xl font-Raleway">Date limite en ligne<br/> Zone 2</p>
+            <p class="text-[#FF6600] text-base">
+                (départements 20 à 54,<br/>
+                y compris la Corse)
+            </p>
+        </div>
+        <div class="timeline-component timeline-content mx-20 relative flex flex-col items-center justify-center px-8 py-4 text-center">
+            <div class="absolute top-1/4 -right-20 rounded-2xl w-[7rem] h-[0.2rem] bg-[#fc6601] "></div>
+            <h3 class="font-Raleway text-[#505050] text-2xl font-bold">6 Juin</h3>
+            <p class="text-xl font-Raleway">Date limite en ligne<br/> Zone 3</p>
+            <p class="text-[#FF6600] text-base">
+                (départements 55 à 976)
+            </p>
+        </div>
+        <div class="timeline-middle">
+            <div class="timeline-square left-0 right-0 mx-auto"></div>
+        </div>
+    </div>
+</section>
 
 <style>
-    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
-    h1 {
-        text-align: center;
+    .timeline {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .timeline-content {
+        background: white;
+        box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);
+        color: black;
+        border-radius: 6px;
     }
 
-    ul {
-        --col-gap: 2rem;
-        --row-gap: 2rem;
-        --line-w: 0.25rem;
+
+    .timeline {
         display: grid;
-        grid-template-columns: var(--line-w) 1fr;
-        grid-auto-columns: max-content;
-        column-gap: var(--col-gap);
-        list-style: none;
-        width: min(60rem, 90%);
-        margin-inline: auto;
+        grid-template-columns: 1fr 10px 1fr;
     }
-
-    /* line */
-    ul::before {
-        content: "";
-        grid-column: 1;
-        grid-row: 1 / span 20;
-        background: rgb(225, 225, 225);
-        border-radius: calc(var(--line-w) / 2);
-    }
-
-    /* columns*/
-
-    /* row gaps */
-    ul li:not(:last-child) {
-        margin-bottom: var(--row-gap);
-    }
-
-    /* card */
-    ul li {
-        grid-column: 2;
-        --inlineP: 1.5rem;
-        margin-inline: var(--inlineP);
-        grid-row: span 2;
-        display: grid;
-        grid-template-rows: min-content min-content min-content;
-    }
-
-    /* date */
-    ul li .date {
-        --dateH: 3rem;
-        height: var(--dateH);
-        margin-inline: calc(var(--inlineP) * -1);
-
-        text-align: center;
-        background-color: var(--accent-color);
-
-        color: white;
-        font-size: 1.25rem;
-        font-weight: 700;
-
-        display: grid;
-        place-content: center;
+    .timeline-middle {
         position: relative;
-
-        border-radius: calc(var(--dateH) / 2) 0 0 calc(var(--dateH) / 2);
+        background-color: #fc6601;
+        width: 3px;
+        height: 100%;
     }
-
-    /* date flap */
-    ul li .date::before {
-        content: "";
-        width: var(--inlineP);
-        aspect-ratio: 1;
-        background: var(--accent-color);
-        background-image: linear-gradient(rgba(0, 0, 0, 0.2) 100%, transparent);
+    .timeline-square {
         position: absolute;
-        top: 100%;
-
-        clip-path: polygon(0 0, 100% 0, 0 100%);
-        right: 0;
+        top: 25%;
+        width: 15px;
+        height: 15px;
+        rotate: 45deg;
+        border: solid 0.1rem white;
+        background-color: #fc6601;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
     }
 
-    /* circle */
-    ul li .date::after {
-        content: "";
-        position: absolute;
-        width: 2rem;
-        aspect-ratio: 1;
-        background: var(--bgColor);
-        border: 0.3rem solid var(--accent-color);
-        border-radius: 50%;
-        top: 50%;
-
-        transform: translate(50%, -50%);
-        right: calc(100% + var(--col-gap) + var(--line-w) / 2);
-    }
-
-    /* title descr */
-    ul li .title,
-    ul li .descr {
-        background: var(--bgColor);
-        position: relative;
-        padding-inline: 1.5rem;
-    }
-    ul li .title {
-        overflow: hidden;
-        padding-block-start: 1.5rem;
-        padding-block-end: 1rem;
-        font-weight: 500;
-    }
-    ul li .descr {
-        padding-block-end: 1.5rem;
-        font-weight: 300;
-    }
-
-    /* shadows */
-    ul li .title::before,
-    ul li .descr::before {
-        content: "";
-        position: absolute;
-        width: 90%;
-        height: 0.5rem;
-        background: rgba(0, 0, 0, 0.5);
-        left: 50%;
-        border-radius: 50%;
-        filter: blur(4px);
-        transform: translate(-50%, 50%);
-    }
-    ul li .title::before {
-        bottom: calc(100% + 0.125rem);
-    }
-
-    ul li .descr::before {
-        z-index: -1;
-        bottom: 0.25rem;
-    }
-
-    @media (min-width: 40rem) {
-        ul {
-            grid-template-columns: 1fr var(--line-w) 1fr;
-        }
-        ul::before {
-            grid-column: 2;
-        }
-        ul li:nth-child(odd) {
-            grid-column: 1;
-        }
-        ul li:nth-child(even) {
-            grid-column: 3;
-        }
-
-        /* start second card */
-        ul li:nth-child(2) {
-            grid-row: 2/4;
-        }
-
-        ul li:nth-child(odd) .date::before {
-            clip-path: polygon(0 0, 100% 0, 100% 100%);
-            left: 0;
-        }
-
-        ul li:nth-child(odd) .date::after {
-            transform: translate(-50%, -50%);
-            left: calc(100% + var(--col-gap) + var(--line-w) / 2);
-        }
-        ul li:nth-child(odd) .date {
-            border-radius: 0 calc(var(--dateH) / 2) calc(var(--dateH) / 2) 0;
-        }
-    }
-
-    .credits {
-        margin-top: 1rem;
-        text-align: right;
-    }
-    .credits a {
-        color: var(--color);
-    }
 
 </style>

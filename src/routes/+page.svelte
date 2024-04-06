@@ -4,6 +4,7 @@
     import DoubleCtaPart from "$lib/components/DoubleCtaPart.svelte";
     import Projects from "$lib/components/Projects.svelte";
     import ProjectsMobile from "$lib/components/ProjectsMobile.svelte";
+    import TestTimeline from "$lib/components/TestTimeline.svelte";
 </script>
 
 <HeroSection/>
@@ -14,7 +15,4 @@
 <div class="md:hidden flex items-center justify-center">
     <ProjectsMobile/>
 </div>
-
-
-<!--done in mobile-->
 <DoubleCtaPart/>
