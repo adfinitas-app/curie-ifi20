@@ -25,7 +25,7 @@
                 </div>
             </div>
 
-            <div class="mt-6 sm:mt-40 sm:mb-12">
+            <div class="mt-6 sm:mt-[500px] sm:mb-12">
                 <div class="flex flex-col sm:flex-row items-center">
                     <div class="flex justify-end w-screen mx-auto items-center">
                         <div class="w-[25rem] absolute -right-36 text-center">
