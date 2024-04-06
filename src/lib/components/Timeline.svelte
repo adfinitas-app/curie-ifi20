@@ -8,7 +8,7 @@
             <div class="mt-6 sm:mt-0 sm:mb-12">
                 <div class="flex flex-col sm:flex-row items-center">
                     <div class="flex justify-start w-screen mx-auto items-center">
-                        <div class="w-[25rem] absolute -left-36 mt-40">
+                        <div class="w-[25rem] absolute -left-36">
                             <div class="p-4 bg-white rounded-2xl" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);">
                                 <p class="text-base 2xl:text-2xl font-bold font-Raleway text-[#505050] text-center">
                                     22 Mai

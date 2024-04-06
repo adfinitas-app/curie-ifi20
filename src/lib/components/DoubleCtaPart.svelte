@@ -3,6 +3,7 @@
     import Timeline from "$lib/components/Timeline.svelte";
     import ContactCard from "$lib/components/ContactCard.svelte";
     import Infos from "$lib/components/Infos.svelte";
+    import TestTimeline from "$lib/components/TestTimeline.svelte";
 </script>
 
 <div class="w-screen relative flex items-center justify-center ">
@@ -28,7 +29,8 @@
             </a>
         </div>
     </div>
-    <Timeline/>
+<!--    <Timeline/>-->
+    <TestTimeline/>
     <div class="absolute top-[75rem] 2xl:top-[80rem] flex flex-col items-center justify-center">
         <ContactCard/>
         <Infos/>
