@@ -6,7 +6,7 @@
         <div class="relative text-gray-700 antialiased text-sm font-semibold">
             <div class="hidden sm:block w-1 bg-[#FF6600] absolute h-[35rem] -mt-10 rounded-2xl left-1/2 transform -translate-x-1/2"/>
             <div class="mt-6 sm:mt-0 sm:mb-12">
-                <div class="flex flex-col sm:flex-row items-center">
+                <div class="flex flex-col sm:flex-row items-center mt-40">
                     <div class="flex justify-start w-screen mx-auto items-center">
                         <div class="w-[25rem] absolute -left-36">
                             <div class="p-4 bg-white rounded-2xl" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);">
