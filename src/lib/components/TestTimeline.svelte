@@ -1,98 +1,222 @@
+<section class="timeline">
 
-<section class="md:flex flex-col items-center justify-center w-screen absolute top-[25rem] 2xl:top-[30rem] hidden py-12">
-    <p class="font-Raleway font-black text-[#FF6600] lg:text-2xl 2xl:text-4xl uppercase">
-        CALENDRIER de déclaration FISCAL <span class="font-Lato">2024</span>
-    </p>
-    <div class="timeline mt-20">
-        <div class="timeline-empty">
-        </div>
-        <div class="timeline-middle">
-            <div class="timeline-square left-0 right-0 mx-auto"></div>
-        </div>
-        <div class="timeline-component timeline-content mx-20 relative flex flex-col items-center justify-center px-8 py-4 text-center">
-            <div class="absolute top-1/4 -left-20 rounded-2xl w-[7rem] h-[0.2rem] bg-[#fc6601] "></div>
-            <h3 class="font-Raleway text-[#505050] text-2xl font-bold">22 Mai</h3>
-            <p class="text-xl font-Raleway">Date limite en papier</p>
-        </div>
-        <div class="timeline-component timeline-content mx-20 relative flex flex-col items-center justify-center px-8 py-4 text-center">
-            <div class="absolute top-1/4 -right-20 rounded-2xl w-[7rem] h-[0.2rem] bg-[#fc6601] "></div>
-            <h3 class="font-Raleway text-[#505050] text-2xl font-bold">23 Mai</h3>
-            <p class="text-xl font-Raleway">Date limite en ligne<br/> Zone 1</p>
-            <p class="text-[#FF6600] text-base">
-                (départements 1 à 19,<br/>
-                Monaco et non-résidents)
-            </p>
-        </div>
-        <div class="timeline-middle">
-            <div class="timeline-square left-0 right-0 mx-auto"></div>
-        </div>
-        <div class="timeline-empty">
-        </div>
-
-        <div class="timeline-empty">
-        </div>
-
-        <div class="timeline-middle">
-            <div class="timeline-square left-0 right-0 mx-auto"></div>
-        </div>
-        <div class="timeline-component timeline-content mx-20 relative flex flex-col items-center justify-center px-8 py-4 text-center">
-            <div class="absolute top-1/4 -left-20 rounded-2xl w-[7rem] h-[0.2rem] bg-[#fc6601] "></div>
-            <h3 class="font-Raleway text-[#505050] text-2xl font-bold">30 Mai</h3>
-            <p class="text-xl font-Raleway">Date limite en ligne<br/> Zone 2</p>
-            <p class="text-[#FF6600] text-base">
-                (départements 20 à 54,<br/>
-                y compris la Corse)
-            </p>
-        </div>
-        <div class="timeline-component timeline-content mx-20 relative flex flex-col items-center justify-center px-8 py-4 text-center">
-            <div class="absolute top-1/4 -right-20 rounded-2xl w-[7rem] h-[0.2rem] bg-[#fc6601] "></div>
-            <h3 class="font-Raleway text-[#505050] text-2xl font-bold">6 Juin</h3>
-            <p class="text-xl font-Raleway">Date limite en ligne<br/> Zone 3</p>
-            <p class="text-[#FF6600] text-base">
-                (départements 55 à 976)
-            </p>
-        </div>
-        <div class="timeline-middle">
-            <div class="timeline-square left-0 right-0 mx-auto"></div>
-        </div>
-    </div>
+    <ul>
+        <li>
+            <div class="content">
+                <h2>
+                    <time>2016</time>
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias debitis praesentium itaque veniam dolorum cupiditate asperiores optio beatae, qui perferendis ipsam odit modi nemo natus corrupti neque quos distinctio facilis?</p>
+            </div>
+        </li>
+        <li>
+            <div class="content">
+                <h2>
+                    <time>2015</time>
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quas, reiciendis quis sequi voluptatem consectetur adipisci accusamus hic vel vero ea ad iure! Natus, ipsum, enim aspernatur fugit voluptatibus similique?</p>
+            </div>
+        </li>
+        <li>
+            <div class="content">
+                <h2>
+                    <time>2012</time>
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, expedita. Dolorem blanditiis, delectus omnis eos accusamus mollitia et cupiditate officia maxime vel, nesciunt alias eius, quibusdam in ea eveniet ut!</p>
+            </div>
+        </li>
+        <li>
+            <div class="content">
+                <h2>
+                    <time>2010</time>
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptas voluptatum dolorum, quibusdam dignissimos animi pariatur laboriosam quis explicabo similique aperiam debitis quam velit quod, reprehenderit harum ratione. Iste, unde?</p>
+            </div>
+        </li>
+        <li>
+            <div class="content">
+                <h2>
+                    <time>2008</time>
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet inventore odit placeat in laboriosam dolore ducimus vero, sapiente ipsam veritatis, numquam libero itaque dolores natus ex aliquam nam nihil cumque.</p>
+            </div>
+        </li>
+        <li>
+            <div class="content">
+                <h2>
+                    <time>2007</time>
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit sequi nobis, blanditiis quae dolorem quasi reiciendis odio qui fugit? Officiis quos aspernatur mollitia dolorum pariatur repellendus quaerat dolorem magnam quo.</p>
+            </div>
+        </li>
+        <li>
+            <div class="content">
+                <h2>
+                    <time>2004</time>
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel corporis sunt nostrum velit quibusdam neque porro ratione quos dolor libero. Tempore consequatur natus nostrum delectus provident fugiat corporis error ipsa.</p>
+            </div>
+        </li>
+    </ul>
 </section>
 
-<style>
-    .timeline {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .timeline-content {
-        background: white;
-        box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);
-        color: black;
-        border-radius: 6px;
+<style lang="scss">
+  @import url(https://fonts.googleapis.com/css?family=Lato);
+
+  $title-background: #3d9e67;
+  $background-color: white;
+  $content-background-color: #67CC8E;
+  $content-background-gradient: #56BC83;
+  $time-color: #fff;
+  $text-color: #fff;
+  $content-width: 450px;
+
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .timeline{
+    color: $text-color;
+
+    h1,
+    ul li .content h2{
+      text-shadow: 1px 1px 1px rgba(56, 56, 56, 0.5);
     }
 
+    ul{
+      background: $background-color;
+      padding: 50px 0;
 
-    .timeline {
-        display: grid;
-        grid-template-columns: 1fr 10px 1fr;
-    }
-    .timeline-middle {
+      li{
+        background: $content-background-color;
         position: relative;
-        background-color: #fc6601;
-        width: 3px;
-        height: 100%;
-    }
-    .timeline-square {
-        position: absolute;
-        top: 25%;
-        width: 15px;
-        height: 15px;
-        rotate: 45deg;
-        border: solid 0.1rem white;
-        background-color: #fc6601;
-        -webkit-transform: translateX(-50%);
-        transform: translateX(-50%);
-    }
+        margin: 0 auto;
+        width: 5px;
+        padding-bottom: 40px;
+        list-style-type: none;
 
+        &:last-child{
+          padding-bottom: 7px;
+        }
 
+        &:before{
+          content: '';
+          background: $background-color;
+          position: absolute;
+          left: 50%;
+          top: 0;
+          transform: translateX(-50%);
+          -webkit-transform: translateX(-50%);
+          width: 20px;
+          height: 20px;
+          border: 3px solid $content-background-color;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          border-radius: 50%;
+        }
+
+        .hidden {
+          opacity: 0;
+        }
+
+        .content{
+          background: $content-background-color;
+          position: relative;
+          top: 7px;
+          width: $content-width;
+          padding: 20px;
+
+          h2{
+            color: $time-color;
+            padding-bottom: 10px;
+            text-align: center;
+          }
+
+          p{
+            text-align: center;
+          }
+
+          &:before{
+            content: '';
+            background: $content-background-color;
+            position: absolute;
+            top: 0px;
+            width: 38px;
+            height: 5px;
+          }
+        }
+
+        &:nth-child(odd) .content {
+          left: 50px;
+          background: $content-background-color;
+          background: -webkit-linear-gradient(-45deg, $content-background-gradient , $content-background-color);
+          background: linear-gradient(-45deg,  $content-background-gradient , $content-background-color);
+        }
+
+        &:nth-child(odd) .content:before {
+          left: -38px;
+        }
+
+        &:nth-child(even) .content {
+          left: calc(-#{$content-width} - 45px);
+          background: $content-background-color;
+          background: -webkit-linear-gradient(45deg, $content-background-gradient , $content-background-color);
+          background: linear-gradient(45deg,  $content-background-gradient , $content-background-color);
+        }
+
+        &:nth-child(even) .content:before {
+          right: -38px;
+        }
+      }
+    }
+  }
+
+  /* -------------------------
+     ----- Media Queries -----
+     ------------------------- */
+
+  @media screen and (max-width: 1020px) {
+    .timeline ul li .content {
+      width: 41vw;
+    }
+    .timeline ul li:nth-child(even) .content {
+      left: calc(-41vw - 45px);
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .timeline ul li {
+      margin-left: 20px;
+
+      .content {
+        width: calc(100vw - 100px);
+
+        h2{
+          text-align: initial;
+        }
+      }
+
+      &:nth-child(even) .content {
+        left: 45px;
+        background: $content-background-color;
+        background: -webkit-linear-gradient(-45deg, $content-background-gradient , $content-background-color);
+        background: linear-gradient(-45deg,  $content-background-gradient , $content-background-color);
+      }
+
+      &:nth-child(even) .content:before {
+        left: -33px;
+      }
+    }
+  }
 </style>
