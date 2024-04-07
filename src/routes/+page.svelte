@@ -7,13 +7,13 @@
     import TestTimeline from "$lib/components/TestTimeline.svelte";
 </script>
 
-<!--<HeroSection/>-->
-<!--<GraphPart/>-->
-<!--<div class="hidden md:block">-->
-<!--    <Projects/>-->
-<!--</div>-->
-<!--<div class="md:hidden flex items-center justify-center">-->
-<!--    <ProjectsMobile/>-->
-<!--</div>-->
-<!--<DoubleCtaPart/>-->
-<TestTimeline/>
+<HeroSection/>
+<GraphPart/>
+<div class="hidden md:block">
+    <Projects/>
+</div>
+<div class="md:hidden flex items-center justify-center">
+    <ProjectsMobile/>
+</div>
+<DoubleCtaPart/>
+<!--<TestTimeline/>-->
