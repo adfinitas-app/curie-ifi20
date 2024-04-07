@@ -30,7 +30,7 @@
         </div>
     </div>
     <Timeline/>
-<!--    <TestTimeline/>-->
+    <TestTimeline/>
     <div class="absolute top-[75rem] 2xl:top-[80rem] flex flex-col items-center justify-center">
         <ContactCard/>
         <Infos/>

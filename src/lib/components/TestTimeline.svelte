@@ -1,75 +1,71 @@
-<section class="timeline">
+<section class="timeline hidden md:block absolute top-[25rem] 2xl:top-[30rem] ">
 
     <ul>
         <li>
-            <div class="content">
-                <h2>
-                    <time>2016</time>
+            <div class="content text-[#505050]">
+                <h2 class="text-center font-Raleway font-bold text-[30px]">
+                    <time>22 Mai</time>
                 </h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias debitis praesentium itaque veniam dolorum cupiditate asperiores optio beatae, qui perferendis ipsam odit modi nemo natus corrupti neque quos distinctio facilis?</p>
+                <p class="text-xl font-Raleway">
+                    Date limite en papier
+                </p>
+
             </div>
         </li>
         <li>
-            <div class="content">
-                <h2>
-                    <time>2015</time>
+            <div class="content text-[#505050]">
+                <h2 class="text-center font-Raleway font-bold text-[30px]">
+                    <time>23 Mai</time>
                 </h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quas, reiciendis quis sequi voluptatem consectetur adipisci accusamus hic vel vero ea ad iure! Natus, ipsum, enim aspernatur fugit voluptatibus similique?</p>
+                <p>
+                    Date limite en ligne<br/>
+                    Zone 1
+                </p>
+                <p class="text-base font-Raleway text-[#FF6600]">
+                    (départements 1 à 19,<br/>
+                    Monaco et non-résidents)
+                </p>
             </div>
         </li>
         <li>
-            <div class="content">
-                <h2>
-                    <time>2012</time>
+            <div class="content text-[#505050]">
+                <h2 class="text-center font-Raleway font-bold text-[30px]">
+                    <time>30 Mai</time>
                 </h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, expedita. Dolorem blanditiis, delectus omnis eos accusamus mollitia et cupiditate officia maxime vel, nesciunt alias eius, quibusdam in ea eveniet ut!</p>
+                <p>
+                    Date limite en ligne<br/>
+                    Zone 1
+                </p>
+                <p class="text-base font-Raleway text-[#FF6600]">
+                    (départements 1 à 19,<br/>
+                    Monaco et non-résidents)
+                </p>
             </div>
         </li>
         <li>
-            <div class="content">
-                <h2>
-                    <time>2010</time>
+            <div class="content text-[#505050]">
+                <h2 class="text-center font-Raleway font-bold text-[30px]">
+                    <time>23 Mai</time>
                 </h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptas voluptatum dolorum, quibusdam dignissimos animi pariatur laboriosam quis explicabo similique aperiam debitis quam velit quod, reprehenderit harum ratione. Iste, unde?</p>
-            </div>
-        </li>
-        <li>
-            <div class="content">
-                <h2>
-                    <time>2008</time>
-                </h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet inventore odit placeat in laboriosam dolore ducimus vero, sapiente ipsam veritatis, numquam libero itaque dolores natus ex aliquam nam nihil cumque.</p>
-            </div>
-        </li>
-        <li>
-            <div class="content">
-                <h2>
-                    <time>2007</time>
-                </h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit sequi nobis, blanditiis quae dolorem quasi reiciendis odio qui fugit? Officiis quos aspernatur mollitia dolorum pariatur repellendus quaerat dolorem magnam quo.</p>
-            </div>
-        </li>
-        <li>
-            <div class="content">
-                <h2>
-                    <time>2004</time>
-                </h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel corporis sunt nostrum velit quibusdam neque porro ratione quos dolor libero. Tempore consequatur natus nostrum delectus provident fugiat corporis error ipsa.</p>
+                <p>
+                    Date limite en ligne<br/>
+                    Zone 1
+                </p>
+                <p class="text-base font-Raleway text-[#FF6600]">
+                    (départements 1 à 19,<br/>
+                    Monaco et non-résidents)
+                </p>
             </div>
         </li>
     </ul>
 </section>
 
 <style lang="scss">
-  @import url(https://fonts.googleapis.com/css?family=Lato);
-
   $title-background: #3d9e67;
-  $background-color: white;
-  $content-background-color: #67CC8E;
-  $content-background-gradient: #56BC83;
+  $content-background-color: white;
   $time-color: #fff;
   $text-color: #fff;
-  $content-width: 450px;
+  $content-width: 350px;
 
   *,
   *::before,
@@ -81,30 +77,25 @@
     box-sizing: border-box;
   }
 
-  body{
-    font-size: 16px;
-    font-family: 'Lato', sans-serif;
-  }
-
   .timeline{
     color: $text-color;
 
     h1,
-    ul li .content h2{
-      text-shadow: 1px 1px 1px rgba(56, 56, 56, 0.5);
-    }
 
     ul{
-      background: $background-color;
+      background: white;
       padding: 50px 0;
 
       li{
-        background: $content-background-color;
+        background-color: #fc6601;
         position: relative;
         margin: 0 auto;
         width: 5px;
         padding-bottom: 40px;
         list-style-type: none;
+        border-radius: 20px;
+        color: black;
+        box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);
 
         &:last-child{
           padding-bottom: 7px;
@@ -112,36 +103,25 @@
 
         &:before{
           content: '';
-          background: $background-color;
+          background: #FF6600;
           position: absolute;
           left: 50%;
-          top: 0;
-          transform: translateX(-50%);
-          -webkit-transform: translateX(-50%);
+          top: 2rem;
+          transform: translateX(-50%) rotate(45deg);
+          -webkit-transform: translateX(-50%) rotate(45deg);
           width: 20px;
           height: 20px;
-          border: 3px solid $content-background-color;
-          -webkit-border-radius: 50%;
-          -moz-border-radius: 50%;
-          border-radius: 50%;
-        }
-
-        .hidden {
-          opacity: 0;
+          border: 3px solid white;
         }
 
         .content{
-          background: $content-background-color;
+          background: white;
           position: relative;
           top: 7px;
           width: $content-width;
+          border-radius: 10px;
           padding: 20px;
-
-          h2{
-            color: $time-color;
-            padding-bottom: 10px;
-            text-align: center;
-          }
+          box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);
 
           p{
             text-align: center;
@@ -149,19 +129,18 @@
 
           &:before{
             content: '';
-            background: $content-background-color;
+            background: #FF6600;
             position: absolute;
-            top: 0px;
-            width: 38px;
+            top: 2rem;
+            width: 100px;
             height: 5px;
+            border-radius: 20px;
           }
         }
 
         &:nth-child(odd) .content {
           left: 50px;
           background: $content-background-color;
-          background: -webkit-linear-gradient(-45deg, $content-background-gradient , $content-background-color);
-          background: linear-gradient(-45deg,  $content-background-gradient , $content-background-color);
         }
 
         &:nth-child(odd) .content:before {
@@ -171,8 +150,6 @@
         &:nth-child(even) .content {
           left: calc(-#{$content-width} - 45px);
           background: $content-background-color;
-          background: -webkit-linear-gradient(45deg, $content-background-gradient , $content-background-color);
-          background: linear-gradient(45deg,  $content-background-gradient , $content-background-color);
         }
 
         &:nth-child(even) .content:before {
@@ -192,31 +169,6 @@
     }
     .timeline ul li:nth-child(even) .content {
       left: calc(-41vw - 45px);
-    }
-  }
-
-  @media screen and (max-width: 700px) {
-    .timeline ul li {
-      margin-left: 20px;
-
-      .content {
-        width: calc(100vw - 100px);
-
-        h2{
-          text-align: initial;
-        }
-      }
-
-      &:nth-child(even) .content {
-        left: 45px;
-        background: $content-background-color;
-        background: -webkit-linear-gradient(-45deg, $content-background-gradient , $content-background-color);
-        background: linear-gradient(-45deg,  $content-background-gradient , $content-background-color);
-      }
-
-      &:nth-child(even) .content:before {
-        left: -33px;
-      }
     }
   }
 </style>
