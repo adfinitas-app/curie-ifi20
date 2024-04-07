@@ -31,7 +31,7 @@
     </div>
     <Timeline/>
     <TestTimeline/>
-    <div class="absolute top-[75rem] 2xl:top-[80rem] flex flex-col items-center justify-center">
+    <div class="absolute top-[84rem] 2xl:top-[90rem] flex flex-col items-center justify-center">
         <ContactCard/>
         <Infos/>
         <Footer/>
