@@ -15,7 +15,6 @@
 
     onMount(() => {
         if (window.location.hash === '#Calculator') {
-            // Déclenche l'ouverture de la popup sur desktop et mobile
             isPopupVisible = true;
             isPopupVisibleMobile = true;
         }
@@ -63,7 +62,7 @@
                     MA DÉDUCTION IR
                 </button>
             </div>
-            <div class="backdrop-blur-xl w-[60rem] 2xl:w-[80rem] bg-white rounded-r-3xl transition-colors rounded-l-3xl rounded-b-3xl  lg:h-[25rem] xl:h-[30rem] 2xl:h-[40rem]">
+            <div class="backdrop-blur-xl relative w-[60rem] 2xl:w-[80rem] bg-white rounded-r-3xl transition-colors rounded-l-3xl rounded-b-3xl  lg:h-[25rem] xl:h-[30rem] 2xl:h-[40rem]">
                 <button  class="absolute -right-20 top-0 hover:scale-125 transition-all" on:click={()=> isPopupVisible = false}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="25.979" height="25.979" viewBox="0 0 25.979 25.979">
                         <g id="Group_620" data-name="Group 620" transform="translate(-1219.086 -100.935)">
