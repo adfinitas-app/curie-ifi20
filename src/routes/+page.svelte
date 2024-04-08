@@ -16,4 +16,3 @@
     <ProjectsMobile/>
 </div>
 <DoubleCtaPart/>
-<!--<TestTimeline/>-->

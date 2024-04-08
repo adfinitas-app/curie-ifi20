@@ -104,7 +104,7 @@
                         </button>
                     </div>
                 {/if}
-                <svg on:click={()=> projectIndex = 1}  class="absolute bottom-1 right-2" xmlns="http://www.w3.org/2000/svg" width="102.911" height="31.282" viewBox="0 0 102.911 31.282">
+                <svg on:click={()=> projectIndex = 1}  class="absolute bottom-0 right-2" xmlns="http://www.w3.org/2000/svg" width="102.911" height="31.282" viewBox="0 0 102.911 31.282">
                     <g id="Group_732" data-name="Group 732" transform="translate(-260.924 -4848.617)">
                         <text id="SUIVANT" transform="translate(260.924 4867.726)" fill="#505050" font-size="18" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">SUIVANT</tspan></text>
                         <path id="Path_631" data-name="Path 631" d="M1431,1408l8.411,10.5L1431,1429" transform="translate(-1077.076 3442.726)" fill="none" stroke="#505050" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
@@ -192,7 +192,7 @@
                         </button>
                     </div>
                 {/if}
-                <svg on:click={()=> projectIndex = 2} class="absolute bottom-1 right-2" xmlns="http://www.w3.org/2000/svg" width="102.911" height="31.282" viewBox="0 0 102.911 31.282">
+                <svg on:click={()=> projectIndex = 2} class="absolute bottom-0 right-2" xmlns="http://www.w3.org/2000/svg" width="102.911" height="31.282" viewBox="0 0 102.911 31.282">
                     <g id="Group_732" data-name="Group 732" transform="translate(-260.924 -4848.617)">
                         <text id="SUIVANT" transform="translate(260.924 4867.726)" fill="#505050" font-size="18" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">SUIVANT</tspan></text>
                         <path id="Path_631" data-name="Path 631" d="M1431,1408l8.411,10.5L1431,1429" transform="translate(-1077.076 3442.726)" fill="none" stroke="#505050" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
@@ -278,7 +278,7 @@
                         </button>
                     </div>
                 {/if}
-                <svg on:click={()=> projectIndex = 0} class="absolute bottom-1 right-2" xmlns="http://www.w3.org/2000/svg" width="102.911" height="31.282" viewBox="0 0 102.911 31.282">
+                <svg on:click={()=> projectIndex = 0} class="absolute bottom-0 right-2" xmlns="http://www.w3.org/2000/svg" width="102.911" height="31.282" viewBox="0 0 102.911 31.282">
                     <g id="Group_732" data-name="Group 732" transform="translate(-260.924 -4848.617)">
                         <text id="SUIVANT" transform="translate(260.924 4867.726)" fill="#505050" font-size="18" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">SUIVANT</tspan></text>
                         <path id="Path_631" data-name="Path 631" d="M1431,1408l8.411,10.5L1431,1429" transform="translate(-1077.076 3442.726)" fill="none" stroke="#505050" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
@@ -333,17 +333,16 @@
 
     ul li {
         display: flex;
-        align-items: center;
-        /* other styles... */
+        align-items: baseline;
     }
     ul li::before {
         font-weight: normal !important;
         content: "•";
         color: #4D54D6;
-        font-size: 2rem; /* Taille de la puce */
-        display: inline-block; /* Nécessaire pour ajouter une marge à droite */
-        width: 1rem; /* Largeur de l'espace pour la puce */
-        /* Espace entre la puce et le texte */
+        font-size: 2rem;
+        display: inline-block;
+        width: 1rem;
         margin-right: 1rem;
+        position: relative;
     }
 </style>

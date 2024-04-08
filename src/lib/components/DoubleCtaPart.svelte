@@ -45,14 +45,11 @@
         clip-path: polygon(0 7%, 100% 0, 100% 54%, 0 63%);
     }
 
-    /*!* Exemple de requête média pour écrans de plus de 768px de large *!*/
     @media (min-width: 768px) {
         .gray-polygone {
             clip-path: polygon(0 13%, 100% 0, 100% 41%, 0 56%);
         }
     }
-
-    /* Exemple de requête média pour écrans de moins de 768px de large */
     @media (max-width: 768px) {
         .gray-polygone {
             clip-path: polygon(0 7%, 100% 0, 100% 54%, 0 63%);
