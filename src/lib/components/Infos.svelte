@@ -60,12 +60,21 @@
             </svg>
         </button>
     {/if}
-    <div class="flex flex-col items-center justify-center">
+    {#if currentIndex > 1}
+    <a href="https://ifi.curie.fr/images/Curie_rib.pdf?_cchid=a200357f54bc77577d784c4e4414e50e" target="_blank" class="flex flex-col items-center justify-center">
         <img class="w-28 h-28 object-cover" src={images[currentIndex]} alt="image 1">
         <p class="text-center font-Raleway font-bold text-[16px] px-5">
             {textes[currentIndex]}
         </p>
-    </div>
+    </a>
+    {:else}
+        <div class="flex flex-col items-center justify-center">
+            <img class="w-28 h-28 object-cover" src={images[currentIndex]} alt="image 1">
+            <p class="text-center font-Raleway font-bold text-[16px] px-5">
+                {textes[currentIndex]}
+            </p>
+        </div>
+    {/if}
 
     <div class="flex flex-col items-center justify-center">
         <img class="w-28 h-28 object-cover" src={images[currentIndex + 1]} alt="image 1">
@@ -106,7 +115,7 @@
             le guide fiscal
         </p>
     </div>
-    <a href="https://ifi.curie.fr/images/Curie_rib.pdf?_cchid=a200357f54bc77577d784c4e4414e50e " class="gap-2 flex flex-col items-center justify-center">
+    <a class="gap-2 flex flex-col items-center justify-center">
         <svg id="Group_449" data-name="Group 449" xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 2xl:w-40 2xl:h-40" viewBox="0 0 134.832 134.832">
             <circle id="Ellipse_23" data-name="Ellipse 23" cx="67.416" cy="67.416" r="67.416" fill="#9b999b"/>
             <g id="Group_447" data-name="Group 447" transform="translate(12.075 12.075)">
