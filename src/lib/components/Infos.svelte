@@ -60,28 +60,34 @@
             </svg>
         </button>
     {/if}
-    {#if currentIndex > 1}
-    <a href="https://ifi.curie.fr/images/Curie_rib.pdf?_cchid=a200357f54bc77577d784c4e4414e50e" target="_blank" class="w-1/2 flex flex-col items-center justify-center">
-        <img class="w-28 h-28 object-cover" src={images[currentIndex]} alt="image 1">
-        <p class="text-center font-Raleway font-bold text-[16px] px-5">
-            {textes[currentIndex]}
-        </p>
-    </a>
-    {:else}
-        <div class="w-1/2 flex flex-col items-center justify-center">
+    {#if currentIndex === 2}
+        <a href="https://ifi.curie.fr/images/Curie_rib.pdf?_cchid=a200357f54bc77577d784c4e4414e50e" target="_blank" class="w-1/2 flex flex-col items-center justify-center">
             <img class="w-28 h-28 object-cover" src={images[currentIndex]} alt="image 1">
             <p class="text-center font-Raleway font-bold text-[16px] px-5">
                 {textes[currentIndex]}
             </p>
-        </div>
+        </a>
+        <a class=" w-1/2 flex flex-col items-center justify-center">
+            <img class="w-28 h-28 object-cover" src={images[currentIndex + 1]} alt="image 1">
+            <p class="text-center font-Raleway font-bold text-[16px] px-5">
+                {textes[currentIndex + 1]}
+            </p>
+        </a>
+    {:else}
+        <a href="/Guide.fiscal.2024.pdf" target="_blank" class="w-1/2 flex flex-col items-center justify-center">
+            <img class="w-28 h-28 object-cover" src={images[currentIndex]} alt="image 1">
+            <p class="text-center font-Raleway font-bold text-[16px] px-5">
+                {textes[currentIndex]}
+            </p>
+        </a>
+        <a href="/Bulletin.de.soutien.IFI.2024.pdf" target="_blank" class=" w-1/2 flex flex-col items-center justify-center">
+            <img class="w-28 h-28 object-cover" src={images[currentIndex + 1]} alt="image 1">
+            <p class="text-center font-Raleway font-bold text-[16px] px-5">
+                {textes[currentIndex + 1]}
+            </p>
+        </a>
     {/if}
 
-    <div class=" w-1/2 flex flex-col items-center justify-center">
-        <img class="w-28 h-28 object-cover" src={images[currentIndex + 1]} alt="image 1">
-        <p class="text-center font-Raleway font-bold text-[16px] px-5">
-            {textes[currentIndex + 1]}
-        </p>
-    </div>
 
     {#if currentIndex < 2}
         <button class="absolute right-3 top-0 bottom-0 my-auto" on:click={next}>
@@ -96,7 +102,7 @@
 </div>
 
 <div class="hidden md:flex flex-row items-center justify-center gap-20  mt-10 2xl:mt-20">
-    <div class="flex flex-col items-center justify-center gap-2">
+    <a href="/Guide.fiscal.2024.pdf" target="_blank"  class="flex flex-col items-center justify-center gap-2">
         <svg id="Group_450" data-name="Group 450" xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 2xl:w-40 2xl:h-40" viewBox="0 0 138 138">
             <circle id="Ellipse_22" data-name="Ellipse 22" cx="69" cy="69" r="69" fill="#9b999b"/>
             <g id="Group_417" data-name="Group 417" transform="translate(13.275 14.284)">
@@ -114,8 +120,8 @@
             Je consulte<br/>
             le guide fiscal
         </p>
-    </div>
-    <a class="gap-2 flex flex-col items-center justify-center">
+    </a>
+    <a href="/Bulletin.de.soutien.IFI.2024.pdf" target="_blank" class="gap-2 flex flex-col items-center justify-center">
         <svg id="Group_449" data-name="Group 449" xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 2xl:w-40 2xl:h-40" viewBox="0 0 134.832 134.832">
             <circle id="Ellipse_23" data-name="Ellipse 23" cx="67.416" cy="67.416" r="67.416" fill="#9b999b"/>
             <g id="Group_447" data-name="Group 447" transform="translate(12.075 12.075)">
