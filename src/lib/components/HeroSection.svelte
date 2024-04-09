@@ -1,6 +1,7 @@
 <script>
     import StickyBanner from "$lib/components/StickyBanner.svelte";
     import { fly, fade } from "svelte/transition";
+    import {projectIndexStore} from "$lib/utils/utils.js";
 
     let StickyBannerVisible = false;
     let bottomDivVisible = false;
@@ -28,7 +29,14 @@
             <p class="font-semibold font-Raleway text-[20px] mb-3 px-2" style="text-transform: none">
                 Contre le cancer, investissez votre impôt dans l’innovation.
             </p>
-            <a href="#IntroMobile">
+            <a href="#IntroMobile"
+               on:click={()=> {
+                projectIndexStore.set(0);
+                window.location.hash = "#ProjectsMobile";
+                setTimeout(() => {
+                    window.location.hash = "#projet1";
+                }, 100);}}
+            >
                 <svg  xmlns="http://www.w3.org/2000/svg"  width="54.235" height="13.962" viewBox="0 0 54.235 13.962">
                     <g id="Group_577" data-name="Group 577" transform="translate(-955.802 -686.268)">
                         <g id="Group_115" data-name="Group 115" transform="translate(956.534 688.129)">
@@ -76,7 +84,14 @@
         {#if StickyBannerVisible}
             <div in:fade class="absolute bg-transparent lg:bottom-5 xl:bottom-5 2xl:bottom-10 flex flex-col items-center justify-center gap-3 2xl:gap-6 z-10">
                 <p class="text-white lg:text-xl 2xl:text-[36px] font-Raleway font-semibold">Contre le cancer, investissez votre impôt dans l’innovation.</p>
-                <a href="#Intro">
+                <a href="#Intro"
+                   on:click={()=> {
+                    projectIndexStore.set(0);
+                    window.location.hash = "#ProjectsDesktop";
+                    setTimeout(() => {
+                        window.location.hash = "#projet1";
+                    }, 100);}}
+                >
                     <svg  xmlns="http://www.w3.org/2000/svg" width="94.94" height="21.854" viewBox="0 0 94.94 21.854">
                         <g id="Group_577" data-name="Group 577" transform="translate(-955.802 -686.267)">
                             <g id="Group_115" data-name="Group 115" transform="translate(956.534 688.129)">
