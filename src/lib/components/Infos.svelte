@@ -49,7 +49,7 @@
     INFOS PRATIQUES
 </p>
 
-<div class="md:hidden flex justify-center items-center h-40 relative mt-3">
+<div class="md:hidden flex flex-row justify-center items-start h-40 relative mt-3 w-screen">
     {#if currentIndex > 0}
         <button class="absolute left-3 top-0 bottom-0 my-auto" on:click={previous}>
             <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" class="rotate-180">
@@ -61,14 +61,14 @@
         </button>
     {/if}
     {#if currentIndex > 1}
-    <a href="https://ifi.curie.fr/images/Curie_rib.pdf?_cchid=a200357f54bc77577d784c4e4414e50e" target="_blank" class="flex flex-col items-center justify-center">
+    <a href="https://ifi.curie.fr/images/Curie_rib.pdf?_cchid=a200357f54bc77577d784c4e4414e50e" target="_blank" class="w-1/2 flex flex-col items-center justify-center">
         <img class="w-28 h-28 object-cover" src={images[currentIndex]} alt="image 1">
         <p class="text-center font-Raleway font-bold text-[16px] px-5">
             {textes[currentIndex]}
         </p>
     </a>
     {:else}
-        <div class="flex flex-col items-center justify-center">
+        <div class="w-1/2 flex flex-col items-center justify-center">
             <img class="w-28 h-28 object-cover" src={images[currentIndex]} alt="image 1">
             <p class="text-center font-Raleway font-bold text-[16px] px-5">
                 {textes[currentIndex]}
@@ -76,7 +76,7 @@
         </div>
     {/if}
 
-    <div class="flex flex-col items-center justify-center">
+    <div class=" w-1/2 flex flex-col items-center justify-center">
         <img class="w-28 h-28 object-cover" src={images[currentIndex + 1]} alt="image 1">
         <p class="text-center font-Raleway font-bold text-[16px] px-5">
             {textes[currentIndex + 1]}

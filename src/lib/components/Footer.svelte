@@ -1,6 +1,8 @@
 <div class="w-screen hidden md:flex py-6 flex-col items-center justify-center relative">
     <div class="flex py-20 flex-row items-center justify-center gap-10 xl:gap-20">
-        <img src="/LOGO-Curie-footer.png" class="w-[80px] absolute left-5 xl:left-20">
+        <a href="https://curie.fr/" target="_blank" class="absolute left-5 xl:left-20">
+            <img src="/LOGO-Curie-footer.png" class="w-[80px]">
+        </a>
         <p class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
             Gestions des cookies
         </p>
@@ -27,7 +29,9 @@
 </div>
 
 <div class="flex flex-col items-center justify-center mt-10 gap-5 md:hidden">
-    <img src="/LOGO-Curie-footer.png" class="w-[80px]">
+    <a href="https://curie.fr/" target="_blank" class="absolute left-5 xl:left-20">
+        <img src="/LOGO-Curie-footer.png" class="w-[80px]">
+    </a>
     <div class="flex flex-row gap-5 ">
         <img src="/linkedin.png" width="23px">
         <img src="/x.png" width="23px">
