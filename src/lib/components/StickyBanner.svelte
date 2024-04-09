@@ -3,6 +3,7 @@
     let isHoveringText2 = false;
     import {fade} from "svelte/transition";
     import {onMount} from "svelte";
+    import {projectIndexStore} from "$lib/utils/utils.js";
 
     let isPopupVisible = false;
     let activeTab = 1;
@@ -194,8 +195,16 @@
     </div>
     {#if isOpen}
         <div class="w-screen flex flex-col items-center justify-center gap-y-3 p-2">
-            <button on:mouseenter={()=> isHoveringText = true} on:mouseleave={()=> isHoveringText = false} class="flex flex-col items-center justify-center">
-                <a on:click={()=> isPopupVisibleMobile = false} href="#ProjectsMobile" class="text-white font-Raleway font-bold text-xl ml-2">
+            <button on:click={()=> {
+                isPopupVisibleMobile = false;
+                projectIndexStore.set(0);
+                console.log("projectnvvjeknv" + $projectIndexStore);
+                window.location.hash = "#ProjectsMobile";
+                setTimeout(() => {
+                    window.location.hash = "#projet1";
+                }, 100);}}
+                    class="flex flex-col items-center justify-center">
+                <a href="#ProjectsMobile" class="text-white font-Raleway font-bold text-xl ml-2">
                     Les projets soutenus
                 </a>
             </button>
@@ -210,7 +219,7 @@
 
 {#if isPopupVisibleMobile}
     <div class="md:hidden fixed top-0 left-0 w-screen h-screen z-[70] backdrop-blur-xl bg-opacity-50 flex flex-col items-center justify-center">
-            <svg on:click={()=> isPopupVisibleMobile = false} xmlns="http://www.w3.org/2000/svg" class="absolute bg-white z-50 rounded-full right-3 top-[1.25rem] w-7 h-7" viewBox="0 0 24 24">
+            <svg on:click={()=> {isPopupVisibleMobile = false; window.location.hash = ''; projectIndexStore.set(0);}} xmlns="http://www.w3.org/2000/svg" class="absolute bg-white z-50 rounded-full right-3 top-[1.25rem] w-7 h-7" viewBox="0 0 24 24">
                 <path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z">
                 </path>
             </svg>
