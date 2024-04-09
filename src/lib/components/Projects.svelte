@@ -12,13 +12,13 @@
         </p>
         <div class=" bg-[#FF6600] w-[5rem] h-1 rounded-2xl mt-2"/>
         <div class="flex flex-row mt-5 2xl:mt-10 w-full items-center justify-center">
-            <button on:click={() => (window.location.hash = '#projet1')} class:selectedButton={$projectIndexStore === 0} class=" uppercase w-[30%] py-2 font-Raleway text-xl 2xl:text-2xl font-bold text-center text-[#505050] border-r-2 border-[#505050]">
+            <button on:click={() => (window.location.hash = '#projet1')} class:selectedButton={$projectIndexStore === 0} class=" uppercase w-[30%] py-2 font-Raleway text-xl font-bold text-center text-[#505050] border-r-2 border-[#505050]">
                 Accélérer la recherche grâce<br/> à deux<span class="underline decoration-[#FF6600] "> &nbsp;équipements</span>
             </button>
-            <button on:click={() => (window.location.hash = '#projet2')} class:selectedButton={$projectIndexStore === 1} class=" uppercase w-[30%] py-2 font-Raleway text-xl 2xl:text-2xl font-bold text-center text-[#505050] border-r-2 border-[#505050]">
+            <button on:click={() => (window.location.hash = '#projet2')} class:selectedButton={$projectIndexStore === 1} class=" uppercase w-[30%] py-2 font-Raleway text-xl font-bold text-center text-[#505050] border-r-2 border-[#505050]">
                 Attirer les<br/><span class="underline decoration-[#FF6600] "> meilleurs talents</span>
             </button>
-            <button on:click={() => (window.location.hash = '#projet3')} class:selectedButton={$projectIndexStore === 2} class=" uppercase w-[30%] py-2 font-Raleway text-xl 2xl:text-2xl font-bold text-center text-[#505050]">
+            <button on:click={() => (window.location.hash = '#projet3')} class:selectedButton={$projectIndexStore === 2} class=" uppercase w-[30%] py-2 font-Raleway text-xl font-bold text-center text-[#505050]">
                 Développer des<br/> <span class="underline decoration-[#FF6600] ">immunothérapies</span> inédites
             </button>
         </div>
