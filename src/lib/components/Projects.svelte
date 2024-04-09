@@ -1,5 +1,6 @@
 <script>
     let projectIndex = 0;
+    import { projectIndexStore} from "$lib/utils/utils.js";
 </script>
 
 <div class="relative flex items-center justify-center w-screen mt-10 z-0">
@@ -11,18 +12,18 @@
         </p>
         <div class=" bg-[#FF6600] w-[5rem] h-1 rounded-2xl mt-2"/>
         <div class="flex flex-row mt-5 2xl:mt-10 w-full items-center justify-center">
-            <button on:click={()=> projectIndex = 0} class:selectedButton={projectIndex === 0} class=" uppercase w-[30%] py-2 font-Raleway text-xl 2xl:text-2xl font-bold text-center text-[#505050] border-r-2 border-[#505050]">
+            <button on:click={() => (window.location.hash = '#projet1')} class:selectedButton={$projectIndexStore === 0} class=" uppercase w-[30%] py-2 font-Raleway text-xl 2xl:text-2xl font-bold text-center text-[#505050] border-r-2 border-[#505050]">
                 Accélérer la recherche grâce<br/> à deux<span class="underline decoration-[#FF6600] "> &nbsp;équipements</span>
             </button>
-            <button on:click={()=> projectIndex = 1} class:selectedButton={projectIndex === 1} class=" uppercase w-[30%] py-2 font-Raleway text-xl 2xl:text-2xl font-bold text-center text-[#505050] border-r-2 border-[#505050]">
+            <button on:click={() => (window.location.hash = '#projet2')} class:selectedButton={$projectIndexStore === 1} class=" uppercase w-[30%] py-2 font-Raleway text-xl 2xl:text-2xl font-bold text-center text-[#505050] border-r-2 border-[#505050]">
                 Attirer les<br/><span class="underline decoration-[#FF6600] "> meilleurs talents</span>
             </button>
-            <button on:click={()=> projectIndex = 2} class:selectedButton={projectIndex === 2} class=" uppercase w-[30%] py-2 font-Raleway text-xl 2xl:text-2xl font-bold text-center text-[#505050]">
+            <button on:click={() => (window.location.hash = '#projet3')} class:selectedButton={$projectIndexStore === 2} class=" uppercase w-[30%] py-2 font-Raleway text-xl 2xl:text-2xl font-bold text-center text-[#505050]">
                 Développer des<br/> <span class="underline decoration-[#FF6600] ">immunothérapies</span> inédites
             </button>
         </div>
-        {#if projectIndex === 0}
-            <div class="bg-[url('/project-1-bg.png')] bg-cover bg-no-repeat relative w-full h-[22rem] 2xl:h-[39rem]">
+        {#if $projectIndexStore === 0}
+            <div id="projet1" class="bg-[url('/project-1-bg.png')] bg-cover bg-no-repeat relative w-full h-[22rem] 2xl:h-[39rem]">
                 <div class="bg-[#4D54D6]/70 backdrop-blur-md purple-project absolute w-full  bottom-0 h-[20rem] 2xl:h-[25rem]"/>
                 <p class="font-Raleway text-xl 2xl:text-3xl font-black absolute bottom-5 2xl:bottom-10 text-center text-white left-0 right-0 mx-auto">
                     <span class="underline decoration-[#FF6600] ">2 équipements de pointe</span> pour révolutionner les traitements de<br/> demain contre les cancers grâce à des vaccins thérapeutiques
@@ -83,11 +84,11 @@
                         </p>
                     </div>
                 </div>
-                <button on:click={()=> projectIndex = 1} class="absolute right-20 bottom-0 hover:scale-110 transition-all">
+                <button on:click={()=> $projectIndexStore = 1} class="absolute right-20 bottom-0 hover:scale-110 transition-all">
                     <img src="/suivant-btn.png" class="w-[130px]"/>
                 </button>
             </div>
-        {:else if projectIndex === 1}
+        {:else if $projectIndexStore === 1}
             <div class="bg-[url('/project-2-bg.png')] bg-cover bg-no-repeat relative w-full h-[22rem] 2xl:h-[39rem]">
                 <div class="bg-[#4D54D6]/70 backdrop-blur-md purple-project absolute w-full  bottom-0 h-[20rem] 2xl:h-[25rem]"/>
                 <p class="font-Raleway text-xl 2xl:text-3xl font-black absolute bottom-5 2xl:bottom-10 text-center text-white left-0 right-0 mx-auto">
@@ -148,14 +149,14 @@
                         </p>
                     </div>
                 </div>
-                <button on:click={()=> projectIndex = 2} class="absolute right-20 lg:-bottom-2 xl:bottom-2 2xl:bottom-0  hover:scale-110 transition-all">
+                <button on:click={()=> $projectIndexStore = 2} class="absolute right-20 lg:-bottom-2 xl:bottom-2 2xl:bottom-0  hover:scale-110 transition-all">
                     <img src="/suivant-btn.png" class="w-[130px]"/>
                 </button>
-                <button on:click={()=> projectIndex = 0} class="absolute left-20 lg:-bottom-2 xl:bottom-2 2xl:bottom-0  hover:scale-110 transition-all">
+                <button on:click={()=> $projectIndexStore = 0} class="absolute left-20 lg:-bottom-2 xl:bottom-2 2xl:bottom-0  hover:scale-110 transition-all">
                     <img src="/precedent-btn.png" class="w-[154px]"/>
                 </button>
             </div>
-            {:else if projectIndex === 2}
+            {:else if $projectIndexStore === 2}
             <div style="background-image: url('/bg-project-4-test.jpg');" class="bg-cover bg-no-repeat relative w-full h-[22rem] 2xl:h-[39rem]">
                 <div class="bg-[#4D54D6]/70 backdrop-blur-md purple-project absolute w-full  bottom-0 h-[20rem] 2xl:h-[25rem]"/>
                 <p class="font-Raleway text-xl 2xl:text-3xl font-black absolute bottom-5 2xl:bottom-10 text-center text-white left-0 right-0 mx-auto">
@@ -235,7 +236,7 @@
                         </p>
                     </div>
                 </div>
-                <button on:click={()=> projectIndex = 1} class="absolute left-20 bottom-2 hover:scale-110 transition-all">
+                <button on:click={()=> $projectIndexStore = 1} class="absolute left-20 bottom-2 hover:scale-110 transition-all">
                     <img src="/precedent-btn.png" class="w-[154px]"/>
                 </button>
             </div>

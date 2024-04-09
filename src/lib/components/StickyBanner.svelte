@@ -4,8 +4,8 @@
     import {fade} from "svelte/transition";
     import {onMount} from "svelte";
 
-    let isPopupVisible = false; // Contrôle l'affichage de la popup
-    let activeTab = 1; // Contrôle l'onglet actif
+    let isPopupVisible = false;
+    let activeTab = 1;
     let isInputFocused = 0;
     let isPopupVisibleMobile = false;
 

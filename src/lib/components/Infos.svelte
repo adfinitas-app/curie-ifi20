@@ -49,22 +49,14 @@
                         le bulletin de soutien IFI
                     </p>
                 </div>
-<!--                <button on:click={slideNext} class="absolute right-3 top-0 bottom-0 my-auto">-->
-<!--                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">-->
-<!--                        <g id="Group_754" data-name="Group 754" transform="translate(-2692 360) rotate(-90)">-->
-<!--                            <circle id="Ellipse_40" data-name="Ellipse 40" cx="17" cy="17" r="17" transform="translate(326 2692)" fill="#505050"/>-->
-<!--                            <path id="Path_638" data-name="Path 638" d="M14162.583,5344l8.7,8.7,8.7-8.7" transform="translate(-13828.284 -2637)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>-->
-<!--                        </g>-->
-<!--                    </svg>-->
-<!--                </button>-->
-                <div class="slider-item flex flex-col items-center justify-center ml-10">
+                <a href="https://ifi.curie.fr/images/Curie_rib.pdf?_cchid=a200357f54bc77577d784c4e4414e50e" target="_blank" class="slider-item flex flex-col items-center justify-center ml-10">
                     <img src="/infos_svg/info3.svg" class="w-28 h-28">
                     <p class="font-Raleway text-center">
                         Je télécharge<br/>
                         le RIB pour <br/>
                         faire un virement
                     </p>
-                </div>
+                </a>
                 <div class="slider-item flex flex-col items-center justify-center">
                     <img src="/infos_svg/info4.svg" class="w-28 h-28">
                     <p class="font-Raleway text-center">
@@ -113,7 +105,7 @@
             bulletin de soutien IFI
         </p>
     </a>
-    <div class="flex flex-col items-center justify-center gap-2">
+    <a href="https://ifi.curie.fr/images/Curie_rib.pdf?_cchid=a200357f54bc77577d784c4e4414e50e" target="_blank" class="flex flex-col items-center justify-center gap-2">
         <svg id="Group_635" data-name="Group 635" xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 2xl:w-40 2xl:h-40" viewBox="0 0 138 138">
             <g id="Group_581" data-name="Group 581">
                 <circle id="Ellipse_23" data-name="Ellipse 23" cx="69" cy="69" r="69" fill="#9b999b"/>
@@ -150,7 +142,7 @@
             Je télécharge le RIB<br/>
             pour faire un virement
         </p>
-    </div>
+    </a>
     <div class="flex flex-col items-center justify-center gap-2">
         <svg id="Group_636" data-name="Group 636" xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 2xl:w-40 2xl:h-40" viewBox="0 0 138 138">
             <circle id="Ellipse_24" data-name="Ellipse 24" cx="69" cy="69" r="69" fill="#9b999b"/>

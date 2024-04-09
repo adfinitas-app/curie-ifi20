@@ -1,5 +1,7 @@
 <script>
     import {fly} from "svelte/transition";
+    import {projectIndexStore} from "$lib/utils/utils.js";
+
 
     let projectTitle = [
         "Accélérer la recherche grâce à <span class=\"underline decoration-2 decoration-[#FF6600]\">deux équipements</span>",
@@ -13,7 +15,8 @@
     let showMore = false;
 
     function setProjectIndex(index) {
-        projectIndex = (projectIndex + index + projectTitle.length) % projectTitle.length;
+        projectIndexStore.set(index);
+        window.location.hash = `#projet${index + 1}`;
     }
 </script>
 
@@ -28,7 +31,7 @@
     <div class="bg-[#4D54D6] w-full mt-5 flex flex-col items-center justify-center relative">
         <div on:click={()=> projectSelector = !projectSelector} class="flex flex-row items-center justify-center w-full  h-[88px] gap-x-4 py-4">
             <p class="font-Raleway text-white text-[18px] font-bold uppercase w-[70%]">
-                {@html projectTitle[projectIndex]}
+                {@html projectTitle[$projectIndexStore]}
             </p>
             <button>
                 <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
@@ -43,18 +46,18 @@
             <div class="absolute w-full -bottom-[11rem]">
                 <button in:fly on:click={()=> setProjectIndex(1)} class="bg-white text-[#505050] text-left  uppercase h-[88px] w-full border-2 border-[#505050] p-5">
                     <p class="font-Raleway font-bold text-[18px] m-0">
-                        {@html projectTitle[(projectIndex + 1) % projectTitle.length]}
+                        {@html projectTitle[($projectIndexStore + 1) % projectTitle.length]}
                     </p>
                 </button>
                 <button in:fly on:click={()=> setProjectIndex(2)} class="bg-white text-[#505050] text-left  uppercase h-[88px] w-full border-x-2 border-b-2 border-[#505050] p-5">
                     <p class="font-Raleway font-bold text-[18px] m-0">
-                        {@html projectTitle[(projectIndex + 2) % projectTitle.length]}
+                        {@html projectTitle[($projectIndexStore + 2) % projectTitle.length]}
                     </p>
                 </button>
             </div>
         {/if}
     </div>
-    {#if projectIndex === 0}
+    {#if $projectIndexStore === 0}
     <div class="flex flex-col gap-y-5">
             <img src="/header-project-1-mobile.png" class="w-full"/>
             <div class="flex flex-col">
@@ -104,7 +107,7 @@
                         </button>
                     </div>
                 {/if}
-                <svg on:click={()=> projectIndex = 1}  class="absolute bottom-0 right-2" xmlns="http://www.w3.org/2000/svg" width="102.911" height="31.282" viewBox="0 0 102.911 31.282">
+                <svg on:click={()=> $projectIndexStore = 1}  class="absolute bottom-0 right-2" xmlns="http://www.w3.org/2000/svg" width="102.911" height="31.282" viewBox="0 0 102.911 31.282">
                     <g id="Group_732" data-name="Group 732" transform="translate(-260.924 -4848.617)">
                         <text id="SUIVANT" transform="translate(260.924 4867.726)" fill="#505050" font-size="18" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">SUIVANT</tspan></text>
                         <path id="Path_631" data-name="Path 631" d="M1431,1408l8.411,10.5L1431,1429" transform="translate(-1077.076 3442.726)" fill="none" stroke="#505050" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
@@ -146,7 +149,7 @@
                 {/if}
             </div>
         </div>
-    {:else if projectIndex === 1}
+    {:else if $projectIndexStore === 1}
         <div class="flex flex-col gap-y-5">
             <img src="/header-project-2-mobile.png" class="w-full"/>
             <div class="flex flex-col">
@@ -192,7 +195,7 @@
                         </button>
                     </div>
                 {/if}
-                <svg on:click={()=> projectIndex = 2} class="absolute bottom-0 right-2" xmlns="http://www.w3.org/2000/svg" width="102.911" height="31.282" viewBox="0 0 102.911 31.282">
+                <svg on:click={()=> $projectIndexStore = 2} class="absolute bottom-0 right-2" xmlns="http://www.w3.org/2000/svg" width="102.911" height="31.282" viewBox="0 0 102.911 31.282">
                     <g id="Group_732" data-name="Group 732" transform="translate(-260.924 -4848.617)">
                         <text id="SUIVANT" transform="translate(260.924 4867.726)" fill="#505050" font-size="18" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">SUIVANT</tspan></text>
                         <path id="Path_631" data-name="Path 631" d="M1431,1408l8.411,10.5L1431,1429" transform="translate(-1077.076 3442.726)" fill="none" stroke="#505050" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
@@ -234,7 +237,7 @@
                 {/if}
             </div>
         </div>
-        {:else if projectIndex === 2}
+        {:else if $projectIndexStore === 2}
         <div class="flex flex-col gap-y-5">
             <img src="/header-project-3.png" class="w-full"/>
             <div class="flex flex-col">
@@ -278,7 +281,7 @@
                         </button>
                     </div>
                 {/if}
-                <svg on:click={()=> projectIndex = 0} class="absolute bottom-0 right-2" xmlns="http://www.w3.org/2000/svg" width="102.911" height="31.282" viewBox="0 0 102.911 31.282">
+                <svg on:click={()=> $projectIndexStore = 0} class="absolute bottom-0 right-2" xmlns="http://www.w3.org/2000/svg" width="102.911" height="31.282" viewBox="0 0 102.911 31.282">
                     <g id="Group_732" data-name="Group 732" transform="translate(-260.924 -4848.617)">
                         <text id="SUIVANT" transform="translate(260.924 4867.726)" fill="#505050" font-size="18" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">SUIVANT</tspan></text>
                         <path id="Path_631" data-name="Path 631" d="M1431,1408l8.411,10.5L1431,1429" transform="translate(-1077.076 3442.726)" fill="none" stroke="#505050" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
