@@ -19,13 +19,13 @@
     {#if bottomDivVisible}
     <div in:fly={{x:-2000, y:100, duration:1000}} style="clip-path: polygon(0 28%, 100% 6%, 100% 83%, 0 100%);" class="w-full bg-[#4D54D6]/60 backdrop-blur-md z-10 h-[45rem] absolute -bottom-72"/>
         <div in:fly={{y: -200, duration:300, delay:1000}} class="absolute text-center flex flex-col items-center justify-center bottom-10 gap-y-3 uppercase z-10 w-full text-white">
-            <p class="text-[25px] font-Raleway font-black">
-                Votre don ouvre <br/>
-                de <span class="underline-red ">nouvelles perspectives</span><br/>
+            <p class="text-[23px] font-Raleway font-black px-3">
+                Votre don ouvre
+                de <span class="underline-red ">nouvelles perspectives</span>
                 de guérison aux patients.
                 <br>
             </p>
-            <p class="font-semibold font-Raleway text-[20px] mt-5">
+            <p class="font-semibold font-Raleway text-[20px] mt-5" style="text-transform: none">
                 Contre le cancer, investissez votre impôt dans l’innovation.
             </p>
             <a href="#IntroMobile">
