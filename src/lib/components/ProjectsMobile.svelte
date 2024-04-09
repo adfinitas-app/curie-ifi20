@@ -62,7 +62,7 @@
             {/if}
         </div>
         {#if $projectIndexStore === 0}
-            <div class="flex flex-col gap-y-5">
+            <div id="projet1" class="flex flex-col gap-y-5">
                 <img src="/header-project-1-mobile.png" class="w-full"/>
                 <div class="flex flex-col">
                     <p class="uppercase text-[#4D54D6] text-[18px] font-bold px-3">
@@ -154,7 +154,7 @@
                 </div>
             </div>
         {:else if $projectIndexStore === 1}
-            <div class="flex flex-col gap-y-5">
+            <div id="projet2" class="flex flex-col gap-y-5">
                 <img src="/header-project-2-mobile.png" class="w-full"/>
                 <div class="flex flex-col">
                     <p class="uppercase text-[#4D54D6] text-[18px] font-bold px-3">
@@ -242,7 +242,7 @@
                 </div>
             </div>
         {:else if $projectIndexStore === 2}
-            <div class="flex flex-col gap-y-5">
+            <div id="projet3" class="flex flex-col gap-y-5">
                 <img src="/header-project-3.png" class="w-full"/>
                 <div class="flex flex-col">
                     <p class="uppercase text-[#4D54D6] text-[18px] font-bold px-3">

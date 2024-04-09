@@ -6,12 +6,34 @@
     import ProjectsMobile from "$lib/components/ProjectsMobile.svelte";
     import { onMount } from "svelte";
     import {projectIndexStore} from "$lib/utils/utils.js";
+    import {browser} from "$app/environment";
+
+    let projectsMobileElement;
+    let projectDesktopElement;
 
     onMount(() => {
         function updateProjectFromHash() {
             const hash = window.location.hash.replace('#projet', '');
             if (hash) {
                 projectIndexStore.set(parseInt(hash) - 1);
+                if (browser && window.innerWidth < 768) {
+                    navigateToProjectsMobile();
+                }
+                else if (browser) {
+                    navigateToProjectsDesktop();
+                }
+            }
+        }
+
+        function navigateToProjectsMobile() {
+            if (projectsMobileElement) {
+                projectsMobileElement.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        function navigateToProjectsDesktop() {
+            if (projectDesktopElement) {
+                projectDesktopElement.scrollIntoView({ behavior: 'smooth' });
             }
         }
 
@@ -23,10 +45,10 @@
 
 <HeroSection/>
 <GraphPart/>
-<div class="hidden md:block">
+<div class="hidden md:block" bind:this={projectDesktopElement}>
     <Projects/>
 </div>
-<div class="md:hidden flex items-center justify-center">
+<div class="md:hidden flex items-center justify-center" bind:this={projectsMobileElement}>
     <ProjectsMobile/>
 </div>
 <DoubleCtaPart/>
