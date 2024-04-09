@@ -26,7 +26,15 @@
 
 <div in:fade class="hidden fixed top-0 bg-[#4D54D6] bg-opacity-70 backdrop-blur-sm md:flex flex-row items-center justify-center w-screen lg:gap-5 xl:gap-8 2xl:gap-10 py-6 lg:h-[5rem] xl:h-[7rem] 2xl:h-[9rem] z-20">
     <img target="_blank" href="https://curie.fr/" src="/logo_curie.png" class="lg:w-[10rem] xl:w-[16rem] lg:ml-2 2xl:mr-20" alt="curie"/>
-    <button on:mouseenter={()=> isHoveringText = true} on:mouseleave={()=> isHoveringText = false} class="flex flex-col items-center justify-center">
+    <button on:mouseenter={()=> isHoveringText = true} on:mouseleave={()=> isHoveringText = false}
+            on:click={()=> {
+                isPopupVisibleMobile = false;
+                projectIndexStore.set(0);
+                window.location.hash = "#ProjectsDesktop";
+                setTimeout(() => {
+                    window.location.hash = "#projet1";
+                }, 100);}}
+            class="flex flex-col items-center justify-center">
         <a href="#ProjectsDesktop" class="text-white font-Raleway font-bold text-xl">
             Les projets soutenus
         </a>
