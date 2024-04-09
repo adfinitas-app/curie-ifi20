@@ -6,7 +6,7 @@
         <li>
             <div class="content text-[#505050]">
                 <h2 class="text-center font-Raleway font-bold text-[25px]">
-                    <time>22 Mai</time>
+                    <time>21 Mai</time>
                 </h2>
                 <p class="text-xl font-Raleway">
                     Date limite en papier

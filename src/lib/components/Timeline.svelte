@@ -5,7 +5,7 @@
     <div class="absolute w-2 h-[42rem] rounded-2xl bg-[#FF6600] -z-10 top-20" />
     <div class="p-4 bg-white rounded-2xl w-80" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);">
         <p class="text-base font-bold font-Raleway text-[#505050] text-center">
-            22 Mai
+            21 Mai
         </p>
         <p class="text-base font-Raleway text-center font-light">
             Date limite en papier
