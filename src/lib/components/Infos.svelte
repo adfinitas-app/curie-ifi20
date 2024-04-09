@@ -32,12 +32,9 @@
         touchStart = event.touches[0].clientX;
     }
 
-    // Fonction appelée lorsque l'utilisateur finit de toucher
     function handleTouchMove(event) {
         touchEnd = event.touches[0].clientX;
     }
-
-    // Fonction pour déterminer la direction du glissement et agir en conséquence
     function handleTouchEnd() {
         if (touchStart - touchEnd > 75) {
             next2();

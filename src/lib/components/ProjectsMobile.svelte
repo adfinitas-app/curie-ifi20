@@ -1,10 +1,6 @@
 <script>
     import {fly} from "svelte/transition";
     import {projectIndexStore} from "$lib/utils/utils.js";
-    import {onMount} from "svelte";
-
-    import IntersectionObserver from "svelte-intersection-observer";
-
     let projectTitle = [
         "Accélérer la recherche grâce à <span class=\"underline decoration-2 decoration-[#FF6600]\">deux équipements</span>",
         "Attirer les <span class=\"underline decoration-2 decoration-[#FF6600]\">meilleurs talents</span>",
@@ -28,8 +24,7 @@
 
 </script>
 
-<IntersectionObserver>
-    <div style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);" class="bg-[#F1F2FC] w-[95%] flex flex-col items-center justify-center rounded-2xl py-5 mt-[3rem] relative">
+<div style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);" class="bg-[#F1F2FC] w-[95%] flex flex-col items-center justify-center rounded-2xl py-5 mt-[3rem] relative">
         <div id="ProjectsMobile" class="absolute -top-40"/>
         <p  class="text-[#505050] font-Raleway font-bold text-[20px] uppercase text-center">
             Contre le cancer,<br/>
@@ -333,8 +328,7 @@
                 </div>
             </div>
         {/if}
-    </div>
-</IntersectionObserver>
+</div>
 
 <style>
     .underline {
