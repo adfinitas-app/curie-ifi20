@@ -25,7 +25,7 @@
                 de guérison aux patients.
                 <br>
             </p>
-            <p class="font-semibold font-Raleway text-[20px] mb-3" style="text-transform: none">
+            <p class="font-semibold font-Raleway text-[20px] mb-3 px-2" style="text-transform: none">
                 Contre le cancer, investissez votre impôt dans l’innovation.
             </p>
             <a href="#IntroMobile">
