@@ -163,15 +163,15 @@
                     Évaluation de la combinaison de<br/> <span class="underline decoration-[#FF6600] ">2 thérapies cellulaires</span> innovantes avec le projet EPCART
                 </p>
             </div>
-            <div class="flex flex-row items-center justify-center w-full relative h-[60rem] 2xl:h-[65rem]  px-5 xl:px-10 py-5 xl:py-10 gap-5">
-                <div class="w-1/2 flex flex-col h-full gap-10">
+            <div class="flex flex-row items-center justify-center w-full relative h-[60rem] 2xl:h-[65rem]  px-5 xl:px-10 py-5 xl:py-10">
+                <div class="w-1/2 flex flex-col h-full">
                     <p class="text-xl xl:text-3xl font-Lato font-bold text-[#4D54D6] underline uppercase">
                         L’Enjeu
                     </p>
-                    <p class="text-[#505050] font-Lato text-base 2xl:text-xl">
+                    <p class="text-[#505050] font-Lato text-base 2xl:text-xl mt-10">
                         20 ans après l’émergence de l’immunothérapie et après 10 ans de recherches fondamentales, les équipes de l’Institut Curie franchissent une nouvelle étape contre les tumeurs difficiles à traiter. Elles ont conçu de nouvelles thérapies cellulaires révolutionnaires qui reposent sur la combinaison :
                     </p>
-                    <ul>
+                    <ul class="mt-10">
                         <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold">
                             des thérapies CAR-T qui constituent une nouvelle forme
                             d’immunothérapie reposant sur la modification génétique
@@ -185,11 +185,11 @@
                             CAR-T pour augmenter leur efficacité face à la tumeur.
                         </li>
                     </ul>
-                    <p class="text-xl xl:text-3xl font-Lato font-bold text-[#4D54D6] uppercase">
+                    <p class="text-xl xl:text-3xl font-Lato font-bold text-[#4D54D6] uppercase mt-10">
                         Les nouvelles perspectives<br/>
                         <c class="underline">pour</c> les patients
                     </p>
-                    <ul>
+                    <ul class="mt-10">
                         <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold">
                             Développer des essais cliniques innovants
                         </li>
@@ -201,18 +201,18 @@
                         </li>
                     </ul>
                 </div>
-                <div class="w-1/2 flex flex-col gap-10 relative h-full 2xl:h-[60rem]">
+                <div class="w-1/2 flex flex-col relative h-full 2xl:h-[60rem] ml-5">
                     <p class="text-xl xl:text-3xl font-Lato font-bold text-[#4D54D6] underline uppercase">
                         L’innovation
                     </p>
-                    <p class="text-[#505050] font-Lato text-base 2xl:text-xl">
+                    <p class="text-[#505050] font-Lato text-base 2xl:text-xl mt-10">
                         Les vaccins à ARN messager sont particulièrement prometteurs et leur développement ouvre de nouvelles perspectives de guérison pour les patients.
                         <b>L’Institut Curie souhaite donc acquérir 2 équipements de pointe indispensables à l’élaboration de ce type de vaccins : un purificateur de peptides et un spectromètre de masse.</b>
                     </p>
-                    <p class="text-xl xl:text-3xl  font-Lato font-bold text-[#4D54D6] underline uppercase 2xl:mt-0">
+                    <p class="text-xl xl:text-3xl  font-Lato font-bold text-[#4D54D6] underline uppercase mt-10">
                         Le porteur du projet
                     </p>
-                    <div class="flex flex-row bg-[#4D54D6]">
+                    <div class="flex flex-row bg-[#4D54D6] mt-10">
                         <img src="/pic-project-3-desktop.png" class="w-[150px] h-[250px] xl:w-[200px] xl:h-[300px] 2xl:w-[303px] 2xl:h-[405px]">
                         <div class="flex flex-col p-2 gap-2">
                             <p class="text-white text-xs xl:text-base 2xl:text-xl font-bold font-Raleway">
@@ -229,7 +229,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="text-center bg-white font-Raleway font-bold py-3 xl:py-5 2xl:mt-0">
+                    <div class="text-center bg-white font-Raleway font-bold py-3 xl:py-5 mt-10">
                         <p class="text-xl px-5 text-[#4D54D6]">
                             Besoin de financement pour les recherches de l’équipe “Génomique et développement des cancers de l’enfant”<br/>
                             <span class="underline text-2xl">1,3 millions €</span>
