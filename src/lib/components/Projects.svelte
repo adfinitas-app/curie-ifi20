@@ -95,20 +95,20 @@
                     <span class="underline decoration-[#FF6600] ">Une équipe renforcée</span> pour mieux comprendre le<br/> développement des tumeurs qui touchent les enfants
                 </p>
             </div>
-            <div class="flex flex-row items-center justify-center  h-[53rem] 2xl:h-[60rem]  w-full xl:mt-5 px-5 xl:px-10 py-5 xl:py-10 gap-5 relative">
-                <div class="w-1/2 flex flex-col relative h-full gap-10">
+            <div class="flex flex-row items-center justify-center  h-[53rem] 2xl:h-[60rem]  w-full xl:mt-5 px-5 xl:px-10 py-5 xl:py-10 relative">
+                <div class="w-1/2 flex flex-col relative h-full">
                     <p class="text-xl xl:text-3xl font-Lato font-bold text-[#4D54D6] underline uppercase ">
                         L’Enjeu
                     </p>
-                    <p class="text-[#505050] font-Lato text-base 2xl:text-xl">
+                    <p class="text-[#505050] font-Lato text-base 2xl:text-xl mt-10">
                         Contrairement aux cancers de l’adulte qui résultent principalement du vieillissement et de l'exposition à des mutagènes, les cancers pédiatriques émergent de la dérégulation des programmes génétiques qui gouvernent le développement normal des cellules.
                         Les cancers pédiatriques nécessitent donc des recherches spécifiques et adaptées.
                     </p>
-                    <p class="text-xl xl:text-3xl font-Lato font-bold text-[#4D54D6] uppercase">
+                    <p class="text-xl xl:text-3xl font-Lato font-bold text-[#4D54D6] uppercase mt-10">
                         Les nouvelles perspectives<br/>
                         <c class="underline">pour</c> les patients
                     </p>
-                    <ul>
+                    <ul class="mt-10">
                         <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold">
                             Se basant sur les précédents travaux du Dr Saulnier qui ont permis
                             d’identifier un type cellulaire présent uniquement lors du
@@ -121,28 +121,28 @@
                         </li>
                     </ul>
                 </div>
-                <div class="w-1/2 flex flex-col gap-10 relative h-full">
+                <div class="w-1/2 flex flex-col relative h-full ml-5">
                     <p class="text-xl xl:text-3xl font-Lato font-bold text-[#4D54D6] underline uppercase">
                         L’innovation
                     </p>
-                    <p class="text-[#505050] font-Lato text-base 2xl:text-xl">
+                    <p class="text-[#505050] font-Lato text-base 2xl:text-xl mt-10">
                         L’unité Cancer, hétérogénéité, instabilité et plasticité de l’Institut Curie, dirigée par le Docteur Olivier Delattre, a été renforcée avec l’arrivée d’un jeune chercheur, le Docteur Olivier Saulnier, à la tête d’une nouvelle équipe “Génomique et développement des cancers de l’enfant”.
                         <br/><br/>
                         Avec son équipe, le Docteur Olivier Saulnier étudie des programmes de transcription au cours du développement embryonnaire et leurs implications dans la genèse des cellules cancéreuses. En utilisant des techniques de génomique à l’échelle de la cellule unique, leur objectif est d’identifier les origines des cancers pédiatriques à la fois dans l’espace et dans le temps.
                     </p>
-                    <p class="text-xl xl:text-3xl  font-Lato font-bold text-[#4D54D6] underline uppercase 2xl:mt-0">
+                    <p class="text-xl xl:text-3xl  font-Lato font-bold text-[#4D54D6] underline uppercase mt-10">
                         Le porteur du projet
                     </p>
-                    <div class="flex flex-row bg-[#4D54D6] items-center justify-center gap-3">
+                    <div class="flex flex-row bg-[#4D54D6] items-center justify-center mt-10">
                         <img src="/pic-project-2-desktop.png" alt="Dr Antonin Morillon" class="w-[40%] h-full">
-                        <p class="text-white text-sm 2xl:text-xl font-Raleway  2xl:p-4">
+                        <p class="text-white text-sm 2xl:text-xl font-Raleway  2xl:p-4 ml-3">
                             <span class="text-xl 2xl:text-2xl font-bold">
                                 Dr Olivier Saulnier<br/>
                             </span>
                             Chef de l’équipe Génomique et développement des cancers de l’enfant à l’Institut Curie
                         </p>
                     </div>
-                    <div class="text-center bg-white font-Raleway font-bold py-3 xl:py-5 2xl:mt-0">
+                    <div class="text-center bg-white font-Raleway font-bold py-3 xl:py-5 mt-10">
                         <p class="text-xl px-5 text-[#4D54D6]">
                             Besoin de financement pour les recherches de l’équipe “Génomique et développement des cancers de l’enfant”<br/>
                             <span class="underline text-2xl">669 000 € par an</span>
