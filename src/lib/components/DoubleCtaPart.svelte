@@ -22,7 +22,7 @@
                 Déductible de<br/>
                 <strong>l’IFI</strong>
             </a>
-            <a target="_blank" href="https://aider.curie.fr/don149" class="uppercase ml-5 2xl:ml-20 bg-[#4D54D6] text-white text-center w-[17rem] hover:scale-110 transition-all  py-3 font-Raleway font-bold ">
+            <a target="_blank" href="https://aider.curie.fr/don149" class="uppercase mt-5 md:mt-0 md:ml-5 2xl:ml-20 bg-[#4D54D6] text-white text-center w-[17rem] hover:scale-110 transition-all  py-3 font-Raleway font-bold ">
                 JE FAIS UN DON<br/>
                 Déductible de<br/>
                 <strong>L’impôt sur le revenu</strong>

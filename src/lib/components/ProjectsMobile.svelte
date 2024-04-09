@@ -126,7 +126,7 @@
                             <div class="bg-[#FF6600] rounded-3xl w-10 h-1 ml-3"/>
                         </div>
                         <div class="flex flex-col bg-[#4D54D6] text-white font-Lato mb-10 ">
-                            <img src="/pic-project-1.png" class="w-full"/>
+                            <img src="/pic-project-1.png" class="w-full h-52"/>
                             <p class="font-bold text-[18px] p-3 pb-0">
                                 Dr Antonin Morillon
                             </p>
@@ -214,7 +214,7 @@
                             <div class="bg-[#FF6600] rounded-3xl w-10 h-1 ml-3"/>
                         </div>
                         <div class="flex flex-col bg-[#4D54D6] text-white font-Lato mb-10 ">
-                            <img src="/pic-project-2-desktop.png" class="w-full"/>
+                            <img src="/pic-project-2-desktop.png" class="w-full h-52"/>
                             <p class="font-bold text-[18px] p-3 pb-0">
                                 Dr Olivier Saulnier
                             </p>
