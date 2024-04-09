@@ -3,28 +3,48 @@
     let currentIndex = 0;
     let touchStart = 0;
     let touchEnd = 0;
-    function slideNext() {
-        currentIndex = (currentIndex + 1) % items.length; // Loop back to start
-        updateSliderPosition();
+
+    const images = ["/infos_svg/info1.svg", "/infos_svg/info2.svg", "/infos_svg/info3.svg", "/infos_svg/info4.svg"];
+    const textes = ["Je consulte le guide fiscal", "Je télécharge le bulletin de soutien IFI", "Je télécharge le RIB pour faire un virement", "Je consulte le rapport annuel"];
+    function next() {
+        currentIndex = (currentIndex + 2) % images.length;
     }
 
-    // Updates the slider position based on the current index
-    function updateSliderPosition() {
-        const sliderWrapper = document.querySelector('.slider-wrapper');
-        const itemWidth = document.querySelector('.slider-item').offsetWidth; // Assuming each item has the same width
-        const newTranslateX = -(itemWidth + 40) * currentIndex; // 20 is the margin-right of each slider-item
-        sliderWrapper.style.transform = `translateX(${newTranslateX}px)`;
+    function previous() {
+        currentIndex = (currentIndex - 2 + images.length) % images.length;
     }
 
-    onMount(() => {
-        updateSliderPosition(); // Initial positioning
-    });
-    let items = [
-        {src: "/infos_svg/info1.svg", alt: "info1", text: "Je consulte le guide fiscal"},
-        {src: "/infos_svg/info2.svg", alt: "info2", text: "Je télécharge le bulletin de soutien IFI"},
-        {src: "/infos_svg/info3.svg", alt: "info3", text: "Je télécharge le RIB pour faire un virement"},
-        {src: "/infos_svg/info4.svg", alt: "info4", text:  "Je consulte le rapport annuel"}
-    ];
+    function next2() {
+        if (currentIndex > 0) {
+            currentIndex--;
+        }
+    }
+
+
+
+    function previous2() {
+        if (currentIndex < images.length - 1) {
+            currentIndex++;
+        }
+    }
+
+    function handleTouchStart(event) {
+        touchStart = event.touches[0].clientX;
+    }
+
+    // Fonction appelée lorsque l'utilisateur finit de toucher
+    function handleTouchMove(event) {
+        touchEnd = event.touches[0].clientX;
+    }
+
+    // Fonction pour déterminer la direction du glissement et agir en conséquence
+    function handleTouchEnd() {
+        if (touchStart - touchEnd > 75) {
+            next2();
+        } else if (touchStart - touchEnd < -75) {
+            previous2();
+        }
+    }
 </script>
 
 
@@ -32,40 +52,41 @@
     INFOS PRATIQUES
 </p>
 
-<div class="md:hidden w-screen">
-    <div class="slider-container">
-            <div class="slider-wrapper relative">
-                <div class="slider-item flex flex-col items-center justify-center">
-                    <img src="/infos_svg/info1.svg" class="w-28 h-28">
-                    <p class="font-Raleway text-center">
-                        Je consulte <br/>
-                        le guide fiscal
-                    </p>
-                </div>
-                <div class="slider-item flex flex-col items-center justify-center">
-                    <img src="/infos_svg/info2.svg" class="w-28 h-28">
-                    <p class="font-Raleway text-center">
-                        Je télécharge<br/>
-                        le bulletin de soutien IFI
-                    </p>
-                </div>
-                <a href="https://ifi.curie.fr/images/Curie_rib.pdf?_cchid=a200357f54bc77577d784c4e4414e50e" target="_blank" class="slider-item flex flex-col items-center justify-center ml-10">
-                    <img src="/infos_svg/info3.svg" class="w-28 h-28">
-                    <p class="font-Raleway text-center">
-                        Je télécharge<br/>
-                        le RIB pour <br/>
-                        faire un virement
-                    </p>
-                </a>
-                <div class="slider-item flex flex-col items-center justify-center">
-                    <img src="/infos_svg/info4.svg" class="w-28 h-28">
-                    <p class="font-Raleway text-center">
-                        Je consulte <br/>
-                        le rapport annuel
-                    </p>
-                </div>
-            </div>
-        </div>
+<div class="md:hidden flex justify-center items-center h-40 relative mt-3">
+    {#if currentIndex > 0}
+        <button class="absolute left-3 top-0 bottom-0 my-auto" on:click={previous}>
+            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" class="rotate-180">
+                <g id="Group_754" data-name="Group 754" transform="translate(-2692 360) rotate(-90)">
+                    <circle id="Ellipse_40" data-name="Ellipse 40" cx="17" cy="17" r="17" transform="translate(326 2692)" fill="#505050"/>
+                    <path id="Path_638" data-name="Path 638" d="M14162.583,5344l8.7,8.7,8.7-8.7" transform="translate(-13828.284 -2637)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+                </g>
+            </svg>
+        </button>
+    {/if}
+    <div class="flex flex-col items-center justify-center">
+        <img class="w-28 h-28 object-cover" src={images[currentIndex]} alt="image 1">
+        <p class="text-center font-Raleway font-bold text-[16px] px-5">
+            {textes[currentIndex]}
+        </p>
+    </div>
+
+    <div class="flex flex-col items-center justify-center">
+        <img class="w-28 h-28 object-cover" src={images[currentIndex + 1]} alt="image 1">
+        <p class="text-center font-Raleway font-bold text-[16px] px-5">
+            {textes[currentIndex + 1]}
+        </p>
+    </div>
+
+    {#if currentIndex < 2}
+        <button class="absolute right-3 top-0 bottom-0 my-auto" on:click={next}>
+            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+                <g id="Group_754" data-name="Group 754" transform="translate(-2692 360) rotate(-90)">
+                    <circle id="Ellipse_40" data-name="Ellipse 40" cx="17" cy="17" r="17" transform="translate(326 2692)" fill="#505050"/>
+                    <path id="Path_638" data-name="Path 638" d="M14162.583,5344l8.7,8.7,8.7-8.7" transform="translate(-13828.284 -2637)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+                </g>
+            </svg>
+        </button>
+    {/if}
 </div>
 
 <div class="hidden md:flex flex-row items-center justify-center gap-20  mt-10 2xl:mt-20">
