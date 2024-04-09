@@ -32,7 +32,7 @@
     INFOS PRATIQUES
 </p>
 
-<div class=" w-screen">
+<div class="md:hidden w-screen">
     <div class="slider-container">
             <div class="slider-wrapper relative">
                 <div class="slider-item flex flex-col items-center justify-center">
