@@ -21,7 +21,7 @@
                 <p class="2xl:text-2xl">
                     Par exemple :
                 </p>
-                <img src="/graph1.png" class="w-[311px] md:w-[20rem] xl:w-[17rem] 2xl:w-[30rem]"/>
+                <img src="/graph1.png" class="w-[311px] md:w-[20rem] xl:w-[17rem] 2xl:w-[25rem]"/>
                 <a target="_blank" href="https://aider.curie.fr/ifi" class="bg-[#FF6600] uppercase md:w-auto  w-[268px] text-[16px] md:text-sm 2xl:text-xl text-white lg:p-2 xl:py-2 xl:px-7 2xl:py-3 2xl:px-16 font-Raleway font-bold lg:hover:px-20 transition-all absolute -bottom-14 xl:-bottom-16  2xl:-bottom-20">
                     JE FAIS UN DON<br/>
                     Déductible de<br/>
@@ -39,7 +39,7 @@
                 <p class="2xl:text-2xl">
                     Par exemple :
                 </p>
-                <img src="/graph2.png" class="w-[311px] md:w-[20rem] xl:w-[17rem] 2xl:w-[30rem]"/>
+                <img src="/graph2.png" class="w-[311px] md:w-[20rem] xl:w-[17rem] 2xl:w-[25rem]"/>
                 <a target="_blank" href="https://aider.curie.fr/don149" class="bg-[#4D54D6]  text-center uppercase w-[268px] md:w-auto text-[16px] md:text-sm 2xl:text-xl text-white lg:p-2 xl:py-2 xl:px-7 2xl:py-3 2xl:px-16 font-Raleway font-bold lg:hover:px-20 transition-all absolute -bottom-14 xl:-bottom-16  2xl:-bottom-20">
                     JE FAIS UN DON<br/>
                     Déductible de<br/>
