@@ -11,7 +11,7 @@
             investissez votre impôt dans l’innovation
         </p>
         <div class=" bg-[#FF6600] w-[5rem] h-1 rounded-2xl mt-2"/>
-        <div class="flex flex-row mt-5 2xl:mt-10 w-full items-center justify-center">
+        <div class="flex flex-row mt-5 2xl:mt-6 w-full items-center justify-center">
             <button on:click={() => (window.location.hash = '#projet1')} class:selectedButton={$projectIndexStore === 0} class=" uppercase w-[30%] py-2 font-Raleway text-xl font-bold text-center text-[#505050] border-r-2 border-[#505050]">
                 Accélérer la recherche grâce<br/> à deux<span class="underline decoration-[#FF6600] "> &nbsp;équipements</span>
             </button>
