@@ -13,14 +13,16 @@
 
     onMount(() => {
         function updateProjectFromHash() {
-            const hash = window.location.hash.replace('#projet', '');
-            if (hash) {
-                projectIndexStore.set(parseInt(hash) - 1);
-                if (browser && window.innerWidth < 768) {
-                    navigateToProjectsMobile();
-                }
-                else if (browser) {
-                    navigateToProjectsDesktop();
+            if (window.location.hash !== "#Calculator") {
+                const hash = window.location.hash.replace('#projet', '');
+                if (hash) {
+                    projectIndexStore.set(parseInt(hash) - 1);
+                    if (browser && window.innerWidth < 768) {
+                        navigateToProjectsMobile();
+                    }
+                    else if (browser) {
+                        navigateToProjectsDesktop();
+                    }
                 }
             }
         }

@@ -35,10 +35,8 @@
                         L’Enjeu
                     </p>
                     <p class="text-[#505050] font-Lato text-base mt-5 2xl:text-xl">
-                        Chaque tumeur possède un antigène qui lui est propre. Le vaccin à ARNm consiste à injecter dans le corps du patient un ARNm, fabriqué en laboratoire, qui contient le code nécessaire à la fabrication de cet antigène. Il force ainsi le système immunitaire du patient à reconnaître ces antigènes et à produire les anticorps correspondants.
-                        <b>L’efficacité du vaccin à ARNm réside donc dans la capacité des chercheurs à identifier la séquence génétique permettant de coder des antigènes spécifiques de cellules tumorales à partir d’échantillons de tumeurs.</b>
-                        <br/><br/>
-                        Aujourd’hui il existe uniquement 3 équipements en Europe pour les fabriquer, ce qui occasionne beaucoup d’attente pour les patients qui sont en cours de traitement.
+                        Chaque tumeur possède un antigène qui lui est propre. Le vaccin à ARN messager consiste à injecter dans le corps du patient un ARNm, fabriqué en laboratoire, qui contient le code nécessaire à la fabrication de cet antigène. Il force ainsi le système immunitaire du patient à reconnaître ces antigènes et à produire les anticorps correspondants.
+                        <b><br/><br/>L’efficacité du vaccin à ARNm réside donc dans la capacité des chercheurs à identifier la séquence génétique permettant de coder des antigènes spécifiques de cellules tumorales à partir d’échantillons de tumeurs.</b>
                     </p>
                     <p class="text-xl xl:text-3xl font-Lato mt-5 font-bold text-[#4D54D6] uppercase">
                         Les nouvelles perspectives<br/>
@@ -113,7 +111,7 @@
                             Se basant sur les précédents travaux du Dr Saulnier qui ont permis
                             d’identifier un type cellulaire présent uniquement lors du
                             développement fœtal du cerveau et à l’origine du médulloblastome,
-                            son équipe cherchera à étendre la ces résultats prometteurs à plusieurs
+                            son équipe cherchera à étendre ces résultats prometteurs à plusieurs
                             types de cancers pédiatriques
                         </li>
                         <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold mt-3">
@@ -160,7 +158,7 @@
             <div if="projet3" style="background-image: url('/bg-project-4-test.jpg');" class="bg-cover bg-no-repeat relative w-full h-[22rem] 2xl:h-[39rem]">
                 <div class="bg-[#4D54D6]/70 backdrop-blur-md purple-project absolute w-full  bottom-0 h-[20rem] 2xl:h-[25rem]"/>
                 <p class="font-Raleway text-xl 2xl:text-3xl font-black absolute bottom-5 2xl:bottom-10 text-center text-white left-0 right-0 mx-auto">
-                    Évaluation de la combinaison de<br/> <span class="underline decoration-[#FF6600] ">2 thérapies cellulaires</span> innovantes avec le projet EPCART
+                    Évaluation de la combinaison de<br/> <span class="underline decoration-[#FF6600] ">2 thérapies cellulaires</span> innovantes avec le projet EpCART
                 </p>
             </div>
             <div class="flex flex-row items-center justify-center w-full relative h-[60rem] 2xl:h-[65rem]  px-5 xl:px-10 py-5 xl:py-10">
@@ -169,7 +167,7 @@
                         L’Enjeu
                     </p>
                     <p class="text-[#505050] font-Lato text-base 2xl:text-xl mt-10">
-                        20 ans après l’émergence de l’immunothérapie et après 10 ans de recherches fondamentales, les équipes de l’Institut Curie franchissent une nouvelle étape contre les tumeurs difficiles à traiter. Elles ont conçu de nouvelles thérapies cellulaires révolutionnaires qui reposent sur la combinaison :
+                        20 ans après l’émergence de l’immunothérapie et après 10 ans de recherches fondamentales, les équipes de l’Institut Curie franchissent une nouvelle étape contre les tumeurs difficiles à traiter. <b> De nouvelles thérapies cellulaires révolutionnaires ont été conçues qui reposent sur la combinaison suivante :</b>
                     </p>
                     <ul class="mt-10">
                         <li class="text-[#505050] text-base 2xl:text-xl font-Lato font-bold">
@@ -206,8 +204,7 @@
                         L’innovation
                     </p>
                     <p class="text-[#505050] font-Lato text-base 2xl:text-xl mt-10">
-                        Les vaccins à ARN messager sont particulièrement prometteurs et leur développement ouvre de nouvelles perspectives de guérison pour les patients.
-                        <b>L’Institut Curie souhaite donc acquérir 2 équipements de pointe indispensables à l’élaboration de ce type de vaccins : un purificateur de peptides et un spectromètre de masse.</b>
+                        Le projet EpCART, coordonné par l’Institut Curie, vise à valider en clinique cette approche unique et prometteuse dans plusieurs tumeurs solides. À travers un essai clinique de 2 ans, <b>le projet va chercher à évaluer la tolérance et l’efficacité immunologique de ces thérapies sur les patients.</b>
                     </p>
                     <p class="text-xl xl:text-3xl  font-Lato font-bold text-[#4D54D6] underline uppercase mt-10">
                         Le porteur du projet
@@ -231,7 +228,7 @@
                     </div>
                     <div class="text-center bg-white font-Raleway font-bold py-3 xl:py-5 mt-10">
                         <p class="text-xl px-5 text-[#4D54D6]">
-                            Besoin de financement pour les recherches de l’équipe “Génomique et développement des cancers de l’enfant”<br/>
+                            Besoin annuel de l’équipe de Sebastian Amigorena<br/>
                             <span class="underline text-2xl">1,3 millions €</span>
                         </p>
                     </div>

@@ -24,7 +24,7 @@
                     Zone 1
                 </p>
                 <p class="text-base font-Raleway text-[#FF6600]">
-                    (départements 1 à 19,<br/>
+                    (départements 01 à 19,<br/>
                     Monaco et non-résidents)
                 </p>
             </div>

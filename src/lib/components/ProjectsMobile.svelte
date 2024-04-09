@@ -71,10 +71,8 @@
                     <div class="bg-[#FF6600] rounded-3xl w-10 h-1 ml-3"/>
                 </div>
                 <p class="font-Lato text-[16px] px-3 text-[#505050]">
-                    Chaque tumeur possède un antigène qui lui est propre. Le vaccin à ARNm consiste à injecter dans le corps du patient un ARNm, fabriqué en laboratoire, qui contient le code nécessaire à la fabrication de cet antigène. Il force ainsi le système immunitaire du patient à reconnaître ces antigènes et à produire les anticorps correspondants.<br/>
-                    <b>L’efficacité du vaccin à ARNm réside donc dans la capacité des chercheurs à identifier la séquence génétique permettant de coder des antigènes spécifiques de cellules tumorales à partir d’échantillons de tumeurs.</b>
-                    <br/><br/>
-                    Aujourd’hui il existe uniquement 3 équipements en Europe pour les fabriquer, ce qui occasionne beaucoup d’attente pour les patients qui sont en cours de traitement.
+                    Chaque tumeur possède un antigène qui lui est propre. Le vaccin à ARN messager consiste à injecter dans le corps du patient un ARNm, fabriqué en laboratoire, qui contient le code nécessaire à la fabrication de cet antigène. Il force ainsi le système immunitaire du patient à reconnaître ces antigènes et à produire les anticorps correspondants.<br/>
+                    <b><br/>L’efficacité du vaccin à ARNm réside donc dans la capacité des chercheurs à identifier la séquence génétique permettant de coder des antigènes spécifiques de cellules tumorales à partir d’échantillons de tumeurs.</b>
                 </p>
                 <div class="flex flex-col">
                     <p class="uppercase text-[#4D54D6] text-[18px] font-bold px-3">
@@ -185,7 +183,7 @@
                 </div>
                 <ul class="ml-2">
                     <li class="text-left font-Lato text-[#505050] text-[16px]">
-                        <span class="font-bold">se basant sur les précédents travaux du Dr Saulnier qui ont permis d’identifier un type cellulaire présent uniquement lors du développement fœtal du cerveau et à l’origine du médulloblastome, son équipe cherchera à étendre la ces résultats prometteurs à plusieurs types de cancers pédiatriques</span>
+                        <span class="font-bold">se basant sur les précédents travaux du Dr Saulnier qui ont permis d’identifier un type cellulaire présent uniquement lors du développement fœtal du cerveau et à l’origine du médulloblastome, son équipe cherchera à étendre ces résultats prometteurs à plusieurs types de cancers pédiatriques</span>
                     </li>
                     <li class="text-left font-Lato text-[#505050] text-[16px] mt-5">
                         <span class="font-bold">à terme, prévenir la maladie chez les enfants, avant même qu’elle ne se développe</span>
@@ -251,7 +249,7 @@
                     <div class="bg-[#FF6600] rounded-3xl w-10 h-1 ml-3"/>
                 </div>
                 <p class="font-Lato text-[16px] px-3 text-[#505050]">
-                    20 ans après l’émergence de l’immunothérapie et après 10 ans de recherches fondamentales, les équipes de l’Institut Curie franchissent une nouvelle étape contre les tumeurs difficiles à traiter. Elles ont conçu de nouvelles thérapies cellulaires révolutionnaires qui reposent sur la combinaison :
+                    20 ans après l’émergence de l’immunothérapie et après 10 ans de recherches fondamentales, les équipes de l’Institut Curie franchissent une nouvelle étape contre les tumeurs difficiles à traiter. <b>De nouvelles thérapies cellulaires révolutionnaires ont été conçues  qui reposent sur la combinaison suivante:</b>
                 </p>
                 <div class="flex flex-col">
                     <p class="uppercase text-[#4D54D6] text-[18px] font-bold px-3">
@@ -260,8 +258,7 @@
                     <div class="bg-[#FF6600] rounded-3xl w-10 h-1 ml-3"/>
                 </div>
                 <p class="font-Lato text-[16px] px-3 text-[#505050]">
-                    Les vaccins à ARN messager sont particulièrement prometteurs et leur développement ouvre de nouvelles perspectives de guérison pour les patients.
-                    <b>L’Institut Curie souhaite donc acquérir 2 équipements de pointe indispensables à l’élaboration de ce type de vaccins : un purificateur de peptides et un spectromètre de masse.</b>
+                    Le projet EpCART, coordonné par l’Institut Curie, vise à valider en clinique cette approche unique et prometteuse dans plusieurs tumeurs solides. À travers un essai clinique de 2 ans, <b>le projet va chercher à évaluer la tolérance et l’efficacité immunologique de ces thérapies sur les patients.</b>
                 </p>
                 <div class="flex flex-col">
                     <p class="uppercase text-[#4D54D6] text-[18px] font-bold px-3">
@@ -306,6 +303,12 @@
                             </p>
                             <p class="text-[16px] px-3 pb-6">
                                 Chef de l’équipe Réponses Immunitaires et Cancer à l’Institut Curie et coordinateur du projet EpCART.
+                            </p>
+                            <svg class="w-full" xmlns="http://www.w3.org/2000/svg" width="423.489" height="20.341" viewBox="0 0 423.489 20.341">
+                                <path id="Path_634" data-name="Path 634" d="M9314.057,6613.376h65.183v17.207l20.658-17.207h337.648" transform="translate(-9314.057 -6612.376)" fill="none" stroke="#fff" stroke-width="2"/>
+                            </svg>
+                            <p class="text-[16px] px-3 pb-6">
+                                « Dans 20 ans, j’aspire à ce que ces thérapies de rupture aient prouvées leur efficacité contre différents types de cancers et en particulier des tumeurs solides, un défi de taille à relever car beaucoup plus difficiles d’accès pour ces cellules CAR-T »
                             </p>
                         </div>
                         <div class="flex items-center justify-center ">
