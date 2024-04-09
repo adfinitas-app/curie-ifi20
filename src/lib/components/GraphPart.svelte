@@ -10,7 +10,7 @@
         </p>
         <div class=" bg-[#FF6600] w-[5rem] h-1 rounded-2xl absolute left-0 right-0 mx-auto mt-2 md:mt-0"/>
         <div class="flex flex-col md:flex-row items-center justify-center md:gap-10 xl:gap-20 mt-10 md:mt-3 xl:mt-12">
-            <div class="py-5 flex flex-col text-center items-center text-[#505050] relative justify-center w-[95%] md:w-auto md:h-[35rem] xl:h-[29rem] 2xl:h-auto  xl:w-[25rem] lg:w-[25rem] 2xl:w-[40rem] 2xl:py-10 rounded-2xl gap-5 md:gap-2 2xl:gap-5  2xl:p-5" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.1);">
+            <div class="py-5 flex flex-col text-center items-center text-[#505050] relative justify-center w-[95%] md:w-auto md:h-[35rem] xl:h-[29rem] 2xl:h-[37rem]  xl:w-[25rem] lg:w-[25rem] 2xl:w-[40rem] rounded-2xl gap-5 md:gap-2 2xl:p-5" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.1);">
                 <p class=" font-Raleway font-bold text-[20px] md:text-2xl 2xl:text-3xl">
                     Impôt<br/>
                     sur la Fortune Immobilière
@@ -22,13 +22,13 @@
                     Par exemple :
                 </p>
                 <img src="/graph1.png" class="w-[311px] md:w-[20rem] xl:w-[17rem] 2xl:w-[25rem]"/>
-                <a target="_blank" href="https://aider.curie.fr/ifi" class="bg-[#FF6600] uppercase md:w-auto  w-[268px] text-[16px] md:text-sm 2xl:text-xl text-white lg:p-2 xl:py-2 xl:px-7 2xl:py-3 2xl:px-16 font-Raleway font-bold lg:hover:px-20 transition-all absolute -bottom-14 xl:-bottom-16  2xl:-bottom-20">
+                <a target="_blank" href="https://aider.curie.fr/ifi" class="bg-[#FF6600] uppercase md:w-auto  w-[268px] text-[16px] md:text-sm 2xl:text-base text-white lg:p-2 xl:py-2 xl:px-7 2xl:py-2 2xl:px-16 font-Raleway font-bold lg:hover:px-20 transition-all absolute -bottom-14 xl:-bottom-16  2xl:-bottom-20">
                     JE FAIS UN DON<br/>
                     Déductible de<br/>
                     <span class="font-black">l’IFI</span>
                 </a>
             </div>
-            <div class="py-5 mt-20 md:mt-0  flex flex-col text-center items-center text-[#505050] relative justify-center w-[95%] md:w-auto md:h-[35rem] xl:h-[29rem] 2xl:h-auto  xl:w-[25rem] lg:w-[25rem] 2xl:w-[40rem]  2xl:py-10 rounded-2xl gap-5 md:gap-2 2xl:gap-5  2xl:p-5" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.1);">
+            <div class="py-5 mt-20 md:mt-0  flex flex-col text-center items-center text-[#505050] relative justify-center w-[95%] md:w-auto md:h-[35rem] xl:h-[29rem] 2xl:h-[37rem]  xl:w-[25rem] lg:w-[25rem] 2xl:w-[40rem]  rounded-2xl gap-5 md:gap-2 2xl:p-5" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.1);">
                 <p class=" font-Raleway font-bold text-[20px] md:text-2xl 2xl:text-3xl">
                     Impôt<br/>
                     sur le Revenu
@@ -40,7 +40,7 @@
                     Par exemple :
                 </p>
                 <img src="/graph2.png" class="w-[311px] md:w-[20rem] xl:w-[17rem] 2xl:w-[25rem]"/>
-                <a target="_blank" href="https://aider.curie.fr/don149" class="bg-[#4D54D6]  text-center uppercase w-[268px] md:w-auto text-[16px] md:text-sm 2xl:text-xl text-white lg:p-2 xl:py-2 xl:px-7 2xl:py-3 2xl:px-16 font-Raleway font-bold lg:hover:px-20 transition-all absolute -bottom-14 xl:-bottom-16  2xl:-bottom-20">
+                <a target="_blank" href="https://aider.curie.fr/don149" class="bg-[#4D54D6]  text-center uppercase w-[268px] md:w-auto text-[16px] md:text-sm 2xl:text-base text-white lg:p-2 xl:py-2 xl:px-7 2xl:py-2 2xl:px-16 font-Raleway font-bold lg:hover:px-20 transition-all absolute -bottom-14 xl:-bottom-16  2xl:-bottom-20">
                     JE FAIS UN DON<br/>
                     Déductible de<br/>
                     <span class="font-black">L’impôt sur le revenu</span>
