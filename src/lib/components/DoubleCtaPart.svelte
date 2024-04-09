@@ -16,13 +16,13 @@
             Mon don ouvrira de nouvelles perspectives de guérison pour les patients<br/>
             en finançant des projets comme celui-ci.
         </p>
-        <div class="flex flex-col md:flex-row items-center justify-center gap-5 2xl:gap-20">
+        <div class="flex flex-col md:flex-row items-center justify-center ">
             <a target="_blank" href="https://aider.curie.fr/ifi" class="uppercase bg-[#FF6600] text-white text-center w-[17rem] hover:scale-110 transition-all  py-3 font-Raleway font-bold ">
                 JE FAIS UN DON<br/>
                 Déductible de<br/>
                 <strong>l’IFI</strong>
             </a>
-            <a target="_blank" href="https://aider.curie.fr/don149" class="uppercase bg-[#4D54D6] text-white text-center w-[17rem] hover:scale-110 transition-all  py-3 font-Raleway font-bold ">
+            <a target="_blank" href="https://aider.curie.fr/don149" class="uppercase ml-5 2xl:ml-20 bg-[#4D54D6] text-white text-center w-[17rem] hover:scale-110 transition-all  py-3 font-Raleway font-bold ">
                 JE FAIS UN DON<br/>
                 Déductible de<br/>
                 <strong>L’impôt sur le revenu</strong>
