@@ -4,7 +4,6 @@
 </script>
 
 <div class="relative flex items-center justify-center w-screen mt-10 z-0">
-    <div id="ProjectsDesktop" class="absolute -top-40"/>
     <div style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);" class="w-[90%] 2xl:w-[80%] flex flex-col items-center justify-center bg-[#F1F2FC] rounded-3xl py-4 2xl:py-10">
         <p class="text-center lg:text-2xl 2xl:text-2xl uppercase font-bold font-Raleway text-[#505050]">
             Contre le cancer,<br/>
@@ -67,7 +66,7 @@
                         Le porteur du projet
                     </p>
                     <div class="flex flex-row bg-[#4D54D6] items-center justify-center mt-20 xl:mt-6 2xl:mt-10">
-                        <img src="/pic-project-1.png" alt="Dr Antonin Morillon" class="w-[40%] h-full">
+                        <img src="/pic-project-1.png" alt="Dr Antonin Morillon" class="w-[300px] h-full">
                         <p class="text-white text-sm 2xl:text-xl font-Raleway p-2 my-3 2xl:p-4">
                             <span class="text-xl 2xl:text-2xl font-bold">
                                 Dr Antonin Morillon<br/>
@@ -132,7 +131,7 @@
                         Le porteur du projet
                     </p>
                     <div class="flex flex-row bg-[#4D54D6] items-center justify-center mt-10">
-                        <img src="/pic-project-2-desktop.png" alt="Dr Antonin Morillon" class="w-[40%] h-full">
+                        <img src="/pic-project-2-desktop.png" alt="Dr Antonin Morillon" class="w-[250px] h-full">
                         <p class="text-white text-sm 2xl:text-xl font-Raleway  2xl:p-4 ml-3">
                             <span class="text-xl 2xl:text-2xl font-bold">
                                 Dr Olivier Saulnier<br/>

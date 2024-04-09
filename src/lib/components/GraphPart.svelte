@@ -49,7 +49,7 @@
         </div>
     </div>
 </div>
-<div on:click={()=> poppOpened = true} class="hidden md:block lg:mt-[5rem] xl:mt-[10rem] font-Lato font-bold text-xl 2xl:text-3xl text-center text-[#505050] underline cursor-pointer">
+<div on:click={()=> poppOpened = true} class="hidden md:block lg:my-[8rem] font-Lato font-bold text-xl 2xl:text-3xl text-center text-[#505050] underline cursor-pointer">
     <p>Je souhaite faire un don déductible de l’Impôt sur les Sociétés</p>
 </div>
 

@@ -33,9 +33,9 @@
                 window.location.hash = "#ProjectsDesktop";
                 setTimeout(() => {
                     window.location.hash = "#projet1";
-                }, 100);}}
+                }, 300);}}
             class="flex flex-col items-center justify-center">
-        <a href="#ProjectsDesktop" class="text-white font-Raleway font-bold text-xl mx-8">
+        <a class="text-white font-Raleway font-bold text-xl mx-8">
             Les projets soutenus
         </a>
         <span class={`h-0.5 bg-white rounded-3xl transition-width ${isHoveringText ? 'w-[10rem]' : 'w-[3rem]'}`}/>
