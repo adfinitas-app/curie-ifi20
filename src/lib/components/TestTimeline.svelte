@@ -1,6 +1,6 @@
 <section class="timeline hidden md:block absolute top-[28rem] 2xl:top-[33rem]">
         <p class="font-Raleway font-black text-[#FF6600] lg:text-2xl 2xl:text-4xl uppercase">
-            CALENDRIER de déclaration FISCAL <span class="font-Lato">2024</span>
+            CALENDRIER de déclaration FISCALE <span class="font-Lato">2024</span>
         </p>
     <ul>
         <li>

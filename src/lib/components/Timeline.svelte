@@ -1,6 +1,6 @@
 <div class="flex flex-col items-center justify-center md:hidden relative top-[35rem] gap-8">
     <p class="font-Raleway font-black text-[#FF6600] text-2xl xl:text-2xl 2xl:text-4xl uppercase text-center">
-        CALENDRIER de déclaration FISCAL <span class="font-Lato">2024</span>
+        CALENDRIER de déclaration FISCALE <span class="font-Lato">2024</span>
     </p>
     <div class="absolute w-2 h-[42rem] rounded-2xl bg-[#FF6600] -z-10 top-20" />
     <div class="p-4 bg-white rounded-2xl w-80" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);">
