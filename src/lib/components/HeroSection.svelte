@@ -124,6 +124,7 @@
 
     .underline-red {
         position: relative;
+        display: inline-block;
         text-decoration: none;
     }
 
@@ -141,7 +142,7 @@
 
     @keyframes underline {
         to {
-            width: 20rem;
+            width: 100%;
         }
     }
 </style>
