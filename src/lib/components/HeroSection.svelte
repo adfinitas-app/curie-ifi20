@@ -130,7 +130,7 @@
     .underline-red::after {
         content: '';
         position: absolute;
-        width: 200px;
+        width: 0;
         height: 0.3rem;
         bottom: 0;
         border-radius: 1rem;
@@ -141,7 +141,7 @@
 
     @keyframes underline {
         to {
-            width: 100%;
+            width: 20rem;
         }
     }
 </style>
