@@ -130,7 +130,7 @@
     .underline-red::after {
         content: '';
         position: absolute;
-        width: 0;
+        width: 200px;
         height: 0.3rem;
         bottom: 0;
         border-radius: 1rem;
