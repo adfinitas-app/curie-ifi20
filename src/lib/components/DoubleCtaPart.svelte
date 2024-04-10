@@ -8,21 +8,21 @@
 
 <div class="w-screen relative flex items-center justify-center ">
     <div class="gray-polygone  h-[50rem] 2xl:h-[60rem] bg-[#707070] bg-opacity-10 absolute top-0"/>
-    <div class="absolute top-20 xl:top-28 flex flex-col items-center justify-center gap-3 2xl:gap-5">
+    <div class="absolute top-20 xl:top-28 flex flex-col items-center justify-center">
         <p class="font-Raleway font-black lg:text-2xl 2xl:text-4xl text-[#505050]">
             J’INVESTIS DANS L’INNOVATION !
         </p>
-        <p class="text-base lg:text-xl 2xl:text-3xl font-Raleway font-semibold text-center text-[#505050]">
+        <p class="text-base lg:text-xl 2xl:text-3xl font-Raleway font-semibold text-center mt-3 2xl:mt-5 text-[#505050]">
             Mon don ouvrira de nouvelles perspectives de guérison pour les patients<br/>
             en finançant des projets comme ceux-ci
         </p>
         <div class="flex flex-col md:flex-row items-center justify-center ">
-            <a target="_blank" href="https://aider.curie.fr/ifi" class="uppercase bg-[#FF6600] text-white text-center w-[17rem] hover:scale-110 transition-all  py-3 font-Raleway font-bold ">
+            <a target="_blank" href="https://aider.curie.fr/ifi" class="uppercase bg-[#FF6600] text-white mt-3 2xl:mt-5 text-center w-[17rem] hover:scale-110 transition-all  py-3 font-Raleway font-bold ">
                 JE FAIS UN DON<br/>
                 Déductible de<br/>
                 <strong>l’IFI</strong>
             </a>
-            <a target="_blank" href="https://aider.curie.fr/don149" class="uppercase mt-5 md:mt-0 md:ml-5 2xl:ml-20 bg-[#4D54D6] text-white text-center w-[17rem] hover:scale-110 transition-all  py-3 font-Raleway font-bold ">
+            <a target="_blank" href="https://aider.curie.fr/don149" class="uppercase mt-3 2xl:mt-5 md:mt-0 md:ml-5 2xl:ml-20 bg-[#4D54D6] text-white text-center w-[17rem] hover:scale-110 transition-all  py-3 font-Raleway font-bold ">
                 JE FAIS UN DON<br/>
                 Déductible de<br/>
                 <strong>L’impôt sur le revenu</strong>
