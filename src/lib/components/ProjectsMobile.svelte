@@ -8,20 +8,15 @@
     ];
     let projectSelector = false;
     let showMore = false;
-    function setProjectIndex(index) {
-        projectIndexStore.set(index);
+    function setProjectIndex(index, str) {
+        if (str === "Accélérer la recherche grâce à <span class=\"underline decoration-2 decoration-[#FF6600]\">deux équipements</span>")
+            $projectIndexStore = 0;
+        else if (str === "Attirer les <span class=\"underline decoration-2 decoration-[#FF6600]\">meilleurs talents</span>")
+            $projectIndexStore = 1;
+        else if (str === "Développer des<br/> <span class=\"underline decoration-2 decoration-[#FF6600]\">immunothérapies inédites</span>")
+            $projectIndexStore = 2;
         window.location.hash = `#projet${index + 1}`;
     }
-    let element;
-    let intersecting;
-    function undifinedHandler() {
-        if (window.location.hash === "#ProjectsMobile") {
-            console.log("hash", window.location.hash);
-            projectIndexStore.set(1);
-            console.log("projectIndexStore", projectIndexStore);
-        }
-    }
-
 </script>
 
 <div style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);" class="bg-[#F1F2FC] w-[95%] flex flex-col items-center justify-center rounded-2xl py-5 mt-[3rem] relative">
@@ -48,12 +43,12 @@
             </div>
             {#if projectSelector}
                 <div class="absolute w-full -bottom-[11rem]">
-                    <button in:fly on:click={()=> setProjectIndex(1)} class="bg-white text-[#505050] text-left  uppercase h-[88px] w-full border-2 border-[#505050] p-5">
+                    <button in:fly on:click={()=> setProjectIndex(1, projectTitle[($projectIndexStore + 1) % projectTitle.length])} class="bg-white text-[#505050] text-left  uppercase h-[88px] w-full border-2 border-[#505050] p-5">
                         <p class="font-Raleway font-bold text-[18px] m-0">
                             {@html projectTitle[($projectIndexStore + 1) % projectTitle.length]}
                         </p>
                     </button>
-                    <button in:fly on:click={()=> setProjectIndex(2)} class="bg-white text-[#505050] text-left  uppercase h-[88px] w-full border-x-2 border-b-2 border-[#505050] p-5">
+                    <button in:fly on:click={()=> setProjectIndex(2, projectTitle[($projectIndexStore + 2) % projectTitle.length])} class="bg-white text-[#505050] text-left  uppercase h-[88px] w-full border-x-2 border-b-2 border-[#505050] p-5">
                         <p class="font-Raleway font-bold text-[18px] m-0">
                             {@html projectTitle[($projectIndexStore + 2) % projectTitle.length]}
                         </p>
