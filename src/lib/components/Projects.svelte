@@ -28,12 +28,12 @@
                     <span class="underline decoration-[#FF6600] ">2 équipements de pointe</span> pour révolutionner les traitements de<br/> demain contre les cancers grâce à des vaccins thérapeutiques
                 </p>
             </div>
-            <div class="flex flex-row items-center justify-center w-full xl:mt-5 px-5 xl:px-10 py-2 2xl:py-10  relative h-[33rem] xl:h-[40rem] 2xl:h-[50rem]">
+            <div class="flex flex-row items-center justify-center w-full xl:mt-5 px-5 xl:px-10 py-2 2xl:py-10  relative h-[33rem] xl:h-[35rem] 2xl:h-[50rem]">
                 <div class="w-1/2 flex flex-col h-full 2xl:mt-4">
-                    <p class="text-xl font-Lato  font-bold text-[#4D54D6] underline uppercase">
+                    <p class="text-xl font-Lato font-bold text-[#4D54D6] underline uppercase">
                         L’Enjeu
                     </p>
-                    <p class="text-[#505050] font-Lato text-base mt-2 xl:mt-5 2xl:text-xl">
+                    <p class="text-[#505050] font-Lato text-sm 2xl:text-xl mt-2 xl:mt-5">
                         Chaque tumeur possède un antigène qui lui est propre. Le vaccin à ARN messager consiste à injecter dans le corps du patient un ARNm, fabriqué en laboratoire, qui contient le code nécessaire à la fabrication de cet antigène. Il force ainsi le système immunitaire du patient à reconnaître ces antigènes et à produire les anticorps correspondants.
                         <b><br/><br/>L’efficacité du vaccin à ARNm réside donc dans la capacité des chercheurs à identifier la séquence génétique permettant de coder des antigènes spécifiques de cellules tumorales à partir d’échantillons de tumeurs.</b>
                     </p>
@@ -58,7 +58,7 @@
                     <p class="text-xl font-Lato font-bold text-[#4D54D6] underline uppercase">
                         L’innovation
                     </p>
-                    <p class="text-[#505050] font-Lato text-sm 2xl:text-xl mt-5 xl:mt-6 2xl:mt-10">
+                    <p class="text-[#505050] font-Lato text-sm 2xl:text-xl  mt-2 xl:mt-5">
                         Les vaccins à ARN messager sont particulièrement prometteurs et leur développement ouvre de nouvelles perspectives de guérison pour les patients.
                         <b>L’Institut Curie souhaite donc acquérir 2 équipements de pointe indispensables à l’élaboration de ce type de vaccins : un purificateur de peptides et un spectromètre de masse.</b>
                     </p>
@@ -92,7 +92,7 @@
                     <span class="underline decoration-[#FF6600] ">Une équipe renforcée</span> pour mieux comprendre le<br/> développement des tumeurs qui touchent les enfants
                 </p>
             </div>
-            <div class="flex flex-row items-center justify-center  h-[53rem] 2xl:h-[60rem]  w-full xl:mt-5 px-5 xl:px-10 py-5 xl:py-10 relative">
+            <div class="flex flex-row items-center justify-center  h-[50rem] 2xl:h-[60rem]  w-full xl:mt-5 px-5 xl:px-10 py-5 xl:py-5 relative">
                 <div class="w-1/2 flex flex-col relative h-full">
                     <p class="text-xl font-Lato font-bold text-[#4D54D6] underline uppercase ">
                         L’Enjeu
