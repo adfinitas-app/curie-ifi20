@@ -49,7 +49,7 @@
     INFOS PRATIQUES
 </p>
 
-<div class="md:hidden flex flex-row justify-center items-start h-40 relative mt-3 w-screen">
+<div class="md:hidden flex flex-row justify-center items-start px-5 h-40 relative mt-3 w-screen">
     {#if currentIndex > 0}
         <button class="absolute left-3 top-0 bottom-0 my-auto" on:click={previous}>
             <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" class="rotate-180">
