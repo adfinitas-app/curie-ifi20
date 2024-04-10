@@ -14,7 +14,7 @@
         </p>
         <p class="text-base lg:text-xl 2xl:text-3xl font-Raleway font-semibold text-center text-[#505050]">
             Mon don ouvrira de nouvelles perspectives de guérison pour les patients<br/>
-            en finançant des projets comme celui-ci.
+            en finançant des projets comme ceux-ci
         </p>
         <div class="flex flex-col md:flex-row items-center justify-center ">
             <a target="_blank" href="https://aider.curie.fr/ifi" class="uppercase bg-[#FF6600] text-white text-center w-[17rem] hover:scale-110 transition-all  py-3 font-Raleway font-bold ">

@@ -166,7 +166,7 @@
                         L’Enjeu
                     </p>
                     <p class="text-[#505050] font-Lato text-sm 2xl:text-xl mt-10">
-                        20 ans après l’émergence de l’immunothérapie et après 10 ans de recherches fondamentales, les équipes de l’Institut Curie franchissent une nouvelle étape contre les tumeurs difficiles à traiter. <b> De nouvelles thérapies cellulaires révolutionnaires ont été conçues qui reposent sur la combinaison suivante :</b>
+                        20 ans après l’émergence de l’immunothérapie et après 10 ans de recherches fondamentales, les équipes de l’Institut Curie franchissent une nouvelle étape contre les tumeurs difficiles à traiter. <b> De nouvelles thérapies cellulaires révolutionnaires ont été conçues, elles reposent sur la combinaison suivante :</b>
                     </p>
                     <ul class="mt-10">
                         <li class="text-[#505050] text-sm 2xl:text-xl font-Lato font-bold">
