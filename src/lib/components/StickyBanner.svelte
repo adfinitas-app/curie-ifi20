@@ -25,7 +25,9 @@
 </script>
 
 <div in:fade class="hidden fixed top-0 bg-[#4D54D6] bg-opacity-70 backdrop-blur-sm md:flex flex-row items-center justify-center w-screen py-6 lg:h-[5rem] xl:h-[7rem] 2xl:h-[9rem] z-20">
-    <img target="_blank" href="https://curie.fr/" src="/logo_curie.png" class="lg:w-[10rem] xl:w-[16rem]  mx-8" alt="curie"/>
+    <a target="_blank" href="https://curie.fr/">
+        <img src="/logo_curie.png" class="lg:w-[10rem] xl:w-[16rem]  mx-8" alt="curie"/>
+    </a>
     <button on:mouseenter={()=> isHoveringText = true} on:mouseleave={()=> isHoveringText = false}
             on:click={()=> {
                 isPopupVisibleMobile = false;
