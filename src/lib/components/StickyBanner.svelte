@@ -126,7 +126,7 @@
                             </p>
                             <div class="input-container rounded-3xl border-2 text-center 2xl:pt-2 border-gray-500 w-[25vh] h-[5vh] font-Raleway text-[#FF6600] text-xl 2xl:text-2xl font-bold">
                                 {#if montant2 !== undefined}
-                                    {Math.round(montant2 * 0.25)}
+                                    {Math.round(montantIfi - (montant2 * 0.75))}
                                 {/if}
                             </div>
                         </div>
