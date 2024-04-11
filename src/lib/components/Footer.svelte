@@ -88,7 +88,7 @@
 
 {#if isPopupOpened}
     <div class="fixed top-0 left-0 right-0 m-auto bottom-0 w-screen h-60 md:w-[60vh] md:h-[30vh] z-[70] backdrop-blur-[900px] bg-opacity-50 flex flex-row items-center gap-2 md:gap-10 justify-center">
-        <button class="absolute z-[80] top-0 right-10 md:top-5 md:right-3 hover:scale-125 transition-all" on:click={()=> isPopupOpened = false}>
+        <button class="absolute z-[80] top-2 right-10 md:top-5  hover:scale-125 transition-all" on:click={()=> isPopupOpened = false}>
             <svg xmlns="http://www.w3.org/2000/svg" width="25.979" height="25.979" viewBox="0 0 25.979 25.979">
                 <g id="Group_620" data-name="Group 620" transform="translate(-1219.086 -100.935)">
                     <line id="Line_1" data-name="Line 1" x2="23.151" y2="23.151" transform="translate(1220.5 102.349)" fill="black" stroke="black" stroke-width="4"/>
