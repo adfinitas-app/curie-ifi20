@@ -101,8 +101,8 @@
     {/if}
 </div>
 
-<div class="hidden md:flex flex-row items-center justify-center gap-20  mt-10 2xl:mt-20">
-    <a href="/Guide.fiscal.2024.pdf" target="_blank"  class="flex flex-col items-center justify-center gap-2">
+<div class="hidden md:flex flex-row items-center justify-center  mt-10 2xl:mt-20">
+    <a href="/Guide.fiscal.2024.pdf" target="_blank"  class="flex flex-col items-center justify-center">
         <svg id="Group_450" data-name="Group 450" xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 2xl:w-40 2xl:h-40" viewBox="0 0 138 138">
             <circle id="Ellipse_22" data-name="Ellipse 22" cx="69" cy="69" r="69" fill="#9b999b"/>
             <g id="Group_417" data-name="Group 417" transform="translate(13.275 14.284)">
@@ -116,12 +116,12 @@
                 <text id="_" data-name="€" transform="translate(14 34)" fill="#f60" font-size="36" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="-14.367" y="0">€</tspan></text>
             </g>
         </svg>
-        <p class="text-base 2xl:text-2xl font-Raleway font-bold text-[#505050] text-center">
+        <p class="text-base 2xl:text-2xl font-Raleway font-bold text-[#505050] text-center mt-2">
             Je consulte<br/>
             le guide fiscal
         </p>
     </a>
-    <a href="/Bulletin.de.soutien.IFI.2024.pdf" target="_blank" class="gap-2 flex flex-col items-center justify-center">
+    <a href="/Bulletin.de.soutien.IFI.2024.pdf" target="_blank" class="flex flex-col items-center justify-center ml-20">
         <svg id="Group_449" data-name="Group 449" xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 2xl:w-40 2xl:h-40" viewBox="0 0 134.832 134.832">
             <circle id="Ellipse_23" data-name="Ellipse 23" cx="67.416" cy="67.416" r="67.416" fill="#9b999b"/>
             <g id="Group_447" data-name="Group 447" transform="translate(12.075 12.075)">
@@ -133,12 +133,12 @@
             </g>
             <path id="Path_441" data-name="Path 441" d="M13.8,7.452c6.049-11.336,16.931-.889,13.433,6.373S13.8,29.924,13.8,29.924,4.51,22.418.371,13.825,7.075-3.681,13.8,7.452Z" transform="translate(54.596 52.585)" fill="#f60"/>
         </svg>
-        <p class="text-base 2xl:text-2xl font-Raleway font-bold text-[#505050] text-center">
+        <p class="text-base 2xl:text-2xl font-Raleway font-bold text-[#505050] mt-2 text-center">
             Je télécharge le<br/>
             bulletin de soutien IFI
         </p>
     </a>
-    <a href="https://ifi.curie.fr/images/Curie_rib.pdf?_cchid=a200357f54bc77577d784c4e4414e50e" target="_blank" class="flex flex-col items-center justify-center gap-2">
+    <a href="https://ifi.curie.fr/images/Curie_rib.pdf?_cchid=a200357f54bc77577d784c4e4414e50e" target="_blank" class="flex flex-col items-center justify-center ml-20">
         <svg id="Group_635" data-name="Group 635" xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 2xl:w-40 2xl:h-40" viewBox="0 0 138 138">
             <g id="Group_581" data-name="Group 581">
                 <circle id="Ellipse_23" data-name="Ellipse 23" cx="69" cy="69" r="69" fill="#9b999b"/>
@@ -171,12 +171,12 @@
                 </g>
             </g>
         </svg>
-        <p class="text-base 2xl:text-2xl font-Raleway font-bold text-[#505050] text-center">
+        <p class="text-base 2xl:text-2xl font-Raleway font-bold text-[#505050] text-center mt-2">
             Je télécharge le RIB<br/>
             pour faire un virement
         </p>
     </a>
-    <div class="flex flex-col items-center justify-center gap-2">
+    <div class="flex flex-col items-center justify-center ml-20">
         <svg id="Group_636" data-name="Group 636" xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 2xl:w-40 2xl:h-40" viewBox="0 0 138 138">
             <circle id="Ellipse_24" data-name="Ellipse 24" cx="69" cy="69" r="69" fill="#9b999b"/>
             <g id="Group_451" data-name="Group 451" transform="translate(11.719 11.784)">
@@ -190,13 +190,13 @@
             <rect id="Rectangle_483" data-name="Rectangle 483" width="7.855" height="17.673" transform="translate(66.043 62.239)" fill="#ffb584"/>
             <rect id="Rectangle_484" data-name="Rectangle 484" width="7.855" height="25.528" transform="translate(78.438 54.154)" fill="#f60"/>
         </svg>
-        <p class="text-base 2xl:text-2xl font-Raleway font-bold text-[#505050] text-center">
+        <p class="text-base 2xl:text-2xl font-Raleway font-bold text-[#505050] text-center mt-2">
             Je consulte<br/>
             le rapport annuel
         </p>
     </div>
 </div>
-<div class="md:mt-20 mt-10 bg-infos bg-cover bg-no-repeat w-screen md:h-[30rem] gap-10 md:gap-0 py-20 md:py-0 flex flex-col md:flex-row items-center justify-center">
+<div class="md:mt-20 mt-10 bg-infos bg-cover bg-no-repeat w-screen md:h-[30rem] py-20 md:py-0 flex flex-col md:flex-row items-center justify-center">
     <div class="flex flex-col font-Raleway text-white items-center justify-center text-center w-full md:w-1/3">
         <p class="text-white text-5xl 2xl:text-7xl font-black">
             88<br/>
@@ -205,7 +205,7 @@
             équipes de recherche<br/> mobilisées contre le cancer
         </p>
     </div>
-    <div class="flex flex-col font-Raleway text-white items-center justify-center text-center w-full md:w-1/3">
+    <div class="mt-10 md:mt-0 flex flex-col font-Raleway text-white items-center justify-center text-center w-full md:w-1/3">
         <p class="text-white text-5xl 2xl:text-7xl font-black">
             1<sup>er</sup><br/>
         </p>
@@ -215,7 +215,7 @@
             de patients traités
         </p>
     </div>
-    <div class="flex flex-col font-Raleway text-white items-center justify-center text-center w-full md:w-1/3">
+    <div class="mt-10 md:mt-0 flex flex-col font-Raleway text-white items-center justify-center text-center w-full md:w-1/3">
         <p class="text-white text-5xl 2xl:text-7xl font-black">
             55 000<br/>
         </p>
