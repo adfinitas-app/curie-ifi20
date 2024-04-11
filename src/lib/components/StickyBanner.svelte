@@ -209,6 +209,7 @@
         <div class="w-screen flex flex-col items-center justify-center gap-y-3 p-2">
             <button on:click={()=> {
                 isPopupVisibleMobile = false;
+                isOpen = false;
                 projectIndexStore.set(0);
                 console.log("projectnvvjeknv" + $projectIndexStore);
                 window.location.hash = "#ProjectsMobile";
@@ -220,7 +221,8 @@
                     Les projets soutenus
                 </a>
             </button>
-            <button on:click={() => isPopupVisibleMobile = !isPopupVisibleMobile} on:mouseenter={()=> isHoveringText = true} on:mouseleave={()=> isHoveringText = false} class="flex flex-col items-center justify-center">
+            <button on:click={() => {isPopupVisibleMobile = !isPopupVisibleMobile;
+                isOpen = false}} on:mouseenter={()=> isHoveringText = true} on:mouseleave={()=> isHoveringText = false} class="flex flex-col items-center justify-center">
                 <span class="text-white font-Raleway font-bold text-xl ml-2">
                     Calculer ma réduction d'impôt
                 </span>
