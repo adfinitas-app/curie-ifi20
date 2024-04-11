@@ -133,7 +133,7 @@
         position: absolute;
         width: 0;
         height: 0.3rem;
-        bottom: 0.3rem;
+        bottom: 0;
         border-radius: 1rem;
         left: 0;
         background-color: #FC6601;
