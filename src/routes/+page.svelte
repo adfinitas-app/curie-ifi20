@@ -13,7 +13,7 @@
 
     onMount(() => {
         function updateProjectFromHash() {
-            if (window.location.hash !== "#Calculator") {
+            if (window.location.hash !== "#Calculator" && window.location.hash !== "#Intro") {
                 const hash = window.location.hash.replace('#projet', '');
                 if (hash) {
                     projectIndexStore.set(parseInt(hash) - 1);

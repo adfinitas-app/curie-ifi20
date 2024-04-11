@@ -102,7 +102,7 @@
                                 Montant de votre don<br/>
                                 pour réduire votre IFI<br/>
                                 au maximum dans la limite<br/>
-                                de 50 000 € de réduction fiscal
+                                de 50 000 € de réduction fiscale
                             </p>
                             <div class="input-container rounded-3xl border-2 text-center 2xl:pt-2 border-gray-500 w-[25vh] h-[5vh] font-Raleway text-[#FF6600] text-xl 2xl:text-2xl font-bold">
                                 {#if montantIfi !== undefined}
