@@ -43,12 +43,12 @@
             </div>
             {#if projectSelector}
                 <div class="absolute w-full -bottom-[11rem]">
-                    <button in:fly on:click={()=> setProjectIndex(1, projectTitle[($projectIndexStore + 1) % projectTitle.length])} class="bg-white text-[#505050] text-left  uppercase h-[88px] w-full border-2 border-[#505050] p-5">
+                    <button in:fly on:click={()=> {setProjectIndex(1, projectTitle[($projectIndexStore + 1) % projectTitle.length]); projectSelector = false}} class="bg-white text-[#505050] text-left  uppercase h-[88px] w-full border-2 border-[#505050] p-5">
                         <p class="font-Raleway font-bold text-[18px] m-0">
                             {@html projectTitle[($projectIndexStore + 1) % projectTitle.length]}
                         </p>
                     </button>
-                    <button in:fly on:click={()=> setProjectIndex(2, projectTitle[($projectIndexStore + 2) % projectTitle.length])} class="bg-white text-[#505050] text-left  uppercase h-[88px] w-full border-x-2 border-b-2 border-[#505050] p-5">
+                    <button in:fly on:click={()=> {setProjectIndex(2, projectTitle[($projectIndexStore + 2) % projectTitle.length]); projectSelector = false}} class="bg-white text-[#505050] text-left  uppercase h-[88px] w-full border-x-2 border-b-2 border-[#505050] p-5">
                         <p class="font-Raleway font-bold text-[18px] m-0">
                             {@html projectTitle[($projectIndexStore + 2) % projectTitle.length]}
                         </p>
