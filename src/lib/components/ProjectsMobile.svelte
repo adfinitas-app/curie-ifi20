@@ -104,7 +104,7 @@
                             </button>
                         </div>
                     {/if}
-                    <svg on:click={()=> $projectIndexStore = 1}  class="absolute bottom-0 right-2" xmlns="http://www.w3.org/2000/svg" width="102.911" height="31.282" viewBox="0 0 102.911 31.282">
+                    <svg on:click={()=> {$projectIndexStore = 1; window.location.hash = "#projet2"}}  class="absolute bottom-0 right-2" xmlns="http://www.w3.org/2000/svg" width="102.911" height="31.282" viewBox="0 0 102.911 31.282">
                         <g id="Group_732" data-name="Group 732" transform="translate(-260.924 -4848.617)">
                             <text id="SUIVANT" transform="translate(260.924 4867.726)" fill="#505050" font-size="18" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">SUIVANT</tspan></text>
                             <path id="Path_631" data-name="Path 631" d="M1431,1408l8.411,10.5L1431,1429" transform="translate(-1077.076 3442.726)" fill="none" stroke="#505050" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
@@ -192,7 +192,7 @@
                             </button>
                         </div>
                     {/if}
-                    <svg on:click={()=> $projectIndexStore = 2} class="absolute bottom-0 right-2" xmlns="http://www.w3.org/2000/svg" width="102.911" height="31.282" viewBox="0 0 102.911 31.282">
+                    <svg on:click={()=> {$projectIndexStore = 2; window.location.hash = "#projet3"}} class="absolute bottom-0 right-2" xmlns="http://www.w3.org/2000/svg" width="102.911" height="31.282" viewBox="0 0 102.911 31.282">
                         <g id="Group_732" data-name="Group 732" transform="translate(-260.924 -4848.617)">
                             <text id="SUIVANT" transform="translate(260.924 4867.726)" fill="#505050" font-size="18" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">SUIVANT</tspan></text>
                             <path id="Path_631" data-name="Path 631" d="M1431,1408l8.411,10.5L1431,1429" transform="translate(-1077.076 3442.726)" fill="none" stroke="#505050" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
@@ -277,7 +277,7 @@
                             </button>
                         </div>
                     {/if}
-                    <svg on:click={()=> $projectIndexStore = 0} class="absolute bottom-0 right-2" xmlns="http://www.w3.org/2000/svg" width="102.911" height="31.282" viewBox="0 0 102.911 31.282">
+                    <svg on:click={()=> {$projectIndexStore = 0; window.location.hash = "#projet1"}} class="absolute bottom-0 right-2" xmlns="http://www.w3.org/2000/svg" width="102.911" height="31.282" viewBox="0 0 102.911 31.282">
                         <g id="Group_732" data-name="Group 732" transform="translate(-260.924 -4848.617)">
                             <text id="SUIVANT" transform="translate(260.924 4867.726)" fill="#505050" font-size="18" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">SUIVANT</tspan></text>
                             <path id="Path_631" data-name="Path 631" d="M1431,1408l8.411,10.5L1431,1429" transform="translate(-1077.076 3442.726)" fill="none" stroke="#505050" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
