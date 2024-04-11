@@ -19,8 +19,10 @@
                 Crédits
             </button>
         </a>
-        <a href="https://curie.fr/webform/nous-contacter" target="_blank" class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
+        <a href="https://curie.fr/webform/nous-contacter" target="_blank" >
+            <button class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
             Contact
+            </button>
         </a>
         <div class="flex flex-row gap-5 absolute right-10">
             <a href="https://www.linkedin.com/company/institutcurie/" target="_blank">
@@ -71,8 +73,10 @@
     <a on:click={()=> isPopupOpened = !isPopupOpened} class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
         Crédits
     </a>
-    <a href="https://curie.fr/webform/nous-contacter" target="_blank" class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
-        Contact
+    <a href="https://curie.fr/webform/nous-contacter" target="_blank">
+        <button class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
+            Contact
+        </button>
     </a>
     <p class="text-center text-[#5C5C5C] px-10 ">
         © Institut Curie - 2024<br/>
