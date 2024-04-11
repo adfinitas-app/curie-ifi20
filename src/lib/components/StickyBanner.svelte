@@ -106,7 +106,7 @@
                             </p>
                             <div class="input-container rounded-3xl border-2 text-center 2xl:pt-2 border-gray-500 w-[25vh] h-[5vh] font-Raleway text-[#FF6600] text-xl 2xl:text-2xl font-bold">
                                 {#if montantIfi !== undefined}
-                                    {Math.round(montantIfi * 1.33) > 66666 ? "66 666" : Math.round(montantIfi * 1.33).toLocaleString('fr-FR')}
+                                    {Math.round(montantIfi * 1.33) > 66666 ? "66 666" : Math.round(montantIfi * (4/3)).toLocaleString('fr-FR')}
                                 {/if}
                             </div>
                         </div>

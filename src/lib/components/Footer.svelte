@@ -103,8 +103,8 @@
             </p>
         </div>
         <div class="relative flex flex-col items-center justify-center w-1/2">
-            <p class="font-Raleway text-[12px] md:text-[14px] absolute -top-20 px-2">
-                <span class="text-base md:text-xl font-bold">Crédits photos :<br/></span>
+            <p class="font-Raleway text-[12px] md:text-[14px] text-center absolute -top-20 px-2">
+                <span class="text-base md:text-xl font-bold ">Crédits photos :<br/></span>
                 © Institut Curie / Thibaut Voisin<br/>
                 © Institut Curie / Juery Franck<br/>
                 © Institut Curie / Beloncle Franck<br/>
