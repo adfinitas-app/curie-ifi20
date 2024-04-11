@@ -85,13 +85,7 @@
             <div in:fade class="absolute bg-transparent bottom-5 xl:bottom-5 2xl:bottom-10 flex flex-col items-center justify-center z-10">
                 <p class="text-white lg:text-xl 2xl:text-[30px] font-Raleway font-semibold">Contre le cancer, investissez votre impôt dans l’innovation.</p>
                 <a href="#Intro"
-                   on:click={()=> {
-                    projectIndexStore.set(0);
-                    window.location.hash = "#ProjectsDesktop";
-                    setTimeout(() => {
-                        window.location.hash = "#projet1";
-                    }, 100);}}
-                >
+                   on:click={()=> {projectIndexStore.set(0)}}>
                     <svg class="mt-3 2xl:mt-6" xmlns="http://www.w3.org/2000/svg" width="94.94" height="21.854" viewBox="0 0 94.94 21.854">
                         <g id="Group_577" data-name="Group 577" transform="translate(-955.802 -686.267)">
                             <g id="Group_115" data-name="Group 115" transform="translate(956.534 688.129)">
