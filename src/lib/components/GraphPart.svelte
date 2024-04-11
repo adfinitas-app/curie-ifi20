@@ -22,7 +22,7 @@
                     Par exemple :
                 </p>
                 <img src="/graph1.png" class="w-[311px] md:w-[20rem] xl:w-[17rem] 2xl:w-[25rem]"/>
-                <a target="_blank" href="https://aider.curie.fr/ifi" class="bg-[#FF6600] uppercase md:w-auto  w-[268px] text-[16px] md:text-sm 2xl:text-base text-white lg:p-2 xl:py-2 xl:px-7 2xl:py-2 2xl:px-16 font-Raleway font-bold lg:hover:px-20 transition-all absolute -bottom-14 xl:-bottom-16  2xl:-bottom-20">
+                <a target="_blank" href="https://aider.curie.fr/ifi" class="bg-[#FF6600] uppercase md:w-auto  w-[268px] text-[16px] md:text-sm 2xl:text-base text-white md:p-2 xl:py-2 xl:px-7 2xl:py-2 2xl:px-16 font-Raleway font-bold md:hover:px-20 transition-all absolute -bottom-14 xl:-bottom-16  2xl:-bottom-20">
                     JE FAIS UN DON<br/>
                     Déductible de<br/>
                     <span class="font-black">l’IFI</span>
@@ -40,7 +40,7 @@
                     Par exemple :
                 </p>
                 <img src="/graph2.png" class="w-[311px] md:w-[20rem] xl:w-[17rem] 2xl:w-[25rem]"/>
-                <a target="_blank" href="https://aider.curie.fr/don149" class="bg-[#4D54D6]  text-center uppercase w-[268px] md:w-auto text-[16px] md:text-sm 2xl:text-base text-white lg:p-2 xl:py-2 xl:px-7 2xl:py-2 2xl:px-16 font-Raleway font-bold lg:hover:px-20 transition-all absolute -bottom-14 xl:-bottom-16  2xl:-bottom-20">
+                <a target="_blank" href="https://aider.curie.fr/don149" class="bg-[#4D54D6]  text-center uppercase w-[268px] md:w-auto text-[16px] md:text-sm 2xl:text-base text-white md:p-2 xl:py-2 xl:px-7 2xl:py-2 2xl:px-16 font-Raleway font-bold md:hover:px-20 transition-all absolute -bottom-14 xl:-bottom-16  2xl:-bottom-20">
                     JE FAIS UN DON<br/>
                     Déductible de<br/>
                     <span class="font-black">L’impôt sur le revenu</span>
@@ -49,7 +49,7 @@
         </div>
     </div>
 </div>
-<div on:click={()=> poppOpened = true} class="hidden md:block lg:my-[8rem] font-Lato font-bold text-xl 2xl:text-3xl text-center text-[#505050] underline cursor-pointer">
+<div on:click={()=> poppOpened = true} class="hidden md:block md:my-[6rem] lg:my-[8rem] font-Lato font-bold text-xl 2xl:text-3xl text-center text-[#505050] underline cursor-pointer">
     <p>Je souhaite faire un don déductible de l’Impôt sur les Sociétés</p>
 </div>
 

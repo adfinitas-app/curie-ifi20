@@ -28,7 +28,7 @@
                     <span class="underline decoration-[#FF6600] ">2 équipements de pointe</span> pour révolutionner les traitements de<br/> demain contre les cancers grâce à des vaccins thérapeutiques
                 </p>
             </div>
-            <div class="flex flex-row items-center justify-center w-full xl:mt-5 px-5 xl:px-10 py-2 2xl:py-10  relative h-[33rem] xl:h-[35rem] 2xl:h-[50rem]">
+            <div class="flex flex-row items-center justify-center w-full xl:mt-5 px-5 xl:px-10 py-2 2xl:py-10  relative md:h-[33rem] xl:h-[35rem] 2xl:h-[50rem]">
                 <div class="w-1/2 flex flex-col h-full 2xl:mt-4">
                     <p class="text-xl font-Lato font-bold text-[#4D54D6] underline uppercase">
                         L’Enjeu
@@ -66,7 +66,7 @@
                         Le porteur du projet
                     </p>
                     <div class="flex flex-row bg-[#4D54D6] items-center justify-center mt-5 xl:mt-6 2xl:mt-10">
-                        <img src="/pic-project-1.png" alt="Dr Antonin Morillon" class=" lg:w-[10rem] xl:w-[300px] h-full">
+                        <img src="/pic-project-1.png" alt="Dr Antonin Morillon" class=" md:w-[10rem] xl:w-[300px] h-full">
                         <p class="text-white text-sm 2xl:text-xl font-Raleway p-2 my-3 2xl:p-4">
                             <span class="text-xl 2xl:text-2xl font-bold">
                                 Dr Antonin Morillon<br/>
@@ -212,7 +212,7 @@
                         <img src="/pic-project-3-desktop.png" class="w-[150px] h-[250px] xl:w-[200px] xl:h-[300px] 2xl:w-[303px] 2xl:h-[405px]">
                         <div class="flex flex-col p-2 gap-2">
                             <p class="text-white text-xs xl:text-sm 2xl:text-xl font-bold font-Raleway">
-                                Dr Sebastian Amugorena
+                                Dr Sebastian Amigorena
                             </p>
                             <p class="font-Lato text-xs xl:text-sm 2xl:text-xl text-white">
                                 Chef de l’équipe Réponses Immunitaires et Cancer à l’Institut Curie et coordinateur du projet EpCART.

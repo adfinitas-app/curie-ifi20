@@ -26,7 +26,7 @@
 
 <div in:fade class="hidden fixed top-0 bg-[#4D54D6] bg-opacity-70 backdrop-blur-sm md:flex flex-row items-center justify-center w-screen py-6 lg:h-[5rem] xl:h-[7rem] 2xl:h-[9rem] z-20">
     <a target="_blank" href="https://curie.fr/">
-        <img src="/logo_curie.png" class="lg:w-[10rem] xl:w-[16rem]  mx-8" alt="curie"/>
+        <img src="/logo_curie.png" class="md:w-[10rem] xl:w-[16rem]  mx-8" alt="curie"/>
     </a>
     <button on:mouseenter={()=> isHoveringText = true} on:mouseleave={()=> isHoveringText = false}
             on:click={()=> {
@@ -37,13 +37,13 @@
                     window.location.hash = "#projet1";
                 }, 300);}}
             class="flex flex-col items-center justify-center">
-        <a class="text-white font-Raleway font-bold text-xl mx-8">
+        <a class="text-white font-Raleway font-bold lg:text-xl mx-8">
             Les projets soutenus
         </a>
         <span class={`h-0.5 bg-white rounded-3xl transition-width ${isHoveringText ? 'w-[10rem]' : 'w-[3rem]'}`}/>
     </button>
     <button on:click={() => isPopupVisible = !isPopupVisible} on:mouseenter={()=> isHoveringText2 = true} on:mouseleave={()=> isHoveringText2 = false} class="mx-8 flex flex-col items-center justify-center">
-        <span class="text-white font-Raleway font-bold text-xl">
+        <span class="text-white font-Raleway font-bold lg:text-xl">
             Calculer ma réduction d'impôt
         </span>
         <span class={`h-0.5 bg-white rounded-3xl transition-width ${isHoveringText2 ? 'w-[10rem]' : 'w-[3rem]'}`}/>

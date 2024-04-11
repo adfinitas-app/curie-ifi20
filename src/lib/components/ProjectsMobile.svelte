@@ -294,7 +294,7 @@
                         <div class="flex flex-col bg-[#4D54D6] text-white font-Lato mb-10 ">
                             <img src="/pic-project-3-desktop.png" class="w-full h-[400px]"/>
                             <p class="font-bold text-[18px] p-3 pb-0">
-                                Dr Sebastian Amugorena
+                                Dr Sebastian Amigorena
                             </p>
                             <p class="text-[16px] px-3 pb-6">
                                 Chef de l’équipe Réponses Immunitaires et Cancer à l’Institut Curie et coordinateur du projet EpCART.
