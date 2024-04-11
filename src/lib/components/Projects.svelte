@@ -54,7 +54,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="w-1/2 flex flex-col h-full relative ml-5">
+                <div class="w-1/2 flex flex-col h-full relative ml-5 2xl:mt-4">
                     <p class="text-xl font-Lato font-bold text-[#4D54D6] underline uppercase">
                         L’innovation
                     </p>
