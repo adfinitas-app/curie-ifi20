@@ -126,7 +126,11 @@
                             </p>
                             <div class="input-container rounded-3xl border-2 text-center 2xl:pt-2 border-gray-500 w-[25vh] h-[5vh] font-Raleway text-[#FF6600] text-xl 2xl:text-2xl font-bold">
                                 {#if montant2 !== undefined && montantIfi !== undefined}
-                                    {Math.round(montantIfi - ((montant2 > 66666 ? 66666 : montant2)* 0.75)).toLocaleString('fr-FR')}
+                                    {#if Math.round(montantIfi - ((montant2 > 66666 ? 66666 : montant2)* 0.75)) > 0}
+                                        {Math.round(montantIfi - ((montant2 > 66666 ? 66666 : montant2)* 0.75)).toLocaleString('fr-FR')}
+                                    {:else}
+                                        0
+                                    {/if}
                                 {:else}
                                     0
                                 {/if}
@@ -287,7 +291,7 @@
                                 <input type="number" bind:value={montant2}  class="bg-white orangeC rounded-3xl border-2 text-center w-[22vh] h-[5vh] border-gray-500" on:focus={() => isInputFocused = 3} on:blur={() => isInputFocused = 0}/>
                             </div>
                             <div class="input-container font-Raleway text-[#FF6600] text-[2vh] absolute top-5 font-bold mt-[4vh] ">
-                                <input type="number" readonly="True" placeholder="{montant2 !== undefined ? Math.round(montant2 * 1.33).toLocaleString('fr-FR') : ' '}"  class="bg-white orangeC rounded-3xl border-2 text-center w-[22vh] h-[5vh] border-gray-500" on:focus={() => isInputFocused = 1} on:blur={() => isInputFocused = 0}>
+                                <input type="number" readonly="True" placeholder="{montant2 !== undefined && montantIfi !== undefined ? Math.round(montant2 * 1.33).toLocaleString('fr-FR') : ' '}"  class="bg-white orangeC rounded-3xl border-2 text-center w-[22vh] h-[5vh] border-gray-500" on:focus={() => isInputFocused = 1} on:blur={() => isInputFocused = 0}>
                             </div>
                         </div>
                     </div>
