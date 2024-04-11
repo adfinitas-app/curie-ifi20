@@ -178,10 +178,10 @@
                 </div>
                 <ul class="ml-2">
                     <li class="text-left font-Lato text-[#505050] text-[16px]">
-                        <span class="font-bold">se basant sur les précédents travaux du Dr Saulnier qui ont permis d’identifier un type cellulaire présent uniquement lors du développement fœtal du cerveau et à l’origine du médulloblastome, son équipe cherchera à étendre ces résultats prometteurs à plusieurs types de cancers pédiatriques</span>
+                        <span class="font-bold">se basant sur les précédents travaux du Dr Saulnier qui ont permis d’identifier un type cellulaire présent uniquement lors du développement fœtal du cerveau et à l’origine du médulloblastome, son équipe cherchera à étendre ces résultats prometteurs à plusieurs types de cancers pédiatriques.</span>
                     </li>
                     <li class="text-left font-Lato text-[#505050] text-[16px] mt-5">
-                        <span class="font-bold">à terme, prévenir la maladie chez les enfants, avant même qu’elle ne se développe</span>
+                        <span class="font-bold">à terme, prévenir la maladie chez les enfants, avant même qu’elle ne se développe</span>.
                     </li>
                 </ul>
                 <div class="flex flex-col relative gap-y-5">
@@ -244,7 +244,7 @@
                     <div class="bg-[#FF6600] rounded-3xl w-10 h-1 ml-3"/>
                 </div>
                 <p class="font-Lato text-[16px] px-3 text-[#505050]">
-                    20 ans après l’émergence de l’immunothérapie et après 10 ans de recherches fondamentales, les équipes de l’Institut Curie franchissent une nouvelle étape contre les tumeurs difficiles à traiter. <b>De nouvelles thérapies cellulaires révolutionnaires ont été conçues, elles reposent sur la combinaison suivante :</b>
+                    20 ans après l’émergence de l’immunothérapie et après 10 ans de recherche fondamentale, les équipes de l’Institut Curie franchissent une nouvelle étape contre les tumeurs difficiles à traiter. <b>De nouvelles thérapies cellulaires révolutionnaires ont été conçues, elles reposent sur la combinaison suivante :</b>
                 </p>
                 <div class="flex flex-col">
                     <p class="uppercase text-[#4D54D6] text-[18px] font-bold px-3">
@@ -263,7 +263,7 @@
                 </div>
                 <ul class="ml-2">
                     <li class="text-left font-Lato text-[#505050] text-[16px]">
-                        <span class="font-bold">Développer des essais cliniques innovants</span>
+                        <span class="font-bold">Développer des essais cliniques innovants</span>.
                     </li>
                     <li class="text-left font-Lato text-[#505050] text-[16px] mt-5">
                         <span class="font-bold">Offrir un véritable espoir aux patients qui luttent contre des tumeurs particulièrement difficiles à traiter, pour lesquelles les immunothérapies actuelles ne fonctionnent pas, comme les cancers du sein triple négatif, ou les cancers du poumon.</span>

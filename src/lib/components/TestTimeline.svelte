@@ -8,7 +8,7 @@
                 <h2 class="text-center font-Raleway font-bold text-[25px]">
                     <time>21 Mai</time>
                 </h2>
-                <p class="text-xl font-Raleway">
+                <p class="text-base font-Raleway">
                     Date limite en papier
                 </p>
 
@@ -19,7 +19,7 @@
                 <h2 class="text-center font-Raleway font-bold text-[25px]">
                     <time>23 Mai</time>
                 </h2>
-                <p>
+                <p class="text-base font-Raleway">
                     Date limite en ligne<br/>
                     Zone 1
                 </p>
@@ -34,7 +34,7 @@
                 <h2 class="text-center font-Raleway font-bold text-[25px]">
                     <time>30 Mai</time>
                 </h2>
-                <p>
+                <p class="text-base font-Raleway">
                     Date limite en ligne<br/>
                     Zone 2
                 </p>
@@ -49,7 +49,7 @@
                 <h2 class="text-center font-Raleway font-bold text-[25px]">
                     <time>6 juin</time>
                 </h2>
-                <p>
+                <p class="text-base font-Raleway">
                     Date limite en ligne<br/>
                     Zone 3
                 </p>

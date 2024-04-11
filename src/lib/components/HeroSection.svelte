@@ -29,27 +29,6 @@
             <p class="font-semibold font-Raleway text-[15px] mb-2 px-2" style="text-transform: none">
                 Contre le cancer, investissez votre impôt dans l’innovation.
             </p>
-            <a href="#IntroMobile"
-               on:click={()=> {
-                projectIndexStore.set(0);
-                window.location.hash = "#ProjectsMobile";
-                setTimeout(() => {
-                    window.location.hash = "#projet1";
-                }, 100);}}
-            >
-                <svg  xmlns="http://www.w3.org/2000/svg"  width="54.235" height="13.962" viewBox="0 0 54.235 13.962">
-                    <g id="Group_577" data-name="Group 577" transform="translate(-955.802 -686.268)">
-                        <g id="Group_115" data-name="Group 115" transform="translate(956.534 688.129)">
-                            <g id="Group_116" data-name="Group 116" transform="translate(0 0)">
-                                <g id="Group_498" data-name="Group 498">
-                                    <path id="Path_277" data-name="Path 277" d="M26.483,10.231,13.4,5.082,0,0" transform="translate(26.483 10.231) rotate(180)" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="4"/>
-                                    <path id="Path_278" data-name="Path 278" d="M26.483,0,13.4,5.149,0,10.231" transform="translate(26.288 0)" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="4"/>
-                                </g>
-                            </g>
-                        </g>
-                    </g>
-                </svg>
-            </a>
         </div>
         <div id="IntroMobile" class="absolute bottom-20"/>
         <div class="absolute -bottom-48 z-10 ">

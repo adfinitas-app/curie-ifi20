@@ -111,10 +111,10 @@
                             d’identifier un type cellulaire présent uniquement lors du
                             développement fœtal du cerveau et à l’origine du médulloblastome,
                             son équipe cherchera à étendre ces résultats prometteurs à plusieurs
-                            types de cancers pédiatriques
+                            types de cancers pédiatriques.
                         </li>
                         <li class="text-[#505050] text-sm 2xl:text-xl font-Lato font-bold mt-3">
-                            <span class="uppercase">à</span> terme, prévenir la maladie chez les enfants, avant même qu’elle ne se développe
+                            <span class="uppercase">à</span> terme, prévenir la maladie chez les enfants, avant même qu’elle ne se développe.
                         </li>
                     </ul>
                 </div>
@@ -166,7 +166,7 @@
                         L’Enjeu
                     </p>
                     <p class="text-[#505050] font-Lato text-sm 2xl:text-xl mt-10">
-                        20 ans après l’émergence de l’immunothérapie et après 10 ans de recherches fondamentales, les équipes de l’Institut Curie franchissent une nouvelle étape contre les tumeurs difficiles à traiter. <b> De nouvelles thérapies cellulaires révolutionnaires ont été conçues, elles reposent sur la combinaison suivante :</b>
+                        20 ans après l’émergence de l’immunothérapie et après 10 ans de recherche fondamentale, les équipes de l’Institut Curie franchissent une nouvelle étape contre les tumeurs difficiles à traiter. <b> De nouvelles thérapies cellulaires révolutionnaires ont été conçues, elles reposent sur la combinaison suivante :</b>
                     </p>
                     <ul class="mt-10">
                         <li class="text-[#505050] text-sm 2xl:text-xl font-Lato font-bold">
@@ -188,7 +188,7 @@
                     </p>
                     <ul class="mt-10">
                         <li class="text-[#505050] text-sm 2xl:text-xl font-Lato font-bold">
-                            Développer des essais cliniques innovants
+                            Développer des essais cliniques innovants.
                         </li>
                         <li class="text-[#505050] text-sm 2xl:text-xl font-Lato font-bold">
                             Offrir un véritable espoir aux patients qui luttent contre des tumeurs

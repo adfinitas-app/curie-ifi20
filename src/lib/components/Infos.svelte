@@ -67,7 +67,7 @@
                 {textes[currentIndex]}
             </p>
         </a>
-        <a class=" w-1/2 flex flex-col items-center justify-center">
+        <a href="https://curie.fr/sites/default/files/medias/documents/2023-09/2303_04292_INSTITUT%20CURIE_RA22_Exe_VF.pdf" target="_blank" class=" w-1/2 flex flex-col items-center justify-center">
             <img class="w-28 h-28 object-cover" src={images[currentIndex + 1]} alt="image 1">
             <p class="text-center font-Raleway font-bold text-[16px] px-5">
                 {textes[currentIndex + 1]}
@@ -176,7 +176,7 @@
             pour faire un virement
         </p>
     </a>
-    <div class="flex flex-col items-center justify-center ml-20">
+    <a href="https://curie.fr/sites/default/files/medias/documents/2023-09/2303_04292_INSTITUT%20CURIE_RA22_Exe_VF.pdf" target="_blank" class="flex flex-col items-center justify-center ml-20">
         <svg id="Group_636" data-name="Group 636" xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 2xl:w-40 2xl:h-40" viewBox="0 0 138 138">
             <circle id="Ellipse_24" data-name="Ellipse 24" cx="69" cy="69" r="69" fill="#9b999b"/>
             <g id="Group_451" data-name="Group 451" transform="translate(11.719 11.784)">
@@ -194,7 +194,7 @@
             Je consulte<br/>
             le rapport annuel
         </p>
-    </div>
+    </a>
 </div>
 <div class="md:mt-20 mt-10 bg-infos bg-cover bg-no-repeat w-screen md:h-[30rem] py-20 md:py-0 flex flex-col md:flex-row items-center justify-center">
     <div class="flex flex-col font-Raleway text-white items-center justify-center text-center w-full md:w-1/3">
