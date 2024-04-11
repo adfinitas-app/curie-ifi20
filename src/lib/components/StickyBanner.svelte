@@ -125,8 +125,10 @@
                                 après déduction de 75 % de votre don
                             </p>
                             <div class="input-container rounded-3xl border-2 text-center 2xl:pt-2 border-gray-500 w-[25vh] h-[5vh] font-Raleway text-[#FF6600] text-xl 2xl:text-2xl font-bold">
-                                {#if montant2 !== undefined}
+                                {#if montant2 !== undefined && montantIfi !== undefined}
                                     {Math.round(montantIfi - ((montant2 > 66666 ? 66666 : montant2)* 0.75)).toLocaleString('fr-FR')}
+                                {:else}
+                                    0
                                 {/if}
                             </div>
                         </div>
@@ -211,7 +213,6 @@
                 isPopupVisibleMobile = false;
                 isOpen = false;
                 projectIndexStore.set(0);
-                console.log("projectnvvjeknv" + $projectIndexStore);
                 window.location.hash = "#ProjectsMobile";
                 setTimeout(() => {
                     window.location.hash = "#projet1";
