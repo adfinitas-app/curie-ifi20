@@ -28,7 +28,7 @@
             <a href="https://www.linkedin.com/company/institutcurie/" target="_blank">
                 <img src="/linkedin.png" width="23px">
             </a>
-            <a href=" https://twitter.com/institut_curie" target="_blank">
+            <a href="https://twitter.com/institut_curie" target="_blank">
                 <img src="/x.png" width="23px">
             </a>
             <a target="_blank" href="https://fr-fr.facebook.com/InstitutCurie">
@@ -53,7 +53,7 @@
         <a href="https://www.linkedin.com/company/institutcurie/" target="_blank">
             <img src="/linkedin.png" width="23px">
         </a>
-        <a href=" https://twitter.com/institut_curie" target="_blank">
+        <a href="https://twitter.com/institut_curie" target="_blank">
             <img src="/x.png" width="23px">
         </a>
         <a target="_blank" href="https://fr-fr.facebook.com/InstitutCurie">
