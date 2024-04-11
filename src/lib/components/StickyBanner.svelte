@@ -106,7 +106,7 @@
                             </p>
                             <div class="input-container rounded-3xl border-2 text-center 2xl:pt-2 border-gray-500 w-[25vh] h-[5vh] font-Raleway text-[#FF6600] text-xl 2xl:text-2xl font-bold">
                                 {#if montantIfi !== undefined}
-                                    {Math.round(montantIfi * 1.32) > 66666 ? "66666" : Math.round(montantIfi * 1.32)}
+                                    {Math.round(montantIfi * 1.33) > 66666 ? "66 666" : Math.round(montantIfi * 1.33).toLocaleString('fr-FR')}
                                 {/if}
                             </div>
                         </div>
@@ -126,7 +126,7 @@
                             </p>
                             <div class="input-container rounded-3xl border-2 text-center 2xl:pt-2 border-gray-500 w-[25vh] h-[5vh] font-Raleway text-[#FF6600] text-xl 2xl:text-2xl font-bold">
                                 {#if montant2 !== undefined}
-                                    {Math.round(montantIfi - (montant2 * 0.75))}
+                                    {Math.round(montantIfi - (montant2 * 0.75)).toLocaleString('fr-FR')}
                                 {/if}
                             </div>
                         </div>
@@ -278,13 +278,13 @@
                                 <input type="number" bind:value={montantIfi} class="bg-white rounded-3xl orangeC border-2 text-center w-[22vh] h-[5vh] border-gray-500" on:focus={() => isInputFocused = 1} on:blur={() => isInputFocused = 0}>
                             </div>
                             <div class="input-container font-Raleway text-[#FF6600] text-[2vh] absolute top-5 font-bold mt-[5vh]">
-                                <input type="number" readonly="True" placeholder="{montantIfi !== undefined ? Math.round(montantIfi * 1.32) : ' '}"  class=" orangeC bg-white rounded-3xl border-2 text-center w-[22vh] h-[5vh] border-gray-500" on:focus={() => isInputFocused = 1} on:blur={() => isInputFocused = 0}>
+                                <input type="number" readonly="True" placeholder="{montantIfi !== undefined ? montantIfi < 66666 ? Math.round(montantIfi * 1.33).toLocaleString('fr-FR') : '66 6666' : ' '}"  class=" orangeC bg-white rounded-3xl border-2 text-center w-[22vh] h-[5vh] border-gray-500" on:focus={() => isInputFocused = 1} on:blur={() => isInputFocused = 0}>
                             </div>
                             <div class="input-container font-Raleway text-[#FF6600] text-[2vh] mt-[14vh] font-bold">
                                 <input type="number" bind:value={montant2}  class="bg-white orangeC rounded-3xl border-2 text-center w-[22vh] h-[5vh] border-gray-500" on:focus={() => isInputFocused = 3} on:blur={() => isInputFocused = 0}/>
                             </div>
                             <div class="input-container font-Raleway text-[#FF6600] text-[2vh] absolute top-5 font-bold mt-[4vh] ">
-                                <input type="number" readonly="True" placeholder="{montant2 !== undefined ? Math.round(montant2 * 1.33) : ' '}"  class="bg-white orangeC rounded-3xl border-2 text-center w-[22vh] h-[5vh] border-gray-500" on:focus={() => isInputFocused = 1} on:blur={() => isInputFocused = 0}>
+                                <input type="number" readonly="True" placeholder="{montant2 !== undefined ? Math.round(montant2 * 1.33).toLocaleString('fr-FR') : ' '}"  class="bg-white orangeC rounded-3xl border-2 text-center w-[22vh] h-[5vh] border-gray-500" on:focus={() => isInputFocused = 1} on:blur={() => isInputFocused = 0}>
                             </div>
                         </div>
                     </div>
@@ -319,10 +319,10 @@
                                 <input type="number" bind:value={montantIr} class="bg-white rounded-3xl violetC border-2 text-center w-[22vh] h-[5vh] border-gray-500" on:focus={() => isInputFocused = 1} on:blur={() => isInputFocused = 0}>
                             </div>
                             <div class="input-container2 font-Raleway text-[#4D54D6] text-[2vh] absolute top-5 font-bold mt-[5vh]">
-                                <input type="number" readonly="True" placeholder="{montantIr !== undefined ? Math.round(montantIr * 0.67) : ' '}"  class=" rounded-3xl  border-2 text-center w-[22vh] h-[5vh] violetC border-gray-500" on:focus={() => isInputFocused = 1} on:blur={() => isInputFocused = 0}>
+                                <input type="number" readonly="True" placeholder="{montantIr !== undefined ? Math.round(montantIr * 0.67).toLocaleString('fr-FR') : ' '}"  class=" rounded-3xl  border-2 text-center w-[22vh] h-[5vh] violetC border-gray-500" on:focus={() => isInputFocused = 1} on:blur={() => isInputFocused = 0}>
                             </div>
                             <div class="input-container2 font-Raleway text-[#4D54D6] text-[2vh] absolute top-5 font-bold mt-[8vh]">
-                                <input type="number" readonly="True" placeholder="{montantIr !== undefined ? Math.round(montantIr * 0.32) : ' '}"  class=" rounded-3xl  border-2 text-center w-[22vh] h-[5vh] violetC border-gray-500" on:focus={() => isInputFocused = 1} on:blur={() => isInputFocused = 0}>
+                                <input type="number" readonly="True" placeholder="{montantIr !== undefined ? Math.round(montantIr * 0.32).toLocaleString('fr-FR') : ' '}"  class=" rounded-3xl  border-2 text-center w-[22vh] h-[5vh] violetC border-gray-500" on:focus={() => isInputFocused = 1} on:blur={() => isInputFocused = 0}>
                             </div>
                         </div>
                     </div>
