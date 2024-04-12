@@ -40,7 +40,7 @@
     {/if}
 </div>
 
-<div class="bg-[url('/header-desktop-test.png')] hidden bg-fixed bg-cover bg-no-repeat h-screen w-screen relative md:flex items-center justify-center z-10 ">
+<div class="bg-[url('/header-desktop-test.png')] hidden bg-fixed bg-cover bg-no-repeat h-screen relative md:flex items-center justify-center z-10 ">
     {#if StickyBannerVisible}
         <StickyBanner/>
     {/if}
