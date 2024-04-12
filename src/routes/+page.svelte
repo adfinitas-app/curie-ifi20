@@ -8,6 +8,7 @@
     import {projectIndexStore} from "$lib/utils/utils.js";
     import {browser} from "$app/environment";
     import MetaImg from "$lib/assets/meta-img.png";
+    import favico from "$lib/assets/favicon_icm.png";
 
     let projectsMobileElement;
     let projectDesktopElement;
@@ -64,6 +65,8 @@
         <meta property="twitter:description" content="Contre le cancer, investissez votre impôt dans l’innovation" />
         <meta property="twitter:image" content={MetaImg} />
         <!-- Meta Tags Generated with https://metatags.io -->
+
+        <link rel="icon" href={favico} />
 </svelte:head>
 
 <HeroSection/>

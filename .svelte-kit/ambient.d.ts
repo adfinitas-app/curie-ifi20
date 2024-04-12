@@ -27,13 +27,16 @@
  */
 declare module '$env/static/private' {
 	export const MANPATH: string;
+	export const TERM_PROGRAM: string;
 	export const NODE: string;
 	export const INIT_CWD: string;
-	export const TERM: string;
 	export const SHELL: string;
-	export const HOMEBREW_REPOSITORY: string;
+	export const TERM: string;
+	export const WARP_HONOR_PS1: string;
 	export const TMPDIR: string;
+	export const HOMEBREW_REPOSITORY: string;
 	export const npm_config_global_prefix: string;
+	export const TERM_PROGRAM_VERSION: string;
 	export const COLOR: string;
 	export const TERM_SESSION_ID: string;
 	export const npm_config_noproxy: string;
@@ -45,8 +48,10 @@ declare module '$env/static/private' {
 	export const npm_config_globalconfig: string;
 	export const SSH_AUTH_SOCK: string;
 	export const __CF_USER_TEXT_ENCODING: string;
+	export const WARP_IS_LOCAL_SHELL_SESSION: string;
 	export const npm_execpath: string;
 	export const PAGER: string;
+	export const WARP_USE_SSH_WRAPPER: string;
 	export const LSCOLORS: string;
 	export const PATH: string;
 	export const TERMINAL_EMULATOR: string;
@@ -68,18 +73,22 @@ declare module '$env/static/private' {
 	export const XPC_SERVICE_NAME: string;
 	export const SHLVL: string;
 	export const HOME: string;
-	export const HOMEBREW_PREFIX: string;
 	export const IDEA_INITIAL_DIRECTORY: string;
+	export const HOMEBREW_PREFIX: string;
 	export const npm_config_cache: string;
 	export const LESS: string;
 	export const LOGNAME: string;
 	export const npm_lifecycle_script: string;
 	export const LC_CTYPE: string;
+	export const SSH_SOCKET_DIR: string;
 	export const npm_config_user_agent: string;
-	export const INFOPATH: string;
 	export const HOMEBREW_CELLAR: string;
+	export const INFOPATH: string;
+	export const WARP_COMBINED_PROMPT_COMMAND_GRID: string;
+	export const CONDA_CHANGEPS1: string;
 	export const npm_node_execpath: string;
 	export const npm_config_prefix: string;
+	export const COLORTERM: string;
 	export const NODE_ENV: string;
 }
 
@@ -111,13 +120,16 @@ declare module '$env/static/public' {
 declare module '$env/dynamic/private' {
 	export const env: {
 		MANPATH: string;
+		TERM_PROGRAM: string;
 		NODE: string;
 		INIT_CWD: string;
-		TERM: string;
 		SHELL: string;
-		HOMEBREW_REPOSITORY: string;
+		TERM: string;
+		WARP_HONOR_PS1: string;
 		TMPDIR: string;
+		HOMEBREW_REPOSITORY: string;
 		npm_config_global_prefix: string;
+		TERM_PROGRAM_VERSION: string;
 		COLOR: string;
 		TERM_SESSION_ID: string;
 		npm_config_noproxy: string;
@@ -129,8 +141,10 @@ declare module '$env/dynamic/private' {
 		npm_config_globalconfig: string;
 		SSH_AUTH_SOCK: string;
 		__CF_USER_TEXT_ENCODING: string;
+		WARP_IS_LOCAL_SHELL_SESSION: string;
 		npm_execpath: string;
 		PAGER: string;
+		WARP_USE_SSH_WRAPPER: string;
 		LSCOLORS: string;
 		PATH: string;
 		TERMINAL_EMULATOR: string;
@@ -152,18 +166,22 @@ declare module '$env/dynamic/private' {
 		XPC_SERVICE_NAME: string;
 		SHLVL: string;
 		HOME: string;
-		HOMEBREW_PREFIX: string;
 		IDEA_INITIAL_DIRECTORY: string;
+		HOMEBREW_PREFIX: string;
 		npm_config_cache: string;
 		LESS: string;
 		LOGNAME: string;
 		npm_lifecycle_script: string;
 		LC_CTYPE: string;
+		SSH_SOCKET_DIR: string;
 		npm_config_user_agent: string;
-		INFOPATH: string;
 		HOMEBREW_CELLAR: string;
+		INFOPATH: string;
+		WARP_COMBINED_PROMPT_COMMAND_GRID: string;
+		CONDA_CHANGEPS1: string;
 		npm_node_execpath: string;
 		npm_config_prefix: string;
+		COLORTERM: string;
 		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
