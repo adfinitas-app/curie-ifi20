@@ -42,7 +42,7 @@
 
 <div class="bg-[url('/header-desktop-test.png')] hidden bg-fixed bg-cover bg-no-repeat h-screen relative md:flex items-center justify-center z-10 ">
     {#if StickyBannerVisible}
-        <StickyBanner/>
+<!--        <StickyBanner/>-->
     {/if}
     {#if bottomDivVisible}
         <div in:fly={{x:-2000, y:100, duration:1000}}  class="purple-polygone h-[45rem] xl:h-[47rem] 2xl:h-[60rem] absolute -bottom-60 bg-[#4D54D6]/60 backdrop-blur-md z-10"/>
