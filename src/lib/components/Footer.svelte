@@ -8,9 +8,10 @@
         <a href="https://curie.fr/" target="_blank" class="absolute left-5 xl:left-20">
             <img src="/LOGO-Curie-footer.png" class="w-[80px]">
         </a>
-        <p class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
-            Gestions des cookies
-        </p>
+        <a class="underlineHover 2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase"
+           href="javascript:Cookiebot.show()" style="cursor: pointer">
+            GESTION DES COOKIES
+        </a>
         <a href="https://curie.fr/page/mentions-legales" target="_blank" class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
             Mentions légales
         </a>
@@ -64,9 +65,10 @@
         </a>
     </div>
 
-    <p class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
-        Gestions des cookies
-    </p>
+    <a class="underlineHover 2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase"
+       href="javascript:Cookiebot.show()" style="cursor: pointer">
+        GESTION DES COOKIES
+    </a>
     <a href="https://curie.fr/page/mentions-legales" target="_blank" class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
         Mentions légales
     </a>
