@@ -44,21 +44,21 @@
     {#if StickyBannerVisible}
         <StickyBanner/>
     {/if}
-    {#if bottomDivVisible}
-        <div in:fly={{x:-2000, y:100, duration:1000}}  class="purple-polygone h-[45rem] xl:h-[47rem] 2xl:h-[60rem] absolute -bottom-60 bg-[#4D54D6]/60 backdrop-blur-md z-10"/>
-        <p in:fly={{y: -200, duration:300, delay:1000}} class="text-[20px] xl:text-[25px] 2xl:text-[30px] 2xl:leading-[3rem] font-Raleway font-black text-white absolute text-center  bottom-20  2xl:bottom-40 uppercase z-10">
-            Votre don ouvre de <span class="underline-red ">nouvelles perspectives</span><br/>
-            de guérison aux patients.
-            <br>
-        </p>
-        <svg class="absolute right-20 w-[5rem] xl:w-[8rem] lg:top-[30%] xl:top-[100px] 2xl:top-[30%]" xmlns="http://www.w3.org/2000/svg" width="165.641" height="157.966" viewBox="0 0 165.641 157.966">
-            <g id="Group_572" data-name="Group 572" transform="translate(-1239.669 -569.432) rotate(8)">
-                <path id="Path_419" data-name="Path 419" d="M-2.183,18.171v-34.5H7.293v34.5Zm17.639,0v-34.5H39.121v8.261H24.932v5.734H36.5V5.342H24.932V18.171Zm29.593,0v-34.5h9.476v34.5ZM-23.478,57.89H-2.6v-4.9H-15.069c4.9-4.141,11.789-9.719,11.789-16.86,0-5.366-3.338-9.3-9.972-9.3-5.535,0-10.057,3.254-10.268,10.31h5.747c.042-3.254,1.606-5.282,4.437-5.282,2.916,0,4.141,1.859,4.141,4.606,0,5.662-7.31,11.113-14.282,17.029ZM1.114,42.509c0,9,2.7,15.719,11.409,15.719S23.932,51.51,23.932,42.509c0-8.916-2.7-15.592-11.409-15.592S1.114,33.594,1.114,42.509Zm16.986,0c0,5.493-.592,10.226-5.578,10.226S6.945,48,6.945,42.509c0-5.282.592-10.1,5.578-10.1S18.1,37.228,18.1,42.509ZM28.073,57.89H48.946v-4.9H36.481c4.9-4.141,11.789-9.719,11.789-16.86,0-5.366-3.338-9.3-9.972-9.3-5.535,0-10.057,3.254-10.268,10.31h5.747c.042-3.254,1.606-5.282,4.437-5.282,2.916,0,4.141,1.859,4.141,4.606,0,5.662-7.31,11.113-14.282,17.029Z" transform="translate(1373.018 435.904)" fill="#f60"/>
-                <path id="Path_420" data-name="Path 420" d="M6991.476,2373.175h41.583v129.751h-41.583" transform="translate(-5563.814 -1980)" fill="none" stroke="#f60" stroke-width="9"/>
-                <path id="Path_421" data-name="Path 421" d="M7033.059,2373.175h-41.583v129.751h41.583" transform="translate(-5661 -1980)" fill="none" stroke="#f60" stroke-width="9"/>
-                <text id="_4" data-name="4" transform="translate(1425.246 487.56)" fill="#f60" font-size="43" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">4</tspan></text>
-            </g>
-        </svg>
+    <!--{#if bottomDivVisible}-->
+    <!--    <div in:fly={{x:-2000, y:100, duration:1000}}  class="purple-polygone h-[45rem] xl:h-[47rem] 2xl:h-[60rem] absolute -bottom-60 bg-[#4D54D6]/60 backdrop-blur-md z-10"/>-->
+    <!--    <p in:fly={{y: -200, duration:300, delay:1000}} class="text-[20px] xl:text-[25px] 2xl:text-[30px] 2xl:leading-[3rem] font-Raleway font-black text-white absolute text-center  bottom-20  2xl:bottom-40 uppercase z-10">-->
+    <!--        Votre don ouvre de <span class="underline-red ">nouvelles perspectives</span><br/>-->
+    <!--        de guérison aux patients.-->
+    <!--        <br>-->
+    <!--    </p>-->
+    <!--    <svg class="absolute right-20 w-[5rem] xl:w-[8rem] lg:top-[30%] xl:top-[100px] 2xl:top-[30%]" xmlns="http://www.w3.org/2000/svg" width="165.641" height="157.966" viewBox="0 0 165.641 157.966">-->
+    <!--        <g id="Group_572" data-name="Group 572" transform="translate(-1239.669 -569.432) rotate(8)">-->
+    <!--            <path id="Path_419" data-name="Path 419" d="M-2.183,18.171v-34.5H7.293v34.5Zm17.639,0v-34.5H39.121v8.261H24.932v5.734H36.5V5.342H24.932V18.171Zm29.593,0v-34.5h9.476v34.5ZM-23.478,57.89H-2.6v-4.9H-15.069c4.9-4.141,11.789-9.719,11.789-16.86,0-5.366-3.338-9.3-9.972-9.3-5.535,0-10.057,3.254-10.268,10.31h5.747c.042-3.254,1.606-5.282,4.437-5.282,2.916,0,4.141,1.859,4.141,4.606,0,5.662-7.31,11.113-14.282,17.029ZM1.114,42.509c0,9,2.7,15.719,11.409,15.719S23.932,51.51,23.932,42.509c0-8.916-2.7-15.592-11.409-15.592S1.114,33.594,1.114,42.509Zm16.986,0c0,5.493-.592,10.226-5.578,10.226S6.945,48,6.945,42.509c0-5.282.592-10.1,5.578-10.1S18.1,37.228,18.1,42.509ZM28.073,57.89H48.946v-4.9H36.481c4.9-4.141,11.789-9.719,11.789-16.86,0-5.366-3.338-9.3-9.972-9.3-5.535,0-10.057,3.254-10.268,10.31h5.747c.042-3.254,1.606-5.282,4.437-5.282,2.916,0,4.141,1.859,4.141,4.606,0,5.662-7.31,11.113-14.282,17.029Z" transform="translate(1373.018 435.904)" fill="#f60"/>-->
+    <!--            <path id="Path_420" data-name="Path 420" d="M6991.476,2373.175h41.583v129.751h-41.583" transform="translate(-5563.814 -1980)" fill="none" stroke="#f60" stroke-width="9"/>-->
+    <!--            <path id="Path_421" data-name="Path 421" d="M7033.059,2373.175h-41.583v129.751h41.583" transform="translate(-5661 -1980)" fill="none" stroke="#f60" stroke-width="9"/>-->
+    <!--            <text id="_4" data-name="4" transform="translate(1425.246 487.56)" fill="#f60" font-size="43" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">4</tspan></text>-->
+    <!--        </g>-->
+    <!--    </svg>-->
 
         <!--{#if StickyBannerVisible}-->
 <!--            <div in:fade class="absolute w-screen bg-transparent bottom-5 xl:bottom-5 2xl:bottom-10 flex flex-col items-center justify-center z-10">-->
@@ -86,7 +86,7 @@
 <!--                test-->
 <!--            </div>-->
 <!--        {/if}-->
-    {/if}
+<!--    {/if}-->
 </div>
 
 <style>
