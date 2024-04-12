@@ -45,13 +45,15 @@
     });
 </script>
 
-<!--<HeroSection/>-->
-<GraphPart/>
-<div class="hidden md:block relative">
-    <div bind:this={projectDesktopElement} id="ProjectsDesktop" class="absolute -top-40  w-screen"/>
-    <Projects/>
+<div class="w-screen">
+    <HeroSection/>
+    <GraphPart/>
+    <div class="hidden md:block relative">
+        <div bind:this={projectDesktopElement} id="ProjectsDesktop" class="absolute -top-40  w-screen"/>
+        <Projects/>
+    </div>
+    <div class="md:hidden flex items-center justify-center" bind:this={projectsMobileElement}>
+        <ProjectsMobile/>
+    </div>
+    <DoubleCtaPart/>
 </div>
-<div class="md:hidden flex items-center justify-center" bind:this={projectsMobileElement}>
-    <ProjectsMobile/>
-</div>
-<DoubleCtaPart/>
