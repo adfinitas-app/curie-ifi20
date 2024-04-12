@@ -37,12 +37,12 @@
                     window.location.hash = "#projet1";
                 }, 300);}}
             class="flex flex-col items-center justify-center">
-        <a class="text-white font-Raleway font-bold lg:text-xl mx-8">
+        <a class="text-white font-Raleway font-bold lg:text-xl mx-4">
             Les projets soutenus
         </a>
         <span class={`h-0.5 bg-white rounded-3xl transition-width ${isHoveringText ? 'w-[10rem]' : 'w-[3rem]'}`}/>
     </button>
-    <button on:click={() => isPopupVisible = !isPopupVisible} on:mouseenter={()=> isHoveringText2 = true} on:mouseleave={()=> isHoveringText2 = false} class="mx-8 flex flex-col items-center justify-center">
+    <button on:click={() => isPopupVisible = !isPopupVisible} on:mouseenter={()=> isHoveringText2 = true} on:mouseleave={()=> isHoveringText2 = false} class="mx-4 flex flex-col items-center justify-center">
         <span class="text-white font-Raleway font-bold lg:text-xl">
             Calculer ma réduction d'impôt
         </span>
