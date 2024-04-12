@@ -7,6 +7,7 @@
     import { onMount } from "svelte";
     import {projectIndexStore} from "$lib/utils/utils.js";
     import {browser} from "$app/environment";
+    import MetaImg from "$lib/assets/meta-img.png";
 
     let projectsMobileElement;
     let projectDesktopElement;
@@ -44,6 +45,26 @@
         return () => window.removeEventListener('hashchange', updateProjectFromHash);
     });
 </script>
+
+<svelte:head>
+        <!-- Primary Meta Tags -->
+        <title>Ouvrez de nouvelles perspectives de guérison aux patients</title>
+        <meta name="title" content="Ouvrez de nouvelles perspectives de guérison aux patients" />
+        <meta name="description" content="Contre le cancer, investissez votre impôt dans l’innovation" />
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://ifi.curie.fr/" />
+        <meta property="og:title" content="Ouvrez de nouvelles perspectives de guérison aux patients" />
+        <meta property="og:description" content="Contre le cancer, investissez votre impôt dans l’innovation" />
+        <meta property="og:image" content={MetaImg} />
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://ifi.curie.fr/" />
+        <meta property="twitter:title" content="Ouvrez de nouvelles perspectives de guérison aux patients" />
+        <meta property="twitter:description" content="Contre le cancer, investissez votre impôt dans l’innovation" />
+        <meta property="twitter:image" content={MetaImg} />
+        <!-- Meta Tags Generated with https://metatags.io -->
+</svelte:head>
 
 <HeroSection/>
 <GraphPart/>
