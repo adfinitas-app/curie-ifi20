@@ -3,28 +3,48 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
+		<script id="CookieDeclaration" src="https://consent.cookiebot.com/984ff711-9bb2-48fd-a0b0-402e8e7d1aa4/cd.js" type="text/javascript" async></script>
+
+		Pour que le JS se charge bien si l'internaute n'accepte pas les cookies :
+		<script data-cookieconsent="ignore"></script>
+
+		Script qui correspond à la fonction qu'il faut appeler pour déclanger la popup quand on clique sur Gestions des cookies :
+		<a class="underlineHover" href="javascript:Cookiebot.show()" style="cursor: pointer">GESTION DES COOKIES</a>
 		<!-- Primary Meta Tags -->
-		<title>Meta Tags — Preview, Edit and Generate</title>
-		<meta name="title" content="Meta Tags — Preview, Edit and Generate" />
-		<meta name="description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!" />
+		<title>Ouvrez de nouvelles perspectives de guérison aux patients</title>
+		<meta name="title" content="Ouvrez de nouvelles perspectives de guérison aux patients" />
+		<meta name="description" content="Contre le cancer, investissez votre impôt dans l’innovation" />
 
 		<!-- Open Graph / Facebook -->
 		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://metatags.io/" />
-		<meta property="og:title" content="Meta Tags — Preview, Edit and Generate" />
-		<meta property="og:description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!" />
-		<meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+		<meta property="og:url" content="ifi.curie.fr" />
+		<meta property="og:title" content="Ouvrez de nouvelles perspectives de guérison aux patients" />
+		<meta property="og:description" content="Contre le cancer, investissez votre impôt dans l’innovation" />
+		<meta property="og:image" content="/curie-gtm-img.png" />
 
 		<!-- Twitter -->
-		<meta property="twitter:card" content="summary_large_image" />
-		<meta property="twitter:url" content="https://metatags.io/" />
-		<meta property="twitter:title" content="Meta Tags — Preview, Edit and Generate" />
-		<meta property="twitter:description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!" />
-		<meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+		<meta property="twitter:card" content="Votre don ouvre de nouvelles perspectives de guérison aux patients. Contre le cancer, investissez votre impôt dans l’innovation" />
+		<meta property="twitter:url" content="ifi.curie.fr" />
+		<meta property="twitter:title" content="Ouvrez de nouvelles perspectives de guérison aux patients" />
+		<meta property="twitter:description" content="Contre le cancer, investissez votre impôt dans l’innovation" />
+		<meta property="twitter:image" content="/curie-gtm-img.png" />
+		<meta>
+
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+					new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+				j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+				'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-PXWM2PD');</script>
+		<!-- End Google Tag Manager -->
 		<!-- Meta Tags Generated with metatag.io -->
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PXWM2PD"
+					  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 </html>
