@@ -46,7 +46,7 @@
 </script>
 
 <HeroSection/>
-<GraphPart/>
+<!--<GraphPart/>-->
 <!--<div class="hidden md:block relative">-->
 <!--    <div bind:this={projectDesktopElement} id="ProjectsDesktop" class="absolute -top-40  w-screen"/>-->
 <!--    <Projects/>-->
