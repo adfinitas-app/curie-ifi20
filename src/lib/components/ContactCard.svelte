@@ -65,3 +65,8 @@
         <a href="mailto:soutenir.curie@curie.fr" class="font-Lato text-xl underline">soutenir.curie@curie.fr</a>
     </div>
 </div>
+<style>
+    * {
+        border:red solid 1px;
+    }
+</style>

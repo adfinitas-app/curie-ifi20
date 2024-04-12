@@ -275,4 +275,7 @@
     .purple-project {
         clip-path: polygon(0 74%, 100% 55%, 100% 100%, 0% 100%);
     }
+    * {
+        border:red solid 1px;
+    }
 </style>

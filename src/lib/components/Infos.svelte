@@ -279,4 +279,8 @@
             }
         }
     }
+
+    * {
+      border:red solid 1px;
+    }
 </style>
