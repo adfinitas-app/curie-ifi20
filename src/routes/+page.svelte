@@ -45,7 +45,7 @@
     });
 </script>
 
-<div class="w-screen">
+<div class="w-screen overflow-hidden">
     <HeroSection/>
     <GraphPart/>
     <div class="hidden md:block relative">
