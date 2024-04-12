@@ -431,7 +431,4 @@
     .transition-width {
         transition: width 0.5s ease;
     }
-    * {
-        border:red solid 1px;
-    }
 </style>

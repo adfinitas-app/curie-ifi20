@@ -114,8 +114,3 @@
     </div>
 {/if}
 
-<style>
-    * {
-        border:red solid 1px;
-    }
-</style>

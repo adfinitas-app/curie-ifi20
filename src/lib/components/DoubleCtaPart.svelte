@@ -55,8 +55,6 @@
             clip-path: polygon(0 7%, 100% 0, 100% 54%, 0 63%);
         }
     }
-    * {
-        border:red solid 1px;
-    }
+
 </style>
 

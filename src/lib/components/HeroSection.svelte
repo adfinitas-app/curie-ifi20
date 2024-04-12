@@ -118,8 +118,4 @@
             width: 100%;
         }
     }
-
-     * {
-         border:red solid 1px;
-     }
 </style>
