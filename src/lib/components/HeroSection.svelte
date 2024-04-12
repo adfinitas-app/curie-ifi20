@@ -60,7 +60,7 @@
             </g>
         </svg>
 
-        {#if StickyBannerVisible}
+        <!--{#if StickyBannerVisible}-->
 <!--            <div in:fade class="absolute w-screen bg-transparent bottom-5 xl:bottom-5 2xl:bottom-10 flex flex-col items-center justify-center z-10">-->
 <!--                <p class="text-white lg:text-xl 2xl:text-[30px] font-Raleway font-semibold">Contre le cancer, investissez votre impôt dans l’innovation.</p>-->
 <!--                <a href="#Intro"-->
@@ -83,9 +83,9 @@
 <!--                    <b>Équipements innovants, programmes de recherche de pointe, amélioration des traitements…<br class="hidden 2xl:block"/></b>-->
 <!--                    En soutenant l’Institut Curie avec un don déductible de votre impôt, vous financez des projets qui <br class="hidden 2xl:block"/> ouvrent de <b>nouvelles perspectives de guérison</b> pour chaque patient.-->
 <!--                </p>-->
-                test
+<!--                test-->
 <!--            </div>-->
-        {/if}
+<!--        {/if}-->
     {/if}
 </div>
 
