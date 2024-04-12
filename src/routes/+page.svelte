@@ -45,6 +45,7 @@
     });
 </script>
 
+<div class="w-screen bg-red-600  h-20"/>
 <!--<HeroSection/>-->
 <!--<GraphPart/>-->
 <!--<div class="hidden md:block relative">-->
