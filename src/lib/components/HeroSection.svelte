@@ -45,8 +45,8 @@
         <StickyBanner/>
     {/if}
     {#if bottomDivVisible}
-        <div class="purple-polygone h-[45rem] xl:h-[47rem] 2xl:h-[60rem] absolute -bottom-60 bg-[#4D54D6]/60 backdrop-blur-md z-10"/>
-        <p class="text-[20px] xl:text-[25px] 2xl:text-[30px] 2xl:leading-[3rem] font-Raleway font-black text-white absolute text-center  bottom-20  2xl:bottom-40 uppercase z-10">
+        <div in:fly={{x:-2000, y:100, duration:1000}}  class="purple-polygone h-[45rem] xl:h-[47rem] 2xl:h-[60rem] absolute -bottom-60 bg-[#4D54D6]/60 backdrop-blur-md z-10"/>
+        <p in:fly={{y: -200, duration:300, delay:1000}} class="text-[20px] xl:text-[25px] 2xl:text-[30px] 2xl:leading-[3rem] font-Raleway font-black text-white absolute text-center  bottom-20  2xl:bottom-40 uppercase z-10">
             Votre don ouvre de <span class="underline-red ">nouvelles perspectives</span><br/>
             de guérison aux patients.
             <br>
@@ -61,7 +61,7 @@
         </svg>
 
         {#if StickyBannerVisible}
-            <div class="absolute w-screen bg-transparent bottom-5 xl:bottom-5 2xl:bottom-10 flex flex-col items-center justify-center z-10">
+            <div in:fade class="absolute w-screen bg-transparent bottom-5 xl:bottom-5 2xl:bottom-10 flex flex-col items-center justify-center z-10">
                 <p class="text-white lg:text-xl 2xl:text-[30px] font-Raleway font-semibold">Contre le cancer, investissez votre impôt dans l’innovation.</p>
                 <a href="#Intro"
                    on:click={()=> {projectIndexStore.set(0)}}>
