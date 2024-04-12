@@ -45,8 +45,7 @@
     });
 </script>
 
-<div class="w-screen bg-red-600  h-20"/>
-<!--<HeroSection/>-->
+<HeroSection/>
 <!--<GraphPart/>-->
 <!--<div class="hidden md:block relative">-->
 <!--    <div bind:this={projectDesktopElement} id="ProjectsDesktop" class="absolute -top-40  w-screen"/>-->

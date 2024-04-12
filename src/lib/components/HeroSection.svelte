@@ -40,7 +40,7 @@
     {/if}
 </div>
 
-<div class="bg-[url('/header-desktop-test.png')] hidden bg-fixed bg-cover bg-no-repeat h-screen relative md:flex items-center justify-center z-10 ">
+<div class="bg-[url('/header-desktop-test.png')] hidden bg-fixed bg-cover bg-no-repeat w-screen h-screen relative md:flex items-center justify-center z-10 ">
     {#if StickyBannerVisible}
         <StickyBanner/>
     {/if}
@@ -61,7 +61,7 @@
         </svg>
 
         {#if StickyBannerVisible}
-            <div in:fade class="absolute bg-transparent bottom-5 xl:bottom-5 2xl:bottom-10 flex flex-col items-center justify-center z-10">
+            <div in:fade class="absolute w-screen bg-transparent bottom-5 xl:bottom-5 2xl:bottom-10 flex flex-col items-center justify-center z-10">
                 <p class="text-white lg:text-xl 2xl:text-[30px] font-Raleway font-semibold">Contre le cancer, investissez votre impôt dans l’innovation.</p>
                 <a href="#Intro"
                    on:click={()=> {projectIndexStore.set(0)}}>
