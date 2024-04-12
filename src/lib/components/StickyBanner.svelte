@@ -131,8 +131,6 @@
                                     {:else}
                                         0
                                     {/if}
-                                {:else}
-                                    0
                                 {/if}
                             </div>
                         </div>
@@ -291,7 +289,9 @@
                                 <input type="number" bind:value={montant2}  class="bg-white orangeC rounded-3xl border-2 text-center w-[22vh] h-[5vh] border-gray-500" on:focus={() => isInputFocused = 3} on:blur={() => isInputFocused = 0}/>
                             </div>
                             <div class="input-container font-Raleway text-[#FF6600] text-[2vh] absolute top-5 font-bold mt-[4vh] ">
-                                <input type="number" readonly="True" placeholder="{montant2 !== undefined && montantIfi !== undefined ? Math.round(montant2 * 1.33).toLocaleString('fr-FR') : ' '}"  class="bg-white orangeC rounded-3xl border-2 text-center w-[22vh] h-[5vh] border-gray-500" on:focus={() => isInputFocused = 1} on:blur={() => isInputFocused = 0}>
+                                <input type="number" readonly="True"
+                                       placeholder="{(montant2 !== undefined && montantIfi !== undefined) ? (Math.round(montantIfi - ((montant2 > 66666 ? 66666 : montant2)* 0.75)) > 0 ? Math.round(montantIfi - ((montant2 > 66666 ? 66666 : montant2)* 0.75)) : 0) : ' '}"
+                                       class="bg-white orangeC rounded-3xl border-2 text-center w-[22vh] h-[5vh] border-gray-500" on:focus={() => isInputFocused = 1} on:blur={() => isInputFocused = 0}>
                             </div>
                         </div>
                     </div>
