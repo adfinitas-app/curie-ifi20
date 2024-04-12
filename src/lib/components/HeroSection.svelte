@@ -63,26 +63,26 @@
         {#if StickyBannerVisible}
             <div in:fade class="absolute w-screen bg-transparent bottom-5 xl:bottom-5 2xl:bottom-10 flex flex-col items-center justify-center z-10">
                 <p class="text-white lg:text-xl 2xl:text-[30px] font-Raleway font-semibold">Contre le cancer, investissez votre impôt dans l’innovation.</p>
-<!--                <a href="#Intro"-->
-<!--                   on:click={()=> {projectIndexStore.set(0)}}>-->
-<!--                    <svg class="mt-3 2xl:mt-6" xmlns="http://www.w3.org/2000/svg" width="94.94" height="21.854" viewBox="0 0 94.94 21.854">-->
-<!--                        <g id="Group_577" data-name="Group 577" transform="translate(-955.802 -686.267)">-->
-<!--                            <g id="Group_115" data-name="Group 115" transform="translate(956.534 688.129)">-->
-<!--                                <g id="Group_116" data-name="Group 116" transform="translate(0 0)">-->
-<!--                                    <g id="Group_498" data-name="Group 498">-->
-<!--                                        <path id="Path_277" data-name="Path 277" d="M46.91,18.122,23.728,9,0,0" transform="translate(46.91 18.122) rotate(180)" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="4"/>-->
-<!--                                        <path id="Path_278" data-name="Path 278" d="M46.91,0,23.728,9.12,0,18.122" transform="translate(46.565 0)" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="4"/>-->
-<!--                                    </g>-->
-<!--                                </g>-->
-<!--                            </g>-->
-<!--                        </g>-->
-<!--                    </svg>-->
-<!--                </a>-->
-                <div id="Intro" class="absolute -top-10"/>
-                <p class="font-Lato text-white text-xl 2xl:text-[2xl] absolute top-[5rem] xl:top-[8rem] text-center w-[40rem] xl:w-[60rem] 2xl:w-[80rem]">
-                    <b>Équipements innovants, programmes de recherche de pointe, amélioration des traitements…<br class="hidden 2xl:block"/></b>
-                    En soutenant l’Institut Curie avec un don déductible de votre impôt, vous financez des projets qui <br class="hidden 2xl:block"/> ouvrent de <b>nouvelles perspectives de guérison</b> pour chaque patient.
-                </p>
+                <a href="#Intro"
+                   on:click={()=> {projectIndexStore.set(0)}}>
+                    <svg class="mt-3 2xl:mt-6" xmlns="http://www.w3.org/2000/svg" width="94.94" height="21.854" viewBox="0 0 94.94 21.854">
+                        <g id="Group_577" data-name="Group 577" transform="translate(-955.802 -686.267)">
+                            <g id="Group_115" data-name="Group 115" transform="translate(956.534 688.129)">
+                                <g id="Group_116" data-name="Group 116" transform="translate(0 0)">
+                                    <g id="Group_498" data-name="Group 498">
+                                        <path id="Path_277" data-name="Path 277" d="M46.91,18.122,23.728,9,0,0" transform="translate(46.91 18.122) rotate(180)" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="4"/>
+                                        <path id="Path_278" data-name="Path 278" d="M46.91,0,23.728,9.12,0,18.122" transform="translate(46.565 0)" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="4"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+<!--                <div id="Intro" class="absolute -top-10"/>-->
+<!--                <p class="font-Lato text-white text-xl 2xl:text-[2xl] absolute top-[5rem] xl:top-[8rem] text-center w-[40rem] xl:w-[60rem] 2xl:w-[80rem]">-->
+<!--                    <b>Équipements innovants, programmes de recherche de pointe, amélioration des traitements…<br class="hidden 2xl:block"/></b>-->
+<!--                    En soutenant l’Institut Curie avec un don déductible de votre impôt, vous financez des projets qui <br class="hidden 2xl:block"/> ouvrent de <b>nouvelles perspectives de guérison</b> pour chaque patient.-->
+<!--                </p>-->
             </div>
         {/if}
     {/if}
