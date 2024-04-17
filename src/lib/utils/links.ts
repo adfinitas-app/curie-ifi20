@@ -1,6 +1,6 @@
 import {browser} from "$app/environment";
 
-const PARAMETERS_TO_PASS: string[] = ['utm_campaign', 'utm_source', 'utm_medium', 'reserved_code_media'];
+const PARAMETERS_TO_PASS: string[] = ['utm_campaign', 'utm_source', 'utm_medium', 'reserved_code_media', "reserved_code_origine"];
 const PARAMETERS_DEFAULT_VALUES: Record<string, string> = {
     // reserved_code_media: 'someDefaultCodeMedia'
 }

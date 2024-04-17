@@ -4,6 +4,7 @@
     import {fade} from "svelte/transition";
     import {onMount} from "svelte";
     import {projectIndexStore} from "$lib/utils/utils.js";
+    import {passUtmParamsToLink} from "$lib/utils/links"
 
     let isPopupVisible = false;
     let activeTab = 1;
@@ -25,7 +26,7 @@
 </script>
 
 <div in:fade class="hidden fixed top-0 bg-[#4D54D6] bg-opacity-70 backdrop-blur-sm md:flex flex-row items-center justify-center w-screen py-6 lg:h-[5rem] xl:h-[7rem] 2xl:h-[9rem] z-20">
-    <a target="_blank" href="https://curie.fr/">
+    <a target="_blank" href={passUtmParamsToLink("https://curie.fr/")}>
         <img src="/logo_curie.png" class="md:w-[10rem] xl:w-[16rem]  mx-8" alt="curie"/>
     </a>
     <button on:mouseenter={()=> isHoveringText = true} on:mouseleave={()=> isHoveringText = false}
@@ -48,12 +49,12 @@
         </span>
         <span class={`h-0.5 bg-white rounded-3xl transition-width ${isHoveringText2 ? 'w-[10rem]' : 'w-[3rem]'}`}/>
     </button>
-    <a target="_blank" href="https://aider.curie.fr/ifi" class="mx-8 bg-[#FF6600] text-center uppercase text-xs xl:text-base 2xl:text-xl text-white w-[15rem] mr-2 2xl:w-[20rem] py-2 font-Raleway font-bold hover:border-2 hover:border-white transition-all relative">
+    <a target="_blank" href={passUtmParamsToLink("https://aider.curie.fr/ifi")} class="mx-8 bg-[#FF6600] text-center uppercase text-xs xl:text-base 2xl:text-xl text-white w-[15rem] mr-2 2xl:w-[20rem] py-2 font-Raleway font-bold hover:border-2 hover:border-white transition-all relative">
         JE FAIS UN DON<br/>
         Déductible de<br/>
         <span class="font-black">l’IFI</span>
     </a>
-    <a target="_blank" href="https://aider.curie.fr/don149" class=" mx-8 bg-[#4D54D6] text-center uppercase text-xs xl:text-base 2xl:text-xl text-white w-[15rem] mr-2 2xl:w-[20rem] py-2 font-Raleway font-bold hover:border-2 hover:border-white transition-all">
+    <a target="_blank" href={passUtmParamsToLink("https://aider.curie.fr/don149")} class=" mx-8 bg-[#4D54D6] text-center uppercase text-xs xl:text-base 2xl:text-xl text-white w-[15rem] mr-2 2xl:w-[20rem] py-2 font-Raleway font-bold hover:border-2 hover:border-white transition-all">
         JE FAIS UN DON<br/>
         déductible de<br/>
         <span class="font-black">L’impôt sur le revenu</span>
@@ -136,7 +137,7 @@
                                 {/if}
                             </div>
                         </div>
-                        <a target="_blank" href="https://aider.curie.fr/ifi" class="text-center bg-[#FF6600] uppercase xl:text-base text-white py-2 xl:py-3 px-10 xl:px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-5 xl:-bottom-10 2xl:static 2xl:mt-8" >
+                        <a target="_blank" href={passUtmParamsToLink("https://aider.curie.fr/ifi")} class="text-center bg-[#FF6600] uppercase xl:text-base text-white py-2 xl:py-3 px-10 xl:px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-5 xl:-bottom-10 2xl:static 2xl:mt-8" >
                             JE FAIS UN DON<br/>
                             Déductible de<br class="hidden xl:block"/>
                             <span class="font-black">l’IFI</span>
@@ -178,7 +179,7 @@
                                 {/if}
                             </div>
                         </div>
-                        <a target="_blank" href="https://aider.curie.fr/ifi" class="text-center bg-[#4D54D6] uppercase xl:text-base text-white py-2 xl:py-3 px-10 xl:px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-5 xl:-bottom-10 2xl:static 2xl:mt-24" >
+                        <a target="_blank" href={passUtmParamsToLink("https://aider.curie.fr/ifi")} class="text-center bg-[#4D54D6] uppercase xl:text-base text-white py-2 xl:py-3 px-10 xl:px-16 font-Raleway font-bold hover:px-20 transition-all absolute -bottom-5 xl:-bottom-10 2xl:static 2xl:mt-24" >
                             JE FAIS UN DON<br/>
                             Déductible de<br class="hidden xl:block"/>
                             <span class="font-black">l’IR</span>
@@ -197,15 +198,15 @@
             <div style="border-radius: 10px" class={`h-1 w-8 bg-white transition-all duration-500 ease-in-out ${isOpen ? 'opacity-0' : 'opacity-100'}`}></div>
             <div style="border-radius: 10px" class={`h-1 w-8 bg-white transform transition duration-500 ease-in-out ${isOpen ? '-rotate-45 -translate-y-3.5' : ''}`}></div>
         </button>
-        <a target="_blank" href="https://curie.fr/">
+        <a target="_blank" href={passUtmParamsToLink("https://curie.fr/")}>
             <img src="/logo-curie-mobile.png" class="w-[40px]" alt="curie"/>
         </a>
-        <a target="_blank" href="https://aider.curie.fr/ifi" class="bg-[#FF6600] flex flex-col text-center items-center justify-center uppercase text-[8px] text-white w-[135px] h-[51px] font-Raleway font-bold hover:border-2 hover:border-white transition-all relative">
+        <a target="_blank" href={passUtmParamsToLink("https://aider.curie.fr/ifi")} class="bg-[#FF6600] flex flex-col text-center items-center justify-center uppercase text-[8px] text-white w-[135px] h-[51px] font-Raleway font-bold hover:border-2 hover:border-white transition-all relative">
             JE FAIS UN DON<br/>
             Déductible de
             <span class="font-black">l’IFI</span>
         </a>
-        <a target="_blank" href="https://aider.curie.fr/don149"  class="bg-[#4D54D6] flex flex-col text-center items-center justify-center uppercase text-[8px] text-white w-[135px] h-[51px] font-Raleway font-bold hover:border-2 hover:border-white transition-all">
+        <a target="_blank" href={passUtmParamsToLink("https://aider.curie.fr/don149")}  class="bg-[#4D54D6] flex flex-col text-center items-center justify-center uppercase text-[8px] text-white w-[135px] h-[51px] font-Raleway font-bold hover:border-2 hover:border-white transition-all">
             JE FAIS UN DON<br/>
             déductible de
             <span class="font-black">L’impôt sur le revenu</span>

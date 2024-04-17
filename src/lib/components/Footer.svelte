@@ -1,18 +1,20 @@
 <script>
+    import {passUtmParamsToLink} from "$lib/utils/links";
+
     let isPopupOpened = false;
 </script>
 
 
 <div class="w-screen hidden md:flex py-6 flex-col items-center justify-center relative">
     <div class="flex py-20 flex-row items-center justify-center gap-10 xl:gap-20">
-        <a href="https://curie.fr/" target="_blank" class="absolute left-5 xl:left-20">
+        <a href={passUtmParamsToLink("https://curie.fr/")} target="_blank" class="absolute left-5 xl:left-20">
             <img src="/LOGO-Curie-footer.png" class="w-[80px]">
         </a>
         <a class="underlineHover 2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase"
            href="javascript:Cookiebot.show()" style="cursor: pointer">
             GESTION DES COOKIES
         </a>
-        <a href="https://curie.fr/page/mentions-legales" target="_blank" class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
+        <a href={passUtmParamsToLink("https://curie.fr/page/mentions-legales")} target="_blank" class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
             Mentions légales
         </a>
         <a on:click={()=> isPopupOpened = !isPopupOpened}>
@@ -20,22 +22,22 @@
                 Crédits
             </button>
         </a>
-        <a href="https://curie.fr/webform/nous-contacter" target="_blank" >
+        <a href={passUtmParamsToLink("https://curie.fr/webform/nous-contacter")} target="_blank" >
             <button class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
             Contact
             </button>
         </a>
         <div class="flex flex-row gap-5 absolute right-10">
-            <a href="https://www.linkedin.com/company/institutcurie/" target="_blank">
+            <a href={passUtmParamsToLink("https://www.linkedin.com/company/institutcurie/")} target="_blank">
                 <img src="/linkedin.png" width="23px">
             </a>
-            <a href="https://twitter.com/institut_curie" target="_blank">
+            <a href={passUtmParamsToLink("https://twitter.com/institut_curie")} target="_blank">
                 <img src="/x.png" width="23px">
             </a>
-            <a target="_blank" href="https://fr-fr.facebook.com/InstitutCurie">
+            <a target="_blank" href={passUtmParamsToLink("https://fr-fr.facebook.com/InstitutCurie")}>
                 <img src="/faceb.png" width="12px">
             </a>
-            <a target="_blank" href="https://www.instagram.com/institut_curie/">
+            <a target="_blank" href={passUtmParamsToLink("https://www.instagram.com/institut_curie/")}>
                 <img src="/instagram.png" width="23px">
             </a>
         </div>
@@ -47,20 +49,20 @@
 </div>
 
 <div class="flex flex-col items-center justify-center mt-10 gap-5 md:hidden">
-    <a href="https://curie.fr/" target="_blank" class="">
+    <a href={passUtmParamsToLink("https://curie.fr/")} target="_blank" class="">
         <img src="/LOGO-Curie-footer.png" class="w-[80px]">
     </a>
     <div class="flex flex-row gap-5 ">
-        <a href="https://www.linkedin.com/company/institutcurie/" target="_blank">
+        <a href={passUtmParamsToLink("https://www.linkedin.com/company/institutcurie/")} target="_blank">
             <img src="/linkedin.png" width="23px">
         </a>
-        <a href="https://twitter.com/institut_curie" target="_blank">
+        <a href={passUtmParamsToLink("https://twitter.com/institut_curie")} target="_blank">
             <img src="/x.png" width="23px">
         </a>
-        <a target="_blank" href="https://fr-fr.facebook.com/InstitutCurie">
+        <a target="_blank" href={passUtmParamsToLink("https://fr-fr.facebook.com/InstitutCurie")}>
             <img src="/faceb.png" width="12px">
         </a>
-        <a target="_blank" href="https://www.instagram.com/institut_curie/">
+        <a target="_blank" href={passUtmParamsToLink("https://www.instagram.com/institut_curie/")}>
             <img src="/instagram.png" width="23px">
         </a>
     </div>
@@ -69,13 +71,13 @@
        href="javascript:Cookiebot.show()" style="cursor: pointer">
         GESTION DES COOKIES
     </a>
-    <a href="https://curie.fr/page/mentions-legales" target="_blank" class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
+    <a href={passUtmParamsToLink("https://curie.fr/page/mentions-legales")} target="_blank" class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
         Mentions légales
     </a>
     <a on:click={()=> isPopupOpened = !isPopupOpened} class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
         Crédits
     </a>
-    <a href="https://curie.fr/webform/nous-contacter" target="_blank">
+    <a href={passUtmParamsToLink("https://curie.fr/webform/nous-contacter")} target="_blank">
         <button class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
             Contact
         </button>

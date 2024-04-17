@@ -1,4 +1,6 @@
 <script>
+    import {passUtmParamsToLink} from "$lib/utils/links";
+
     let poppOpened = false;
 </script>
 
@@ -22,7 +24,7 @@
                     Par exemple :
                 </p>
                 <img src="/graph1.png" class="w-[311px] md:w-[20rem] xl:w-[17rem] 2xl:w-[25rem]"/>
-                <a target="_blank" href="https://aider.curie.fr/ifi" class="bg-[#FF6600] uppercase md:w-auto  w-[268px] text-[16px] md:text-sm 2xl:text-base text-white md:p-2 xl:py-2 xl:px-7 2xl:py-2 2xl:px-16 font-Raleway font-bold md:hover:px-20 transition-all absolute -bottom-14 xl:-bottom-16  2xl:-bottom-20">
+                <a target="_blank" href={passUtmParamsToLink("https://aider.curie.fr/ifi")} class="bg-[#FF6600] uppercase md:w-auto  w-[268px] text-[16px] md:text-sm 2xl:text-base text-white md:p-2 xl:py-2 xl:px-7 2xl:py-2 2xl:px-16 font-Raleway font-bold md:hover:px-20 transition-all absolute -bottom-14 xl:-bottom-16  2xl:-bottom-20">
                     JE FAIS UN DON<br/>
                     Déductible de<br/>
                     <span class="font-black">l’IFI</span>
@@ -40,7 +42,7 @@
                     Par exemple :
                 </p>
                 <img src="/graph2.png" class="w-[311px] md:w-[20rem] xl:w-[17rem] 2xl:w-[25rem]"/>
-                <a target="_blank" href="https://aider.curie.fr/don149" class="bg-[#4D54D6]  text-center uppercase w-[268px] md:w-auto text-[16px] md:text-sm 2xl:text-base text-white md:p-2 xl:py-2 xl:px-7 2xl:py-2 2xl:px-16 font-Raleway font-bold md:hover:px-20 transition-all absolute -bottom-14 xl:-bottom-16  2xl:-bottom-20">
+                <a target="_blank" href={passUtmParamsToLink("https://aider.curie.fr/don149")} class="bg-[#4D54D6]  text-center uppercase w-[268px] md:w-auto text-[16px] md:text-sm 2xl:text-base text-white md:p-2 xl:py-2 xl:px-7 2xl:py-2 2xl:px-16 font-Raleway font-bold md:hover:px-20 transition-all absolute -bottom-14 xl:-bottom-16  2xl:-bottom-20">
                     JE FAIS UN DON<br/>
                     Déductible de<br/>
                     <span class="font-black">L’impôt sur le revenu</span>
@@ -87,7 +89,7 @@
                 Par exemple :
             </p>
             <img src="/graph3.png" class="w-[20rem] 2xl:w-[30rem]"/>
-            <a target="_blank" href="https://aider.curie.fr/is195" class="text-center bg-[#34B3C5] uppercase w-[268px] 2xl:w-[400px] text-[16px] md:text-xs 2xl:text-xl text-white lg:px-2 xl:py-2 xl:px-7 2xl:py-3 2xl:px-16 font-Raleway font-bold lg:hover:w-[300px] 2xl:hover:w-[450px] transition-all absolute -bottom-14 md:-bottom-10 xl:-bottom-12  2xl:-bottom-20">
+            <a target="_blank" href={passUtmParamsToLink("https://aider.curie.fr/is195")} class="text-center bg-[#34B3C5] uppercase w-[268px] 2xl:w-[400px] text-[16px] md:text-xs 2xl:text-xl text-white lg:px-2 xl:py-2 xl:px-7 2xl:py-3 2xl:px-16 font-Raleway font-bold lg:hover:w-[300px] 2xl:hover:w-[450px] transition-all absolute -bottom-14 md:-bottom-10 xl:-bottom-12  2xl:-bottom-20">
                 JE FAIS UN DON<br/>
                 Déductible de<br/>
                 <span class="font-black">L’impôt sur les Sociétés</span>
