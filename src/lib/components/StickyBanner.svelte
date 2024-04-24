@@ -25,7 +25,7 @@
     let isOpen = false;
 </script>
 
-<div in:fade class="hidden fixed top-0 bg-[#4D54D6] bg-opacity-70 backdrop-blur-sm md:flex flex-row items-center justify-center w-screen py-6 lg:h-[5rem] xl:h-[7rem] 2xl:h-[9rem] z-20">
+<div in:fade class="hidden fixed top-0 bg-[#4D54D6] bg-opacity-70 backdrop-blur-sm md:flex flex-row items-center justify-center w-full py-6 lg:h-[5rem] xl:h-[7rem] 2xl:h-[9rem] z-20">
     <a target="_blank" href={passUtmParamsToLink("https://curie.fr/")}>
         <img src="/logo_curie.png" class="md:w-[10rem] xl:w-[16rem]  mx-8" alt="curie"/>
     </a>
@@ -62,7 +62,7 @@
 </div>
 
 {#if isPopupVisible}
-    <div class="hidden fixed top-0 left-0 w-screen h-screen z-[70] backdrop-blur-xl bg-opacity-50 md:flex items-center justify-center">
+    <div class="hidden fixed top-0 left-0 w-full h-screen z-[70] backdrop-blur-xl bg-opacity-50 md:flex items-center justify-center">
         <div class="bg-transparent flex flex-col items-center justify-center" transition:fade>
             <div class="flex flex-row items-center justify-center gap-10">
                 <button class={`px-4 py-2 font-Raleway font-bold text-xl transition-colors ${activeTab === 1 ? 'bg-[#FF6600] text-white rounded-t-3xl' : 'text-[#FF6600] bg-white rounded-t-3xl'}`} on:click={() => activeTab = 1}>
@@ -191,7 +191,7 @@
     </div>
 {/if}
 
-<div in:fade class="md:hidden flex flex-col items-center justify-center fixed top-0 bg-[#4D54D6] bg-opacity-70 w-screen z-50  {isOpen ? '' : 'h-[55px] py-2'}">
+<div in:fade class="md:hidden flex flex-col items-center justify-center fixed top-0 bg-[#4D54D6] bg-opacity-70 w-full z-50  {isOpen ? '' : 'h-[55px] py-2'}">
     <div class="flex flex-row items-center justify-center gap-4 p-4">
         <button on:click={()=> isOpen = !isOpen} class="flex flex-col justify-around w-10 h-10 bg-transparent border-none cursor-pointer p-0 z-50 focus:outline-none">
             <div style="border-radius: 10px" class={`h-1 w-8 bg-white transform transition duration-500 ease-in-out ${isOpen ? 'rotate-45 translate-y-3.5' : ''}`}></div>
@@ -213,7 +213,7 @@
         </a>
     </div>
     {#if isOpen}
-        <div class="w-screen flex flex-col items-center justify-center gap-y-3 p-2">
+        <div class="w-full flex flex-col items-center justify-center gap-y-3 p-2">
             <button on:click={()=> {
                 isPopupVisibleMobile = false;
                 isOpen = false;
@@ -238,7 +238,7 @@
 </div>
 
 {#if isPopupVisibleMobile}
-    <div class="md:hidden fixed top-0 left-0 w-screen h-screen z-[70] backdrop-blur-xl bg-opacity-50 flex flex-col items-center justify-center">
+    <div class="md:hidden fixed top-0 left-0 w-full h-screen z-[70] backdrop-blur-xl bg-opacity-50 flex flex-col items-center justify-center">
             <svg on:click={()=> {isPopupVisibleMobile = false; window.location.hash = ''; projectIndexStore.set(0);}} xmlns="http://www.w3.org/2000/svg" class="absolute bg-white z-50 rounded-full right-3 top-[1.25rem] w-7 h-7" viewBox="0 0 24 24">
                 <path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z">
                 </path>

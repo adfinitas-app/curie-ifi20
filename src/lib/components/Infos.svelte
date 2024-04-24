@@ -49,7 +49,7 @@
     INFOS PRATIQUES
 </p>
 
-<div class="md:hidden flex flex-row justify-center items-start px-5 h-40 relative mt-3 w-screen">
+<div class="md:hidden flex flex-row justify-center items-start px-5 h-40 relative mt-3 w-full">
     {#if currentIndex > 0}
         <button class="absolute left-3 top-0 bottom-0 my-auto" on:click={previous}>
             <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" class="rotate-180">
@@ -196,7 +196,7 @@
         </p>
     </a>
 </div>
-<div class="md:mt-20 mt-10 bg-infos bg-cover bg-no-repeat w-screen md:h-[30rem] py-20 md:py-0 flex flex-col md:flex-row items-center justify-center">
+<div class="md:mt-20 mt-10 bg-infos bg-cover bg-no-repeat w-full md:h-[30rem] py-20 md:py-0 flex flex-col md:flex-row items-center justify-center">
     <div class="flex flex-col font-Raleway text-white items-center justify-center text-center w-full md:w-1/3">
         <p class="text-white text-5xl 2xl:text-7xl font-black">
             88<br/>

@@ -7,7 +7,7 @@
     import {passUtmParamsToLink} from "$lib/utils/links";
 </script>
 
-<div class="w-screen relative flex items-center justify-center ">
+<div class="w-full relative flex items-center justify-center ">
     <div class="gray-polygone  h-[50rem] 2xl:h-[60rem] bg-[#707070] bg-opacity-10 absolute top-0"/>
     <div class="absolute top-20 xl:top-28 flex flex-col items-center justify-center">
         <p class="font-Raleway font-black lg:text-2xl 2xl:text-4xl text-[#505050]">
@@ -17,8 +17,8 @@
             Mon don ouvrira de nouvelles perspectives de guérison pour les patients<br/>
             en finançant des projets comme ceux-ci.
         </p>
-        <div class="flex flex-col md:flex-row items-center justify-center ">
-            <a target="_blank" href={passUtmParamsToLink("https://aider.curie.fr/ifi")} class="uppercase bg-[#FF6600] text-white mt-3 2xl:mt-5 text-center w-[17rem] hover:scale-110 transition-all  py-3 font-Raleway font-bold ">
+        <div class="flex flex-col md:flex-row items-center justify-center mt-3">    
+            <a target="_blank" href={passUtmParamsToLink("https://aider.curie.fr/ifi")} class="uppercase bg-[#FF6600] text-white 2xl:mt-5 text-center w-[17rem] hover:scale-110 transition-all  py-3 font-Raleway font-bold ">
                 JE FAIS UN DON<br/>
                 Déductible de<br/>
                 <strong>l’IFI</strong>

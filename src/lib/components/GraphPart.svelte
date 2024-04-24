@@ -4,7 +4,7 @@
     let poppOpened = false;
 </script>
 
-<div class="w-screen relative flex flex-col items-center justify-center gap-5 backdrop-blur-3xl bg-transparent">
+<div class="w-full relative flex flex-col items-center justify-center gap-5 backdrop-blur-3xl bg-transparent">
     <div class="mt-[20rem] md:mt-52 2xl:mt-60 bg-white">
         <p class="-z-10 text-center uppercase font-bold font-Raleway text-[20px] px-5 md:px-0 lg:text-2xl 2xl:text-3xl text-[#505050]">
             Contre le cancer, réduisez vos impôts<br class="hidden md:block">
@@ -55,7 +55,7 @@
     <p>Je souhaite faire un don déductible de l’Impôt sur les Sociétés</p>
 </div>
 
-<div class="md:hidden mt-20 w-screen flex items-center justify-center">
+<div class="md:hidden mt-20 w-full flex items-center justify-center">
     <button on:click={()=> poppOpened = true} class="font-bold font-Lato text-[16px] py-4 px-3 w-[80%] cursor-pointer bg-white border-2 border-[#505050] text-[#505050]">
         Je souhaite faire un don déductible
         de l’Impôt sur les Sociétés
@@ -64,7 +64,7 @@
 
 
 {#if poppOpened}
-    <div class="fixed top-0 left-0 w-screen h-screen z-[70] backdrop-blur-xl bg-opacity-50 flex items-center justify-center" on:click={()=> poppOpened = false}>
+    <div class="fixed top-0 left-0 w-full h-screen z-[70] backdrop-blur-xl bg-opacity-50 flex items-center justify-center" on:click={()=> poppOpened = false}>
         <button class="hidden md:block absolute right-[14rem] top-10 xl:right-[20rem] 2xl:top-32 hover:scale-125 transition-all" on:click={()=> poppOpened = false}>
             <svg xmlns="http://www.w3.org/2000/svg" width="25.979" height="25.979" viewBox="0 0 25.979 25.979">
                 <g id="Group_620" data-name="Group 620" transform="translate(-1219.086 -100.935)">

@@ -5,7 +5,7 @@
 </script>
 
 
-<div class="w-screen hidden md:flex py-6 flex-col items-center justify-center relative">
+<div class="w-full hidden md:flex py-6 flex-col items-center justify-center relative">
     <div class="flex py-20 flex-row items-center justify-center gap-10 xl:gap-20">
         <a href={passUtmParamsToLink("https://curie.fr/")} target="_blank" class="absolute left-5 xl:left-20">
             <img src="/LOGO-Curie-footer.png" class="w-[80px]">
@@ -91,7 +91,7 @@
 </div>
 
 {#if isPopupOpened}
-    <div class="fixed top-0 left-0 right-0 px-10 2xl:px-2  m-auto bottom-0 w-screen h-60 md:w-[80vh] 2xl:w-[60vh] md:h-[40vh] 2xl:h-[30vh] z-[70] backdrop-blur-[900px] bg-opacity-50 flex flex-row items-center gap-2 md:gap-10 justify-center">
+    <div class="fixed top-0 left-0 right-0 px-10 2xl:px-2  m-auto bottom-0 w-full h-60 md:w-[80vh] 2xl:w-[60vh] md:h-[40vh] 2xl:h-[30vh] z-[70] backdrop-blur-[900px] bg-opacity-50 flex flex-row items-center gap-2 md:gap-10 justify-center">
         <button class="absolute z-[80] top-2 right-5 xl:right-5 2xl:right-10 md:top-5  hover:scale-125 transition-all" on:click={()=> isPopupOpened = false}>
             <svg xmlns="http://www.w3.org/2000/svg" width="25.979" height="25.979" viewBox="0 0 25.979 25.979">
                 <g id="Group_620" data-name="Group 620" transform="translate(-1219.086 -100.935)">
