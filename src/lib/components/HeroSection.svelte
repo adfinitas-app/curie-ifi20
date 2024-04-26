@@ -18,7 +18,7 @@
         <StickyBanner/>
     {/if}
     {#if bottomDivVisible}
-    <div in:fly={{x:-2000, y:100, duration:1000}} style="clip-path: polygon(0 28%, 100% 6%, 100% 83%, 0 100%);" class="w-full bg-[#4D54D6]/60 backdrop-blur-md z-10 h-[45rem] absolute -bottom-72"/>
+    <div in:fly={{x:-2000, y:100, duration:1000}} style="clip-path: polygon(0 28%, 100% 6%, 100% 83%, 0 100%);" class="w-full bg-[#4D54D6]/60 backdrop-blur-md z-10 h-[40rem] absolute -bottom-72"/>
         <div in:fly={{y: -200, duration:300, delay:1000}} class="absolute text-center flex flex-col items-center justify-center bottom-14 uppercase z-10 w-full text-white">
             <p class="text-[1.2rem] font-Raleway font-black px-3 mb-2">
                 Votre don ouvre
