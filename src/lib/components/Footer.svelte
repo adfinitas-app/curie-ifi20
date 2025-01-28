@@ -31,9 +31,6 @@
             <a href={passUtmParamsToLink("https://www.linkedin.com/company/institutcurie/")} target="_blank">
                 <img src="/linkedin.png" width="23px">
             </a>
-            <a href={passUtmParamsToLink("https://twitter.com/institut_curie")} target="_blank">
-                <img src="/x.png" width="23px">
-            </a>
             <a target="_blank" href={passUtmParamsToLink("https://fr-fr.facebook.com/InstitutCurie")}>
                 <img src="/faceb.png" width="12px">
             </a>
@@ -55,9 +52,6 @@
     <div class="flex flex-row gap-5 ">
         <a href={passUtmParamsToLink("https://www.linkedin.com/company/institutcurie/")} target="_blank">
             <img src="/linkedin.png" width="23px">
-        </a>
-        <a href={passUtmParamsToLink("https://twitter.com/institut_curie")} target="_blank">
-            <img src="/x.png" width="23px">
         </a>
         <a target="_blank" href={passUtmParamsToLink("https://fr-fr.facebook.com/InstitutCurie")}>
             <img src="/faceb.png" width="12px">
