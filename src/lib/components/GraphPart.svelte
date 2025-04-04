@@ -6,11 +6,10 @@
 
 <div class="w-full relative flex flex-col items-center justify-center gap-5 backdrop-blur-3xl bg-transparent">
     <div class="mt-[20rem] md:mt-52 2xl:mt-60 bg-white">
-        <p class="-z-10 text-center uppercase font-bold font-Raleway text-[20px] px-5 md:px-0 lg:text-2xl 2xl:text-3xl text-[#505050]">
+        <p class="-z-10 text-center uppercase font-bold font-Raleway text-[20px] mb-2 md:mb-0 px-5 md:px-0 lg:text-2xl 2xl:text-3xl text-[#505050]">
             Contre le cancer, réduisez vos impôts<br class="hidden md:block">
             En finançant des projets porteurs d’espoir
         </p>
-        <div class=" bg-[#FF6600] w-[5rem] h-1 rounded-2xl absolute left-0 right-0 mx-auto mt-2 md:mt-0"/>
         <div class="flex flex-col md:flex-row items-center justify-center md:gap-10 xl:gap-20 mt-10 md:mt-3 xl:mt-12">
             <div class="py-5 flex flex-col text-center items-center text-[#505050] relative justify-center w-[95%] md:w-auto md:h-[35rem] xl:h-[29rem] 2xl:h-[37rem]  xl:w-[25rem] lg:w-[25rem] 2xl:w-[40rem] rounded-2xl gap-5 md:gap-2 xl:gap-3 2xl:p-5" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.1);">
                 <p class=" font-Raleway font-bold text-[20px] md:text-2xl 2xl:text-3xl">

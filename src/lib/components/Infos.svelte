@@ -102,7 +102,7 @@
 </div>
 
 <div class="hidden md:flex flex-row items-center justify-center  mt-10 2xl:mt-20">
-    <a href="/Guide.fiscal.2024.pdf" target="_blank"  class="flex flex-col items-center justify-center">
+    <a href="/guide-fiscal-2025.pdf" target="_blank"  class="flex flex-col items-center justify-center">
         <svg id="Group_450" data-name="Group 450" xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 2xl:w-40 2xl:h-40" viewBox="0 0 138 138">
             <circle id="Ellipse_22" data-name="Ellipse 22" cx="69" cy="69" r="69" fill="#9b999b"/>
             <g id="Group_417" data-name="Group 417" transform="translate(13.275 14.284)">
@@ -121,7 +121,7 @@
             le guide fiscal
         </p>
     </a>
-    <a href="/Bulletin.de.soutien.IFI.2024.pdf" target="_blank" class="flex flex-col items-center justify-center ml-20">
+    <a href="/bulletin-soutien-2025.pdf" target="_blank" class="flex flex-col items-center justify-center ml-20">
         <svg id="Group_449" data-name="Group 449" xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 2xl:w-40 2xl:h-40" viewBox="0 0 134.832 134.832">
             <circle id="Ellipse_23" data-name="Ellipse 23" cx="67.416" cy="67.416" r="67.416" fill="#9b999b"/>
             <g id="Group_447" data-name="Group 447" transform="translate(12.075 12.075)">
@@ -176,7 +176,7 @@
             pour faire un virement
         </p>
     </a>
-    <a href="https://curie.fr/sites/default/files/medias/documents/2023-09/2303_04292_INSTITUT%20CURIE_RA22_Exe_VF.pdf" target="_blank" class="flex flex-col items-center justify-center ml-20">
+    <a href="/rapport-annuel-2025.pdf" target="_blank" class="flex flex-col items-center justify-center ml-20">
         <svg id="Group_636" data-name="Group 636" xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 2xl:w-40 2xl:h-40" viewBox="0 0 138 138">
             <circle id="Ellipse_24" data-name="Ellipse 24" cx="69" cy="69" r="69" fill="#9b999b"/>
             <g id="Group_451" data-name="Group 451" transform="translate(11.719 11.784)">
@@ -217,7 +217,7 @@
     </div>
     <div class="mt-10 md:mt-0 flex flex-col font-Raleway text-white items-center justify-center text-center w-full md:w-1/3">
         <p class="text-white text-5xl 2xl:text-7xl font-black">
-            55 000<br/>
+            53 800<br/>
         </p>
         <p class="text-base 2xl:text-2xl font-extrabold">
             patients traités
@@ -228,7 +228,7 @@
 
 <style lang="scss">
     .bg-infos {
-        background-image: url("/footer-img-desktop.png");
+        background-image: url("/infos-bg-desktop.png");
     }
     @media (max-width: 768px) {
         .bg-infos {

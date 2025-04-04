@@ -1,6 +1,4 @@
 <script>
-    let isHoveringText = false;
-    let isHoveringText2 = false;
     import {fade} from "svelte/transition";
     import {onMount} from "svelte";
     import {projectIndexStore} from "$lib/utils/utils.js";
@@ -29,8 +27,7 @@
     <a target="_blank" href={passUtmParamsToLink("https://curie.fr/")}>
         <img src="/logo_curie.png" class="md:w-[10rem] xl:w-[16rem]  mx-8" alt="curie"/>
     </a>
-    <button on:mouseenter={()=> isHoveringText = true} on:mouseleave={()=> isHoveringText = false}
-            on:click={()=> {
+    <button on:click={()=> {
                 isPopupVisibleMobile = false;
                 projectIndexStore.set(0);
                 window.location.hash = "#ProjectsDesktop";
@@ -41,13 +38,11 @@
         <a class="text-white font-Raleway font-bold lg:text-xl mx-4">
             Les projets soutenus
         </a>
-        <span class={`h-0.5 bg-white rounded-3xl transition-width ${isHoveringText ? 'w-[10rem]' : 'w-[3rem]'}`}/>
     </button>
-    <button on:click={() => isPopupVisible = !isPopupVisible} on:mouseenter={()=> isHoveringText2 = true} on:mouseleave={()=> isHoveringText2 = false} class="mx-4 flex flex-col items-center justify-center">
+    <button on:click={() => isPopupVisible = !isPopupVisible} class="mx-4 flex flex-col items-center justify-center">
         <span class="text-white font-Raleway font-bold lg:text-xl">
             Calculer ma réduction d'impôt
         </span>
-        <span class={`h-0.5 bg-white rounded-3xl transition-width ${isHoveringText2 ? 'w-[10rem]' : 'w-[3rem]'}`}/>
     </button>
     <a target="_blank" href={passUtmParamsToLink("https://aider.curie.fr/ifi")} class="mx-8 bg-[#FF6600] text-center uppercase text-xs xl:text-base 2xl:text-xl text-white w-[15rem] mr-2 2xl:w-[20rem] py-2 font-Raleway font-bold hover:border-2 hover:border-white transition-all relative">
         JE FAIS UN DON<br/>

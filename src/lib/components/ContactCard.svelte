@@ -1,13 +1,12 @@
-<div class="hidden md:flex rounded-2xl  flex-row  items-center justify-center p-6 2xl:px-8 2xl:py-8" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);">
+<div class="hidden md:flex rounded-2xl  flex-row  items-center justify-center p-6 2xl:px-8 2xl:py-8 max-w-[700px] mx-auto" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);">
     <img src="/signature-desktop.png" alt="pic of the chieffe" class=" w-40 2xl:w-[230px]"/>
     <div class="flex flex-col ml-4 xl:ml-8 2xl:ml-14">
         <p class="uppercase font-Raleway font-black text-xl 2xl:text-4xl text-[#505050]">
             Contact
         </p>
         <p class="font-Lato mt-3 text-base 2xl:text-2xl text-[#505050]">
-            <b>Héloïse Desazars de Montgailhard</b> se tient à votre<br/>
-            disposition pour vous donner toutes les informations<br/>
-            nécessaires. N’hésitez pas à la contacter.
+            <span class="font-bold">Nina Dallot</span> se tient à votre disposition pour
+            vous donner toutes les informations nécessaires. N’hésitez pas à la contacter.
         </p>
         <div class="flex flex-row items-center mt-3">
             <svg xmlns="http://www.w3.org/2000/svg" width="25.978" height="25.97" viewBox="0 0 25.978 25.97">

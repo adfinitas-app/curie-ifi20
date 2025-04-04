@@ -1,64 +1,8 @@
 <section class="timeline hidden md:block absolute top-[28rem] 2xl:top-[33rem]">
-        <p class="font-Raleway font-black text-[#FF6600] lg:text-2xl 2xl:text-4xl uppercase">
+        <p class="font-Raleway text-center font-black text-[#FF6600] lg:text-2xl 2xl:text-4xl uppercase">
             CALENDRIER de déclaration FISCALE <span class="font-Lato">2024</span>
         </p>
-    <ul>
-        <li>
-            <div class="content text-[#505050]">
-                <h2 class="text-center font-Raleway font-bold text-[25px]">
-                    <time>21 Mai</time>
-                </h2>
-                <p class="text-base font-Raleway">
-                    Date limite en papier
-                </p>
-
-            </div>
-        </li>
-        <li>
-            <div class="content text-[#505050]">
-                <h2 class="text-center font-Raleway font-bold text-[25px]">
-                    <time>23 Mai</time>
-                </h2>
-                <p class="text-base font-Raleway">
-                    Date limite en ligne<br/>
-                    Zone 1
-                </p>
-                <p class="text-base font-Raleway text-[#FF6600]">
-                    (départements 01 à 19,<br/>
-                    Monaco et non-résidents)
-                </p>
-            </div>
-        </li>
-        <li>
-            <div class="content text-[#505050]">
-                <h2 class="text-center font-Raleway font-bold text-[25px]">
-                    <time>30 Mai</time>
-                </h2>
-                <p class="text-base font-Raleway">
-                    Date limite en ligne<br/>
-                    Zone 2
-                </p>
-                <p class="text-base font-Raleway text-[#FF6600]">
-                    (départements 20 à 54,<br/>
-                    y compris la Corse)
-                </p>
-            </div>
-        </li>
-        <li>
-            <div class="content text-[#505050]">
-                <h2 class="text-center font-Raleway font-bold text-[25px]">
-                    <time>6 juin</time>
-                </h2>
-                <p class="text-base font-Raleway">
-                    Date limite en ligne<br/>
-                    Zone 3
-                </p>
-                <p class="text-base font-Raleway text-[#FF6600]">
-                    (départements 55 à 976)
-                </p>
-            </div>
-        </li>
-    </ul>
+    <img src="/timeline.png" width="900" />
 </section>
 
 <style lang="scss">
