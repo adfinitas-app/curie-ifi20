@@ -67,20 +67,20 @@
                 {textes[currentIndex]}
             </p>
         </a>
-        <a href="https://curie.fr/sites/default/files/medias/documents/2023-09/2303_04292_INSTITUT%20CURIE_RA22_Exe_VF.pdf" target="_blank" class=" w-1/2 flex flex-col items-center justify-center">
+        <a href="/rapport-annuel-2025.pdf" target="_blank" class=" w-1/2 flex flex-col items-center justify-center">
             <img class="w-28 h-28 object-cover" src={images[currentIndex + 1]} alt="image 1">
             <p class="text-center font-Raleway font-bold text-[16px] px-5">
                 {textes[currentIndex + 1]}
             </p>
         </a>
     {:else}
-        <a href="/Guide.fiscal.2024.pdf" target="_blank" class="w-1/2 flex flex-col items-center justify-center">
+        <a href="/guide-fiscal-2025.pdf" target="_blank" class="w-1/2 flex flex-col items-center justify-center">
             <img class="w-28 h-28 object-cover" src={images[currentIndex]} alt="image 1">
             <p class="text-center font-Raleway font-bold text-[16px] px-5">
                 {textes[currentIndex]}
             </p>
         </a>
-        <a href="/Bulletin.de.soutien.IFI.2024.pdf" target="_blank" class=" w-1/2 flex flex-col items-center justify-center">
+        <a href="/bulletin-soutien-2025.pdf" target="_blank" class=" w-1/2 flex flex-col items-center justify-center">
             <img class="w-28 h-28 object-cover" src={images[currentIndex + 1]} alt="image 1">
             <p class="text-center font-Raleway font-bold text-[16px] px-5">
                 {textes[currentIndex + 1]}

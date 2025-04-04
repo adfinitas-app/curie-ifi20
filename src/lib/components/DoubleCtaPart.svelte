@@ -32,7 +32,7 @@
     </div>
     <Timeline/>
     <TestTimeline/>
-    <div class="absolute  top-[60rem] md:top-[50rem] 2xl:top-[55rem] flex flex-col items-center justify-center">
+    <div class="absolute  top-[62rem] md:top-[50rem] 2xl:top-[55rem] flex flex-col items-center justify-center">
         <ContactCard/>
         <Infos/>
         <Footer/>
