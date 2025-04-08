@@ -1,8 +1,8 @@
-<script>
+<script lang="ts">
     import {fade, fly} from "svelte/transition";
     import {projectIndexStore} from "$lib/utils/utils.js";
 
-    let projectTitle = [
+    let projectTitles = [
         "Se doter des équipements les plus performants",
         "Mobiliser les meilleurs talents contre le cancer",
         "Radiothérapie : développer une technique unique au monde"
@@ -11,26 +11,21 @@
     let showMore = false;
     let videoOpen = false;
 
-    function setProjectIndex(index, str) {
+    function setProjectIndex(index: number) {
         const element = document.getElementById('ProjectsDesktop')
 
         if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
+            element.scrollIntoView({behavior: 'smooth'});
         }
 
-        if (str === "<span class='font-bold'>Acquérir un microscope de pointe</span> pour développer le projet révolutionnaire des tumeurs sur puces")
-            $projectIndexStore = 0;
-        else if (str === "<span class='font-bold'>Accueillir les meilleurs</span> experts pour accélérer l’innovation et le progrès")
-            $projectIndexStore = 1;
-        else if (str === "<span class='font-bold'>Entrer dans une nouvelle ère de la radiothérapie</span> en déployant une technologie inédite")
-            $projectIndexStore = 2;
+        $projectIndexStore = index;
         window.location.hash = `#projet${index + 1}`;
     }
 </script>
 
 {#if videoOpen}
     <div transition:fade class="bg-black/60 fixed z-50 top-0 left-0 w-full h-screen flex justify-center items-center">
-        <div class="relative w-full max-w-[90vw] sm:max-w-[70vw]">
+        <div class="relative w-full">
             <div style="padding:56.25% 0 0 0;position:relative;" class="relative">
                 <iframe src="https://player.vimeo.com/video/1072536544?autoplay=1&amp;loop=1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                         frameborder="0"
@@ -39,7 +34,7 @@
 
                 <button
                         on:click={() => (videoOpen = false)}
-                        class="absolute bottom-[calc(100%+3px)] z-30 cursor-pointer transition-all hover:scale-125 max-md:right-0 md:left-[calc(100%+3px)]">
+                        class="absolute bottom-[calc(100%+3px)] z-30 cursor-pointer transition-all hover:scale-125 right-2">
                     <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
@@ -47,7 +42,7 @@
                             stroke-width="2"
                             stroke="currentColor"
                             class="w-10 h-10 text-white">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/>
                     </svg>
                 </button>
             </div>
@@ -66,39 +61,34 @@
     <div class="bg-[#FF6600] w-[10rem] h-1 rounded-3xl"/>
     <div class="px-3 w-full">
         <div class="bg-[#4D54D6] w-full mt-5 flex flex-col items-center justify-center relative rounded-t-2xl">
-            <div on:click={()=> projectSelector = !projectSelector}
-                 class="flex flex-row items-center justify-center w-full  h-[88px] gap-x-4 py-4">
+            <button on:click={()=> projectSelector = !projectSelector}
+                    class=" flex cursor-pointer flex-row items-center justify-center w-full  h-[88px] gap-x-4 py-4 text-left">
                 <p class="font-Raleway text-white text-[18px] leading-tight font-bold w-[70%]">
-                    {@html projectTitle[$projectIndexStore]}
+                    {@html projectTitles[$projectIndexStore]}
                 </p>
-                <button>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
-                        <g id="Group_759" data-name="Group 759" transform="translate(-326 -2692)">
-                            <circle id="Ellipse_40" data-name="Ellipse 40" cx="17" cy="17" r="17"
-                                    transform="translate(326 2692)" fill="#fff"/>
-                            <path id="Path_638" data-name="Path 638" d="M14162.583,5344l8.7,8.7,8.7-8.7"
-                                  transform="translate(-13828.284 -2637)" fill="none" stroke="#4d54d6"
-                                  stroke-linecap="round" stroke-width="3"/>
-                        </g>
-                    </svg>
-                </button>
-            </div>
+                <svg class:rotate-180={projectSelector} class="transition-all" xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+                    <g id="Group_759" data-name="Group 759" transform="translate(-326 -2692)">
+                        <circle id="Ellipse_40" data-name="Ellipse 40" cx="17" cy="17" r="17"
+                                transform="translate(326 2692)" fill="#fff"/>
+                        <path id="Path_638" data-name="Path 638" d="M14162.583,5344l8.7,8.7,8.7-8.7"
+                              transform="translate(-13828.284 -2637)" fill="none" stroke="#4d54d6"
+                              stroke-linecap="round" stroke-width="3"/>
+                    </g>
+                </svg>
+            </button>
             {#if projectSelector}
-                <div class="absolute w-full -bottom-[11rem]">
-                    <button in:fly
-                            on:click={()=> {setProjectIndex(1, projectTitle[($projectIndexStore + 1) % projectTitle.length]); projectSelector = false}}
-                            class="bg-white text-[#505050] text-left  uppercase h-[88px] w-full border-2 border-[#505050] p-5">
-                        <p class="font-Raleway font-bold text-[18px] leading-tight m-0">
-                            {@html projectTitle[($projectIndexStore + 1) % projectTitle.length]}
-                        </p>
-                    </button>
-                    <button in:fly
-                            on:click={()=> {setProjectIndex(2, projectTitle[($projectIndexStore + 2) % projectTitle.length]); projectSelector = false}}
-                            class="bg-white text-[#505050] text-left  uppercase h-[88px] w-full border-x-2 border-b-2 border-[#505050] p-5">
-                        <p class="font-Raleway font-bold text-[18px] leading-tight m-0">
-                            {@html projectTitle[($projectIndexStore + 2) % projectTitle.length]}
-                        </p>
-                    </button>
+                <div transition:fly={{duration: 300}}
+                     class="absolute w-full -bottom-[11rem] border-2 border-[#505050] divide-y-2 divide-[#505050]">
+                    {#each projectTitles as projectTitle, idx (idx)}
+                        {#if idx !== $projectIndexStore}
+                            <button on:click={()=> {setProjectIndex(idx); projectSelector = false}}
+                                    class="bg-white text-[#505050] text-left  uppercase h-[88px] w-full p-5">
+                                <p class="font-Raleway font-bold text-[18px] leading-tight m-0">
+                                    {projectTitle}
+                                </p>
+                            </button>
+                        {/if}
+                    {/each}
                 </div>
             {/if}
         </div>
@@ -211,7 +201,8 @@
             <p class="font-Lato text-[16px] px-3 text-[#505050]">
                 Pour frapper plus vite et plus fort contre le cancer, l’Institut Curie se dote des compétences les plus
                 pointues et mobilise les jeunes talents.<br/><br/>
-                C’est dans ce contexte que le Dr Pierre Bost a rejoint récemment l’Institut Curie. Sa mission&nbsp;? Fournir
+                C’est dans ce contexte que le Dr Pierre Bost a rejoint récemment l’Institut Curie. Sa mission&nbsp;?
+                Fournir
                 de nouveaux outils informatiques et statistiques pour analyser de données obtenues par imagerie
                 multiplexée, une technique d’imagerie qui permet de visualiser simultanément plusieurs composants
                 biologiques dans un échantillon.
@@ -222,7 +213,11 @@
                 </p>
             </div>
             <p class="font-Lato text-[16px] px-3 text-[#505050]">
-                L’Institut Curie offre aux Junior Principal Investigator (JPI) un accompagnement financier pour le recrutement de leur équipe et une aide personnalisée (mise à disposition de locaux, accès aux plateformes technologiques, soutiens administratifs…) afin qu’ils puissent débuter leur activité de recherche dans les meilleures conditions. Cette politique d’accompagnement est entièrement financée par vos dons.
+                L’Institut Curie offre aux Junior Principal Investigator (JPI) un accompagnement financier pour le
+                recrutement de leur équipe et une aide personnalisée (mise à disposition de locaux, accès aux
+                plateformes technologiques, soutiens administratifs…) afin qu’ils puissent débuter leur activité de
+                recherche dans les meilleures conditions. Cette politique d’accompagnement est entièrement financée par
+                vos dons.
             </p>
             <div class="flex flex-col">
                 <p class="underline uppercase text-[#4D54D6] text-[18px] font-bold px-3">
@@ -230,7 +225,9 @@
                 </p>
             </div>
             <p class="font-Lato text-[16px] px-3 text-[#505050]">
-                Le projet porté par le Dr Bost permettra <span class="font-bold">d’améliorer considérablement l’interprétation de milliers de données</span> pour les traduire en informations biologiquement pertinentes et avancer dans la compréhension des cancers.
+                Le projet porté par le Dr Bost permettra <span class="font-bold">d’améliorer considérablement l’interprétation de milliers de données</span>
+                pour les traduire en informations biologiquement pertinentes et avancer dans la compréhension des
+                cancers.
             </p>
             <div class="flex flex-col relative gap-y-5">
                 {#if showMore === false}
@@ -253,12 +250,14 @@
                             Dr Pierre Bost,
                         </p>
                         <p class="text-[16px] px-3 pb-6">
-                            chef de l’équipe Dynamique et hétérogénéité du transcriptome en contexte infectieux à l’Institut Curie
+                            chef de l’équipe Dynamique et hétérogénéité du transcriptome en contexte infectieux à
+                            l’Institut Curie
                         </p>
                     </div>
                     <div class="flex items-center justify-center px-3">
                         <div class="bg-white text-[#4D54D6] flex flex-col text-center w-full py-4 items-center justify-center font-Raleway font-bold text-[20px] mb-10">
-                            <span>COÛT ANNUEL D’UNE ÉQUIPE JUNIOR PRINCIPAL INVESTIGATOR <span class="font-light">(JPI)</span></span>
+                            <span>COÛT ANNUEL D’UNE ÉQUIPE JUNIOR PRINCIPAL INVESTIGATOR <span
+                                    class="font-light">(JPI)</span></span>
                             <div class="flex flex-col">
                                 <p class="uppercase underline text-center text-[18px] font-bold px-3">
                                     239 000 €
@@ -291,8 +290,14 @@
                 </p>
             </div>
             <p class="font-Lato text-[16px] px-3 text-[#505050]">
-                En 2011, après 10 ans de recherche fondamentale, l’Institut Curie annonçait une découverte révolutionnaire : la radiothérapie FLASH, qui permet de délivrer des rayons très intenses en moins d’une seconde, pour détruire les cellules tumorales tout en épargnant les tissus sains.<br /><br />
-                En 2025, l’Institut Curie se fonde sur cette découverte pour installer, d’ici 3 ans, au cœur de l’hôpital, une plateforme, unique au monde, munie d’un irradiateur de faisceaux d’électrons de très hautes énergies : c’est le projet FRATHEA. Les équipes de recherche de l’Institut Curie mènent en parallèle des études visant à évaluer cette technique au stade des essais cliniques. <span class="font-bold">L’ambition : démarrer les premiers essais auprès de patients touchés par des cancers de mauvais pronostic.</span>
+                En 2011, après 10 ans de recherche fondamentale, l’Institut Curie annonçait une découverte
+                révolutionnaire : la radiothérapie FLASH, qui permet de délivrer des rayons très intenses en moins d’une
+                seconde, pour détruire les cellules tumorales tout en épargnant les tissus sains.<br/><br/>
+                En 2025, l’Institut Curie se fonde sur cette découverte pour installer, d’ici 3 ans, au cœur de
+                l’hôpital, une plateforme, unique au monde, munie d’un irradiateur de faisceaux d’électrons de très
+                hautes énergies : c’est le projet FRATHEA. Les équipes de recherche de l’Institut Curie mènent en
+                parallèle des études visant à évaluer cette technique au stade des essais cliniques. <span
+                    class="font-bold">L’ambition : démarrer les premiers essais auprès de patients touchés par des cancers de mauvais pronostic.</span>
             </p>
             <div class="flex flex-col">
                 <p class="underline uppercase text-[#4D54D6] text-[18px] font-bold px-3">
@@ -350,7 +355,8 @@
                             Pr Gilles Créhange,
                         </p>
                         <p class="text-[16px] px-3 pb-6">
-                            chef du département de Radiothérapie oncologique et coordonnateur du projet FRATHEA à l’Institut Curie
+                            chef du département de Radiothérapie oncologique et coordonnateur du projet FRATHEA à
+                            l’Institut Curie
                         </p>
                     </div>
                     <div class="flex items-center justify-center px-3">
@@ -393,18 +399,17 @@
     }
 
     ul li {
-        display: flex;
-        align-items: baseline;
+        position: relative;
+        padding-left: 1.2rem;
+        padding-top: 1rem;
     }
 
     ul li::before {
-        font-weight: normal !important;
         content: "•";
         color: #4D54D6;
-        font-size: 2rem;
-        display: inline-block;
-        width: 1rem;
-        margin-right: 1rem;
-        position: relative;
+        position: absolute;
+        font-size: 1.3rem;
+        left: 0;
+        top: 0.75rem;
     }
 </style>

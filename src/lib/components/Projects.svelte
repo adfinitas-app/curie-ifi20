@@ -18,7 +18,7 @@
 
 {#if videoOpen}
     <div transition:fade class="bg-black/60 fixed z-50 top-0 left-0 w-full h-screen flex justify-center items-center">
-        <div class="relative w-full max-w-[90vw] sm:max-w-[70vw]">
+        <div class="relative w-full">
             <div style="padding:56.25% 0 0 0;position:relative;" class="relative">
                 <iframe src="https://player.vimeo.com/video/1072536544?autoplay=1&amp;loop=1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                         frameborder="0"
@@ -27,7 +27,7 @@
 
                 <button
                         on:click={() => (videoOpen = false)}
-                        class="absolute bottom-[calc(100%+3px)] z-30 cursor-pointer transition-all hover:scale-125 max-md:right-0 md:left-[calc(100%+3px)]">
+                        class="absolute bottom-[calc(100%+3px)] z-30 cursor-pointer transition-all hover:scale-125 right-2">
                     <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
@@ -249,7 +249,7 @@
                         L’innovation
                     </p>
                     <button on:click={() => videoOpen = true}
-                            class="relative w-full aspect-video mt-4 group bg-[url(video-preview.png)] bg-center bg-cover">
+                            class="relative w-full aspect-[760/310] mt-4 group bg-[url(/video-preview.png)] bg-center bg-cover">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79.254 79.254"
                              class="transition-all w-14 group-hover:w-[66px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                             <path id="Tracé_635" data-name="Tracé 635"
@@ -304,7 +304,7 @@
 
     ul li {
         position: relative;
-        padding-left: 2rem;
+        padding-left: 1.5rem;
         padding-top: 1rem;
     }
 
@@ -312,9 +312,9 @@
         content: "•";
         color: #4D54D6;
         position: absolute;
-        font-size: 2rem;
+        font-size: 1.3rem;
         left: 0;
-        top: 1rem;
+        top: 0.9rem;
     }
 
     .underline {

@@ -37,7 +37,7 @@
             class="flex flex-col items-center justify-center">
         <a class="text-white hover:underline font-Raleway font-bold lg:text-xl mx-4">
             Les projets soutenus
-        </a>é
+        </a>
     </button>
     <button on:click={() => isPopupVisible = !isPopupVisible} class="mx-4 flex flex-col items-center justify-center">
         <span class="text-white font-Raleway hover:underline font-bold lg:text-xl">

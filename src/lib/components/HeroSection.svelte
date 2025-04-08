@@ -19,7 +19,7 @@
     {/if}
     {#if bottomDivVisible}
     <div in:fly={{x:-2000, y:100, duration:1000}} style="clip-path: polygon(0 28%, 100% 6%, 100% 83%, 0 100%);" class="w-full bg-[#4D54D6]/60 backdrop-blur-md z-10 h-[40rem] absolute -bottom-72"/>
-        <div in:fly={{y: -200, duration:300, delay:1000}} class="absolute text-center flex flex-col items-center justify-center bottom-14 uppercase z-10 w-full text-white">
+        <div in:fly={{y: -200, duration:300, delay:1000}} class="absolute text-center flex flex-col items-center justify-center bottom-5 uppercase z-10 w-full text-white">
             <p class="text-[1.2rem] font-Raleway font-black px-3 mb-2">
                 Votre don ouvre
                 de <span class="underline-red ">nouvelles perspectives</span>
@@ -29,6 +29,21 @@
             <p class="font-semibold font-Raleway text-[15px] mb-2 px-2" style="text-transform: none">
                 Contre le cancer, investissez votre impôt dans l’innovation.
             </p>
+            <a href="#Intro"
+               on:click={()=> {projectIndexStore.set(0)}}>
+                <svg class="mt-3 2xl:mt-6" xmlns="http://www.w3.org/2000/svg" width="94.94" height="21.854" viewBox="0 0 94.94 21.854">
+                    <g id="Group_577" data-name="Group 577" transform="translate(-955.802 -686.267)">
+                        <g id="Group_115" data-name="Group 115" transform="translate(956.534 688.129)">
+                            <g id="Group_116" data-name="Group 116" transform="translate(0 0)">
+                                <g id="Group_498" data-name="Group 498">
+                                    <path id="Path_277" data-name="Path 277" d="M46.91,18.122,23.728,9,0,0" transform="translate(46.91 18.122) rotate(180)" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="4"/>
+                                    <path id="Path_278" data-name="Path 278" d="M46.91,0,23.728,9.12,0,18.122" transform="translate(46.565 0)" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="4"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </a>
         </div>
         <div id="IntroMobile" class="absolute bottom-20"/>
         <div class="absolute -bottom-48 z-10 ">
