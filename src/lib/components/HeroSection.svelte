@@ -13,7 +13,7 @@
     }, 2000);
 </script>
 
-<div style="background-image: url('/bg-mobile.png')" class=" bg-cover bg-no-repeat  w-full h-screen md:hidden relative">
+<div style="background-image: url('/bg-mobile.jpg')" class="bg-cover bg-no-repeat  w-full h-screen md:hidden relative">
     {#if StickyBannerVisible}
         <StickyBanner/>
     {/if}

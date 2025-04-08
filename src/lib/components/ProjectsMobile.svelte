@@ -12,6 +12,12 @@
     let videoOpen = false;
 
     function setProjectIndex(index, str) {
+        const element = document.getElementById('ProjectsDesktop')
+
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+
         if (str === "<span class='font-bold'>Acquérir un microscope de pointe</span> pour développer le projet révolutionnaire des tumeurs sur puces")
             $projectIndexStore = 0;
         else if (str === "<span class='font-bold'>Accueillir les meilleurs</span> experts pour accélérer l’innovation et le progrès")
@@ -369,11 +375,11 @@
     {/if}
 
     <div class="flex items-center mx-auto gap-4">
-        <button on:click={() => $projectIndexStore = 0}
+        <button on:click={() => setProjectIndex(0, '')}
                 class="w-5 h-5 {$projectIndexStore === 0 ? 'bg-[#FF6600]' : 'bg-white'} border-[3px] border-[#FF6600] rounded-full transition-all"></button>
-        <button on:click={() => $projectIndexStore = 1}
+        <button on:click={() => setProjectIndex(1, '')}
                 class="w-5 h-5 {$projectIndexStore === 1 ? 'bg-[#FF6600]' : 'bg-white'} border-[3px] border-[#FF6600] rounded-full transition-all"></button>
-        <button on:click={() => $projectIndexStore = 2}
+        <button on:click={() => setProjectIndex(2, '')}
                 class="w-5 h-5 {$projectIndexStore === 2 ? 'bg-[#FF6600]' : 'bg-white'} border-[3px] border-[#FF6600] rounded-full transition-all"></button>
     </div>
 </div>

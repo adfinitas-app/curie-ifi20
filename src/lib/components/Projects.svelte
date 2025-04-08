@@ -1,10 +1,19 @@
-<script>
+<script lang="ts">
     import {fade} from "svelte/transition";
 
     let projectIndex = 0;
     import {projectIndexStore} from "$lib/utils/utils";
 
     let videoOpen = false;
+
+    const selectProject = (index: number) => {
+        const element = document.getElementById('ProjectsDesktop')
+
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+        $projectIndexStore = index;
+    }
 </script>
 
 {#if videoOpen}
@@ -273,11 +282,11 @@
         {/if}
 
         <div class="flex items-center mx-auto gap-4">
-            <button on:click={() => $projectIndexStore = 0}
+            <button on:click={() => selectProject(0)}
                     class="w-5 h-5 {$projectIndexStore === 0 ? 'bg-[#FF6600]' : 'bg-white'} border-[3px] border-[#FF6600] rounded-full transition-all"></button>
-            <button on:click={() => $projectIndexStore = 1}
+            <button on:click={() => selectProject(1)}
                     class="w-5 h-5 {$projectIndexStore === 1 ? 'bg-[#FF6600]' : 'bg-white'} border-[3px] border-[#FF6600] rounded-full transition-all"></button>
-            <button on:click={() => $projectIndexStore = 2}
+            <button on:click={() => selectProject(2)}
                     class="w-5 h-5 {$projectIndexStore === 2 ? 'bg-[#FF6600]' : 'bg-white'} border-[3px] border-[#FF6600] rounded-full transition-all"></button>
         </div>
     </div>
