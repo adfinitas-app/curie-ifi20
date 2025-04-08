@@ -7,7 +7,7 @@
 <div class="w-full relative flex flex-col items-center justify-center gap-5 backdrop-blur-3xl bg-transparent">
     <div class="mt-[20rem] md:mt-52 2xl:mt-60 bg-white">
         <p class="-z-10 text-center uppercase font-bold font-Raleway text-[20px] mb-2 md:mb-0 px-5 md:px-0 lg:text-2xl 2xl:text-3xl text-[#505050]">
-            Contre le cancer, réduisez vos impôts<br class="hidden md:block">
+            <span class="text-[#FF6600]">Contre le cancer</span>, réduisez vos impôts<br class="hidden md:block">
             En finançant des projets porteurs d’espoir
         </p>
         <div class="flex flex-col md:flex-row items-center justify-center md:gap-10 xl:gap-20 mt-10 md:mt-3 xl:mt-12">
@@ -22,7 +22,7 @@
                 <p class="2xl:text-2xl">
                     Par exemple :
                 </p>
-                <img src="/graph1.png" class="w-[311px] md:w-[20rem] xl:w-[17rem] 2xl:w-[25rem]"/>
+                <img src="/graph1.png" class="w-[311px] md:w-[20rem] xl:w-[17rem] 2xl:w-[25rem] max-md:mb-9"/>
                 <a target="_blank" href={passUtmParamsToLink("https://aider.curie.fr/ifi")} class="bg-[#FF6600] uppercase w-[268px] md:w-[320xp] hover:scale-110 text-[16px] md:text-sm 2xl:text-base text-white md:p-2 xl:py-2 xl:px-7 2xl:py-2 2xl:px-16 font-Raleway font-bold transition-all absolute top-full -translate-y-1/2">
                     JE FAIS UN DON<br/>
                     Déductible de<br/>
@@ -40,7 +40,7 @@
                 <p class="2xl:text-2xl">
                     Par exemple :
                 </p>
-                <img src="/graph2.png" class="w-[311px] md:w-[20rem] xl:w-[17rem] 2xl:w-[25rem]"/>
+                <img src="/graph2.png" class="w-[311px] md:w-[20rem] xl:w-[17rem] 2xl:w-[25rem] max-md:mb-9"/>
                 <a target="_blank" href={passUtmParamsToLink("https://aider.curie.fr/don149")} class="bg-[#4D54D6]  text-center uppercase w-[268px] md:w-[320xp] hover:scale-110 text-[16px] md:text-sm 2xl:text-base text-white md:p-2 xl:py-2 xl:px-7 2xl:py-2 2xl:px-16 font-Raleway font-bold transition-all absolute top-full -translate-y-1/2">
                     JE FAIS UN DON<br/>
                     Déductible de<br/>

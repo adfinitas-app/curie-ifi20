@@ -40,7 +40,7 @@
         Contact
     </p>
     <p class=" font-Lato text-[#505050]">
-        <b>Héloïse Desazars de Montgailhard</b> se tient à votre disposition pour vous donner toutes les informations nécessaires. N’hésitez pas à la contacter.
+        <b>Nina Dallot</b> se tient à votre disposition pour vous donner toutes les informations nécessaires. N’hésitez pas à la contacter.
     </p>
     <div class="flex flex-row items-center gap-5">
         <svg xmlns="http://www.w3.org/2000/svg" width="25.978" height="25.97" viewBox="0 0 25.978 25.97">

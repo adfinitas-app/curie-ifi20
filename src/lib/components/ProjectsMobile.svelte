@@ -54,15 +54,14 @@
      class="bg-[#F1F2FC] w-[95%] flex flex-col items-center justify-center rounded-2xl py-5 mt-[3rem] relative">
     <div id="ProjectsMobile" class="absolute -top-40"/>
     <p class="text-[#505050] font-Raleway font-bold text-[20px] uppercase text-center">
-        Contre le cancer,<br/>
+        <span class="text-[#FF6600]">Contre le cancer,</span><br/>
         investissez votre impôt<br/>
         dans l’innovation
     </p>
-    <div class="bg-[#FF6600] w-[10rem] h-1 rounded-3xl"/>
     <div class="px-3 w-full">
         <div class="bg-[#4D54D6] w-full mt-5 flex flex-col items-center justify-center relative rounded-t-2xl">
             <button on:click={()=> projectSelector = !projectSelector}
-                    class=" flex cursor-pointer flex-row items-center justify-center w-full  h-[88px] gap-x-4 py-4 text-left">
+                    class=" flex cursor-pointer flex-row items-center justify-center w-full  min-h-[80px] gap-x-4 py-4 text-left">
                 <p class="font-Raleway text-white text-[18px] leading-tight font-bold w-[70%]">
                     {@html projectTitles[$projectIndexStore]}
                 </p>
@@ -78,11 +77,11 @@
             </button>
             {#if projectSelector}
                 <div transition:fly={{duration: 300}}
-                     class="absolute w-full -bottom-[11rem] border-2 border-[#505050] divide-y-2 divide-[#505050]">
+                     class="absolute w-full top-full border-2 border-[#505050] divide-y-2 divide-[#505050]">
                     {#each projectTitles as projectTitle, idx (idx)}
                         {#if idx !== $projectIndexStore}
                             <button on:click={()=> {setProjectIndex(idx); projectSelector = false}}
-                                    class="bg-white text-[#505050] text-left  uppercase h-[88px] w-full p-5">
+                                    class="bg-white text-[#505050] text-left  uppercase min-h-[80px] w-full px-3.5 py-2.5">
                                 <p class="font-Raleway font-bold text-[18px] leading-tight m-0">
                                     {projectTitle}
                                 </p>
@@ -99,7 +98,7 @@
                 <img src="/bg-project-1-mobile.jpg" class="w-full aspect-[340/240] object-cover"/>
                 <div class="bg-[#4D54D6] rounded-b-2xl min-h-[80px] py-2.5 w-full px-10 text-white flex justify-center items-center leading-tight text-center">
                     <span><span class="font-bold">Acquérir un microscope de pointe</span> pour développer le projet
-                    révolutionnaire des tumeurs sur puces</span>
+                    révolutionnaire des tumeurs sur puce</span>
                 </div>
             </div>
 
@@ -279,8 +278,7 @@
             <div class="px-3">
                 <img src="/bg-project-3-mobile.jpg" class="w-full aspect-[340/240] object-cover"/>
                 <div class="bg-[#4D54D6] rounded-b-2xl min-h-[80px] py-2.5 w-full px-10 text-white flex justify-center items-center leading-tight text-center">
-                    <span><span class="font-bold">Acquérir un microscope de pointe</span> pour développer le projet
-                    révolutionnaire des tumeurs sur puces</span>
+                    <span><span class="font-bold">Entrer dans une nouvelle ère de la radiothérapie</span> en déployant une technologie inédite</span>
                 </div>
             </div>
 

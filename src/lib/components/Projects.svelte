@@ -50,7 +50,7 @@
             <span class="text-[#FF6600]">Contre le cancer,</span><br/>
             investissez votre impôt dans l’innovation
         </p>
-        <div class="px-5 xl:px-10 flex flex-row mt-5 gap-5 2xl:mt-6 w-full items-end justify-between">
+        <div class="px-5 xl:px-10 flex flex-row mt-5 gap-3 lg:gap-6 2xl:mt-6 w-full items-end justify-between">
             <button class="tab" data-selected={$projectIndexStore === 0}
                     on:click={() => (window.location.hash = '#projet1')}>Se doter des équipements les plus performants
             </button>
@@ -71,7 +71,7 @@
                      style="text-wrap: balance">
                     <div class="max-w-[870px] text-center">
                         <span class="font-extrabold">Acquérir un microscope de pointe</span> pour développer le projet
-                        révolutionnaire des tumeurs sur puces
+                        révolutionnaire des tumeurs sur puce
                     </div>
                 </div>
             </div>
@@ -204,8 +204,7 @@
                 <div class="w-full h-24 bg-[#4D54D6] grid place-items-center font-medium rounded-b-2xl text-lg md:text-xl !leading-tight text-white"
                      style="text-wrap: balance">
                     <div class="max-w-[870px] text-center">
-                        <span class="font-extrabold">Entrer dans une nouvelle ère de la radiothérapie</span><br/> en
-                        déployant une technologie inédite
+                        <span><span class="font-bold">Entrer dans une nouvelle ère de la radiothérapie</span><br /> en déployant une technologie inédite</span>
                     </div>
                 </div>
             </div>
@@ -294,7 +293,7 @@
 
 <style lang="postcss">
     .tab {
-        @apply rounded-t-2xl flex-1 text-lg px-10 h-24 font-bold md:text-xl !leading-tight data-[selected=true]:bg-[#4D54D6] data-[selected=true]:text-white text-[#4D54D6] transition-colors bg-white hover:bg-[#4D54D6]/20;
+        @apply flex-1 rounded-t-2xl text-lg px-4 h-[96px] flex-grow py-2.5 font-bold lg:text-xl !leading-[1.15] data-[selected=true]:bg-[#4D54D6] data-[selected=true]:text-white text-[#4D54D6] transition-colors bg-white hover:bg-[#4D54D6]/20;
     }
 
     ul {
