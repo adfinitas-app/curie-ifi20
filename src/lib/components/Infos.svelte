@@ -35,6 +35,7 @@
     function handleTouchMove(event) {
         touchEnd = event.touches[0].clientX;
     }
+
     function handleTouchEnd() {
         if (touchStart - touchEnd > 75) {
             next2();
@@ -61,7 +62,7 @@
         </button>
     {/if}
     {#if currentIndex === 2}
-        <a href="https://ifi.curie.fr/images/Curie_rib.pdf?_cchid=a200357f54bc77577d784c4e4414e50e" target="_blank" class="w-1/2 flex flex-col items-center justify-center">
+        <a href="/rib.pdf" target="_blank" class="w-1/2 flex flex-col items-center justify-center">
             <img class="w-28 h-28 object-cover" src={images[currentIndex]} alt="image 1">
             <p class="text-center font-Raleway font-bold text-[16px] leading-tight px-5">
                 {textes[currentIndex]}
@@ -102,7 +103,7 @@
 </div>
 
 <div class="hidden md:flex flex-row items-center justify-center  mt-10 2xl:mt-20">
-    <a href="/guide-fiscal-2025.pdf" target="_blank"  class="flex flex-col items-center justify-center">
+    <a href="/guide-fiscal-2025.pdf" target="_blank" class="flex flex-col items-center justify-center">
         <svg id="Group_450" data-name="Group 450" xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 2xl:w-40 2xl:h-40" viewBox="0 0 138 138">
             <circle id="Ellipse_22" data-name="Ellipse 22" cx="69" cy="69" r="69" fill="#9b999b"/>
             <g id="Group_417" data-name="Group 417" transform="translate(13.275 14.284)">
@@ -138,7 +139,7 @@
             bulletin de soutien IFI
         </p>
     </a>
-    <a href="https://ifi.curie.fr/images/Curie_rib.pdf?_cchid=a200357f54bc77577d784c4e4414e50e" target="_blank" class="flex flex-col items-center justify-center ml-20">
+    <a href="/rib.pdf" target="_blank" class="flex flex-col items-center justify-center ml-20">
         <svg id="Group_635" data-name="Group 635" xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 2xl:w-40 2xl:h-40" viewBox="0 0 138 138">
             <g id="Group_581" data-name="Group 581">
                 <circle id="Ellipse_23" data-name="Ellipse 23" cx="69" cy="69" r="69" fill="#9b999b"/>

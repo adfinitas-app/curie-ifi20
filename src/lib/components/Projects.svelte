@@ -69,7 +69,7 @@
                      class="bg-[url('/bg-project-1.jpg')] bg-cover bg-no-repeat relative w-full h-[20rem] 2xl:h-[39rem]"></div>
                 <div class="w-full h-24 bg-[#4D54D6] grid place-items-center font-medium rounded-b-2xl text-lg md:text-xl !leading-tight text-white"
                      style="text-wrap: balance">
-                    <div class="max-w-[870px] text-center">
+                    <div class="max-w-[870px] text-center font-Raleway">
                         <span class="font-extrabold">Acquérir un microscope de pointe</span> pour développer le projet
                         révolutionnaire des tumeurs sur puce
                     </div>
@@ -95,7 +95,7 @@
                         Dr Stéphanie Descroix
                     </p>
                 </div>
-                <div class="w-1/2 flex flex-col h-full relative ml-5 2xl:mt-4">
+                <div class="w-1/2 flex flex-col h-full relative ml-5 lg:ml-[6%] 2xl:mt-4">
                     <p class="text-xl font-Lato font-bold text-[#4D54D6] underline uppercase">
                         L’innovation
                     </p>
@@ -136,13 +136,13 @@
                      class="bg-[url('/bg-project-2.jpg')] bg-cover bg-no-repeat relative w-full h-[22rem] 2xl:h-[39rem]"></div>
                 <div class="w-full h-24 bg-[#4D54D6] grid place-items-center font-medium rounded-b-2xl text-lg md:text-xl !leading-tight text-white"
                      style="text-wrap: balance">
-                    <div class="max-w-[870px] text-center">
+                    <div class="max-w-[870px] text-center font-Raleway">
                         <span class="font-extrabold">Accueillir les meilleurs experts</span> pour<br/> accélérer
                         l’innovation et le progrès
                     </div>
                 </div>
             </div>
-            <div class="flex flex-row items-center justify-center  h-[50rem] 2xl:h-[60rem]  w-full xl:mt-5 px-5 xl:px-10 py-5 xl:py-5 relative">
+            <div class="flex flex-row items-center justify-center  h-[50rem] 2xl:h-[60rem] w-full xl:mt-5 px-5 xl:px-10 py-5 xl:py-5 relative">
                 <div class="w-1/2 flex flex-col relative h-full">
                     <p class="text-xl font-Lato font-bold text-[#4D54D6] underline uppercase ">
                         L’Enjeu
@@ -164,7 +164,7 @@
                         des cancers.
                     </p>
                 </div>
-                <div class="w-1/2 flex flex-col relative h-full ml-5">
+                <div class="w-1/2 flex flex-col relative h-full ml-5 lg:ml-[6%]">
                     <p class="text-xl font-Lato font-bold text-[#4D54D6] underline uppercase">
                         Le dispositif
                     </p>
@@ -203,7 +203,7 @@
                      class="bg-[url('/bg-project-3.jpg')] bg-cover bg-no-repeat relative w-full h-[22rem] 2xl:h-[39rem]"></div>
                 <div class="w-full h-24 bg-[#4D54D6] grid place-items-center font-medium rounded-b-2xl text-lg md:text-xl !leading-tight text-white"
                      style="text-wrap: balance">
-                    <div class="max-w-[870px] text-center">
+                    <div class="max-w-[870px] text-center font-Raleway">
                         <span><span class="font-bold">Entrer dans une nouvelle ère de la radiothérapie</span><br /> en déployant une technologie inédite</span>
                     </div>
                 </div>
@@ -243,7 +243,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="w-1/2 flex flex-col relative h-full 2xl:h-[60rem] ml-5">
+                <div class="w-1/2 flex flex-col relative h-full 2xl:h-[60rem] ml-5 lg:ml-[6%]">
                     <p class="text-xl font-Lato font-bold text-[#4D54D6] underline uppercase">
                         L’innovation
                     </p>
@@ -293,7 +293,7 @@
 
 <style lang="postcss">
     .tab {
-        @apply flex-1 rounded-t-2xl text-lg px-4 h-[96px] flex-grow py-2.5 font-bold lg:text-xl !leading-[1.15] data-[selected=true]:bg-[#4D54D6] data-[selected=true]:text-white text-[#4D54D6] transition-colors bg-white hover:bg-[#4D54D6]/20;
+        @apply font-Raleway flex-1 rounded-t-2xl text-lg px-4 h-[96px] flex-grow py-2.5 font-bold lg:text-xl !leading-[1.15] data-[selected=true]:bg-[#4D54D6] data-[selected=true]:text-white text-[#4D54D6] transition-colors bg-white hover:bg-[#4D54D6]/20;
     }
 
     ul {

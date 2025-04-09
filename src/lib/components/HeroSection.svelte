@@ -48,8 +48,8 @@
         <div id="IntroMobile" class="absolute bottom-20"/>
         <div class="absolute -bottom-48 z-10 ">
             <p class="font-Lato text-white px-4  text-center">
-                <b>Équipements innovants, programmes de recherche de pointe, amélioration des traitements…<br/></b>
-                En soutenant l’Institut Curie avec un don déductible de votre impôt, vous financez des projets qui ouvrent de <b>nouvelles perspectives de guérison</b> pour chaque patient.
+                <b>Équipements innovants, prise en charge personnalisée, amélioration des traitements…</b>
+                En soutenant l’Institut Curie avec un don déductible de votre impôt, vous financez des projets qui ouvrent de nouvelles perspectives de guérison pour chaque patient.
             </p>
         </div>
     {/if}

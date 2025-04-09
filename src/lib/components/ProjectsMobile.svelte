@@ -61,7 +61,7 @@
     <div class="px-3 w-full">
         <div class="bg-[#4D54D6] w-full mt-5 flex flex-col items-center justify-center relative rounded-t-2xl">
             <button on:click={()=> projectSelector = !projectSelector}
-                    class=" flex cursor-pointer flex-row items-center justify-center w-full  min-h-[80px] gap-x-4 py-4 text-left">
+                    class="flex cursor-pointer flex-row items-center justify-center w-full  min-h-[80px] gap-x-4 py-4 text-left">
                 <p class="font-Raleway text-white text-[18px] leading-tight font-bold w-[70%]">
                     {@html projectTitles[$projectIndexStore]}
                 </p>
@@ -81,7 +81,7 @@
                     {#each projectTitles as projectTitle, idx (idx)}
                         {#if idx !== $projectIndexStore}
                             <button on:click={()=> {setProjectIndex(idx); projectSelector = false}}
-                                    class="bg-white text-[#505050] text-left  uppercase min-h-[80px] w-full px-3.5 py-2.5">
+                                    class="bg-white font-Raleway text-[#505050] text-left  uppercase min-h-[80px] w-full px-3.5 py-2.5">
                                 <p class="font-Raleway font-bold text-[18px] leading-tight m-0">
                                     {projectTitle}
                                 </p>
@@ -93,10 +93,10 @@
         </div>
     </div>
     {#if $projectIndexStore === 0}
-        <div id="projet1" class="flex flex-col gap-y-5">
+        <div id="projet1" class="flex flex-col space-y-5">
             <div class="px-3">
                 <img src="/bg-project-1-mobile.jpg" class="w-full aspect-[340/240] object-cover"/>
-                <div class="bg-[#4D54D6] rounded-b-2xl min-h-[80px] py-2.5 w-full px-10 text-white flex justify-center items-center leading-tight text-center">
+                <div class="bg-[#4D54D6] font-Raleway rounded-b-2xl min-h-[80px] py-2.5 w-full px-10 text-white flex justify-center items-center leading-tight text-center">
                     <span><span class="font-bold">Acquérir un microscope de pointe</span> pour développer le projet
                     révolutionnaire des tumeurs sur puce</span>
                 </div>
@@ -184,10 +184,10 @@
             </div>
         </div>
     {:else if $projectIndexStore === 1}
-        <div id="projet2" class="flex flex-col gap-y-5">
+        <div id="projet2" class="flex flex-col space-y-5">
             <div class="px-3">
                 <img src="/bg-project-2-mobile.jpg" class="w-full aspect-[340/240] object-cover"/>
-                <div class="bg-[#4D54D6] rounded-b-2xl min-h-[80px] py-2.5 w-full px-10 text-white flex justify-center items-center leading-tight text-center">
+                <div class="bg-[#4D54D6] font-Raleway rounded-b-2xl min-h-[80px] py-2.5 w-full px-10 text-white flex justify-center items-center leading-tight text-center">
                     <span><span class="font-bold">Accueillir les meilleurs experts</span> pour accélérer l’innovation et le progrès</span>
                 </div>
             </div>
@@ -274,10 +274,10 @@
             </div>
         </div>
     {:else if $projectIndexStore === 2}
-        <div id="projet3" class="flex flex-col gap-y-5">
+        <div id="projet3" class="flex flex-col space-y-5">
             <div class="px-3">
                 <img src="/bg-project-3-mobile.jpg" class="w-full aspect-[340/240] object-cover"/>
-                <div class="bg-[#4D54D6] rounded-b-2xl min-h-[80px] py-2.5 w-full px-10 text-white flex justify-center items-center leading-tight text-center">
+                <div class="bg-[#4D54D6] font-Raleway rounded-b-2xl min-h-[80px] py-2.5 w-full px-10 text-white flex justify-center items-center leading-tight text-center">
                     <span><span class="font-bold">Entrer dans une nouvelle ère de la radiothérapie</span> en déployant une technologie inédite</span>
                 </div>
             </div>
