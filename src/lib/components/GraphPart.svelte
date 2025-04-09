@@ -87,8 +87,8 @@
             <p class="text-xl 2xl:text-2xl">
                 Par exemple :
             </p>
-            <img src="/graph3.png" class="w-[20rem] 2xl:w-[30rem]"/>
-            <a target="_blank" href={passUtmParamsToLink("https://aider.curie.fr/is195")} class="text-center bg-[#34B3C5] uppercase w-[268px] 2xl:w-[400px] text-[16px] md:text-xs 2xl:text-xl text-white lg:px-2 xl:py-2 xl:px-7 2xl:py-3 2xl:px-16 font-Raleway font-bold lg:hover:w-[300px] 2xl:hover:w-[450px] transition-all absolute -bottom-14 md:-bottom-10 xl:-bottom-12  2xl:-bottom-20">
+            <img src="/graph3.png" class="w-[20rem] 2xl:w-[30rem] mb-7"/>
+            <a target="_blank" href={passUtmParamsToLink("https://aider.curie.fr/is195")} class="text-center bg-[#34B3C5] uppercase w-[268px] 2xl:w-[400px] text-[16px] md:text-xs 2xl:text-xl text-white lg:px-2 xl:px-7 py-3 2xl:px-16 font-Raleway hover:scale-110 font-bold transition-all absolute top-full  left-1/2 -translate-x-1/2 -translate-y-1/2">
                 JE FAIS UN DON<br/>
                 Déductible de<br/>
                 <span class="font-black">L’impôt sur les Sociétés</span>
