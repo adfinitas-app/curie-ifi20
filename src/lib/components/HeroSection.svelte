@@ -31,7 +31,7 @@
             </p>
             <a href="#Intro"
                on:click={()=> {projectIndexStore.set(0)}}>
-                <svg class="mt-3 2xl:mt-6" xmlns="http://www.w3.org/2000/svg" width="94.94" height="21.854" viewBox="0 0 94.94 21.854">
+                <svg class="mt-3 2xl:mt-6 w-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 94.94 21.854">
                     <g id="Group_577" data-name="Group 577" transform="translate(-955.802 -686.267)">
                         <g id="Group_115" data-name="Group 115" transform="translate(956.534 688.129)">
                             <g id="Group_116" data-name="Group 116" transform="translate(0 0)">
