@@ -25,27 +25,26 @@
 
 {#if videoOpen}
     <div transition:fade class="bg-black/60 fixed z-50 top-0 left-0 w-full h-screen flex justify-center items-center">
-        <div class="relative w-full">
-            <div style="padding:56.25% 0 0 0;position:relative;" class="relative">
-                <iframe src="https://player.vimeo.com/video/1072536544?autoplay=1&amp;loop=1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                        frameborder="0"
-                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-                        style="position:absolute;top:0;left:0;width:100%;height:100%;" title="project-video"></iframe>
+        <div class="relative w-full h-screen flex justify-center items-center">
+            <button
+                    on:click={() => (videoOpen = false)}
+                    class="absolute top-2 z-30 cursor-pointer transition-all hover:scale-125 right-2">
+                <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="2"
+                        stroke="currentColor"
+                        class="w-10 h-10 text-white"
+                        style="filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.5));">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/>
+                </svg>
+            </button>
 
-                <button
-                        on:click={() => (videoOpen = false)}
-                        class="absolute bottom-[calc(100%+3px)] z-30 cursor-pointer transition-all hover:scale-125 right-2">
-                    <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke-width="2"
-                            stroke="currentColor"
-                            class="w-10 h-10 text-white">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"/>
-                    </svg>
-                </button>
-            </div>
+            <iframe src="https://player.vimeo.com/video/1072536544?autoplay=1&amp;loop=1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                    frameborder="0"
+                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                    style="position:absolute;top:0;left:0;width:100%;height:100%;" title="project-video"></iframe>
         </div>
     </div>
 {/if}

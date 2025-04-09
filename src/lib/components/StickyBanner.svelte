@@ -35,12 +35,12 @@
                     window.location.hash = "#projet1";
                 }, 300);}}
             class="flex flex-col items-center justify-center">
-        <a class="text-white hover:underline font-Raleway font-bold lg:text-xl mx-4">
+        <a class="text-white hover:underline underline-offset-4 font-Raleway font-bold lg:text-xl mx-4">
             Les projets soutenus
         </a>
     </button>
     <button on:click={() => isPopupVisible = !isPopupVisible} class="mx-4 flex flex-col items-center justify-center">
-        <span class="text-white font-Raleway hover:underline font-bold lg:text-xl">
+        <span class="text-white font-Raleway hover:underline underline-offset-4 font-bold lg:text-xl">
             Calculer ma réduction d'impôt
         </span>
     </button>
@@ -132,7 +132,7 @@
                                 {/if}
                             </div>
                         </div>
-                        <a target="_blank" href={passUtmParamsToLink("https://aider.curie.fr/ifi")} class="text-center bg-[#FF6600] uppercase xl:text-base text-white py-2 xl:py-3 px-10 xl:px-16 font-Raleway font-bold hover:scale-110 transition-all absolute -bottom-5 xl:-bottom-10 2xl:static 2xl:mt-8" >
+                        <a target="_blank" href={passUtmParamsToLink("https://aider.curie.fr/ifi")} class="text-center bg-[#FF6600] uppercase xl:text-base text-white py-2 xl:py-3 px-10 xl:px-16 font-Raleway font-bold hover:scale-110 transition-all absolute top-full  left-1/2 -translate-x-1/2 -translate-y-1/2">
                             JE FAIS UN DON<br/>
                             Déductible de<br class="hidden xl:block"/>
                             <span class="font-black">l’IFI</span>
@@ -174,7 +174,7 @@
                                 {/if}
                             </div>
                         </div>
-                        <a target="_blank" href={passUtmParamsToLink("https://aider.curie.fr/ifi")} class="text-center bg-[#4D54D6] uppercase xl:text-base text-white py-2 xl:py-3 px-10 xl:px-16 font-Raleway font-bold hover:scale-110 transition-all absolute -bottom-5 xl:-bottom-10 2xl:static 2xl:mt-24" >
+                        <a target="_blank" href={passUtmParamsToLink("https://aider.curie.fr/ifi")} class="text-center bg-[#4D54D6] uppercase xl:text-base text-white py-2 xl:py-3 px-10 xl:px-16 font-Raleway font-bold hover:scale-110 transition-all absolute top-full  left-1/2 -translate-x-1/2 -translate-y-1/2">
                             JE FAIS UN DON<br/>
                             Déductible de<br class="hidden xl:block"/>
                             <span class="font-black">l’IR</span>

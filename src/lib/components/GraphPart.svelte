@@ -11,7 +11,7 @@
             En finançant des projets porteurs d’espoir
         </p>
         <div class="flex flex-col md:flex-row items-center justify-center md:gap-10 xl:gap-20 mt-10 md:mt-3 xl:mt-12">
-            <div class="py-5 flex flex-col text-center items-center text-[#505050] relative justify-center w-[95%] md:w-auto md:h-[35rem] xl:h-[29rem] 2xl:h-[37rem]  xl:w-[25rem] lg:w-[25rem] 2xl:w-[40rem] rounded-2xl gap-5 md:gap-2 xl:gap-3 2xl:p-5" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.1);">
+            <div class="py-5 flex flex-col text-center items-center text-[#505050] relative justify-center w-[95%] md:w-auto md:h-[35rem] xl:w-[25rem] lg:w-[25rem] 2xl:w-[40rem] rounded-2xl gap-5 md:gap-2 xl:gap-3 2xl:p-5" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.1);">
                 <p class=" font-Raleway font-bold text-[20px] md:text-2xl 2xl:text-3xl">
                     Impôt<br/>
                     sur la Fortune Immobilière
@@ -29,7 +29,7 @@
                     <span class="font-black">l’IFI</span>
                 </a>
             </div>
-            <div class="py-5 mt-20 md:mt-0  flex flex-col text-center items-center text-[#505050] relative justify-center w-[95%] md:w-auto md:h-[35rem] xl:h-[29rem] 2xl:h-[37rem]  xl:w-[25rem] lg:w-[25rem] 2xl:w-[40rem]  rounded-2xl gap-5 md:gap-2 xl:gap-3  2xl:p-5" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.1);">
+            <div class="py-5 mt-20 md:mt-0  flex flex-col text-center items-center text-[#505050] relative justify-center w-[95%] md:w-auto md:h-[35rem]  xl:w-[25rem] lg:w-[25rem] 2xl:w-[40rem]  rounded-2xl gap-5 md:gap-2 xl:gap-3  2xl:p-5" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.1);">
                 <p class=" font-Raleway font-bold text-[20px] md:text-2xl 2xl:text-3xl">
                     Impôt<br/>
                     sur le Revenu
