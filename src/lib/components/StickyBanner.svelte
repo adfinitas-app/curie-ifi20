@@ -14,7 +14,7 @@
     let montantIr = undefined;
 
     onMount(() => {
-        if (window.location.hash === '#Calculator') {
+        if (window.location.hash === '#calculatrice') {
             isPopupVisible = true;
             isPopupVisibleMobile = true;
         }
