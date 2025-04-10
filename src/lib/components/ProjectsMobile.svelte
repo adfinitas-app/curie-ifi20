@@ -12,7 +12,7 @@
     let videoOpen = false;
 
     function setProjectIndex(index: number) {
-        const element = document.getElementById('ProjectsDesktop')
+        const element = document.getElementById('ProjectsMobile')
 
         if (element) {
             element.scrollIntoView({behavior: 'smooth'});

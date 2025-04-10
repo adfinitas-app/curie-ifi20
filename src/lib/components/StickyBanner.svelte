@@ -13,11 +13,17 @@
     let montant2 = undefined;
     let montantIr = undefined;
 
-    onMount(() => {
+    const handlePageHash = () => {
         if (window.location.hash === '#calculatrice') {
             isPopupVisible = true;
             isPopupVisibleMobile = true;
         }
+    }
+
+    onMount(() => {
+        handlePageHash();
+        window.addEventListener('hashchange', handlePageHash);
+        return () => window.removeEventListener('hashchange', handlePageHash);
     });
 
     let isOpen = false;
