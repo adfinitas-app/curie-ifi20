@@ -2,7 +2,8 @@
     import {fade} from "svelte/transition";
 
     let projectIndex = 0;
-    import {projectIndexStore} from "$lib/utils/utils";
+    import {projectIndexStore, videoOpened} from "$lib/utils/utils";
+    import {onMount} from "svelte";
 
     let videoOpen = false;
 
@@ -14,6 +15,19 @@
         }
         $projectIndexStore = index;
     }
+
+    onMount(() => {
+        if (window.location.hash === '#video' && window.innerWidth >= 768 && $videoOpened == false) {
+            const element = document.getElementById('ProjectsDesktop')
+
+            if (element) {
+                element.scrollIntoView({behavior: 'smooth'});
+            }
+            $projectIndexStore = 2;
+            $videoOpened = true;
+            videoOpen = true;
+        }
+    })
 </script>
 
 {#if videoOpen}

@@ -1,6 +1,7 @@
 <script lang="ts">
     import {fade, fly} from "svelte/transition";
-    import {projectIndexStore} from "$lib/utils/utils.js";
+    import {projectIndexStore, videoOpened} from "$lib/utils/utils.js";
+    import {onMount} from "svelte";
 
     let projectTitles = [
         "Se doter des équipements les plus performants",
@@ -21,6 +22,19 @@
         $projectIndexStore = index;
         window.location.hash = `#projet${index + 1}`;
     }
+
+    onMount(() => {
+        if (window.location.hash === '#video' && window.innerWidth < 768 && $videoOpened == false) {
+            const element = document.getElementById('ProjectsMobile')
+
+            if (element) {
+                element.scrollIntoView({behavior: 'smooth'});
+            }
+            $projectIndexStore = 2;
+            videoOpen = true;
+            $videoOpened = true;
+        }
+    })
 </script>
 
 {#if videoOpen}
