@@ -1,10 +1,9 @@
 <script lang="ts">
-    import {fade} from "svelte/transition";
-
-    let projectIndex = 0;
     import {projectIndexStore, videoOpened} from "$lib/utils/utils";
+    import {fade} from "svelte/transition";
     import {onMount} from "svelte";
 
+    let projectIndex = 0;
     let videoOpen = false;
 
     const selectProject = (index: number) => {
@@ -79,7 +78,7 @@
         {#if $projectIndexStore === 0}
             <div class="px-5 xl:px-10 w-full">
                 <div id="projet1"
-                     class="bg-[url('/bg-project-1.jpg')] bg-cover bg-no-repeat relative w-full h-[20rem] 2xl:h-[39rem]"></div>
+                     class="bg-[url('/bg-project-1.jpg')] bg-cover bg-no-repeat relative w-full aspect-[1500/450]"></div>
                 <div class="w-full h-24 bg-[#4D54D6] grid place-items-center font-medium rounded-b-2xl text-lg md:text-xl !leading-tight text-white"
                      style="text-wrap: balance">
                     <div class="max-w-[870px] text-center font-Raleway">
@@ -146,7 +145,7 @@
         {:else if $projectIndexStore === 1}
             <div class="px-5 xl:px-10 w-full">
                 <div id="projet2"
-                     class="bg-[url('/bg-project-2.jpg')] bg-cover bg-no-repeat relative w-full h-[22rem] 2xl:h-[39rem]"></div>
+                     class="bg-[url('/bg-project-2.jpg')] bg-cover bg-no-repeat relative w-full aspect-[1500/450]"></div>
                 <div class="w-full h-24 bg-[#4D54D6] grid place-items-center font-medium rounded-b-2xl text-lg md:text-xl !leading-tight text-white"
                      style="text-wrap: balance">
                     <div class="max-w-[870px] text-center font-Raleway">
@@ -213,7 +212,7 @@
         {:else if $projectIndexStore === 2}
             <div class="px-5 xl:px-10 w-full">
                 <div id="projet3"
-                     class="bg-[url('/bg-project-3.jpg')] bg-cover bg-no-repeat relative w-full h-[22rem] 2xl:h-[39rem]"></div>
+                     class="bg-[url('/bg-project-3.jpg')] bg-cover bg-no-repeat relative w-full aspect-[1500/450]"></div>
                 <div class="w-full h-24 bg-[#4D54D6] grid place-items-center font-medium rounded-b-2xl text-lg md:text-xl !leading-tight text-white"
                      style="text-wrap: balance">
                     <div class="max-w-[870px] text-center font-Raleway">

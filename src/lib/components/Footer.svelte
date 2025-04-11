@@ -41,7 +41,7 @@
     </div>
     <p class="text-center text-[#5C5C5C] 2xl:mt-10 px-40 2xl:px-60">
         © Institut Curie - 2025<br/>
-        Fondation reconnue d’utilité publique depuis 1921, l’Institut Curie est habilité à recevoir des dons et legs. Siège social : 26 rue d’Ulm 75248 Paris •<br/>&nbsp;Numéro SIRET : 784 257 164 00011 • Contact du service relation donateurs : 01.56.24.55.66 ou soutenir.curie@curie.fr
+        Fondation reconnue d’utilité publique depuis 1921, l’Institut Curie est habilité à recevoir des dons et legs. Siège social : Institut Curie - 26 rue d’Ulm 75248 Paris •<br/>&nbsp;Numéro SIRET : 784 257 164 00011 • Contact du service relation donateurs : 01.56.24.55.66 ou soutenir.curie@curie.fr
     </p>
 </div>
 
@@ -79,7 +79,7 @@
     <p class="text-center text-[#5C5C5C] px-10 ">
         © Institut Curie - 2024<br/>
         Fondation reconnue d’utilité publique depuis 1921, l’Institut Curie est habilité à recevoir des dons et legs.
-        Siège social : 26 rue d’Ulm 75248 Paris •<br/>&nbsp;Numéro SIRET : 784 257 164 00011 •
+        Siège social : Institut Curie - 26 rue d’Ulm 75248 Paris •<br/>&nbsp;Numéro SIRET : 784 257 164 00011 •
         Contact du service relation donateurs : 01.56.24.55.66 ou soutenir.curie@curie.fr
     </p>
 </div>
