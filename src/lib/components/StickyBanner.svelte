@@ -103,7 +103,7 @@
                             <p class={`text-xl 2xl:text-2xl font-Raleway w-auto font-bold ${isInputFocused === 2 ? 'text-[#FF6600]' : ''}`}>
                                 Montant de votre don<br/>
                                 pour réduire votre IFI<br/>
-                                au maximum dans la limite<br/>
+                                au maximum, dans la limite<br/>
                                 de 50 000 € de réduction fiscale
                             </p>
                             <div class="input-container rounded-3xl border-2 text-center 2xl:pt-2 border-gray-500 w-[25vh] h-[5vh] font-Raleway text-[#FF6600] text-xl 2xl:text-2xl font-bold">
@@ -270,7 +270,7 @@
                             <p class={`text-[2vh] font-Raleway font-bold ${isInputFocused === 2 ? 'text-[#FF6600]' : ''}`}>
                                 Montant de votre don
                                 pour réduire votre IFI
-                                au maximum dans la limite
+                                au maximum, dans la limite
                                 de 50 000 € de réduction fiscal
                             </p>
                             <p class={`text-[2vh] font-Raleway font-bold ${isInputFocused === 3 ? 'text-[#FF6600]' : ''}`}>

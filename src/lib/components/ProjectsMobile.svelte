@@ -123,7 +123,7 @@
             <p class="font-Lato text-[16px] px-3 text-[#505050]">
                 Pour prendre le cancer de vitesse, investir dans des équipements de pointe est une nécessité. Par
                 exemple, le Dr Stéphanie Descroix, a actuellement besoin d’acquérir un nouveau microscope dans le cadre
-                du projet de recherche des « tumeurs sur puce ».
+                du projet de recherche des «&nbsp;tumeurs sur puce&nbsp;».
             </p>
             <div class="flex flex-col">
                 <p class="underline uppercase text-[#4D54D6] text-[18px] font-bold px-3">
@@ -133,10 +133,10 @@
             <p class="font-Lato text-[16px] px-3 text-[#505050]">
                 Les tumeurs sur puce sont des dispositifs miniaturisés permettant de reconstituer fidèlement, in vitro,
                 la tumeur d’un patient. L’intérêt de cette innovation technologique est de pouvoir tester les
-                traitements sur la tumeur sur puce afin d’identifier celui que sera le plus efficace pour le cancer du
+                traitements sur la tumeur sur puce afin d’identifier celui qui sera le plus efficace pour le cancer du
                 patient étudié.<br/><br/>
                 Mais ce projet nécessite des technologies d’imagerie avancées et l’acquisition d’un équipement de pointe
-                : un microscope confocal à balayage laser multi dimensionnel. <span class="font-bold">Celui-ci permettra de révéler des détails
+                : un microscope confocal à balayage laser multidimensionnel. <span class="font-bold">Celui-ci permettra de révéler des détails
                 invisibles jusqu’alors et, moins agressif, il permet de maintenir les cellules en vie plus longtemps
                 afin de permettre aux chercheurs de réaliser de plus longues observations.</span>
             </p>
@@ -149,7 +149,7 @@
                 « L’acquisition de cet équipement permettra d’exploiter pleinement le potentiel révolutionnaire des
                 tumeurs sur puce. <span class="font-bold">Il apportera une économie de temps et de ressources permettant de progresser plus vite
                 dans le projet de recherche et de délivrer plus rapidement des traitements ultra- personnalisés pour
-                chaque patient.</span> »<br/><br/>
+                chaque patient.</span> »<br/>
                 Dr Stéphanie Descroix
             </p>
             <div class="flex flex-col relative gap-y-5">
@@ -225,7 +225,7 @@
                 </p>
             </div>
             <p class="font-Lato text-[16px] px-3 text-[#505050]">
-                L’Institut Curie offre aux Junior Principal Investigator (JPI) un accompagnement financier pour le
+                L’Institut Curie offre aux <span class="italic">Junior Principal Investigators</span> (JPI) un accompagnement financier pour le
                 recrutement de leur équipe et une aide personnalisée (mise à disposition de locaux, accès aux
                 plateformes technologiques, soutiens administratifs…) afin qu’ils puissent débuter leur activité de
                 recherche dans les meilleures conditions. Cette politique d’accompagnement est entièrement financée par
@@ -291,7 +291,7 @@
             <div class="px-3">
                 <img src="/bg-project-3-mobile.jpg" class="w-full aspect-[340/240] object-cover"/>
                 <div class="bg-[#4D54D6] font-Raleway rounded-b-2xl min-h-[80px] py-2.5 w-full px-10 text-white flex justify-center items-center leading-tight text-center">
-                    <span><span class="font-bold">Entrer dans une nouvelle ère de la radiothérapie</span> en déployant une technologie inédite</span>
+                    <span><span class="font-bold">Entrer dans une nouvelle ère de la radiothérapie</span> grâce à une technologie inédite</span>
                 </div>
             </div>
 

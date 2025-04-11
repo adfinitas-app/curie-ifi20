@@ -82,7 +82,7 @@
                 sur les Sociétés
             </p>
             <p class="font-bold text-xl xl:text-2xl font-Lato">
-                <span class="text-[#34B3C5]">60 % du montant de votre don est<br/> déductible de votre lS</span> dans la limite de 0,5 %<br/> de votre chiffre d’affaires hors taxes.
+                <span class="text-[#34B3C5]">60 % du montant de votre don est<br/> déductible de votre lS</span>, dans la limite de 0,5 %<br/> de votre chiffre d’affaires hors taxes.
             </p>
             <p class="text-xl 2xl:text-2xl">
                 Par exemple :

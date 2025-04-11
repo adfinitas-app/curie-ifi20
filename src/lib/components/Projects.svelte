@@ -95,14 +95,14 @@
                     <p class="text-[#505050] font-Lato text-sm 2xl:text-xl mt-2 xl:mt-5">
                         Pour prendre le cancer de vitesse, investir dans des équipements de pointe est une nécessité.
                         Par exemple, le Dr Stéphanie Descroix, a actuellement besoin d’acquérir un nouveau microscope
-                        dans le cadre du projet de recherche des « <span class="font-bold">tumeurs sur puce</span> ».
+                        dans le cadre du projet de recherche des «&nbsp;<span class="font-bold">tumeurs sur puce</span>&nbsp;».
                     </p>
                     <p class="text-xl font-Lato mt-2 xl:mt-5 font-bold text-[#4D54D6] uppercase underline">
                         Les perspectives pour les patients
                     </p>
                     <p class="text-[#505050] font-Lato text-sm 2xl:text-xl mt-2 xl:mt-5">
                         <span class="italic">« L’acquisition de cet équipement permettra d’exploiter pleinement le potentiel révolutionnaire des tumeurs sur puce. <span
-                                class="font-bold">Il apportera une économie de temps et de ressources permettant de progresser plus vite dans le projet de recherche et de délivrer plus rapidement des traitements ultra- personnalisés pour chaque patient.</span> »</span><br/><br/>
+                                class="font-bold">Il apportera une économie de temps et de ressources permettant de progresser plus vite dans le projet de recherche et de délivrer plus rapidement des traitements ultra-personnalisés pour chaque patient.</span> »</span><br/>
 
                         Dr Stéphanie Descroix
                     </p>
@@ -114,11 +114,11 @@
                     <p class="text-[#505050] font-Lato text-sm 2xl:text-xl  mt-2 xl:mt-5">
                         Les tumeurs sur puce sont des dispositifs miniaturisés permettant de reconstituer fidèlement, in
                         vitro, la tumeur d’un patient. L’intérêt de cette innovation technologique est de pouvoir tester
-                        les traitements sur la tumeur sur puce afin d’identifier celui que sera le plus efficace pour le
+                        les traitements sur la tumeur sur puce afin d’identifier celui qui sera le plus efficace pour le
                         cancer du patient étudié.<br/><br/>
 
                         Mais ce projet nécessite des technologies d’imagerie avancées et l’acquisition d’un équipement
-                        de pointe : un microscope confocal à balayage laser multi dimensionnel. <span class="font-bold">Celui-ci permettra de révéler des détails invisibles jusqu’alors et, moins agressif, il permet de maintenir les cellules en vie plus longtemps afin de permettre aux chercheurs de réaliser de plus longues observations.</span>
+                        de pointe : un microscope confocal à balayage laser multidimensionnel. <span class="font-bold">Celui-ci permettra de révéler des détails invisibles jusqu’alors et, moins agressif, il permet de maintenir les cellules en vie plus longtemps afin de permettre aux chercheurs de réaliser de plus longues observations.</span>
                     </p>
                     <p class="text-xl  font-Lato font-bold text-[#4D54D6] underline uppercase mt-5 xl:mt-6 2xl:mt-10">
                         La porteuse du projet
@@ -181,7 +181,7 @@
                         Le dispositif
                     </p>
                     <p class="text-[#505050] font-Lato text-sm 2xl:text-xl mt-10">
-                        L’Institut Curie offre aux Junior Principal Investigator (JPI) un accompagnement financier pour
+                        L’Institut Curie offre aux <span class="italic">Junior Principal Investigators</span> (JPI) un accompagnement financier pour
                         le recrutement de leur équipe et une aide personnalisée (mise à disposition de locaux, accès aux
                         plateformes technologiques, soutiens administratifs…) afin qu’ils puissent débuter leur activité
                         de recherche dans les meilleures conditions. Cette politique d’accompagnement est entièrement
@@ -216,7 +216,7 @@
                 <div class="w-full h-24 bg-[#4D54D6] grid place-items-center font-medium rounded-b-2xl text-lg md:text-xl !leading-tight text-white"
                      style="text-wrap: balance">
                     <div class="max-w-[870px] text-center font-Raleway">
-                        <span><span class="font-bold">Entrer dans une nouvelle ère de la radiothérapie</span><br/> en déployant une technologie inédite</span>
+                        <span><span class="font-bold">Entrer dans une nouvelle ère de la radiothérapie</span><br/> grâce à une technologie inédite</span>
                     </div>
                 </div>
             </div>

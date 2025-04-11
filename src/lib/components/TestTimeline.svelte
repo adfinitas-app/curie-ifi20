@@ -2,7 +2,7 @@
         <p class="font-Raleway text-center font-black text-[#FF6600] lg:text-2xl 2xl:text-4xl uppercase">
             CALENDRIER de déclaration FISCALE <span class="font-Lato">2025</span>
         </p>
-    <img src="/timeline.png" width="900" />
+    <img src="/timeline-desktop.png" width="900" />
 </section>
 
 <style lang="scss">
