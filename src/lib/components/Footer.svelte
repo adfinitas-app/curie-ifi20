@@ -14,7 +14,7 @@
            href="javascript:Cookiebot.show()" style="cursor: pointer">
             GESTION DES COOKIES
         </a>
-        <a href={passUtmParamsToLink("https://curie.fr/page/mentions-legales")} target="_blank" class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
+        <a href={passUtmParamsToLink("https://curie.fr/mentions-legales")} target="_blank" class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
             Mentions légales
         </a>
         <a on:click={()=> isPopupOpened = !isPopupOpened}>
@@ -22,7 +22,7 @@
                 Crédits
             </button>
         </a>
-        <a href={passUtmParamsToLink("https://curie.fr/webform/nous-contacter")} target="_blank" >
+        <a href={passUtmParamsToLink("https://curie.fr/contact")} target="_blank" >
             <button class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
             Contact
             </button>
@@ -65,13 +65,13 @@
        href="javascript:Cookiebot.show()" style="cursor: pointer">
         GESTION DES COOKIES
     </a>
-    <a href={passUtmParamsToLink("https://curie.fr/page/mentions-legales")} target="_blank" class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
+    <a href={passUtmParamsToLink("https://curie.fr/mentions-legales")} target="_blank" class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
         Mentions légales
     </a>
     <a on:click={()=> isPopupOpened = !isPopupOpened} class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
         Crédits
     </a>
-    <a href={passUtmParamsToLink("https://curie.fr/webform/nous-contacter")} target="_blank">
+    <a href={passUtmParamsToLink("https://curie.fr/contact")} target="_blank">
         <button class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
             Contact
         </button>

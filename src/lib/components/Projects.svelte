@@ -163,7 +163,7 @@
                         Pour frapper plus vite et plus fort contre le cancer, l’Institut Curie se dote des compétences
                         les plus pointues et mobilise les jeunes talents.<br/><br/>
                         C’est dans ce contexte que le Dr Pierre Bost a rejoint récemment l’Institut Curie. Sa mission&nbsp;?
-                        Fournir de nouveaux outils informatiques et statistiques pour analyser de données obtenues par
+                        Fournir de nouveaux outils informatiques et statistiques pour analyser des données obtenues par
                         imagerie multiplexée, une technique d’imagerie qui permet de visualiser simultanément plusieurs
                         composants biologiques dans un échantillon.
                     </p>
