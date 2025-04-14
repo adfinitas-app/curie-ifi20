@@ -87,7 +87,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-row items-center justify-center w-full xl:mt-5 px-5 xl:px-10 py-2 2xl:py-10  relative h-[900px] min-[840px]:h-[800px] min-[1160px]:h-[740px]">
+            <div class="flex flex-row items-center justify-center w-full xl:mt-5 px-5 xl:px-10 py-2 2xl:py-10  relative h-[900px] min-[840px]:h-[800px] min-[1160px]:h-[740px] 2xl:h-[1100px]">
                 <div class="w-1/2 flex flex-col h-full 2xl:mt-4">
                     <p class="text-xl font-Lato font-bold text-[#4D54D6] underline uppercase">
                         L’Enjeu
@@ -154,7 +154,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-row items-center justify-center  h-[900px] min-[840px]:h-[800px] min-[1160px]:h-[740px] w-full xl:mt-5 px-5 xl:px-10 py-5 xl:py-5 relative">
+            <div class="flex flex-row items-center justify-center  h-[900px] min-[840px]:h-[800px] min-[1160px]:h-[740px] 2xl:h-[1100px] w-full xl:mt-5 px-5 xl:px-10 py-5 xl:py-5 relative">
                 <div class="w-1/2 flex flex-col relative h-full">
                     <p class="text-xl font-Lato font-bold text-[#4D54D6] underline uppercase ">
                         L’Enjeu
@@ -220,7 +220,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-row items-center justify-center w-full relative h-[900px] min-[840px]:h-[800px] xl:h-[830px] px-5 xl:px-10 py-5 xl:py-10">
+            <div class="flex flex-row items-center justify-center w-full relative h-[900px] min-[840px]:h-[800px] xl:h-[830px] 2xl:h-[1100px] px-5 xl:px-10 py-5 xl:py-10">
                 <div class="w-1/2 flex flex-col h-full">
                     <p class="text-xl font-Lato font-bold text-[#4D54D6] underline uppercase">
                         Le contexte
