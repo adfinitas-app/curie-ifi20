@@ -149,7 +149,7 @@
                     <div class=" input-focus-violet flex flex-col items-center justify-center 2xl:p-4">
                         <p class="text-center text-xl 2xl:text-4xl font-Raleway font-black text-[#4D54D6]">
                             JE CALCULE<br>
-                            MA DÉDUCTION FISCALE - IR
+                            MA DÉDUCTION FISCALE - IMPÔT SUR LE REVENU
                         </p>
                         <div class="flex flex-row items-center justify-between w-[70%] mt-3 xl:mt-6 2xl:mt-10">
                             <p class={`text-xl 2xl:text-2xl font-Raleway font-bold w-auto ${isInputFocused === 1 ? 'text-[#4D54D6]' : ''}`}>
@@ -309,9 +309,9 @@
                 <div class="rounded-t-3xl bg-[#4D54D6] w-full h-[1rem]"/>
 
                 <div class="input-focus-violet flex flex-col items-center justify-center relative">
-                    <p class="text-center text-[20px] font-Raleway font-black text-[#4D54D6]">
+                    <p class="text-center text-[20px] px-3 leading-tight font-Raleway font-black text-[#4D54D6]">
                         JE CALCULE<br>
-                        MA DÉDUCTION FISCALE - IR
+                        MA DÉDUCTION FISCALE - IMPÔT SUR LE REVENU
                     </p>
                     <div class="flex flex-row w-full pb-6">
                         <div class="flex flex-col w-[50%] gap-y-3 p-3">
