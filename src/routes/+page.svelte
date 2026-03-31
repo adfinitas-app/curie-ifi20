@@ -7,7 +7,7 @@
     import {onMount} from "svelte";
     import {projectIndexStore} from "$lib/utils/utils.js";
     import {browser} from "$app/environment";
-    import MetaImg from "$lib/assets/meta-img.png";
+    import ShareRS from "$lib/assets/share-RS.jpg";
     import favico from "$lib/assets/favicon_icm.png";
 
     let projectsMobileElement: HTMLElement;
@@ -53,13 +53,13 @@
     <meta property="og:url" content="https://ifi.curie.fr/"/>
     <meta property="og:title" content="Ouvrez de nouvelles perspectives de guérison aux patients"/>
     <meta property="og:description" content="Contre le cancer, investissez votre impôt dans l’innovation"/>
-    <meta property="og:image" content={MetaImg}/>
+    <meta property="og:image" content={ShareRS}/>
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image"/>
     <meta property="twitter:url" content="https://ifi.curie.fr/"/>
     <meta property="twitter:title" content="Ouvrez de nouvelles perspectives de guérison aux patients"/>
     <meta property="twitter:description" content="Contre le cancer, investissez votre impôt dans l’innovation"/>
-    <meta property="twitter:image" content={MetaImg}/>
+    <meta property="twitter:image" content={ShareRS}/>
     <!-- Meta Tags Generated with https://metatags.io -->
 
     <link rel="icon" href={favico}/>

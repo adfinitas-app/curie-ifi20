@@ -3,7 +3,11 @@ import {browser} from "$app/environment";
 const PARAMETERS_TO_PASS: string[] = ['utm_campaign', 'utm_source', 'utm_medium', 'reserved_code_media', 'reserved_code_origine', 'utm_term', 'utm_content'];
 const PARAMETERS_DEFAULT_VALUES: Record<string, string> = {
     // reserved_code_media: 'someDefaultCodeMedia'
+    utm_medium: 'organic',
+    utm_campaign: '26ifi',
+    utm_source: 'landing'
 }
+
 
 export function passUtmParamsToLink(base: URL | string): string {
     const url = new URL(base);

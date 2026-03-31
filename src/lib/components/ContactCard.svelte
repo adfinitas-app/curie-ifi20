@@ -1,5 +1,5 @@
 <div class="hidden md:flex rounded-2xl  flex-row  items-center justify-center p-6 2xl:px-8 2xl:py-8 max-w-[700px] mx-auto" style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);">
-    <img src="/signature-desktop.png" alt="pic of the chieffe" class=" w-40 2xl:w-[230px]"/>
+    <img src="/signature-desktop.jpg" alt="pic of the chieffe" class=" w-40 2xl:w-[230px]"/>
     <div class="flex flex-col ml-4 xl:ml-8 2xl:ml-14">
         <p class="uppercase font-Raleway font-black text-xl 2xl:text-4xl text-[#505050]">
             Contact
@@ -34,8 +34,8 @@
 </div>
 
 
-<div class="md:hidden flex flex-col mt-[24rem] rounded-2xl gap-6 p-5 mx-2"  style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);">
-    <img src="/signature-desktop.png" class="w-[183px] h-[151px]"/>
+<div class="md:hidden flex flex-col mt-[27rem] rounded-2xl gap-6 p-5 mx-2"  style="box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.16);">
+    <img src="/signature-desktop.jpg" class="w-[183px] h-[151px]" alt="Nina Dallot"/>
     <p class="text-2xl font-Raleway text-[#505050] font-black uppercase">
         Contact
     </p>

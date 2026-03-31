@@ -8,7 +8,7 @@
 <div class="w-full hidden md:flex py-6 flex-col items-center justify-center relative">
     <div class="flex py-20 flex-row items-center justify-center gap-10 xl:gap-20">
         <a href={passUtmParamsToLink("https://curie.fr/")} target="_blank" class="absolute left-5 xl:left-20">
-            <img src="/LOGO-Curie-footer.png" class="w-[80px]">
+            <img src="/LOGO-Curie-footer.png" class="w-[80px]" alt="Institut Curie">
         </a>
         <a class="underlineHover 2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase"
            href="javascript:Cookiebot.show()" style="cursor: pointer">
@@ -17,11 +17,9 @@
         <a href={passUtmParamsToLink("https://curie.fr/page/mentions-legales")} target="_blank" class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
             Mentions légales
         </a>
-        <a on:click={()=> isPopupOpened = !isPopupOpened}>
-            <button class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
+        <button on:click={()=> isPopupOpened = !isPopupOpened} class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
                 Crédits
-            </button>
-        </a>
+        </button>
         <a href={passUtmParamsToLink("https://curie.fr/webform/nous-contacter")} target="_blank" >
             <button class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
             Contact
@@ -29,35 +27,35 @@
         </a>
         <div class="flex flex-row gap-5 absolute right-10">
             <a href={passUtmParamsToLink("https://www.linkedin.com/company/institutcurie/")} target="_blank">
-                <img src="/linkedin.png" width="23px">
+                <img src="/linkedin.png" width="23px" alt="Linkedin">
             </a>
             <a target="_blank" href={passUtmParamsToLink("https://fr-fr.facebook.com/InstitutCurie")}>
-                <img src="/faceb.png" width="12px">
+                <img src="/faceb.png" width="12px" alt="Facebook">
             </a>
             <a target="_blank" href={passUtmParamsToLink("https://www.instagram.com/institut_curie/")}>
-                <img src="/instagram.png" width="23px">
+                <img src="/instagram.png" width="23px" alt="Instagram">
             </a>
         </div>
     </div>
     <p class="text-center text-[#5C5C5C] 2xl:mt-10 px-40 2xl:px-60">
-        © Institut Curie - 2025<br/>
+        © Institut Curie - 2026<br/>
         Fondation reconnue d’utilité publique depuis 1921, l’Institut Curie est habilité à recevoir des dons et legs. Siège social : Institut Curie - 26 rue d’Ulm 75248 Paris •<br/>&nbsp;Numéro SIRET : 784 257 164 00011 • Contact du service relation donateurs : 01.56.24.55.66 ou soutenir.curie@curie.fr
     </p>
 </div>
 
-<div class="flex flex-col items-center justify-center mt-10 gap-5 md:hidden">
+<div class="flex flex-col items-center justify-center my-10 gap-5 md:hidden">
     <a href={passUtmParamsToLink("https://curie.fr/")} target="_blank" class="">
-        <img src="/LOGO-Curie-footer.png" class="w-[80px]">
+        <img src="/LOGO-Curie-footer.png" class="w-[80px]" alt="Institut Curie">
     </a>
     <div class="flex flex-row gap-5 ">
         <a href={passUtmParamsToLink("https://www.linkedin.com/company/institutcurie/")} target="_blank">
-            <img src="/linkedin.png" width="23px">
+            <img src="/linkedin.png" width="23px" alt="Linkedin">
         </a>
         <a target="_blank" href={passUtmParamsToLink("https://fr-fr.facebook.com/InstitutCurie")}>
-            <img src="/faceb.png" width="12px">
+            <img src="/faceb.png" width="12px" alt="Facebook">
         </a>
         <a target="_blank" href={passUtmParamsToLink("https://www.instagram.com/institut_curie/")}>
-            <img src="/instagram.png" width="23px">
+            <img src="/instagram.png" width="23px" alt="Instagram">
         </a>
     </div>
 
@@ -68,16 +66,16 @@
     <a href={passUtmParamsToLink("https://curie.fr/page/mentions-legales")} target="_blank" class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
         Mentions légales
     </a>
-    <a on:click={()=> isPopupOpened = !isPopupOpened} class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
+    <button on:click={()=> isPopupOpened = !isPopupOpened} class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
         Crédits
-    </a>
+    </button>
     <a href={passUtmParamsToLink("https://curie.fr/webform/nous-contacter")} target="_blank">
         <button class="2xl:text-2xl font-Raleway text-[#5C5C5C] uppercase">
             Contact
         </button>
     </a>
     <p class="text-center text-[#5C5C5C] px-10 ">
-        © Institut Curie - 2024<br/>
+        © Institut Curie - 2026<br/>
         Fondation reconnue d’utilité publique depuis 1921, l’Institut Curie est habilité à recevoir des dons et legs.
         Siège social : Institut Curie - 26 rue d’Ulm 75248 Paris •<br/>&nbsp;Numéro SIRET : 784 257 164 00011 •
         Contact du service relation donateurs : 01.56.24.55.66 ou soutenir.curie@curie.fr
