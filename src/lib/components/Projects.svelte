@@ -173,7 +173,7 @@
                     <div
                         class="text-center bg-white font-Raleway font-bold py-3 xl:py-5 mt-5 xl:mt-6 2xl:mt-10"
                     >
-                        <p class="text-2xl px-5 text-[#4D54D6]">
+                        <p class="text-2xl px-5 uppercase text-[#4D54D6]">
                             COÛT du séquenceur AVITI24<br />
                             <span class="underline">400 000 €</span>
                         </p>
@@ -304,8 +304,8 @@
                     <div
                         class="text-center bg-white font-Raleway font-bold py-3 xl:py-5 mt-5 xl:mt-6 2xl:mt-10"
                     >
-                        <p class="text-2xl px-5 text-[#4D54D6]">
-                            Besoin de financement ><br />
+                        <p class="text-2xl uppercase px-5 text-[#4D54D6]">
+                            Besoin de financement<br />
                             <span class="underline">100 000 € par an</span>
                         </p>
                     </div>
@@ -369,7 +369,7 @@
                         Les perspectives pour les patients
                     </p>
                     <p
-                        class="text-[#505050] font-bold font-Lato text-sm 2xl:text-xl mt-10"
+                        class="text-[#505050] font-Lato text-sm 2xl:text-xl mt-10"
                     >
                         Un essai clinique évaluera prochainement ces approches
                         innovantes chez des patients atteints de lymphome
@@ -397,7 +397,7 @@
                         en laboratoire pour reconnaître et détruire les cellules
                         tumorales.
                         <br /> <br />
-                        Celles-ci ont permis d’obtenir
+                        Les CAR-T cells ont permis d’obtenir 
                         <span class="font-bold"
                             >des résultats sans précédent, notamment dans
                             certains cancers du sang.</span
@@ -418,9 +418,9 @@
                     <div
                         class="text-center bg-white font-Raleway font-bold py-3 xl:py-5 mt-5 xl:mt-6 2xl:mt-10"
                     >
-                        <p class="text-2xl px-5 text-[#4D54D6]">
+                        <p class="text-2xl uppercase px-5 text-[#4D54D6]">
                             BESOIN DE FINANCEMENT POUR L’ANALYSE «&nbsp;Single Cell&nbsp;», un laboratoire de CellAction<br />
-                            <span class="underline">292 000 €</span>
+                            <span class="underline">385 000 € par an</span>
                         </p>
                     </div>
                 </div>

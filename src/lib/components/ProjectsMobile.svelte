@@ -238,7 +238,7 @@
                         <div
                             class="bg-white text-[#4D54D6] flex flex-col w-full py-4 items-center justify-center font-Raleway font-bold text-[20px] mb-10"
                         >
-                            COÛT du séquenceur AVITI24
+                            <span class="uppercase">COÛT du séquenceur AVITI24</span>
                             <div class="flex flex-col">
                                 <p
                                     class="uppercase underline text-center text-[18px] font-bold px-3"
@@ -383,7 +383,7 @@
                         <div
                             class="bg-white text-[#4D54D6] flex flex-col text-center w-full py-4 items-center justify-center font-Raleway font-bold text-[20px] mb-10"
                         >
-                            <span>Besoin de financement</span>
+                            <span class="uppercase">Besoin de financement</span>
                             <div class="flex flex-col">
                                 <p
                                     class="uppercase underline text-center text-[18px] font-bold px-3"
@@ -478,9 +478,9 @@
                 Celles-ci sont des cellules immunitaires du patient modifiées en
                 laboratoire pour reconnaître et détruire les cellules tumorales.
                 <br /> <br />
-                Celles-ci ont permis d’obtenir des
+                Les CAR-T cells ont permis d’obtenir 
                 <span class="font-bold"
-                    >résultats sans précédent, notamment dans certains cancers
+                    >des résultats sans précédent, notamment dans certains cancers
                     du sang.</span
                 >
                 Malheureusement, chez certains patients, la maladie réapparaît et
@@ -511,7 +511,7 @@
                         <div
                             class="bg-white text-center text-[#4D54D6] flex flex-col w-full py-4 items-center justify-center font-Raleway font-bold text-[20px] mb-10"
                         >
-                            <span class="px-2">BESOIN DE FINANCEMENT POUR L’ANALYSE
+                            <span class="px-2 uppercase">BESOIN DE FINANCEMENT POUR L’ANALYSE
                             «&nbsp;Single Cell&nbsp;», un laboratoire de
                             CellAction</span>
                             <div class="flex flex-col">
