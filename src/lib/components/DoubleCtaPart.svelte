@@ -18,12 +18,12 @@
             en finançant des projets comme ceux-ci.
         </p>
         <div class="flex flex-col md:flex-row items-center justify-center mt-3">    
-            <a target="_blank" href={passUtmParamsToLink("https://aider.curie.fr/ifi")} class="uppercase bg-[#FF6600] text-white 2xl:mt-5 text-center w-[17rem] hover:scale-110 transition-all  py-3 font-Raleway font-bold ">
+            <a target="_blank" href={passUtmParamsToLink("https://aider.curie.fr/if26/?utm_campaign=26ifi&utm_medium=organic&utm_source=landing")} class="uppercase bg-[#FF6600] text-white 2xl:mt-5 text-center w-[17rem] hover:scale-110 transition-all  py-3 font-Raleway font-bold ">
                 JE FAIS UN DON<br/>
                 Déductible de<br/>
                 <strong>l’IFI</strong>
             </a>
-            <a target="_blank" href={passUtmParamsToLink("https://aider.curie.fr/don149")} class="uppercase mt-3 2xl:mt-5 md:mt-0 md:ml-5 2xl:ml-20 bg-[#4D54D6] text-white text-center w-[17rem] hover:scale-110 transition-all  py-3 font-Raleway font-bold ">
+            <a target="_blank" href={passUtmParamsToLink("https://aider.curie.fr/don149/?utm_campaign=26ifi&utm_medium=organic&utm_source=landing")} class="uppercase mt-3 2xl:mt-5 md:mt-0 md:ml-5 2xl:ml-20 bg-[#4D54D6] text-white text-center w-[17rem] hover:scale-110 transition-all  py-3 font-Raleway font-bold ">
                 JE FAIS UN DON<br/>
                 Déductible de<br/>
                 <strong>L’impôt sur le revenu</strong>

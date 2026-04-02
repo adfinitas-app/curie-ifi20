@@ -42,7 +42,7 @@
                 />
                 <a
                     target="_blank"
-                    href={passUtmParamsToLink("https://aider.curie.fr/ifi")}
+                    href={passUtmParamsToLink("https://aider.curie.fr/if26/?utm_campaign=26ifi&utm_medium=organic&utm_source=landing")}
                     class="bg-[#FF6600] uppercase w-[268px] md:w-[320xp] hover:scale-110 text-[16px] md:text-sm 2xl:text-base text-white md:p-2 xl:py-2 xl:px-7 2xl:py-2 2xl:px-16 font-Raleway font-bold transition-all absolute top-full -translate-y-1/2"
                 >
                     JE FAIS UN DON<br />
@@ -74,7 +74,7 @@
                 />
                 <a
                     target="_blank"
-                    href={passUtmParamsToLink("https://aider.curie.fr/don149")}
+                    href={passUtmParamsToLink("https://aider.curie.fr/don149/?utm_campaign=26ifi&utm_medium=organic&utm_source=landing")}
                     class="bg-[#4D54D6] text-center uppercase w-[268px] md:w-[320xp] hover:scale-110 text-[16px] md:text-sm 2xl:text-base text-white md:p-2 xl:py-2 xl:px-7 2xl:py-2 2xl:px-16 font-Raleway font-bold transition-all absolute top-full -translate-y-1/2"
                 >
                     JE FAIS UN DON<br />
@@ -183,7 +183,7 @@
             />
             <a
                 target="_blank"
-                href={passUtmParamsToLink("https://aider.curie.fr/is195")}
+                href={passUtmParamsToLink("https://aider.curie.fr/is195/?utm_campaign=26ifi&utm_medium=organic&utm_source=landing")}
                 class="text-center bg-[#34B3C5] uppercase w-[268px] 2xl:w-[400px] text-[16px] md:text-xs 2xl:text-xl text-white lg:px-2 xl:px-7 py-3 2xl:px-16 font-Raleway hover:scale-110 font-bold transition-all absolute top-full left-1/2 -translate-x-1/2 -translate-y-1/2"
             >
                 JE FAIS UN DON<br />

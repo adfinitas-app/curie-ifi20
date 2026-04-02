@@ -69,7 +69,7 @@
     </button>
     <a
         target="_blank"
-        href={passUtmParamsToLink("https://aider.curie.fr/ifi")}
+        href={passUtmParamsToLink("https://aider.curie.fr/if26/?utm_campaign=26ifi&utm_medium=organic&utm_source=landing")}
         class="mx-8 bg-[#FF6600] text-center uppercase text-xs xl:text-base 2xl:text-xl text-white w-[15rem] mr-2 2xl:w-[20rem] py-2 font-Raleway font-bold hover:border-2 hover:border-white transition-all relative"
     >
         JE FAIS UN DON<br />
@@ -277,7 +277,7 @@
                         <a
                             target="_blank"
                             href={passUtmParamsToLink(
-                                "https://aider.curie.fr/ifi?utm_campaign=26ifi&utm_medium=organic&utm_source=landing"
+                                "https://aider.curie.fr/if26/?utm_campaign=26ifi&utm_medium=organic&utm_source=landing"
                             )}
                             class="text-center bg-[#FF6600] uppercase xl:text-base text-white py-2 xl:py-3 px-10 xl:px-16 font-Raleway font-bold hover:scale-110 transition-all absolute top-full left-1/2 -translate-x-1/2 -translate-y-1/2"
                         >
@@ -416,7 +416,7 @@
         </a>
         <a
             target="_blank"
-            href={passUtmParamsToLink("https://aider.curie.fr/ifi?utm_campaign=26ifi&utm_medium=organic&utm_source=landing")}
+            href={passUtmParamsToLink("https://aider.curie.fr/if26/?utm_campaign=26ifi&utm_medium=organic&utm_source=landing")}
             class="bg-[#FF6600] flex flex-col text-center items-center justify-center uppercase text-[8px] text-white w-[100px] min-[360px]:w-[135px] h-[51px] font-Raleway font-bold hover:border-2 hover:border-white transition-all relative"
         >
             JE FAIS UN DON<br />
@@ -638,7 +638,7 @@
                     </div>
                     <a
                         target="_blank"
-                        href={passUtmParamsToLink("https://aider.curie.fr/ifi?utm_campaign=26ifi&utm_medium=organic&utm_source=landing")}
+                        href={passUtmParamsToLink("https://aider.curie.fr/if26/?utm_campaign=26ifi&utm_medium=organic&utm_source=landing")}
                         class="bg-[#FF6600] w-[268px] absolute top-full -translate-y-[20%] py-2 text-center text-white font-Raleway font-bold text-sm !leading-tight transition-all hover:scale-110"
                     >
                         JE FAIS UN DON<br />
