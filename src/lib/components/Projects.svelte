@@ -306,7 +306,7 @@
                     >
                         <p class="text-2xl uppercase px-5 text-[#4D54D6]">
                             Besoin de financement<br />
-                            <span class="underline">100 000 € par an</span>
+                            <span class="underline normal-case">100 000 € par an</span>
                         </p>
                     </div>
                 </div>
@@ -420,7 +420,7 @@
                     >
                         <p class="text-2xl uppercase px-5 text-[#4D54D6]">
                             BESOIN DE FINANCEMENT POUR L’ANALYSE «&nbsp;Single Cell&nbsp;», un laboratoire de CellAction<br />
-                            <span class="underline">385 000 € par an</span>
+                            <span class="underline normal-case">385 000 € par an</span>
                         </p>
                     </div>
                 </div>

@@ -386,7 +386,7 @@
                             <span class="uppercase">Besoin de financement</span>
                             <div class="flex flex-col">
                                 <p
-                                    class="uppercase underline text-center text-[18px] font-bold px-3"
+                                    class="normal-case underline text-center text-[18px] font-bold px-3"
                                 >
                                     100 000 € par an
                                 </p>
@@ -516,7 +516,7 @@
                             CellAction</span>
                             <div class="flex flex-col">
                                 <p
-                                    class="uppercase underline text-center text-[18px] font-bold px-3"
+                                    class="normal-case underline text-center text-[18px] font-bold px-3"
                                 >
                                     385 000 € par an
                                 </p>
