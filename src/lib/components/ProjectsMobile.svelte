@@ -4,7 +4,7 @@
 
     let projectTitles = [
         "Se doter des équipements les plus performants",
-        "Mieux comprendre les tumeurs rhabdoïdes",
+        "Mieux diagnostiquer les tumeurs rhabdoïdes",
         "Développer la médecine personnalisée et adaptative",
     ];
     let projectSelector = false;
@@ -272,7 +272,7 @@
                 >
                     <p>
                         <span class="font-bold"
-                            >Améliorer les diagnostics des tumeurs</span
+                            >Améliorer la compréhension des tumeurs</span
                         > rhabdoïdes chez l’enfant
                     </p>
                 </div>
@@ -329,12 +329,12 @@
                 <p
                     class="underline uppercase text-[#4D54D6] text-[18px] font-bold px-3"
                 >
-                    Le DISPOSITIF
+                    Le DISPOSITIF TMP
                 </p>
             </div>
             <p class="font-Lato text-[16px] font-bold px-3 text-[#505050]">
                 Ce programme s’inscrit dans le cadre des <span class="font-bold"
-                    >Temps Médicaux Protégés de l’Institut Curie, entièrement
+                    >Temps Médicaux Protégés (TMP) de l’Institut Curie, entièrement
                     financés par la générosité des donateurs.</span
                 >
                 Ce dispositif spécifique permet aux médecins de dégager du temps
@@ -383,7 +383,7 @@
                         <div
                             class="bg-white text-[#4D54D6] flex flex-col text-center w-full py-4 items-center justify-center font-Raleway font-bold text-[20px] mb-10"
                         >
-                            <span class="uppercase">Besoin de financement</span>
+                            <span class="uppercase">Besoin annuel pour ce TMP</span>
                             <div class="flex flex-col">
                                 <p
                                     class="normal-case underline text-center text-[18px] font-bold px-3"
@@ -511,9 +511,7 @@
                         <div
                             class="bg-white text-center text-[#4D54D6] flex flex-col w-full py-4 items-center justify-center font-Raleway font-bold text-[20px] mb-10"
                         >
-                            <span class="px-2 uppercase">BESOIN DE FINANCEMENT POUR L’ANALYSE
-                            «&nbsp;Single Cell&nbsp;», un laboratoire de
-                            CellAction</span>
+                            <span class="px-2">BESOIN POUR L’ANALYSE SINGLE-CELL <br>(un des équipements du laboratoire CellAction) </span>
                             <div class="flex flex-col">
                                 <p
                                     class="normal-case underline text-center text-[18px] font-bold px-3"

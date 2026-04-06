@@ -38,7 +38,7 @@
                 class="tab"
                 data-selected={$projectIndexStore === 1}
                 on:click={() => (window.location.hash = "#projet2")}
-                >Mieux comprendre les tumeurs rhabdoïdes
+                >Mieux diagnostiquer les tumeurs rhabdoïdes
             </button>
             <button
                 class="tab"
@@ -192,7 +192,7 @@
                 >
                     <div class="max-w-[870px] text-center font-Raleway">
                         <span class="font-extrabold"
-                            >Améliorer les diagnostics des tumeurs</span
+                            >Améliorer la compréhension des tumeurs</span
                         >
                         <br /> rhabdoïdes chez l’enfant
                     </div>
@@ -259,14 +259,14 @@
                     <p
                         class="text-xl font-Lato font-bold text-[#4D54D6] underline uppercase"
                     >
-                        Le dispositif
+                        Le dispositif tmp
                     </p>
                     <p
                         class="text-[#505050] font-Lato text-sm 2xl:text-xl mt-10"
                     >
                         Ce programme s’inscrit dans le cadre des <span
                             class="font-bold"
-                            >Temps Médicaux Protégés de l’Institut Curie,
+                            >Temps Médicaux Protégés (TMP) de l’Institut Curie,
                             entièrement financés par la générosité des
                             donateurs.</span
                         >
@@ -305,7 +305,7 @@
                         class="text-center bg-white font-Raleway font-bold py-3 xl:py-5 mt-5 xl:mt-6 2xl:mt-10"
                     >
                         <p class="text-2xl uppercase px-5 text-[#4D54D6]">
-                            Besoin de financement<br />
+                            Besoin annuel pour ce TMP<br />
                             <span class="underline normal-case">100 000 € par an</span>
                         </p>
                     </div>
@@ -379,7 +379,7 @@
                     </p>
                 </div>
                 <div
-                    class="w-1/2 flex flex-col relative h-full 2xl:h-[60rem] ml-5 lg:ml-[6%]"
+                    class="w-1/2 flex flex-col relative h-full ml-5 lg:ml-[6%]"
                 >
                     <p
                         class="text-xl font-Lato font-bold text-[#4D54D6] underline uppercase"
@@ -418,8 +418,8 @@
                     <div
                         class="text-center bg-white font-Raleway font-bold py-3 xl:py-5 mt-5 xl:mt-6 2xl:mt-10"
                     >
-                        <p class="text-2xl uppercase px-5 text-[#4D54D6]">
-                            BESOIN DE FINANCEMENT POUR L’ANALYSE «&nbsp;Single Cell&nbsp;», un laboratoire de CellAction<br />
+                        <p class="text-2xl px-5 text-[#4D54D6]">
+                            BESOIN POUR L’ANALYSE SINGLE-CELL <br> (un des équipements du laboratoire CellAction)<br />
                             <span class="underline normal-case">385 000 € par an</span>
                         </p>
                     </div>
