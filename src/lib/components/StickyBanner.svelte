@@ -31,12 +31,12 @@
 
 <div
     in:fade
-    class="hidden fixed top-0 bg-[#4D54D6] bg-opacity-70 backdrop-blur-sm md:flex flex-row items-center justify-center w-full py-6 lg:h-[5rem] xl:h-[7rem] 2xl:h-[9rem] z-20"
+    class="hidden fixed top-0 bg-[#4D54D6] bg-opacity-70 backdrop-blur-sm md:flex flex-row items-center justify-center w-full py-3 lg:py-4 xl:py-6 lg:h-[5rem] xl:h-[7rem] 2xl:h-[9rem] gap-2 lg:gap-4 xl:gap-6 px-3 lg:px-6 z-20"
 >
-    <a target="_blank" href={passUtmParamsToLink("https://curie.fr/")}>
+    <a target="_blank" href={passUtmParamsToLink("https://curie.fr/")} class="shrink-0 mr-4 lg:mr-8 xl:mr-12">
         <img
             src="/logo_curie.png"
-            class="md:w-[10rem] xl:w-[16rem] mx-8"
+            class="w-[7rem] lg:w-[9rem] xl:w-[13rem] 2xl:w-[16rem]"
             alt="curie"
         />
     </a>
@@ -52,25 +52,25 @@
         class="flex flex-col items-center justify-center"
     >
         <span
-            class="text-white hover:underline underline-offset-4 font-Raleway font-bold lg:text-xl mx-4"
+            class="text-white hover:underline underline-offset-4 font-Raleway font-bold text-sm lg:text-base xl:text-xl text-center max-w-[5rem] lg:max-w-[6rem] xl:max-w-none"
         >
             Les projets soutenus
         </span>
     </button>
     <button
         on:click={() => (isPopupVisible = !isPopupVisible)}
-        class="mx-4 flex flex-col items-center justify-center"
+        class="flex flex-col items-center justify-center"
     >
         <span
-            class="text-white font-Raleway hover:underline underline-offset-4 font-bold lg:text-xl"
+            class="text-white font-Raleway hover:underline underline-offset-4 font-bold text-sm lg:text-base xl:text-xl text-center max-w-[8rem] xl:max-w-none"
         >
-            Calculer ma réduction d'impôt
+            Calculer ma réduction d’impôt
         </span>
     </button>
     <a
         target="_blank"
         href={passUtmParamsToLink("https://aider.curie.fr/if26/?utm_campaign=26ifi&utm_medium=organic&utm_source=landing")}
-        class="mx-8 bg-[#FF6600] text-center uppercase text-xs xl:text-base 2xl:text-xl text-white w-[15rem] mr-2 2xl:w-[20rem] py-2 font-Raleway font-bold hover:border-2 hover:border-white transition-all relative"
+        class="bg-[#FF6600] text-center uppercase text-[10px] lg:text-xs xl:text-base 2xl:text-xl text-white w-[8rem] lg:w-[11rem] xl:w-[15rem] 2xl:w-[20rem] py-2 font-Raleway font-bold hover:border-2 hover:border-white transition-all relative shrink-0"
     >
         JE FAIS UN DON<br />
         Déductible de<br />
@@ -79,7 +79,7 @@
     <a
         target="_blank"
         href={passUtmParamsToLink("https://aider.curie.fr/don149/?utm_campaign=26ifi&utm_medium=organic&utm_source=landing")}
-        class=" mx-8 bg-[#4D54D6] text-center uppercase text-xs xl:text-base 2xl:text-xl text-white w-[15rem] mr-2 2xl:w-[20rem] py-2 font-Raleway font-bold hover:border-2 hover:border-white transition-all"
+        class="bg-[#4D54D6] text-center uppercase text-[10px] lg:text-xs xl:text-base 2xl:text-xl text-white w-[8rem] lg:w-[11rem] xl:w-[15rem] 2xl:w-[20rem] py-2 font-Raleway font-bold hover:border-2 hover:border-white transition-all shrink-0"
     >
         JE FAIS UN DON<br />
         déductible de<br />
@@ -719,7 +719,7 @@
                                     readonly="True"
                                     placeholder={montantIr !== undefined
                                         ? Math.round(
-                                              montantIr * 0.32
+                                              montantIr * 0.34
                                           ).toLocaleString("fr-FR")
                                         : " "}
                                     class="pl-2 rounded-3xl border-2 text-left w-[22vh] h-[5vh] violetC border-gray-500"

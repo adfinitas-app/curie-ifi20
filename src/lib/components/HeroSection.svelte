@@ -113,7 +113,7 @@
 </div>
 
 <div
-    class="bg-[url('/header-desktop-test.png')] hidden bg-fixed bg-cover bg-no-repeat w-full h-screen relative md:flex items-center justify-center z-10"
+    class="bg-[url('/header-desktop-test.png')] hidden bg-fixed bg-cover bg-no-repeat w-full h-screen relative md:flex bg-center items-center justify-center z-10"
 >
     {#if StickyBannerVisible}
         <StickyBanner />
